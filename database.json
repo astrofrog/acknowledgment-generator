@@ -1,0 +1,12 @@
+{
+    "codes": {
+        "aplpy": {
+            "acknowledgment": "This research made use of APLpy, an open-source plotting package for Python hosted at http://aplpy.github.com", 
+            "name": "APLpy"
+        }, 
+        "astropy": {
+            "acknowledgment": "This research made use of Astropy, a community-developed core Python package for Astronomy (Astropy Collaboration, 2013).", 
+            "name": "Astropy"
+        }
+    }
+}
