@@ -1,12 +1,30 @@
 {
     "codes": {
         "aplpy": {
-            "acknowledgment": "This research made use of APLpy, an open-source plotting package for Python hosted at http://aplpy.github.com", 
+            "acknowledgment": "This research made use of APLpy, an open-source plotting package for Python hosted at http://aplpy.github.com.",
             "name": "APLpy"
-        }, 
+        },
         "astropy": {
-            "acknowledgment": "This research made use of Astropy, a community-developed core Python package for Astronomy (Astropy Collaboration, 2013).", 
+            "acknowledgment": "This research made use of Astropy, a community-developed core Python package for Astronomy (Astropy Collaboration, 2013).",
             "name": "Astropy"
+        }
+    },
+    "facilities": {},
+    "web_services": {
+        "ads": {
+            "acknowledgment": "This research has made use of NASA's Astrophysics Data System.",
+            "name": "ADS",
+            "url": "http://adsabs.harvard.edu/"
+        },
+        "simbad": {
+            "acknowledgment": "This research has made use of the SIMBAD database, operated at CDS, Strasbourg, France.",
+            "name": "SIMBAD",
+            "url": "http://simbad.u-strasbg.fr/vizier/"
+        },
+        "vizier": {
+            "acknowledgment": "This research has made use of the VizieR catalogue access tool, CDS, Strasbourg, France.",
+            "name": "VizieR",
+            "url": "http://vizier.u-strasbg.fr/viz-bin/VizieR"
         }
     }
 }
