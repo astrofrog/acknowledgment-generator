@@ -2,50 +2,81 @@
     {
         "content": {
             "aplpy": {
-                "acknowledgment": "This research made use of APLpy, an open-source plotting package for Python hosted at http://aplpy.github.com.",
+                "acknowledgment": "This research made use of APLpy, an open-source plotting package for Python hosted at http://aplpy.github.com.", 
                 "name": "APLpy"
-            },
+            }, 
             "astropy": {
-                "acknowledgment": "This research made use of Astropy, a community-developed core Python package for Astronomy (Astropy Collaboration, 2013).",
+                "acknowledgment": "This research made use of Astropy, a community-developed core Python package for Astronomy (Astropy Collaboration, 2013).", 
                 "name": "Astropy"
             }
-        },
-        "short": "codes",
+        }, 
+        "short": "codes", 
         "title": "Codes and Software"
-    },
+    }, 
     {
         "content": {
             "keck": {
-                "acknowledgment": "The data presented herein were obtained at the W.M. Keck Observatory, which is operated as a scientific partnership among the California Institute of Technology, the University of California and the National Aeronautics and Space Administration. The Observatory was made possible by the generous financial support of the W.M. Keck Foundation.",
+                "acknowledgment": "The data presented herein were obtained at the W.M. Keck Observatory, which is operated as a scientific partnership among the California Institute of Technology, the University of California and the National Aeronautics and Space Administration. The Observatory was made possible by the generous financial support of the W.M. Keck Foundation.", 
                 "name": "Keck Observatory"
-            },
+            }, 
+            "lbt": {
+                "acknowledgment": "The LBT is an international collaboration among institutions in the United States, Italy and Germany. The LBT Corporation partners are: The University of Arizona on behalf of the Arizona university system; Istituto Nazionale di Astrofisica, Italy;  LBT Beteiligungsgesellschaft, Germany, representing the Max Planck Society, the Astrophysical Institute Potsdam, and Heidelberg University; The Ohio State University; The Research Corporation, on behalf of The University of Notre Dame, University of Minnesota and University of Virginia.", 
+                "name": "LBT"
+            }, 
+            "magellan": {
+                "acknowledgments": "This paper includes data gathered with the 6.5 meter Magellan Telescopes located at Las Campanas Observatory, Chile.", 
+                "name": "Magellan Telescopes"
+            }, 
             "mauna_kea": {
-                "acknowledgment": "The authors wish to recognize and acknowledge the very significant cultural role and reverence that the summit of Mauna Kea has always had within the indigenous Hawaiian community.  We are most fortunate to have the opportunity to conduct observations from this mountain.",
+                "acknowledgment": "The authors wish to recognize and acknowledge the very significant cultural role and reverence that the summit of Mauna Kea has always had within the indigenous Hawaiian community.  We are most fortunate to have the opportunity to conduct observations from this mountain.", 
                 "name": "All Mauna Kea observatories"
+            }, 
+            "mmt": {
+                "acknowledgment": "Observations reported here were obtained at the MMT Observatory, a joint facility of the University of Arizona and the Smithsonian Institution.", 
+                "name": "MMT"
+            }, 
+            "sma": {
+                "acknowledgment": "The Submillimeter Array is a joint project between the Smithsonian Astrophysical Observatory and the Academia Sinica Institute of Astronomy and Astrophysics and is funded by the Smithsonian Institution and the Academia Sinica.", 
+                "name": "SMA"
             }
-        },
-        "short": "facilities",
+        }, 
+        "short": "facilities", 
         "title": "Observatories and Facilities"
-    },
+    }, 
     {
         "content": {
+            "aavso": {
+                "acknowledgment": "We acknowledge with thanks the variable star observations from the AAVSO International Database contributed by observers worldwide and used in this research.", 
+                "name": "AAVSO", 
+                "url": "http://www.aavso.org/data-usage-guidelines"
+            }, 
             "ads": {
-                "acknowledgment": "This research has made use of NASA's Astrophysics Data System.",
-                "name": "ADS",
+                "acknowledgment": "This research has made use of NASA's Astrophysics Data System.", 
+                "name": "ADS", 
                 "url": "http://adsabs.harvard.edu/"
-            },
+            }, 
+            "astrobetter": {
+                "acknowledgment": "This research has made use of the AstroBetter blog and wiki.", 
+                "name": "AstroBetter", 
+                "url": "http://www.astrobetter.com"
+            }, 
+            "ned": {
+                "acknowledgment": "This research has made use of the NASA/IPAC Extragalactic Database (NED) which is operated by the Jet Propulsion Laboratory, California Institute of Technology, under contract with the National Aeronautics and Space Administration.", 
+                "name": "NED", 
+                "url": "http://ned.ipac.caltech.edu/"
+            }, 
             "simbad": {
-                "acknowledgment": "This research has made use of the SIMBAD database, operated at CDS, Strasbourg, France.",
-                "name": "SIMBAD",
+                "acknowledgment": "This research has made use of the SIMBAD database, operated at CDS, Strasbourg, France.", 
+                "name": "SIMBAD", 
                 "url": "http://simbad.u-strasbg.fr/vizier/"
-            },
+            }, 
             "vizier": {
-                "acknowledgment": "This research has made use of the VizieR catalogue access tool, CDS, Strasbourg, France.",
-                "name": "VizieR",
+                "acknowledgment": "This research has made use of the VizieR catalogue access tool, CDS, Strasbourg, France.", 
+                "name": "VizieR", 
                 "url": "http://vizier.u-strasbg.fr/viz-bin/VizieR"
             }
-        },
-        "short": "web_servies",
+        }, 
+        "short": "web_servies", 
         "title": "Online/Web Services"
     }
 ]
