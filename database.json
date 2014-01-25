@@ -1,30 +1,51 @@
-{
-    "codes": {
-        "aplpy": {
-            "acknowledgment": "This research made use of APLpy, an open-source plotting package for Python hosted at http://aplpy.github.com.",
-            "name": "APLpy"
+[
+    {
+        "content": {
+            "aplpy": {
+                "acknowledgment": "This research made use of APLpy, an open-source plotting package for Python hosted at http://aplpy.github.com.",
+                "name": "APLpy"
+            },
+            "astropy": {
+                "acknowledgment": "This research made use of Astropy, a community-developed core Python package for Astronomy (Astropy Collaboration, 2013).",
+                "name": "Astropy"
+            }
         },
-        "astropy": {
-            "acknowledgment": "This research made use of Astropy, a community-developed core Python package for Astronomy (Astropy Collaboration, 2013).",
-            "name": "Astropy"
-        }
+        "short": "codes",
+        "title": "Codes and Software"
     },
-    "facilities": {},
-    "web_services": {
-        "ads": {
-            "acknowledgment": "This research has made use of NASA's Astrophysics Data System.",
-            "name": "ADS",
-            "url": "http://adsabs.harvard.edu/"
+    {
+        "content": {
+            "keck": {
+                "acknowledgment": "The data presented herein were obtained at the W.M. Keck Observatory, which is operated as a scientific partnership among the California Institute of Technology, the University of California and the National Aeronautics and Space Administration. The Observatory was made possible by the generous financial support of the W.M. Keck Foundation.",
+                "name": "Keck Observatory"
+            },
+            "mauna_kea": {
+                "acknowledgment": "The authors wish to recognize and acknowledge the very significant cultural role and reverence that the summit of Mauna Kea has always had within the indigenous Hawaiian community.  We are most fortunate to have the opportunity to conduct observations from this mountain.",
+                "name": "All Mauna Kea observatories"
+            }
         },
-        "simbad": {
-            "acknowledgment": "This research has made use of the SIMBAD database, operated at CDS, Strasbourg, France.",
-            "name": "SIMBAD",
-            "url": "http://simbad.u-strasbg.fr/vizier/"
+        "short": "facilities",
+        "title": "Observatories and Facilities"
+    },
+    {
+        "content": {
+            "ads": {
+                "acknowledgment": "This research has made use of NASA's Astrophysics Data System.",
+                "name": "ADS",
+                "url": "http://adsabs.harvard.edu/"
+            },
+            "simbad": {
+                "acknowledgment": "This research has made use of the SIMBAD database, operated at CDS, Strasbourg, France.",
+                "name": "SIMBAD",
+                "url": "http://simbad.u-strasbg.fr/vizier/"
+            },
+            "vizier": {
+                "acknowledgment": "This research has made use of the VizieR catalogue access tool, CDS, Strasbourg, France.",
+                "name": "VizieR",
+                "url": "http://vizier.u-strasbg.fr/viz-bin/VizieR"
+            }
         },
-        "vizier": {
-            "acknowledgment": "This research has made use of the VizieR catalogue access tool, CDS, Strasbourg, France.",
-            "name": "VizieR",
-            "url": "http://vizier.u-strasbg.fr/viz-bin/VizieR"
-        }
+        "short": "web_servies",
+        "title": "Online/Web Services"
     }
-}
+]

@@ -6,32 +6,24 @@ $.getJSON("database.json", show_checkboxes);
 function show_checkboxes(data) {
   // Display the checkboxes for the provided JSON data
 
-  checkboxes = ""
-  for (var short_name in data.codes) {
-    checkboxes += '<input type="checkbox" name="checkbox_codes" value="'
-                  + short_name
-                  + '" onchange="box_checked()">'
-                  + data.codes[short_name].name + '\n'
-  }
-  document.getElementById("checkboxes_codes").innerHTML = checkboxes;
+  content = ""
 
-  checkboxes = ""
-  for (var short_name in data.web_services) {
-    checkboxes += '<input type="checkbox" name="checkbox_web_services" value="'
-                  + short_name
-                  + '" onchange="box_checked()">'
-                  + data.web_services[short_name].name + '\n'
-  }
-  document.getElementById("checkboxes_web_services").innerHTML = checkboxes;
+  for (var i = 0; i < data.length; i++) {
 
-  checkboxes = ""
-  for (var short_name in data.facilities) {
-    checkboxes += '<input type="checkbox" name="checkbox_facilities" value="'
-                  + short_name
-                  + '" onchange="box_checked()">'
-                  + data.facilities[short_name].name + '\n'
+    category = data[i]
+
+    content += '<h2>' + category.title + '</h2>\n'
+
+    for (var short_name in category.content) {
+      content += '<input type="checkbox" name="checkbox_' + category.short
+                 + '" value="' + short_name
+                 + '" onchange="box_checked()">'
+                 + category.content[short_name].name + '\n'
+    }
+
   }
-  document.getElementById("checkboxes_facilities").innerHTML = checkboxes;
+
+  document.getElementById("main_check").innerHTML = content;
 
 }
 
@@ -45,20 +37,18 @@ function show_acknowledgment(data) {
 
   main_text = "";
 
-  var checkedBoxes = get_checked_boxes("checkbox_codes");
-  for (var i = 0; i < checkedBoxes.length; i++) {
-    main_text = main_text + data.codes[checkedBoxes[i].value].acknowledgment + " ";
+  for (var i = 0; i < data.length; i++) {
+
+    category = data[i]
+
+    var checkedBoxes = get_checked_boxes("checkbox_" + category.short);
+    for (var j = 0; j < checkedBoxes.length; j++) {
+      main_text += category.content[checkedBoxes[j].value].acknowledgment + " ";
+      // main_text += checkedBoxes[j].value;
+    }
+
   }
 
-  var checkedBoxes = get_checked_boxes("checkbox_web_services");
-  for (var i = 0; i < checkedBoxes.length; i++) {
-    main_text = main_text + data.web_services[checkedBoxes[i].value].acknowledgment + " ";
-  }
-
-  var checkedBoxes = get_checked_boxes("checkbox_facilities");
-  for (var i = 0; i < checkedBoxes.length; i++) {
-    main_text = main_text + data.facilities[checkedBoxes[i].value].acknowledgment + " ";
-  }
   document.getElementById("main_ack").innerHTML = main_text;
 
 }
@@ -71,10 +61,10 @@ function get_checked_boxes(checkbox_name) {
   var checkboxes_checked = [];
 
   // loop over them all
-  for (var i = 0; i < checkboxes.length; i++) {
+  for (var k = 0; k < checkboxes.length; k++) {
     // And stick the checked ones onto an array...
-    if (checkboxes[i].checked) {
-      checkboxes_checked.push(checkboxes[i]);
+    if (checkboxes[k].checked) {
+      checkboxes_checked.push(checkboxes[k]);
     }
   }
   // Return the array if it is non-empty, or null
