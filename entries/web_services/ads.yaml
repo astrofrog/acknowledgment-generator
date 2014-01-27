@@ -1,0 +1,7 @@
+name: ADS
+category: web_services
+tags: 
+text: This research has made use of NASA's Astrophysics Data System.
+url: http://adsabs.harvard.edu/
+dependencies: 
+bibtex: 

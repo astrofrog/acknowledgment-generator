@@ -1,0 +1,7 @@
+name: SIMBAD
+category: web_services
+tags: 
+text: This research has made use of the SIMBAD database, operated at CDS, Strasbourg, France.
+url: http://simbad.u-strasbg.fr/
+dependencies: 
+bibtex: 

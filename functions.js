@@ -52,7 +52,7 @@ function show_acknowledgment(data) {
 
     var checkedBoxes = get_checked_boxes("checkbox_" + category.short);
     for (var j = 0; j < checkedBoxes.length; j++) {
-      main_text += category.content[checkedBoxes[j].value].acknowledgment + " ";
+      main_text += category.content[checkedBoxes[j].value].text + " ";
       // main_text += checkedBoxes[j].value;
     }
 

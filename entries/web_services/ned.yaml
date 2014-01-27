@@ -1,0 +1,7 @@
+name: NED
+category: web_services
+tags: 
+text: This research has made use of the NASA/IPAC Extragalactic Database (NED) which is operated by the Jet Propulsion Laboratory, California Institute of Technology, under contract with the National Aeronautics and Space Administration.
+url: http://ned.ipac.caltech.edu/
+dependencies: 
+bibtex: 

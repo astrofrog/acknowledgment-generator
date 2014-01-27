@@ -1,0 +1,7 @@
+name: Astropy
+category: codes
+tags: 
+text: This research made use of Astropy, a community-developed core Python package for Astronomy (Astropy Collaboration, 2013).
+url: 
+dependencies: 
+bibtex: 

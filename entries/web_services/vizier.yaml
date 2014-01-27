@@ -1,0 +1,7 @@
+name: VizieR
+category: web_services
+tags: 
+text: This research has made use of the VizieR catalogue access tool, CDS, Strasbourg, France.
+url: http://vizier.u-strasbg.fr/viz-bin/VizieR
+dependencies: 
+bibtex: 

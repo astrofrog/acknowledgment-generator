@@ -1,0 +1,7 @@
+name: AAVSO
+category: web_services
+tags: 
+text: We acknowledge with thanks the variable star observations from the AAVSO International Database contributed by observers worldwide and used in this research.
+url: http://www.aavso.org/data-usage-guidelines
+dependencies: 
+bibtex: 
