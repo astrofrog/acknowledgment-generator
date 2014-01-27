@@ -1,0 +1,21 @@
+name: TOPCAT
+category: codes
+tags: java, catalogs, tables
+text: This research made use of TOPCAT, an interactive graphical viewer and editor for tabular data (Taylor, 2005).
+url: http://www.star.bris.ac.uk/~mbt/topcat/
+dependencies:
+bibtex: >
+    @INPROCEEDINGS{2005ASPC..347...29T,
+       author = {{Taylor}, M.~B.},
+       title = "{TOPCAT {\amp} STIL: Starlink Table/VOTable Processing Software}",
+       booktitle = {Astronomical Data Analysis Software and Systems XIV},
+       year = 2005,
+       series = {Astronomical Society of the Pacific Conference Series},
+       volume = 347,
+       editor = {{Shopbell}, P. and {Britton}, M. and {Ebert}, R.},
+       month = dec,
+       pages = {29},
+       adsurl = {http://adsabs.harvard.edu/abs/2005ASPC..347...29T},
+       adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+  }
+
