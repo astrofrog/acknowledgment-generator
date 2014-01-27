@@ -56,7 +56,7 @@
             "simbad": {
                 "acknowledgment": "This research has made use of the SIMBAD database, operated at CDS, Strasbourg, France.",
                 "name": "SIMBAD",
-                "url": "http://simbad.u-strasbg.fr/vizier/"
+                "url": "http://simbad.u-strasbg.fr/"
             },
             "vizier": {
                 "acknowledgment": "This research has made use of the VizieR catalogue access tool, CDS, Strasbourg, France.",

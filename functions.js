@@ -18,7 +18,14 @@ function show_checkboxes(data) {
       content += '<li><input type="checkbox" name="checkbox_' + category.short
                  + '" value="' + short_name
                  + '" onchange="box_checked()">'
-                 + category.content[short_name].name + '\n';
+
+      if(typeof(category.content[short_name].url) != 'undefined') {
+        content += '<a href="' + category.content[short_name].url + '">'
+                   + category.content[short_name].name + '\n'
+                   + '</a>\n';
+      } else {
+        content += category.content[short_name].name + '\n';
+      }
     }
 
     content += '</ul>'
