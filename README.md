@@ -39,6 +39,8 @@ The ``dependencies`` field should contain a YAML list of other acknowledgments t
 
 The ``bibtex`` entry should contain the BibTeX code required for any citations in the acknowledgment (not yet functional in the web interface). You should indent the whole BibTeX entry by one space.
 
+You can either open a pull request to add files (if you are familiar with the process) or just send them to me by email (thomas.robitaille@gmail.com).
+
 Contributors
 ============
 
