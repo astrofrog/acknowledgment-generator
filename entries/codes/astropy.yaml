@@ -4,7 +4,6 @@ tags: python
 text: This research made use of Astropy, a community-developed core Python package for Astronomy (Astropy Collaboration, 2013).
 url: http://www.astropy.org
 dependencies:
- - aplpy
 bibtex: >
  @ARTICLE{2013A&A...558A..33A,
     author = {{Astropy Collaboration} and {Robitaille}, T.~P. and {Tollerud}, E.~J. and
