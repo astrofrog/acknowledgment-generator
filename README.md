@@ -1,12 +1,12 @@
 About
-=====
+-----
 
 This is a very basic prototype for a webpage which can generate 
 acknowledgments for facilities, data sets, and software. This is still 
 at the prototyping phase so should not be expected to be functional (yet).
 
 Contributing entries
-====================
+--------------------
 
 To contribute an entry, add a YAML file to the ``entries`` folder, in one of
 the available sub-folders. The syntax and required fields are:
@@ -42,7 +42,7 @@ The ``bibtex`` entry should contain the BibTeX code required for any citations i
 You can either open a pull request to add files (if you are familiar with the process) or just send them to me by email (thomas.robitaille@gmail.com).
 
 Contributors
-============
+------------
 
 - Thomas Robitaille
 - Niall Deacon
