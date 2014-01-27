@@ -1,7 +1,15 @@
 name: LBT
 category: facilities
 tags: 
-text: The LBT is an international collaboration among institutions in the United States, Italy and Germany. The LBT Corporation partners are: The University of Arizona on behalf of the Arizona university system; Istituto Nazionale di Astrofisica, Italy;  LBT Beteiligungsgesellschaft, Germany, representing the Max Planck Society, the Astrophysical Institute Potsdam, and Heidelberg University; The Ohio State University; The Research Corporation, on behalf of The University of Notre Dame, University of Minnesota and University of Virginia.
+text: >
+  The LBT is an international collaboration among institutions in the United
+  States, Italy and Germany. The LBT Corporation partners are: The University
+  of Arizona on behalf of the Arizona university system; Istituto Nazionale di
+  Astrofisica, Italy; LBT Beteiligungsgesellschaft, Germany, representing the
+  Max Planck Society, the Astrophysical Institute Potsdam, and Heidelberg
+  University; The Ohio State University; The Research Corporation, on behalf
+  of The University of Notre Dame, University of Minnesota and University of
+  Virginia.
 url: 
 dependencies: 
 bibtex: 
