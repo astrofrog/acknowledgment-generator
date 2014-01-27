@@ -12,14 +12,16 @@ function show_checkboxes(data) {
 
     category = data[i]
 
-    content += '<h2>' + category.title + '</h2>\n'
+    content += '<h2>' + category.title + '</h2>\n<ul>'
 
     for (var short_name in category.content) {
-      content += '<input type="checkbox" name="checkbox_' + category.short
+      content += '<li><input type="checkbox" name="checkbox_' + category.short
                  + '" value="' + short_name
                  + '" onchange="box_checked()">'
-                 + category.content[short_name].name + '\n'
+                 + category.content[short_name].name + '\n';
     }
+
+    content += '</ul>'
 
   }
 
