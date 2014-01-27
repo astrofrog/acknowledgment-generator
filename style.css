@@ -1,0 +1,28 @@
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1 {
+		text-align: center;
+
+}
+
+ul {
+	list-style-type: none;
+}
+
+#main {
+	width: 600px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#main_ack {
+	width: 600px;
+	margin-right: auto;
+	margin-left: auto;
+	border-width: 1px;
+	border-color: #000;
+	text-align: justify;
+}
+
