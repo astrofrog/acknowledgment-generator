@@ -1,6 +1,11 @@
 [
     {
         "content": {
+            "hinode": {
+                "category": "facilities",
+                "name": "Hinode",
+                "text": "Hinode is a Japanese mission developed and launched by ISAS/JAXA, with NAOJ as domestic partner and NASA and UKSA as international partners. It is operated by these agencies in co-operation with ESA and NSC (Norway).\n"
+            },
             "irtf": {
                 "category": "facilities",
                 "name": "IRTF",
@@ -45,6 +50,11 @@
                 "category": "facilities",
                 "name": "SMA",
                 "text": "The Submillimeter Array is a joint project between the Smithsonian Astrophysical Observatory and the Academia Sinica Institute of Astronomy and Astrophysics and is funded by the Smithsonian Institution and the Academia Sinica."
+            },
+            "xmm": {
+                "category": "facilities",
+                "name": "XMM",
+                "text": "Based on observations obtained with XMM-Newton, an ESA science mission with instruments and contributions directly funded by ESA Member States and NASA.\n"
             }
         },
         "short": "facilities",
