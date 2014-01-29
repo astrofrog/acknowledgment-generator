@@ -1,0 +1,11 @@
+name: DEEP2
+category: data
+tags: 
+text: >
+  Funding for the DEEP2 Galaxy Redshift Survey has been provided by NSF grants
+  AST-95-09298, AST-0071048, AST-0507428, and AST-0507483 as well as NASA LTSA
+  grant NNG04GC89G.
+url: 
+dependencies:
+  - keck
+bibtex: 

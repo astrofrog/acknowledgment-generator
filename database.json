@@ -1,6 +1,11 @@
 [
     {
         "content": {
+            "irtf": {
+                "category": "facilities",
+                "name": "IRTF",
+                "text": "Visiting Astronomer at the Infrared Telescope Facility, which is operated by the University of Hawaii under Cooperative Agreement no. NNX-08AE38A with the National Aeronautics and Space Administration, Science Mission Directorate, Planetary Astronomy Program."
+            },
             "keck": {
                 "category": "facilities",
                 "name": "Keck Observatory",
@@ -25,6 +30,16 @@
                 "category": "facilities",
                 "name": "MMT",
                 "text": "Observations reported here were obtained at the MMT Observatory, a joint facility of the University of Arizona and the Smithsonian Institution."
+            },
+            "nrao": {
+                "category": "facilities",
+                "name": "NRAO",
+                "text": "The National Radio Astronomy Observatory is a facility of the National Science Foundation operated under cooperative agreement by Associated Universities, Inc."
+            },
+            "salt": {
+                "category": "facilities",
+                "name": "SALT",
+                "text": "The observations reported in this paper were obtained with the Southern African Large Telescope (SALT)."
             },
             "sma": {
                 "category": "facilities",
@@ -95,5 +110,29 @@
         },
         "short": "codes",
         "title": "Codes and Software"
+    },
+    {
+        "content": {
+            "deep2": {
+                "category": "data",
+                "dependencies": [
+                    "keck"
+                ],
+                "name": "DEEP2",
+                "text": "Funding for the DEEP2 Galaxy Redshift Survey has been provided by NSF grants AST-95-09298, AST-0071048, AST-0507428, and AST-0507483 as well as NASA LTSA grant NNG04GC89G.\n"
+            },
+            "sdss": {
+                "category": "data",
+                "name": "SDSS and SDSS-II",
+                "text": "Funding for the SDSS and SDSS-II has been provided by the Alfred P. Sloan Foundation, the Participating Institutions, the National Science Foundation, the U.S. Department of Energy, the National Aeronautics and Space Administration, the Japanese Monbukagakusho, the Max Planck Society, and the Higher Education Funding Council for England. The SDSS Web Site is http://www.sdss.org/. The SDSS is managed by the Astrophysical Research Consortium for the Participating Institutions. The Participating Institutions are the American Museum of Natural History, Astrophysical Institute Potsdam, University of Basel, University of Cambridge, Case Western Reserve University, University of Chicago, Drexel University, Fermilab, the Institute for Advanced Study, the Japan Participation Group, Johns Hopkins University, the Joint Institute for Nuclear Astrophysics, the Kavli Institute for Particle Astrophysics and Cosmology, the Korean Scientist Group, the Chinese Academy of Sciences (LAMOST), Los Alamos National Laboratory, the Max-Planck-Institute for Astronomy (MPIA), the Max-Planck-Institute for Astrophysics (MPA), New Mexico State University, Ohio State University, University of Pittsburgh, University of Portsmouth, Princeton University, the United States Naval Observatory, and the University of Washington.\n"
+            },
+            "sdss3": {
+                "category": "data",
+                "name": "SDSS-III",
+                "text": "Funding for SDSS-III has been provided by the Alfred P. Sloan Foundation, the Participating Institutions, the National Science Foundation, and the U.S. Department of Energy Office of Science. The SDSS-III web site is http://www.sdss3.org/. SDSS-III is managed by the Astrophysical Research Consortium for the Participating Institutions of the SDSS-III Collaboration including the University of Arizona, the Brazilian Participation Group, Brookhaven National Laboratory, University of Cambridge, Carnegie Mellon University, University of Florida, the French Participation Group, the German Participation Group, Harvard University, the Instituto de Astrofisica de Canarias, the Michigan State/Notre Dame/JINA Participation Group, Johns Hopkins University, Lawrence Berkeley National Laboratory, Max Planck Institute for Astrophysics, Max Planck Institute for Extraterrestrial Physics, New Mexico State University, New York University, Ohio State University, Pennsylvania State University, University of Portsmouth, Princeton University, the Spanish Participation Group, University of Tokyo, University of Utah, Vanderbilt University, University of Virginia, University of Washington, and Yale University.\n"
+            }
+        },
+        "short": "data",
+        "title": "Datasets"
     }
 ]

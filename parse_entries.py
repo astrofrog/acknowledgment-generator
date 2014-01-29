@@ -4,12 +4,13 @@ import json
 
 import yaml
 
-CATEGORIES = ['facilities', 'web_services', 'codes']
+CATEGORIES = ['facilities', 'web_services', 'codes', 'data']
 
 TITLE = {}
 TITLE['facilities'] = "Observatories and Facilities"
 TITLE['web_services'] = "Online/Web Services"
 TITLE['codes'] = "Codes and Software"
+TITLE['data'] = "Datasets"
 
 database = []
 
