@@ -6,13 +6,15 @@ $.getJSON("database.json", show_checkboxes);
 function show_checkboxes(data) {
   // Display the checkboxes for the provided JSON data
 
+  // var checkedBoxes = get_checked_boxes("checkbox_options");
+
   content = ""
 
   for (var i = 0; i < data.length; i++) {
 
     category = data[i]
 
-    content += '<h3>' + category.title + '</h3>\n<div><ul>'
+    content += '<h3 class="expandable">' + category.title + '</h3>\n<div class="options"><ul>'
 
     for (var short_name in category.content) {
       content += '<li><input type="checkbox" name="checkbox_' + category.short
@@ -35,13 +37,11 @@ function show_checkboxes(data) {
   document.getElementById("main_check").innerHTML = content;
 
   jQuery(document).ready(function(){
-    $('h3').click(function() {
+    $('.expandable').click(function() {
         $(this).next().toggle();  // add 'slow' to toggle() to animate
         return false;
     }).next().hide();
   });
-
-  // $( "#main_check" ).accordion();
 
 }
 
@@ -53,21 +53,46 @@ function box_checked() {
 function show_acknowledgment(data) {
   // Display the acknowledgment corresponding to the checked boxes
 
+  // Get this from latex checkbox
+  var latex_checkbox = document.getElementById("checkbox_latex");
+  
+  var use_latex = latex_checkbox.checked;
+
   main_text = "";
+  bibtex_text = ""
 
   for (var i = 0; i < data.length; i++) {
 
     category = data[i]
-
+    
     var checkedBoxes = get_checked_boxes("checkbox_" + category.short);
     for (var j = 0; j < checkedBoxes.length; j++) {
-      main_text += category.content[checkedBoxes[j].value].text + " ";
-      // main_text += checkedBoxes[j].value;
+
+      if (use_latex) {
+        if (category.content[checkedBoxes[j].value].latex) {
+          text = category.content[checkedBoxes[j].value].latex
+        } else {
+          text = category.content[checkedBoxes[j].value].text
+        }
+        if (category.content[checkedBoxes[j].value].bibtex) {
+          bibtex_text += category.content[checkedBoxes[j].value].bibtex
+        }
+      } else {
+        text = category.content[checkedBoxes[j].value].text
+      }
+      main_text += text + " ";
     }
 
   }
 
   document.getElementById("ack_main").innerHTML = main_text;
+
+  if(use_latex) {
+    document.getElementById("ack_bibtex").innerHTML = bibtex_text;
+  } else {
+    document.getElementById("ack_bibtex").innerHTML = "";
+    
+  }
 
 }
 

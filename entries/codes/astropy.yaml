@@ -2,6 +2,7 @@ name: Astropy
 category: codes
 tags: python
 text: This research made use of Astropy, a community-developed core Python package for Astronomy (Astropy Collaboration, 2013).
+latex: This research made use of Astropy, a community-developed core Python package for Astronomy \citep{2013A&A...558A..33A}.
 url: http://www.astropy.org
 dependencies:
 bibtex: >

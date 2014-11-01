@@ -33,6 +33,7 @@ ul {
 
 #content-left {
 	width: 350px;
+	padding: 0;
 }
 
 #content-right {
@@ -46,4 +47,36 @@ ul {
 	border-width: 1px;
 	border-color: #000;
 	text-align: justify;
+}
+
+#main_check, #main_options {
+	width: 330px;
+}
+
+.options {
+width: 310px;
+	text-align: left;
+}
+
+ul {
+	margin: 0;
+}
+
+li {
+		margin: 0;
+
+}
+
+#ack_main {
+	width: 480px;
+}
+
+#ack_bibtex {
+		width: 480px;
+	font: 12px "Courier New", Courier, mono;
+}
+
+#ack_facilities {
+	width: 480px;
+	
 }

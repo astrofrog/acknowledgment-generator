@@ -112,6 +112,7 @@
             "astropy": {
                 "bibtex": "@ARTICLE{2013A&A...558A..33A,\n   author = {{Astropy Collaboration} and {Robitaille}, T.~P. and {Tollerud}, E.~J. and\n  {Greenfield}, P. and {Droettboom}, M. and {Bray}, E. and {Aldcroft}, T. and\n  {Davis}, M. and {Ginsburg}, A. and {Price-Whelan}, A.~M. and\n  {Kerzendorf}, W.~E. and {Conley}, A. and {Crighton}, N. and\n  {Barbary}, K. and {Muna}, D. and {Ferguson}, H. and {Grollier}, F. and\n  {Parikh}, M.~M. and {Nair}, P.~H. and {Unther}, H.~M. and {Deil}, C. and\n  {Woillez}, J. and {Conseil}, S. and {Kramer}, R. and {Turner}, J.~E.~H. and\n  {Singer}, L. and {Fox}, R. and {Weaver}, B.~A. and {Zabalza}, V. and\n  {Edwards}, Z.~I. and {Azalee Bostroem}, K. and {Burke}, D.~J. and\n  {Casey}, A.~R. and {Crawford}, S.~M. and {Dencheva}, N. and\n  {Ely}, J. and {Jenness}, T. and {Labrie}, K. and {Lim}, P.~L. and\n  {Pierfederici}, F. and {Pontzen}, A. and {Ptak}, A. and {Refsdal}, B. and\n  {Servillat}, M. and {Streicher}, O.},\n    title = \"{Astropy: A community Python package for astronomy}\",\n  journal = {\\aap},\narchivePrefix = \"arXiv\",\n   eprint = {1307.6212},\n primaryClass = \"astro-ph.IM\",\n keywords = {methods: data analysis, methods: miscellaneous, virtual observatory tools},\n     year = 2013,\n    month = oct,\n   volume = 558,\n      eid = {A33},\n    pages = {A33},\n      doi = {10.1051/0004-6361/201322068},\n   adsurl = {http://adsabs.harvard.edu/abs/2013A%26A...558A..33A},\n  adsnote = {Provided by the SAO/NASA Astrophysics Data System}\n}\n",
                 "category": "codes",
+                "latex": "This research made use of Astropy, a community-developed core Python package for Astronomy \\citep{2013A&A...558A..33A}.",
                 "name": "Astropy",
                 "tags": "python",
                 "text": "This research made use of Astropy, a community-developed core Python package for Astronomy (Astropy Collaboration, 2013).",
@@ -124,6 +125,14 @@
                 "tags": "java, catalogs, tables",
                 "text": "This research made use of TOPCAT, an interactive graphical viewer and editor for tabular data (Taylor, 2005).\n",
                 "url": "http://www.star.bris.ac.uk/~mbt/topcat/"
+            },
+            "yt": {
+                "bibtex": "@ARTICLE{2013A&A...558A..33A,\n   author = {{Astropy Collaboration} and {Robitaille}, T.~P. and {Tollerud}, E.~J. and\n  {Greenfield}, P. and {Droettboom}, M. and {Bray}, E. and {Aldcroft}, T. and\n  {Davis}, M. and {Ginsburg}, A. and {Price-Whelan}, A.~M. and\n  {Kerzendorf}, W.~E. and {Conley}, A. and {Crighton}, N. and\n  {Barbary}, K. and {Muna}, D. and {Ferguson}, H. and {Grollier}, F. and\n  {Parikh}, M.~M. and {Nair}, P.~H. and {Unther}, H.~M. and {Deil}, C. and\n  {Woillez}, J. and {Conseil}, S. and {Kramer}, R. and {Turner}, J.~E.~H. and\n  {Singer}, L. and {Fox}, R. and {Weaver}, B.~A. and {Zabalza}, V. and\n  {Edwards}, Z.~I. and {Azalee Bostroem}, K. and {Burke}, D.~J. and\n  {Casey}, A.~R. and {Crawford}, S.~M. and {Dencheva}, N. and\n  {Ely}, J. and {Jenness}, T. and {Labrie}, K. and {Lim}, P.~L. and\n  {Pierfederici}, F. and {Pontzen}, A. and {Ptak}, A. and {Refsdal}, B. and\n  {Servillat}, M. and {Streicher}, O.},\n    title = \"{Astropy: A community Python package for astronomy}\",\n  journal = {\\aap},\narchivePrefix = \"arXiv\",\n   eprint = {1307.6212},\n primaryClass = \"astro-ph.IM\",\n keywords = {methods: data analysis, methods: miscellaneous, virtual observatory tools},\n     year = 2013,\n    month = oct,\n   volume = 558,\n      eid = {A33},\n    pages = {A33},\n      doi = {10.1051/0004-6361/201322068},\n   adsurl = {http://adsabs.harvard.edu/abs/2013A%26A...558A..33A},\n  adsnote = {Provided by the SAO/NASA Astrophysics Data System}\n}\n",
+                "category": "codes",
+                "name": "Astropy",
+                "tags": "python",
+                "text": "This research made use of Astropy, a community-developed core Python package for Astronomy (Astropy Collaboration, 2013).",
+                "url": "http://www.astropy.org"
             }
         },
         "short": "codes",
