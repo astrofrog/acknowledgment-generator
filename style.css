@@ -72,7 +72,11 @@ li {
 }
 
 #ack_bibtex {
-		width: 480px;
+			width: 480px;
+
+}
+
+#pre {
 	font: 12px "Courier New", Courier, mono;
 }
 

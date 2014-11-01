@@ -46,20 +46,28 @@ function show_checkboxes(data) {
 }
 
 function box_checked() {
+
+  // // Resolve dependencies
+  // var checkedBoxes = get_checked_boxes("checkbox_" + category.short);
+  // for (var j = 0; j < checkedBoxes.length; j++) {
+  //   resolve_dependents(checkedBoxes[i])
+  // }
+  //
   // When a box gets checked, update the acknowledgment
   $.getJSON("database.json", show_acknowledgment);
+
 }
 
 function show_acknowledgment(data) {
   // Display the acknowledgment corresponding to the checked boxes
 
   // Get this from latex checkbox
-  var latex_checkbox = document.getElementById("checkbox_latex");
+  var latex_checkbox = document.getElementById("option_latex");
+  var facilities_checkbox = document.getElementById("option_facilities");
   
-  var use_latex = latex_checkbox.checked;
-
-  main_text = "";
-  bibtex_text = ""
+  main_text = "<h2>Suggested acknowledgment</h2>";
+  bibtex_text = "<h2>BibTeX</h2>"
+  facilities_text = "<h2>Facilities</h2>"
 
   for (var i = 0; i < data.length; i++) {
 
@@ -68,7 +76,7 @@ function show_acknowledgment(data) {
     var checkedBoxes = get_checked_boxes("checkbox_" + category.short);
     for (var j = 0; j < checkedBoxes.length; j++) {
 
-      if (use_latex) {
+      if (latex_checkbox.checked) {
         if (category.content[checkedBoxes[j].value].latex) {
           text = category.content[checkedBoxes[j].value].latex
         } else {
@@ -87,12 +95,18 @@ function show_acknowledgment(data) {
 
   document.getElementById("ack_main").innerHTML = main_text;
 
-  if(use_latex) {
+  if(latex_checkbox.checked) {
     document.getElementById("ack_bibtex").innerHTML = bibtex_text;
   } else {
     document.getElementById("ack_bibtex").innerHTML = "";
-    
   }
+
+  if(facilities_checkbox.checked) {
+    document.getElementById("ack_facilities").innerHTML = facilities_text;
+  } else {
+    document.getElementById("ack_facilities").innerHTML = "";
+  }
+
 
 }
 
@@ -113,3 +127,8 @@ function get_checked_boxes(checkbox_name) {
   // Return the array if it is non-empty, or null
   return checkboxes_checked;
 }
+
+
+$.getJSON("database.json", show_acknowledgment);
+
+
