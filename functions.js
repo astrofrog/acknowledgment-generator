@@ -75,7 +75,7 @@ function show_acknowledgment(data) {
           text = category.content[checkedBoxes[j].value].text
         }
         if (category.content[checkedBoxes[j].value].bibtex) {
-          bibtex_text += category.content[checkedBoxes[j].value].bibtex
+          bibtex_text += category.content[checkedBoxes[j].value].bibtex + "<br><br>"
         }
       } else {
         text = category.content[checkedBoxes[j].value].text
