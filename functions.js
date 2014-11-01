@@ -12,7 +12,7 @@ function show_checkboxes(data) {
 
     category = data[i]
 
-    content += '<h2>' + category.title + '</h2>\n<ul>'
+    content += '<h3>' + category.title + '</h3>\n<div><ul>'
 
     for (var short_name in category.content) {
       content += '<li><input type="checkbox" name="checkbox_' + category.short
@@ -28,11 +28,20 @@ function show_checkboxes(data) {
       }
     }
 
-    content += '</ul>'
+    content += '</div></ul>'
 
   }
 
   document.getElementById("main_check").innerHTML = content;
+
+  jQuery(document).ready(function(){
+    $('h3').click(function() {
+        $(this).next().toggle();  // add 'slow' to toggle() to animate
+        return false;
+    }).next().hide();
+  });
+
+  // $( "#main_check" ).accordion();
 
 }
 
@@ -58,7 +67,7 @@ function show_acknowledgment(data) {
 
   }
 
-  document.getElementById("main_ack").innerHTML = main_text;
+  document.getElementById("ack_main").innerHTML = main_text;
 
 }
 

@@ -3,26 +3,47 @@ body {
 }
 
 h1 {
-		text-align: center;
-
+	text-align: center;
 }
 
 ul {
 	list-style-type: none;
 }
 
-#main {
-	width: 600px;
-	margin-right: auto;
-	margin-left: auto;
+#wrapper {
+	width: 1100px;
+	padding: 10px;
+	margin-left:  auto;
+	margin-right:  auto;
+}
+
+#content {
+	width: 950px;
+	margin-top: 10px;
+	padding-bottom: 10px;
+	margin-left:  auto;
+	margin-right:  auto;
+}
+
+#content div {
+	padding: 10px;
+	border: 1px solid #bbb;
+	float: left;
+}
+
+#content-left {
+	width: 350px;
+}
+
+#content-right {
+	margin-left: 10px;
+	width: 500px;
 }
 
 #main_ack {
-	width: 600px;
 	margin-right: auto;
 	margin-left: auto;
 	border-width: 1px;
 	border-color: #000;
 	text-align: justify;
 }
-

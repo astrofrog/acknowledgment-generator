@@ -3,19 +3,33 @@
   <head>
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700' rel='stylesheet' type='text/css'>
     <link href='style.css' rel='stylesheet' type="text/css">
+    <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="http://code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+    <script src="functions.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css">
     <title>The Acknowledgment Generator [Prototype]</title>
   </head>
   <body>
-    <div id='main'>
+    <div id='wrapper'>
+      <div id='content'>
     <h1>Categories</h1>
+      <div id='content-left'>
     <div id='main_check'>
     </div>
+    </div>
+    <div id='content-right'>
     <h1>Suggested acknowledgment</h1>
-    <div id='main_ack'>
+    <div id='ack_main'>
+    </div>
+    <h1>BibTeX</h1>
+    <div id='ack_bibtex'>
+    </div>
+    <h1>Facilities</h1>
+    <div id='ack_facilities'>
     </div>
     </div>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
-    <script src="functions.js" type="text/javascript"></script>
+    </div>
+    </div>
     <script type="text/javascript">
 
       var _gaq = _gaq || [];
