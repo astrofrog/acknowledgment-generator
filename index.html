@@ -7,22 +7,27 @@
     <script src="http://code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
     <script src="functions.js" type="text/javascript"></script>
     <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css">
-    <title>The Acknowledgment Generator [Prototype]</title>
+    <title>The Acknowledgment Generator</title>
   </head>
   <body>
     <div id='wrapper'>
       <div id='content'>
+        <h1>The Acknowledgment Generator</h1>
+        This is still work in progress, and we need your help to populate the
+        database! See the README file <a
+        href="https://github.com/astrofrog/acknowledgment-generator#about">here</a>
+        for information on how to help!
       <div id='content-left'>
+    <div id='main_check'>
+    </div>
         <div id='main_options'>
           <h3>Options</h3>
           <ul>
-            <li><input type="checkbox" id="option_latex" name="option_latex" value="latex"  onchange="box_checked()">LaTeX
-            <li><input type="checkbox" id="option_dependencies" name="option_latex" value="dependencies"  onchange="box_checked()">Resolve dependencies
-            <li><input type="checkbox" id="option_facilities" name="option_facilities" value="facilities"  onchange="box_checked()">Show AAS facility keywords
+            <li><input type="checkbox" id="option_latex" name="option_latex" value="latex"  onchange="box_checked()" checked>LaTeX
+            <!-- <li><input type="checkbox" id="option_dependencies" name="option_latex" value="dependencies"  onchange="box_checked()" checked>Resolve dependencies -->
+            <li><input type="checkbox" id="option_facilities" name="option_facilities" value="facilities"  onchange="box_checked()">AAS facility keywords
           </ul>
         </div>
-    <div id='main_check'>
-    </div>
     </div>
     <div id='content-right'>
     <div id='ack_main'>
