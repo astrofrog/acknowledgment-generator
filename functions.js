@@ -14,7 +14,7 @@ function show_checkboxes(data) {
 
     category = data[i]
 
-    content += '<h3 class="expandable">' + category.title + '</h3>\n<div class="options"><ul>'
+    content += '<h3 class="expandable"><img class="triangle" src="right.png">' + category.title + '</h3>\n<div class="options"><ul>'
 
     for (var short_name in category.content) {
       content += '<li><input type="checkbox" name="checkbox_' + category.short
@@ -39,6 +39,12 @@ function show_checkboxes(data) {
   jQuery(document).ready(function(){
     $('.expandable').click(function() {
         $(this).next().toggle();  // add 'slow' to toggle() to animate
+        title = $(this).html()
+        if(title.indexOf("right") > -1) {
+          $(this).html(title.replace("right", "down"));
+        } else {
+          $(this).html(title.replace("down", "right"));
+        }
         return false;
     }).next().hide();
   });
