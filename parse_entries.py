@@ -4,7 +4,7 @@ import json
 
 import yaml
 
-CATEGORIES = ['facilities', 'web_services', 'codes', 'data']
+CATEGORIES = ['web_services', 'codes', 'data', 'facilities']
 
 TITLE = {}
 TITLE['facilities'] = "Observatories and Facilities"

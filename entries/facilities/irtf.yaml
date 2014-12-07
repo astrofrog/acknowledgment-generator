@@ -5,3 +5,4 @@ text: Visiting Astronomer at the Infrared Telescope Facility, which is operated 
 url: 
 dependencies: 
 bibtex: 
+facilities: \facility{Infrared Telescope Facility}

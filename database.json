@@ -1,67 +1,6 @@
 [
     {
         "content": {
-            "hinode": {
-                "category": "facilities",
-                "name": "Hinode",
-                "text": "Hinode is a Japanese mission developed and launched by ISAS/JAXA, with NAOJ as domestic partner and NASA and UKSA as international partners. It is operated by these agencies in co-operation with ESA and NSC (Norway).\n"
-            },
-            "irtf": {
-                "category": "facilities",
-                "name": "IRTF",
-                "text": "Visiting Astronomer at the Infrared Telescope Facility, which is operated by the University of Hawaii under Cooperative Agreement no. NNX-08AE38A with the National Aeronautics and Space Administration, Science Mission Directorate, Planetary Astronomy Program."
-            },
-            "keck": {
-                "category": "facilities",
-                "name": "Keck Observatory",
-                "text": "The data presented herein were obtained at the W.M. Keck Observatory, which is operated as a scientific partnership among the California Institute of Technology, the University of California and the National Aeronautics and Space Administration. The Observatory was made possible by the generous financial support of the W.M. Keck Foundation."
-            },
-            "lbt": {
-                "category": "facilities",
-                "name": "LBT",
-                "text": "The LBT is an international collaboration among institutions in the United States, Italy and Germany. The LBT Corporation partners are: The University of Arizona on behalf of the Arizona university system; Istituto Nazionale di Astrofisica, Italy; LBT Beteiligungsgesellschaft, Germany, representing the Max Planck Society, the Astrophysical Institute Potsdam, and Heidelberg University; The Ohio State University; The Research Corporation, on behalf of The University of Notre Dame, University of Minnesota and University of Virginia.\n"
-            },
-            "magellan": {
-                "category": "facilities",
-                "name": "Magellan Telescopes",
-                "text": "This paper includes data gathered with the 6.5 meter Magellan Telescopes located at Las Campanas Observatory, Chile."
-            },
-            "mauna_kea": {
-                "category": "facilities",
-                "name": "All Mauna Kea observatories",
-                "text": "The authors wish to recognize and acknowledge the very significant cultural role and reverence that the summit of Mauna Kea has always had within the indigenous Hawaiian community.  We are most fortunate to have the opportunity to conduct observations from this mountain."
-            },
-            "mmt": {
-                "category": "facilities",
-                "name": "MMT",
-                "text": "Observations reported here were obtained at the MMT Observatory, a joint facility of the University of Arizona and the Smithsonian Institution."
-            },
-            "nrao": {
-                "category": "facilities",
-                "name": "NRAO",
-                "text": "The National Radio Astronomy Observatory is a facility of the National Science Foundation operated under cooperative agreement by Associated Universities, Inc."
-            },
-            "salt": {
-                "category": "facilities",
-                "name": "SALT",
-                "text": "The observations reported in this paper were obtained with the Southern African Large Telescope (SALT)."
-            },
-            "sma": {
-                "category": "facilities",
-                "name": "SMA",
-                "text": "The Submillimeter Array is a joint project between the Smithsonian Astrophysical Observatory and the Academia Sinica Institute of Astronomy and Astrophysics and is funded by the Smithsonian Institution and the Academia Sinica."
-            },
-            "xmm": {
-                "category": "facilities",
-                "name": "XMM",
-                "text": "Based on observations obtained with XMM-Newton, an ESA science mission with instruments and contributions directly funded by ESA Member States and NASA.\n"
-            }
-        },
-        "short": "facilities",
-        "title": "Observatories and Facilities"
-    },
-    {
-        "content": {
             "aavso": {
                 "category": "web_services",
                 "name": "AAVSO",
@@ -161,5 +100,67 @@
         },
         "short": "data",
         "title": "Datasets"
+    },
+    {
+        "content": {
+            "hinode": {
+                "category": "facilities",
+                "name": "Hinode",
+                "text": "Hinode is a Japanese mission developed and launched by ISAS/JAXA, with NAOJ as domestic partner and NASA and UKSA as international partners. It is operated by these agencies in co-operation with ESA and NSC (Norway).\n"
+            },
+            "irtf": {
+                "category": "facilities",
+                "facilities": "\\facility{Infrared Telescope Facility}",
+                "name": "IRTF",
+                "text": "Visiting Astronomer at the Infrared Telescope Facility, which is operated by the University of Hawaii under Cooperative Agreement no. NNX-08AE38A with the National Aeronautics and Space Administration, Science Mission Directorate, Planetary Astronomy Program."
+            },
+            "keck": {
+                "category": "facilities",
+                "name": "Keck Observatory",
+                "text": "The data presented herein were obtained at the W.M. Keck Observatory, which is operated as a scientific partnership among the California Institute of Technology, the University of California and the National Aeronautics and Space Administration. The Observatory was made possible by the generous financial support of the W.M. Keck Foundation."
+            },
+            "lbt": {
+                "category": "facilities",
+                "name": "LBT",
+                "text": "The LBT is an international collaboration among institutions in the United States, Italy and Germany. The LBT Corporation partners are: The University of Arizona on behalf of the Arizona university system; Istituto Nazionale di Astrofisica, Italy; LBT Beteiligungsgesellschaft, Germany, representing the Max Planck Society, the Astrophysical Institute Potsdam, and Heidelberg University; The Ohio State University; The Research Corporation, on behalf of The University of Notre Dame, University of Minnesota and University of Virginia.\n"
+            },
+            "magellan": {
+                "category": "facilities",
+                "name": "Magellan Telescopes",
+                "text": "This paper includes data gathered with the 6.5 meter Magellan Telescopes located at Las Campanas Observatory, Chile."
+            },
+            "mauna_kea": {
+                "category": "facilities",
+                "name": "All Mauna Kea observatories",
+                "text": "The authors wish to recognize and acknowledge the very significant cultural role and reverence that the summit of Mauna Kea has always had within the indigenous Hawaiian community.  We are most fortunate to have the opportunity to conduct observations from this mountain."
+            },
+            "mmt": {
+                "category": "facilities",
+                "name": "MMT",
+                "text": "Observations reported here were obtained at the MMT Observatory, a joint facility of the University of Arizona and the Smithsonian Institution."
+            },
+            "nrao": {
+                "category": "facilities",
+                "name": "NRAO",
+                "text": "The National Radio Astronomy Observatory is a facility of the National Science Foundation operated under cooperative agreement by Associated Universities, Inc."
+            },
+            "salt": {
+                "category": "facilities",
+                "name": "SALT",
+                "text": "The observations reported in this paper were obtained with the Southern African Large Telescope (SALT)."
+            },
+            "sma": {
+                "category": "facilities",
+                "name": "SMA",
+                "text": "The Submillimeter Array is a joint project between the Smithsonian Astrophysical Observatory and the Academia Sinica Institute of Astronomy and Astrophysics and is funded by the Smithsonian Institution and the Academia Sinica."
+            },
+            "xmm": {
+                "category": "facilities",
+                "name": "XMM",
+                "text": "Based on observations obtained with XMM-Newton, an ESA science mission with instruments and contributions directly funded by ESA Member States and NASA.\n"
+            }
+        },
+        "short": "facilities",
+        "title": "Observatories and Facilities"
     }
 ]

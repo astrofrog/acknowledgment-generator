@@ -67,7 +67,8 @@ function show_acknowledgment(data) {
   
   main_text = "<h2>Suggested acknowledgment</h2>";
   bibtex_text = "<h2>BibTeX</h2>"
-  facilities_text = "<h2>Facilities</h2>"
+
+  facilities = [];
 
   for (var i = 0; i < data.length; i++) {
 
@@ -89,10 +90,21 @@ function show_acknowledgment(data) {
         text = category.content[checkedBoxes[j].value].text
       }
       main_text += text + " ";
+
+      if (facilities_checkbox.checked) {
+        if (category.content[checkedBoxes[j].value].facilities) {
+          facilities.push(category.content[checkedBoxes[j].value].facilities);
+        }
+      }
+
     }
 
   }
 
+  facilities_text = "<h2>Facilities</h2>"
+  if(facilities.length > 0) {
+    facilities_text += "\\textit{Facilities:}" + facilities.join(", ")
+  }
   document.getElementById("ack_main").innerHTML = main_text;
 
   if(latex_checkbox.checked) {
