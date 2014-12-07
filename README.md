@@ -54,6 +54,9 @@ following + symbol:
 This will then automatically open a pull request. You can also just send me any
 file by email (thomas.robitaille@gmail.com).
 
+Note that after new entries are added, the ``database.json`` file needs to
+be re-generated, but I will see to this, so you do not need to worry about it.
+
 ### Contributing to the interface
 
 There are a number of issues open relating to the interface - you can find
