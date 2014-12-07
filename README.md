@@ -1,45 +1,65 @@
 About
 -----
 
-This is a very basic prototype for a webpage which can generate 
-acknowledgments for facilities, data sets, and software. This is still 
-at the prototyping phase so should not be expected to be functional (yet).
+This is a prototype for a webpage which can generate acknowledgments for
+facilities, data sets, and software.
 
-Contributing entries
---------------------
+I want to help!
+---------------
 
-To contribute an entry, add a YAML file to the ``entries`` folder, in one of
-the available sub-folders. The syntax and required fields are:
+Great! There are two places you can help: contributing entries, and helping
+with the actual functionality.
+
+### Contributing/fixing an entry
+
+Each item that can be acknowledged is in a file in the ``entries`` folder of
+the repository, in a format called YAML (just look at one of the existing files
+to see what this looks like). You can edit the existing files to modify the
+entries, and add new files to add new entries.
+
+The syntax and required fields are:
 
     name: The Name Here
     category: codes
     tags:
     text: This is the acknowledgment
+    latex: This is the LaTeX version (if needed)
     url: http://...
     dependencies:
      - ...
      - ...
+
+The ``dependencies`` field should contain a YAML list of other acknowledgments
+that should be automatically included (not yet functional in the web interface,
+but will work in future!).
+
+You can also add a BibTex entry if needed:
+
     bibtex: >
      @ARTICLE{...,
         author = ...
         ...
      }
 
-The only required fields are ``name``, ``category`` (which should match the containing folder), and ``text``. So in reality you can write a file that looks like:
+or AAS facility keywords (for observatories):
 
-    name: The Name Here
-    category: codes
-    tags:
-    text: This is the acknowledgment
-    url:
-    dependencies:
-    bibtex:
+    facilities: \facility{Infrared Telescope Facility}
 
-The ``dependencies`` field should contain a YAML list of other acknowledgments that should be automatically included (not yet functional in the web interface).
+If you are not familiar with git, you should be able to add the files via the
+GitHub interface. Simply navigate to the right directory, then click on the
+following + symbol:
 
-The ``bibtex`` entry should contain the BibTeX code required for any citations in the acknowledgment (not yet functional in the web interface). You should indent the whole BibTeX entry by one space.
+![add_file.png](add_file.png)
 
-You can either open a pull request to add files (if you are familiar with the process) or just send them to me by email (thomas.robitaille@gmail.com).
+This will then automatically open a pull request. You can also just send me any
+file by email (thomas.robitaille@gmail.com).
+
+### Contributing to the interface
+
+There are a number of issues open relating to the interface - you can find
+these [here](https://github.com/astrofrog/acknowledgment-generator/issues). I
+am still learning Javascript, so I am making slow progress, and any help is
+highly welcome! Many of these issues are easy low-hanging fruit.
 
 Contributors
 ------------
