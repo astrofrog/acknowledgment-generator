@@ -4,6 +4,9 @@ tags: java, catalogs, tables
 text: >
   This research made use of TOPCAT, an interactive graphical viewer and editor
   for tabular data (Taylor, 2005).
+latex: >
+  This research made use of TOPCAT, an interactive graphical viewer and editor
+  for tabular data \citep{2005ASPC..347...29T}.
 url: http://www.star.bris.ac.uk/~mbt/topcat/
 dependencies:
 bibtex: >
