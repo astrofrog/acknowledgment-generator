@@ -57,6 +57,43 @@
                 "text": "This research made use of Astropy, a community-developed core Python package for Astronomy (Astropy Collaboration, 2013).",
                 "url": "http://www.astropy.org"
             },
+            "matplotlib": {
+                "bibtex": "@Article{Hunter:2007, Author    = {Hunter, J. D.}, Title     = {Matplotlib: A 2D graphics environment}, Journal   = {Computing In Science \\& Engineering}, Volume    = {9}, Number    = {3}, Pages     = {90--95}, abstract  = {Matplotlib is a 2D graphics package used for Python for application development, interactive scripting, and publication-quality image generation across user interfaces and operating systems.}, publisher = {IEEE COMPUTER SOC}, year      = 2007 } \n",
+                "category": "codes",
+                "latex": "This research made use of matplotlib, a Python library for publication quality graphics \\citep{Hunter:2007}.",
+                "name": "Matplotlib",
+                "tags": "python",
+                "text": "This research made use of matplotlib, a Python library for publication quality graphics (Hunter 2007).",
+                "url": "http://www.matplotlib.org"
+            },
+            "mayavi": {
+                "bibtex": "@article{ramachandran_mayavi_2011,\n    title = {Mayavi: 3D Visualization of Scientific Data},\n    volume = {13},\n    issn = {1521-9615},\n    shorttitle = {Mayavi},\n    url = {http://scitation.aip.org/content/aip/journal/cise/13/2/10.1109/MCSE.2011.35},\n    doi = {10.1109/MCSE.2011.35},\n    number = {2},\n    urldate = {2014-04-01},\n    journal = {Computing in Science \\& Engineering},\n    author = {Ramachandran, Prabhu and Varoquaux, Gael},\n    month = mar,\n    year = {2011},\n    pages = {40--51}\n}\n",
+                "category": "codes",
+                "latex": "This research has made use of Mayavi 3D scientific data visualization and plotting in Python \\citep{ramachandran_mayavi_2011}.",
+                "name": "Mayavi2",
+                "tags": "python",
+                "text": "This research has made use of Mayavi 3D scientific data visualization and plotting in Python (Ramachandran & Varoquaux 2011).",
+                "url": "http://code.enthought.com/projects/mayavi/"
+            },
+            "scipy": {
+                "bibtex": "@misc{jones_scipy:_2001,\n    title = {{SciPy}: Open source scientific tools for Python},\n    url = {http://www.scipy.org/},\n    collaborator = {Jones, E. and Oliphant, T. and Peterson, P. and Others},\n    year = {2001}\n}\n",
+                "category": "codes",
+                "latex": "This research made use of SciPy \\citep{jones_scipy_2001}.",
+                "name": "SciPy",
+                "tags": "python",
+                "text": "This research made use of SciPy (Jones et al. 2001).",
+                "url": "http://www.scipy.org/"
+            },
+            "sunpy": {
+                "bibtex": "@InProceedings{ mumford-proc-scipy-2013,\n    author    = { Stuart Mumford and David P\\'erez-Su\\'arez and Steven Christe and Florian Mayer and Russell J. Hewett },\n    title     = { SunPy: Python for Solar Physicists },\n    booktitle = { Proceedings of the 12th Python in Science Conference },\n    pages     = { 74 - 77 },\n    year      = { 2013 },\n    editor    = { St\\'efan van der Walt and Jarrod Millman and Katy Huff }\n}\n",
+                "category": "codes",
+                "dependencies": "astropy",
+                "latex": "This research has made use of SunPy, an open-source and free community-developed solar data analysis package written in Python \\citep{mumford-proc-scipy-2013}.",
+                "name": "SunPy",
+                "tags": "python",
+                "text": "This research has made use of SunPy, an open-source and free community-developed solar data analysis package written in Python (Mumford et. al 2013).",
+                "url": "http://www.sunpy.org"
+            },
             "topcat": {
                 "bibtex": "@INPROCEEDINGS{2005ASPC..347...29T,\n   author = {{Taylor}, M.~B.},\n   title = \"{TOPCAT {\\amp} STIL: Starlink Table/VOTable Processing Software}\",\n   booktitle = {Astronomical Data Analysis Software and Systems XIV},\n   year = 2005,\n   series = {Astronomical Society of the Pacific Conference Series},\n   volume = 347,\n   editor = {{Shopbell}, P. and {Britton}, M. and {Ebert}, R.},\n   month = dec,\n   pages = {29},\n   adsurl = {http://adsabs.harvard.edu/abs/2005ASPC..347...29T},\n   adsnote = {Provided by the SAO/NASA Astrophysics Data System}}\n",
                 "category": "codes",
