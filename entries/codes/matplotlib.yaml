@@ -1,8 +1,8 @@
-name: matplotlib
+name: Matplotlib
 category: codes
 tags: python
-text: This research made use of matplotlib,  a library for plotting and graphics (Hunter 2007).
-latex: This research made use of matplotlib, a library for plotting and graphics \citep{Hunter:2007}.
+text: This research made use of matplotlib, a Python library for publication quality graphics (Hunter 2007).
+latex: This research made use of matplotlib, a Python library for publication quality graphics \citep{Hunter:2007}.
 url: http://www.matplotlib.org
 dependencies:
 bibtex: >
