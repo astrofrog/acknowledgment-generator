@@ -1,0 +1,14 @@
+name: scipy
+category: codes
+tags: python
+text: This research made use of SciPy (Jones et al. 2001).
+latex: This research made use of SciPy \citep{jones_scipy_2001}.
+url: http://www.scipy.org/
+dependencies:
+bibtex: >
+    @misc{jones_scipy:_2001,
+        title = {{SciPy}: Open source scientific tools for Python},
+        url = {http://www.scipy.org/},
+        collaborator = {Jones, E. and Oliphant, T. and Peterson, P. and Others},
+        year = {2001}
+    }
