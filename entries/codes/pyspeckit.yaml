@@ -1,0 +1,14 @@
+name: pyspeckit
+category: codes
+tags: 
+text: This research made use of pyspeckit, an open-source spectral analysis and
+      plotting package for Python hosted at pyspeckit.bitbucket.org.
+url: https://github.com/pyspeckit/pyspeckit
+dependencies: 
+bibtex: @article{Ginsburg2011c,
+	Author = {{Ginsburg}, A. and {Mirocha}, J.},
+	Journal = {Astrophysics Source Code Library},
+	Month = sep,
+	Pages = {9001},
+	Title = {{PySpecKit: Python Spectroscopic Toolkit}},
+	Year = 2011}
