@@ -75,6 +75,13 @@
                 "text": "This research has made use of Mayavi 3D scientific data visualization and plotting in Python (Ramachandran & Varoquaux 2011).",
                 "url": "http://code.enthought.com/projects/mayavi/"
             },
+            "pyspeckit": {
+                "bibtex": "@article{Ginsburg2011c, Author = {{Ginsburg}, A. and {Mirocha}, J.}, Journal = {Astrophysics Source Code Library}, Month = sep, Pages = {9001}, Title = {{PySpecKit: Python Spectroscopic Toolkit}}, Year = 2011}\n",
+                "category": "codes",
+                "name": "pyspeckit",
+                "text": "This research made use of pyspeckit, an open-source spectral analysis and plotting package for Python hosted at pyspeckit.bitbucket.org.",
+                "url": "https://github.com/pyspeckit/pyspeckit"
+            },
             "scipy": {
                 "bibtex": "@misc{jones_scipy:_2001,\n    title = {{SciPy}: Open source scientific tools for Python},\n    url = {http://www.scipy.org/},\n    collaborator = {Jones, E. and Oliphant, T. and Peterson, P. and Others},\n    year = {2001}\n}\n",
                 "category": "codes",
@@ -173,6 +180,12 @@
                 "category": "facilities",
                 "name": "NRAO",
                 "text": "The National Radio Astronomy Observatory is a facility of the National Science Foundation operated under cooperative agreement by Associated Universities, Inc."
+            },
+            "oanspm": {
+                "category": "facilities",
+                "name": "OAN-SPM",
+                "text": "Based upon observations acquired at the Observatorio Astron\u00f3mico Nacional in the Sierra San Pedro M\u00e1rtir (OAN-SPM), Baja California, M\u00e9xico.",
+                "url": "http://www.astrossp.unam.mx"
             },
             "salt": {
                 "category": "facilities",
