@@ -1,0 +1,8 @@
+name: pyspeckit
+category: codes
+tags: 
+text: This research made use of pyspeckit, an open-source spectral analysis and
+      plotting package for Python hosted at pyspeckit.bitbucket.org.
+url: https://github.com/pyspeckit/pyspeckit
+dependencies: 
+bibtex: @misc{Adam Ginsburg, Jordan Mirocha, Miguel de Val-Borro, Erik Rosolowsky, Thomas Robitaille, Erik Tollerud_2014, title={pyspeckit: Zenodo - intermediate release to get a zenodo tag}, url={http://dx.doi.org/10.5281/zenodo.12490}, DOI={10.5281/zenodo.12490}, publisher={ZENODO}, author={Adam Ginsburg, Jordan Mirocha, Miguel de Val-Borro, Erik Rosolowsky, Thomas Robitaille, Erik Tollerud}, year={2014}}
