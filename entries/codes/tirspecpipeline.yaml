@@ -6,18 +6,18 @@ latex: TIRSPEC NIR Imager and Spectrometer data were reduced using TIRSPEC pipel
 url: https://indiajoe.github.io/TIRSPEC/
 dependencies: astropy, scipy, numpy, SExtractor, PyRAF, IRAF
 bibtex: >
-    @article{ninan_tirspec:_2014,
-	title = {{TIRSPEC}: {TIFR} Near Infrared Spectrometer and Imager},
-	issn = {2251-1717, 2251-1725},
-	shorttitle = {{TIRSPEC}},
-	url = {http://www.worldscientific.com/doi/abs/10.1142/S2251171714500068},
-	doi = {10.1142/S2251171714500068},
-	language = {en},
-	urldate = {2014-11-20},
-	journal = {Journal of Astronomical Instrumentation},
-	author = {Ninan, J. P. and Ojha, D. K. and Ghosh, S. K. and D'Costa, S. L. A. and Naik, M. B. and Poojary, S. S. and Sandimani, P. R. and Meshram, G. S. and Jadhav, R. B. and Bhagat, S. B. and Gharat, S. M. and Bakalkar, C. B. and Prabhu, T. P. and Anupama, G. C. and Toomey, D. W.},
-	month = nov,
-	year = {2014},
-	note = {00000},
-	pages = {1450006},
-}
+  @article{ninan_tirspec:_2014,
+  title = {{TIRSPEC}: {TIFR} Near Infrared Spectrometer and Imager},
+  issn = {2251-1717, 2251-1725},
+  shorttitle = {{TIRSPEC}},
+  url = {http://www.worldscientific.com/doi/abs/10.1142/S2251171714500068},
+  doi = {10.1142/S2251171714500068},
+  language = {en},
+  urldate = {2014-11-20},
+  journal = {Journal of Astronomical Instrumentation},
+  author = {Ninan, J. P. and Ojha, D. K. and Ghosh, S. K. and D'Costa, S. L. A. and Naik, M. B. and Poojary, S. S. and Sandimani, P. R. and Meshram, G. S. and Jadhav, R. B. and Bhagat, S. B. and Gharat, S. M. and Bakalkar, C. B. and Prabhu, T. P. and Anupama, G. C. and Toomey, D. W.},
+  month = nov,
+  year = {2014},
+  note = {00000},
+  pages = {1450006},
+  }

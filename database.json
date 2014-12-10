@@ -57,6 +57,15 @@
                 "text": "This research made use of Astropy, a community-developed core Python package for Astronomy (Astropy Collaboration, 2013).",
                 "url": "http://www.astropy.org"
             },
+            "iraf": {
+                "bibtex": "@INPROCEEDINGS{1993ASPC...52..173T, author = {{Tody}, D.}, title = \"{IRAF in the Nineties}\", booktitle = {Astronomical Data Analysis Software and Systems II}, year = 1993, series = {Astronomical Society of the Pacific Conference Series}, volume = 52, editor = {{Hanisch}, R.~J. and {Brissenden}, R.~J.~V. and {Barnes}, J.}, month = jan, pages = {173}, adsurl = {http://adsabs.harvard.edu/abs/1993ASPC...52..173T}, adsnote = {Provided by the SAO/NASA Astrophysics Data System} }\n",
+                "category": "codes",
+                "latex": "IRAF is distributed by the National Optical Astronomy Observatory, which is operated by the Association of Universities for Research in Astronomy (AURA) under cooperative agreement with the National Science Foundation \\citep{1993ASPC...52..173T}.",
+                "name": "IRAF",
+                "tags": "iraf",
+                "text": "IRAF is distributed by the National Optical Astronomy Observatory, which is operated by the Association of Universities for Research in Astronomy (AURA) under cooperative agreement with the National Science Foundation.",
+                "url": "http://iraf.noao.edu/"
+            },
             "matplotlib": {
                 "bibtex": "@Article{Hunter:2007, Author    = {Hunter, J. D.}, Title     = {Matplotlib: A 2D graphics environment}, Journal   = {Computing In Science \\& Engineering}, Volume    = {9}, Number    = {3}, Pages     = {90--95}, abstract  = {Matplotlib is a 2D graphics package used for Python for application development, interactive scripting, and publication-quality image generation across user interfaces and operating systems.}, publisher = {IEEE COMPUTER SOC}, year      = 2007 } \n",
                 "category": "codes",
@@ -74,6 +83,14 @@
                 "tags": "python",
                 "text": "This research has made use of Mayavi 3D scientific data visualization and plotting in Python (Ramachandran & Varoquaux 2011).",
                 "url": "http://code.enthought.com/projects/mayavi/"
+            },
+            "pyraf": {
+                "category": "codes",
+                "latex": "PyRAF is a product of the Space Telescope Science Institute, which is operated by AURA for NASA.",
+                "name": "PyRAF",
+                "tags": "python",
+                "text": "PyRAF is a product of the Space Telescope Science Institute, which is operated by AURA for NASA.",
+                "url": "http://www.stsci.edu/institute/software_hardware/pyraf/"
             },
             "pyspeckit": {
                 "bibtex": "@article{Ginsburg2011c, Author = {{Ginsburg}, A. and {Mirocha}, J.}, Journal = {Astrophysics Source Code Library}, Month = sep, Pages = {9001}, Title = {{PySpecKit: Python Spectroscopic Toolkit}}, Year = 2011}\n",
@@ -100,6 +117,16 @@
                 "tags": "python",
                 "text": "This research has made use of SunPy, an open-source and free community-developed solar data analysis package written in Python (Mumford et. al 2013).",
                 "url": "http://www.sunpy.org"
+            },
+            "tirspecpipeline": {
+                "bibtex": "@article{ninan_tirspec:_2014, title = {{TIRSPEC}: {TIFR} Near Infrared Spectrometer and Imager}, issn = {2251-1717, 2251-1725}, shorttitle = {{TIRSPEC}}, url = {http://www.worldscientific.com/doi/abs/10.1142/S2251171714500068}, doi = {10.1142/S2251171714500068}, language = {en}, urldate = {2014-11-20}, journal = {Journal of Astronomical Instrumentation}, author = {Ninan, J. P. and Ojha, D. K. and Ghosh, S. K. and D'Costa, S. L. A. and Naik, M. B. and Poojary, S. S. and Sandimani, P. R. and Meshram, G. S. and Jadhav, R. B. and Bhagat, S. B. and Gharat, S. M. and Bakalkar, C. B. and Prabhu, T. P. and Anupama, G. C. and Toomey, D. W.}, month = nov, year = {2014}, note = {00000}, pages = {1450006}, }\n",
+                "category": "codes",
+                "dependencies": "astropy, scipy, numpy, SExtractor, PyRAF, IRAF",
+                "latex": "TIRSPEC NIR Imager and Spectrometer data were reduced using TIRSPEC pipeline \\citep{ninan_tirspec:_2014}.",
+                "name": "TIRSPECpipeline",
+                "tags": "python",
+                "text": "TIRSPEC NIR Imager and Spectrometer data were reduced using TIRSPEC pipeline (Ninan et. al 2014).",
+                "url": "https://indiajoe.github.io/TIRSPEC/"
             },
             "topcat": {
                 "bibtex": "@INPROCEEDINGS{2005ASPC..347...29T,\n   author = {{Taylor}, M.~B.},\n   title = \"{TOPCAT {\\amp} STIL: Starlink Table/VOTable Processing Software}\",\n   booktitle = {Astronomical Data Analysis Software and Systems XIV},\n   year = 2005,\n   series = {Astronomical Society of the Pacific Conference Series},\n   volume = 347,\n   editor = {{Shopbell}, P. and {Britton}, M. and {Ebert}, R.},\n   month = dec,\n   pages = {29},\n   adsurl = {http://adsabs.harvard.edu/abs/2005ASPC..347...29T},\n   adsnote = {Provided by the SAO/NASA Astrophysics Data System}}\n",
