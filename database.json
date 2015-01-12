@@ -19,6 +19,18 @@
                 "text": "This research has made use of the AstroBetter blog and wiki.",
                 "url": "http://www.astrobetter.com"
             },
+            "irsa": {
+                "category": "web_services",
+                "name": "IRSA",
+                "text": "This research has made use of the NASA/IPAC Infrared Science Archive, which is operated by the Jet Propulsion Laboratory, California Institute of Technology, under contract with the National Aeronautics and Space Administration.",
+                "url": "http://irsa.ipac.caltech.edu/frontpage/"
+            },
+            "mast": {
+                "category": "web_services",
+                "name": "MAST",
+                "text": "Some/all of the data presented in this paper were obtained from the Mikulski Archive for Space Telescopes (MAST). STScI is operated by the Association of Universities for Research in Astronomy, Inc., under NASA contract NAS5-26555. Support for MAST for non-HST data is provided by the NASA Office of Space Science via grant NNX13AC07G and by other grants and contracts.",
+                "url": "https://archive.stsci.edu"
+            },
             "ned": {
                 "category": "web_services",
                 "name": "NED",
@@ -56,6 +68,15 @@
                 "tags": "python",
                 "text": "This research made use of Astropy, a community-developed core Python package for Astronomy (Astropy Collaboration, 2013).",
                 "url": "http://www.astropy.org"
+            },
+            "ipython": {
+                "bibtex": "@Article{PER-GRA:2007, Author    = {P\\'erez, Fernando and Granger, Brian E.}, Title     = {{IP}ython: a System for Interactive Scientific Computing}, Journal   = {Computing in Science and Engineering}, Volume    = {9}, Number    = {3}, Pages     = {21--29}, month     = may, year      = 2007, url       = \"http://ipython.org\", ISSN      = \"1521-9615\", doi       = {10.1109/MCSE.2007.53}, publisher = {IEEE Computer Society}, }\n",
+                "category": "codes",
+                "latex": "This work made use of the IPython package \\citep{PER_GRA:2007}.",
+                "name": "IPython",
+                "tags": "ipython",
+                "text": "This work made use of the IPython package.",
+                "url": "http://ipython.org"
             },
             "iraf": {
                 "bibtex": "@INPROCEEDINGS{1993ASPC...52..173T, author = {{Tody}, D.}, title = \"{IRAF in the Nineties}\", booktitle = {Astronomical Data Analysis Software and Systems II}, year = 1993, series = {Astronomical Society of the Pacific Conference Series}, volume = 52, editor = {{Hanisch}, R.~J. and {Brissenden}, R.~J.~V. and {Barnes}, J.}, month = jan, pages = {173}, adsurl = {http://adsabs.harvard.edu/abs/1993ASPC...52..173T}, adsnote = {Provided by the SAO/NASA Astrophysics Data System} }\n",
