@@ -2,7 +2,7 @@ name: IPython
 category: codes
 tags: ipython
 text: This work made use of the IPython package.
-latex: This work made use of the IPython package \citep{PER_GRA:2007}.
+latex: This work made use of the IPython package \citep{PER-GRA:2007}.
 url: http://ipython.org
 dependencies:
 bibtex: >
