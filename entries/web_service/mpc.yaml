@@ -1,0 +1,7 @@
+name: Minor Planet & Comet Ephemeris Service
+category: web_services
+tags:
+text: This research has made use of the Minor Planet & Comet Ephemeris Service (IAU Minor Planet Center)
+url: http://www.minorplanetcenter.net/iau/MPEph/MPEph.html
+dependencies:
+bibtex: 
