@@ -212,6 +212,11 @@
     },
     {
         "content": {
+            "alma": {
+                "category": "facilities",
+                "name": "ALMA",
+                "text": "This paper makes use of the following ALMA data: ADS/JAO.ALMA#<span class='replace'>2011.0.01234.S</span>. ALMA is a partnership of ESO (representing its member states), NSF (USA) and NINS (Japan), together with NRC (Canada) and NSC and ASIAA (Taiwan), in cooperation with the Republic of Chile. The Joint ALMA Observatory is operated by ESO, AUI/NRAO and NAOJ."
+            },
             "hinode": {
                 "category": "facilities",
                 "name": "Hinode",

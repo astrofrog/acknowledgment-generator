@@ -95,3 +95,8 @@ li {
 	height: 15px;
 	margin-right: 3px;
 }
+
+.replace {
+	background-color: #dfebff;
+	padding: 2px;
+}

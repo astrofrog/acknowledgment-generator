@@ -154,6 +154,8 @@ function show_acknowledgment(data) {
     document.getElementById("ack_facilities").innerHTML = "";
   }
 
+  // Add title text to any sections that need replacement
+  jQuery('.replace').attr('title','This is a placeholder and should be replaced');
 
 }
 
