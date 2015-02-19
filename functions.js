@@ -12,9 +12,10 @@ function show_checkboxes(data) {
 
   for (var i = 0; i < data.length; i++) {
 
-    category = data[i]
+    category = data[i];
 
-    content += '<h3 class="expandable"><img class="triangle" src="right.png">' + category.title + '</h3>\n<div class="options"><ul>'
+    content += '<h3 class="expandable"><img class="triangle" src="right.png">' + category.title + '</h3>\n';
+    content += '<div class="options"><ul>';
 
     for (var short_name in category.content) {
       content += '<li><input type="checkbox" name="checkbox_' + category.short
@@ -29,8 +30,8 @@ function show_checkboxes(data) {
         content += category.content[short_name].name + '\n';
       }
     }
-
-    content += '</div></ul>'
+    content += '</ul></div>'
+    jQuery('#delim').on('change',function(){ box_checked(); });
 
   }
 
@@ -78,7 +79,7 @@ function show_acknowledgment(data) {
   var textA = [];
   var textB = [];
   var madeuseof = "made use of";
-  var delim = ";";
+  var delim = (jQuery('#delim').length == 1) ? jQuery('#delim').val() : ";";
 
   for (var i = 0; i < data.length; i++) {
 
