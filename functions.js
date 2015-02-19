@@ -1,26 +1,36 @@
 // I have not written Javascript before so any comments welcome :)
 
 // Load JSON database of acknowledgments
-$.getJSON("database.json", show_checkboxes);
+$.getJSON("database.json", init);
 
-function show_checkboxes(data) {
-  // Display the checkboxes for the provided JSON data
+// Initialize the main function with the data we've loaded
+function init(data){
+	var cite = new Citation(data);
+}
+
+// Main function to store the data so we don't have to keep requesting it
+function Citation(data){
+	this.data = data;
+	this.show_checkboxes().show_acknowledgment();
+	return this;
+}
+
+// Display the checkboxes for the provided JSON data
+Citation.prototype.show_checkboxes = function(){
 
   // var checkedBoxes = get_checked_boxes("checkbox_options");
 
   content = ""
 
-  for (var i = 0; i < data.length; i++) {
+  for (var i = 0; i < this.data.length; i++) {
 
-    category = data[i];
+    category = this.data[i];
 
     content += '<h3 class="expandable"><img class="triangle" src="right.png">' + category.title + '</h3>\n';
     content += '<div class="options"><ul>';
 
     for (var short_name in category.content) {
-      content += '<li><input type="checkbox" name="checkbox_' + category.short
-                 + '" value="' + short_name
-                 + '" onchange="box_checked()">'
+      content += '<li><input type="checkbox" name="checkbox_' + category.short + '" value="' + short_name + '">'
 
       if(typeof(category.content[short_name].url) != 'undefined') {
         content += '<a href="' + category.content[short_name].url + '">'
@@ -30,12 +40,18 @@ function show_checkboxes(data) {
         content += category.content[short_name].name + '\n';
       }
     }
-    content += '</ul></div>'
+    content += '</ul></div>';
     jQuery('#delim').on('change',function(){ box_checked(); });
 
   }
 
+  // Add the HTML content to the page
   document.getElementById("main_check").innerHTML = content;
+
+  // Add the change event to all the added checkboxes
+  jQuery('#main_check li input[type=checkbox]').on('change',{citation:this},function(e){
+  	e.data.citation.box_checked();
+  });
 
   jQuery(document).ready(function(){
     $('.expandable').click(function() {
@@ -49,10 +65,12 @@ function show_checkboxes(data) {
         return false;
     }).next().hide();
   });
-
+  
+  return this;
 }
 
-function box_checked() {
+
+Citation.prototype.box_checked = function(){
 
   // // Resolve dependencies
   // var checkedBoxes = get_checked_boxes("checkbox_" + category.short);
@@ -61,11 +79,11 @@ function box_checked() {
   // }
   //
   // When a box gets checked, update the acknowledgment
-  $.getJSON("database.json", show_acknowledgment);
+  this.show_acknowledgment();
 
 }
 
-function show_acknowledgment(data) {
+Citation.prototype.show_acknowledgment = function() {
   // Display the acknowledgment corresponding to the checked boxes
 
   // Get this from latex checkbox
@@ -81,9 +99,9 @@ function show_acknowledgment(data) {
   var madeuseof = "made use of";
   var delim = (jQuery('#delim').length == 1) ? jQuery('#delim').val() : ";";
 
-  for (var i = 0; i < data.length; i++) {
+  for (var i = 0; i < this.data.length; i++) {
 
-    category = data[i];
+    category = this.data[i];
     
     var checkedBoxes = get_checked_boxes("checkbox_" + category.short);
     for (var j = 0; j < checkedBoxes.length; j++) {
@@ -157,6 +175,7 @@ function show_acknowledgment(data) {
   // Add title text to any sections that need replacement
   jQuery('.replace').attr('title','This is a placeholder and should be replaced');
 
+  return this;
 }
 
 
@@ -176,8 +195,4 @@ function get_checked_boxes(checkbox_name) {
   // Return the array if it is non-empty, or null
   return checkboxes_checked;
 }
-
-
-$.getJSON("database.json", show_acknowledgment);
-
 
