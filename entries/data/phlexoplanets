@@ -1,0 +1,8 @@
+name: The Habitable Exoplanets Catalog
+category: data
+tags:
+text: >
+PHL's Exoplanet Catalog of the Planetary Habitability Laboratory @ UPR Arecibo
+url: http://phl.upr.edu/hec
+dependencies:
+bibtex: 
