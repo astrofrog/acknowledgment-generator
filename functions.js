@@ -41,15 +41,13 @@ Citation.prototype.show_checkboxes = function(){
       }
     }
     content += '</ul></div>';
-    jQuery('#delim').on('change',function(){ box_checked(); });
-
   }
 
   // Add the HTML content to the page
   document.getElementById("main_check").innerHTML = content;
 
-  // Add the change event to all the added checkboxes
-  jQuery('#main_check li input[type=checkbox]').on('change',{citation:this},function(e){
+  // Add the change event to all the checkboxes
+  jQuery('#main_check li input[type=checkbox], #main_options li input[type=checkbox], #delim').on('change',{citation:this},function(e){
   	e.data.citation.box_checked();
   });
 
