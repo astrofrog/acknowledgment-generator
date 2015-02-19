@@ -2,7 +2,7 @@ name: CBAT List of Supernovae
 category: data
 tags:
 text: >
-The Central Bureau for Astronomical Telegrams (CBAT) operates under the auspices of Commission 6 of the International Astronomical Union (IAU)
+  The Central Bureau for Astronomical Telegrams (CBAT) operates under the auspices of Commission 6 of the International Astronomical Union (IAU)
 url: http://www.cbat.eps.harvard.edu/lists/Supernovae.html
 dependencies:
 bibtex:
