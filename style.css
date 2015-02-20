@@ -54,7 +54,7 @@ ul {
 }
 
 .options {
-width: 310px;
+	width: 310px;
 	text-align: left;
 }
 
@@ -95,6 +95,10 @@ li {
 	width: 15px;
 	height: 15px;
 	margin-right: 3px;
+}
+
+.expandable {
+	cursor: pointer;
 }
 
 .replace {
