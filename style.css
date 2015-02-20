@@ -54,12 +54,13 @@ ul {
 }
 
 .options {
-width: 310px;
+	width: 310px;
 	text-align: left;
 }
 
 ul {
 	margin: 0;
+	padding-left: 1em;
 }
 
 li {
@@ -94,4 +95,39 @@ li {
 	width: 15px;
 	height: 15px;
 	margin-right: 3px;
+}
+
+.expandable {
+	cursor: pointer;
+}
+
+.replace {
+	background-color: #dfebff;
+	padding: 2px;
+}
+
+#filter, #typeahead {
+	width: 180px;
+	font-size: 1em;
+}
+#typeahead {
+	background-color: #dfebff;
+}
+#typeahead ul {
+	margin: 0px;
+	padding: 1px;
+	max-height: 10em;
+	overflow-y: auto;
+}
+#typeahead li {
+	background-color: #efefef;
+}
+#typeahead li a {
+	display: block;
+	padding: 0.5em;
+	text-decoration: none;
+	color: black;
+}
+#typeahead li a:focus,#typeahead li a:hover,#typeahead li a.selected {
+	background-color: white;
 }
