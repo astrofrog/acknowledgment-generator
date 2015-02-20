@@ -21,6 +21,7 @@ Citation.prototype.show_checkboxes = function(){
   // var checkedBoxes = get_checked_boxes("checkbox_options");
 
   content = ""
+  this.checkboxes = [];
 
   for (var i = 0; i < this.data.length; i++) {
 
@@ -30,7 +31,9 @@ Citation.prototype.show_checkboxes = function(){
     content += '<div class="options"><ul>';
 
     for (var short_name in category.content) {
-      content += '<li><input type="checkbox" name="checkbox_' + category.short + '" value="' + short_name + '">'
+      content += '<li><input type="checkbox" name="checkbox_' + category.short + '" id="' + category.short + '_' + short_name+ '" value="' + short_name + '">';
+      // Keep a record of the checkboxes we are adding
+      this.checkboxes.push({'id':category.short+'_'+short_name,'value':short_name,'name':category.content[short_name].name});
 
       if(typeof(category.content[short_name].url) != 'undefined') {
         content += '<a href="' + category.content[short_name].url + '">'
@@ -64,9 +67,12 @@ Citation.prototype.show_checkboxes = function(){
     }).next().hide();
   });
   
+  $('#main_check').prepend('<h3><label for="filter">Search:</label> <input type="text" name="filter" id="filter" placeholder="Filter" /></h3>');
+
+  this.typeahead('filter');
+
   return this;
 }
-
 
 Citation.prototype.box_checked = function(){
 
@@ -176,6 +182,77 @@ Citation.prototype.show_acknowledgment = function() {
   return this;
 }
 
+// Build a typeahead search field attached to the element with ID=id
+Citation.prototype.typeahead = function(id){
+  var t = 'typeahead';
+  // We want to remove the suggestion box if we lose focus on the 
+  // input text field but not if the user is selecting from the list
+  this.typeaheadactive = true;
+  $('#'+t).on('mouseover',function(){ this.typeaheadactive = true; }).on('mouseout',function(){ this.typeaheadactive = false; });
+
+  $('#'+id).on('blur',{citation:this},function(e){
+    if(!e.data.citation.typeaheadactive) $('#'+t).html('').hide();
+  }).on('keyup',{citation:this},function(e){
+    // Once a key has been typed in the search field we process it
+    var s = $('#'+t+' a.selected');
+    var list = $('#'+t+' a');
+    if(e.keyCode==40 || e.keyCode==38){
+      // Up or down cursor keys
+      var i = 0;
+      // If an item is selected we move to the next one
+      if(s.length > 0){
+      	s.removeClass('selected');
+      	i = parseInt(s.attr('data'))+(e.keyCode==40 ? 1 : -1);
+      	if(i >= list.length) i = 0;
+      	if(i < 0) i = list.length-1;
+	  }
+	  // Select the new item
+      $(list[i]).addClass('selected');
+      // Update the search text
+      $(this).val(e.data.citation.results[i].name)
+    }else if(e.keyCode==13){
+      // The user has pressed return
+      if(s.length > 0) $(list[parseInt(s.attr('data'))]).trigger('click');
+      else $(list[0]).trigger('click');
+    }else{
+      var html = e.data.citation.search($(this).val());
+      $('#'+t).html(html).css({'position':'absolute','left':$(this).offset().left+'px','top':($(this).offset().top+$(this).outerHeight())+'px','width':$(this).outerWidth()+'px'}).show();
+      $('#'+t+' a:first').addClass('selected');
+      $('#'+t+' a').each(function(i){
+        $(this).on('click',{citation:e.data.citation,s:s,t:t,id:id},function(e){
+          e.preventDefault();
+          // Trigger the click event for the item
+          $('#'+e.data.citation.results[i].id).trigger('click');
+          // Remove the suggestion list
+          $('#'+e.data.t).html('').hide();
+          // Clear the search field
+          $('#'+e.data.id).val('');
+        });
+      
+      });
+    }
+  });
+  $('body').append('<div id="'+t+'"></div>');
+  $('#'+t).hide();
+}
+
+// Get an HTML list of items which match str
+Citation.prototype.search = function(str){
+	var results = [];
+	var html = "";
+	if(str){
+		for(var i = 0; i < this.checkboxes.length; i++){
+			if(this.checkboxes[i].name.toLowerCase().indexOf(str.toLowerCase())>=0) results.push(this.checkboxes[i])
+		}
+		html = '<ul>';
+		for(var i = 0; i < results.length; i++){
+			html += '<li><a href="" data="'+i+'">'+results[i].name+'</a></li>'
+		}
+		html += "</ul>";
+	}
+	this.results = results;
+	return html;
+}
 
 function get_checked_boxes(checkbox_name) {
   // Find all checked checkboxes
@@ -193,4 +270,5 @@ function get_checked_boxes(checkbox_name) {
   // Return the array if it is non-empty, or null
   return checkboxes_checked;
 }
+
 
