@@ -170,11 +170,28 @@
     },
     {
         "content": {
+            "3dhst": {
+                "bibtex": "@ARTICLE{2012ApJS..200...13B, author = {{Brammer}, G.~B. and {van Dokkum}, P.~G. and {Franx}, M. and  {Fumagalli}, M. and {Patel}, S. and {Rix}, H.-W. and {Skelton}, R.~E. and  {Kriek}, M. and {Nelson}, E. and {Schmidt}, K.~B. and {Bezanson}, R. and  {da Cunha}, E. and {Erb}, D.~K. and {Fan}, X. and {F{\\\"o}rster Schreiber}, N. and  {Illingworth}, G.~D. and {Labb{\\'e}}, I. and {Leja}, J. and  {Lundgren}, B. and {Magee}, D. and {Marchesini}, D. and {McCarthy}, P. and  {Momcheva}, I. and {Muzzin}, A. and {Quadri}, R. and {Steidel}, C.~C. and  {Tal}, T. and {Wake}, D. and {Whitaker}, K.~E. and {Williams}, A. }, title = \"{3D-HST: A Wide-field Grism Spectroscopic Survey with the Hubble Space Telescope}\", journal = {\\apjs}, archivePrefix = \"arXiv\", eprint = {1204.2829}, primaryClass = \"astro-ph.CO\", keywords = {galaxies: high-redshift, surveys}, year = 2012, month = jun, volume = 200, eid = {13}, pages = {13}, doi = {10.1088/0067-0049/200/2/13}, adsurl = {http://adsabs.harvard.edu/abs/2012ApJS..200...13B}, adsnote = {Provided by the SAO/NASA Astrophysics Data System} }  @ARTICLE{2014ApJS..214...24S, author = {{Skelton}, R.~E. and {Whitaker}, K.~E. and {Momcheva}, I.~G. and  {Brammer}, G.~B. and {van Dokkum}, P.~G. and {Labb{\\'e}}, I. and  {Franx}, M. and {van der Wel}, A. and {Bezanson}, R. and {Da Cunha}, E. and  {Fumagalli}, M. and {F{\\\"o}rster Schreiber}, N. and {Kriek}, M. and  {Leja}, J. and {Lundgren}, B.~F. and {Magee}, D. and {Marchesini}, D. and  {Maseda}, M.~V. and {Nelson}, E.~J. and {Oesch}, P. and {Pacifici}, C. and  {Patel}, S.~G. and {Price}, S. and {Rix}, H.-W. and {Tal}, T. and  {Wake}, D.~A. and {Wuyts}, S.}, title = \"{3D-HST WFC3-selected Photometric Catalogs in the Five CANDELS/3D-HST Fields: Photometry, Photometric Redshifts, and Stellar Masses}\", journal = {\\apjs}, archivePrefix = \"arXiv\", eprint = {1403.3689}, keywords = {catalogs, galaxies: evolution, galaxies: general, methods: data analysis, techniques: photometric}, year = 2014, month = oct, volume = 214, eid = {24}, pages = {24}, doi = {10.1088/0067-0049/214/2/24}, adsurl = {http://adsabs.harvard.edu/abs/2014ApJS..214...24S}, adsnote = {Provided by the SAO/NASA Astrophysics Data System} }\n",
+                "category": "data",
+                "name": "3D-HST",
+                "text": "This work is based on observations taken by the 3D-HST Treasury Program (GO 12177 and 12328) with the NASA/ESA HST, which is operated by the Association of Universities for Research in Astronomy, Inc., under NASA contract NAS5-26555."
+            },
+            "aegis": {
+                "category": "data",
+                "name": "AEGIS Survey",
+                "text": "This study makes use of data from AEGIS, a multiwavelength sky survey conducted with the Chandra, GALEX, Hubble, Keck, CFHT, MMT, Subaru, Palomar, Spitzer, VLA, and other telescopes and supported in part by the NSF, NASA, and the STFC."
+            },
             "cbat": {
                 "category": "data",
                 "name": "CBAT List of Supernovae",
                 "text": "The Central Bureau for Astronomical Telegrams (CBAT) operates under the auspices of Commission 6 of the International Astronomical Union (IAU)\n",
                 "url": "http://www.cbat.eps.harvard.edu/lists/Supernovae.html"
+            },
+            "cfhtls": {
+                "category": "data",
+                "name": "CFHTLS",
+                "text": "Based on observations obtained with MegaPrime/MegaCam, a joint project of CFHT and CEA/IRFU, at the Canada-France-Hawaii Telescope (CFHT) which is operated by the National Research Council (NRC) of Canada, the Institut National des Science de l'Univers of the Centre National de la Recherche Scientifique (CNRS) of France, and the University of Hawaii. This work is based in part on data products produced at Terapix available at the Canadian Astronomy Data Centre as part of the Canada-France-Hawaii Telescope Legacy Survey, a collaborative project of NRC and CNRS.",
+                "url": "http://www.cfht.hawaii.edu/Science/CFHLS/"
             },
             "deep2": {
                 "category": "data",
@@ -205,6 +222,11 @@
                 "category": "data",
                 "name": "SDSS-III",
                 "text": "Funding for SDSS-III has been provided by the Alfred P. Sloan Foundation, the Participating Institutions, the National Science Foundation, and the U.S. Department of Energy Office of Science. The SDSS-III web site is http://www.sdss3.org/. SDSS-III is managed by the Astrophysical Research Consortium for the Participating Institutions of the SDSS-III Collaboration including the University of Arizona, the Brazilian Participation Group, Brookhaven National Laboratory, University of Cambridge, Carnegie Mellon University, University of Florida, the French Participation Group, the German Participation Group, Harvard University, the Instituto de Astrofisica de Canarias, the Michigan State/Notre Dame/JINA Participation Group, Johns Hopkins University, Lawrence Berkeley National Laboratory, Max Planck Institute for Astrophysics, Max Planck Institute for Extraterrestrial Physics, New Mexico State University, New York University, Ohio State University, Pennsylvania State University, University of Portsmouth, Princeton University, the Spanish Participation Group, University of Tokyo, University of Utah, Vanderbilt University, University of Virginia, University of Washington, and Yale University.\n"
+            },
+            "wirds-wircam": {
+                "category": "data",
+                "name": "WIRDS-WIRCAM",
+                "text": "Based on observations obtained with WIRCam, a joint project of CFHT,Taiwan, Korea, Canada, France, at the Canada-France-Hawaii Telescope (CFHT) which is operated by the National Research Council (NRC) of Canada, the Institute National des Sciences de l'Univers of the Centre National de la Recherche Scientifique of France, and the University of Hawaii. This work is based in part on data products produced at TERAPIX, the WIRDS (WIRcam Deep Survey) consortium, and the Canadian Astronomy Data Centre. This research was supported by a grant from the Agence Nationale de la Recherche ANR-07-BLAN-0228"
             }
         },
         "short": "data",
@@ -247,6 +269,13 @@
                 "category": "facilities",
                 "name": "LBT",
                 "text": "The LBT is an international collaboration among institutions in the United States, Italy and Germany. The LBT Corporation partners are: The University of Arizona on behalf of the Arizona university system; Istituto Nazionale di Astrofisica, Italy; LBT Beteiligungsgesellschaft, Germany, representing the Max Planck Society, the Astrophysical Institute Potsdam, and Heidelberg University; The Ohio State University; The Research Corporation, on behalf of The University of Notre Dame, University of Minnesota and University of Virginia.\n"
+            },
+            "lcogt": {
+                "bibtex": "@ARTICLE{2013PASP..125.1031B, author = {{Brown}, T.~M. and {Baliber}, N. and {Bianco}, F.~B. and {Bowman}, M. and  {Burleson}, B. and {Conway}, P. and {Crellin}, M. and {Depagne}, {\\'E}. and  {De Vera}, J. and {Dilday}, B. and {Dragomir}, D. and {Dubberley}, M. and  {Eastman}, J.~D. and {Elphick}, M. and {Falarski}, M. and {Foale}, S. and  {Ford}, M. and {Fulton}, B.~J. and {Garza}, J. and {Gomez}, E.~L. and  {Graham}, M. and {Greene}, R. and {Haldeman}, B. and {Hawkins}, E. and  {Haworth}, B. and {Haynes}, R. and {Hidas}, M. and {Hjelstrom}, A.~E. and  {Howell}, D.~A. and {Hygelund}, J. and {Lister}, T.~A. and {Lobdill}, R. and  {Martinez}, J. and {Mullins}, D.~S. and {Norbury}, M. and {Parrent}, J. and  {Paulson}, R. and {Petry}, D.~L. and {Pickles}, A. and {Posner}, V. and  {Rosing}, W.~E. and {Ross}, R. and {Sand}, D.~J. and {Saunders}, E.~S. and  {Shobbrook}, J. and {Shporer}, A. and {Street}, R.~A. and {Thomas}, D. and  {Tsapras}, Y. and {Tufts}, J.~R. and {Valenti}, S. and {Vander Horst}, K. and  {Walker}, Z. and {White}, G. and {Willis}, M.}, title = \"{Las Cumbres Observatory Global Telescope Network}\", journal = {\\pasp}, archivePrefix = \"arXiv\", eprint = {1305.2437}, primaryClass = \"astro-ph.IM\", keywords = {Astronomical Instrumentation}, year = 2013, month = sep, volume = 125, pages = {1031-1055}, doi = {10.1086/673168}, adsurl = {http://adsabs.harvard.edu/abs/2013PASP..125.1031B}, adsnote = {Provided by the SAO/NASA Astrophysics Data System} }\n",
+                "category": "facilities",
+                "name": "LCOGT",
+                "text": "This work made use of observations from the LCOGT network.",
+                "url": "http://lcogt.net/"
             },
             "magellan": {
                 "category": "facilities",

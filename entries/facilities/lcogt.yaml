@@ -1,0 +1,37 @@
+name: LCOGT
+category: facilities
+tags: 
+text: This work made use of observations from the LCOGT network.
+url: http://lcogt.net/
+dependencies: 
+bibtex: >
+  @ARTICLE{2013PASP..125.1031B,
+  author = {{Brown}, T.~M. and {Baliber}, N. and {Bianco}, F.~B. and {Bowman}, M. and 
+  {Burleson}, B. and {Conway}, P. and {Crellin}, M. and {Depagne}, {\'E}. and 
+  {De Vera}, J. and {Dilday}, B. and {Dragomir}, D. and {Dubberley}, M. and 
+  {Eastman}, J.~D. and {Elphick}, M. and {Falarski}, M. and {Foale}, S. and 
+  {Ford}, M. and {Fulton}, B.~J. and {Garza}, J. and {Gomez}, E.~L. and 
+  {Graham}, M. and {Greene}, R. and {Haldeman}, B. and {Hawkins}, E. and 
+  {Haworth}, B. and {Haynes}, R. and {Hidas}, M. and {Hjelstrom}, A.~E. and 
+  {Howell}, D.~A. and {Hygelund}, J. and {Lister}, T.~A. and {Lobdill}, R. and 
+  {Martinez}, J. and {Mullins}, D.~S. and {Norbury}, M. and {Parrent}, J. and 
+  {Paulson}, R. and {Petry}, D.~L. and {Pickles}, A. and {Posner}, V. and 
+  {Rosing}, W.~E. and {Ross}, R. and {Sand}, D.~J. and {Saunders}, E.~S. and 
+  {Shobbrook}, J. and {Shporer}, A. and {Street}, R.~A. and {Thomas}, D. and 
+  {Tsapras}, Y. and {Tufts}, J.~R. and {Valenti}, S. and {Vander Horst}, K. and 
+  {Walker}, Z. and {White}, G. and {Willis}, M.},
+  title = "{Las Cumbres Observatory Global Telescope Network}",
+  journal = {\pasp},
+  archivePrefix = "arXiv",
+  eprint = {1305.2437},
+  primaryClass = "astro-ph.IM",
+  keywords = {Astronomical Instrumentation},
+  year = 2013,
+  month = sep,
+  volume = 125,
+  pages = {1031-1055},
+  doi = {10.1086/673168},
+  adsurl = {http://adsabs.harvard.edu/abs/2013PASP..125.1031B},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+  }
+  
