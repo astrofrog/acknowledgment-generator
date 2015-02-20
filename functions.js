@@ -1,8 +1,5 @@
 // I have not written Javascript before so any comments welcome :)
 
-// Load JSON database of acknowledgments
-$.getJSON("database.json", init);
-
 // Initialize the main function with the data we've loaded
 function init(data){
 	var cite = new Citation(data);
@@ -185,12 +182,22 @@ Citation.prototype.show_acknowledgment = function() {
 // Build a typeahead search field attached to the element with ID=id
 Citation.prototype.typeahead = function(id){
   var t = 'typeahead';
+
+  // Add the typeahead div and hide it
+  $('body').append('<div id="'+t+'"></div>');
+  $('#'+t).hide();
+
   // We want to remove the suggestion box if we lose focus on the 
   // input text field but not if the user is selecting from the list
   this.typeaheadactive = true;
-  $('#'+t).on('mouseover',function(){ this.typeaheadactive = true; }).on('mouseout',function(){ this.typeaheadactive = false; });
+  $('#'+t).on('mouseenter',{citation:this},function(e){
+    e.data.citation.typeaheadactive = true;
+  }).on('mouseleave',{citation:this},function(e){
+    e.data.citation.typeaheadactive = false;
+  });
 
   $('#'+id).on('blur',{citation:this},function(e){
+    // Lose the suggestion box if we've lost focus
     if(!e.data.citation.typeaheadactive) $('#'+t).html('').hide();
   }).on('keyup',{citation:this},function(e){
     // Once a key has been typed in the search field we process it
@@ -232,8 +239,6 @@ Citation.prototype.typeahead = function(id){
       });
     }
   });
-  $('body').append('<div id="'+t+'"></div>');
-  $('#'+t).hide();
 }
 
 // Get an HTML list of items which match str
@@ -271,4 +276,8 @@ function get_checked_boxes(checkbox_name) {
   return checkboxes_checked;
 }
 
+$(document).ready(function(){
+	// Load JSON database of acknowledgments
+	$.getJSON("database.json", init);
+})
 
