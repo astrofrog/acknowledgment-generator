@@ -67,5 +67,10 @@ highly welcome! Many of these issues are easy low-hanging fruit.
 Contributors
 ------------
 
+The following people have contributed to the concept/code:
+
 - Thomas Robitaille
 - Niall Deacon
+- Stuart Lowe
+
+A full list of contributors, which includes individuals that have contributed entries, can be found [here](https://github.com/astrofrog/acknowledgment-generator/graphs/contributors)
