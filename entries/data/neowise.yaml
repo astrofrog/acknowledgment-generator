@@ -1,0 +1,8 @@
+name: NEOWISE
+category: data
+tags:
+text: This publication also makes use of data products from NEOWISE, which is a project of the Jet Propulsion Laboratory/California Institute of Technology, funded by the Planetary Science Division of the National Aeronautics and Space Administration.
+url: 
+facilities: \facility{WISE}
+dependencies:
+bibtex: 
