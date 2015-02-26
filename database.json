@@ -49,6 +49,12 @@
                 "text": "This research has made use of the SIMBAD database, operated at CDS, Strasbourg, France.",
                 "url": "http://simbad.u-strasbg.fr/"
             },
+            "spex_prism": {
+                "category": "web_services",
+                "name": "SpeX Prism Library",
+                "text": "This research has benefitted from the SpeX Prism Spectral Libraries, maintained by Adam Burgasser at http://pono.ucsd.edu/~adam/browndwarfs/spexprism",
+                "url": "http://pono.ucsd.edu/~adam/browndwarfs/spexprism"
+            },
             "vizier": {
                 "category": "web_services",
                 "name": "VizieR",
@@ -170,6 +176,11 @@
     },
     {
         "content": {
+            "2mass": {
+                "category": "data",
+                "name": "2MASS",
+                "text": "This publication makes use of data products from the Two Micron All Sky Survey, which is a joint project of the University of Massachusetts and the Infrared Processing and Analysis Center/California Institute of Technology, funded by the National Aeronautics and Space Administration and the National Science Foundation."
+            },
             "3dhst": {
                 "bibtex": "@ARTICLE{2012ApJS..200...13B, author = {{Brammer}, G.~B. and {van Dokkum}, P.~G. and {Franx}, M. and  {Fumagalli}, M. and {Patel}, S. and {Rix}, H.-W. and {Skelton}, R.~E. and  {Kriek}, M. and {Nelson}, E. and {Schmidt}, K.~B. and {Bezanson}, R. and  {da Cunha}, E. and {Erb}, D.~K. and {Fan}, X. and {F{\\\"o}rster Schreiber}, N. and  {Illingworth}, G.~D. and {Labb{\\'e}}, I. and {Leja}, J. and  {Lundgren}, B. and {Magee}, D. and {Marchesini}, D. and {McCarthy}, P. and  {Momcheva}, I. and {Muzzin}, A. and {Quadri}, R. and {Steidel}, C.~C. and  {Tal}, T. and {Wake}, D. and {Whitaker}, K.~E. and {Williams}, A. }, title = \"{3D-HST: A Wide-field Grism Spectroscopic Survey with the Hubble Space Telescope}\", journal = {\\apjs}, archivePrefix = \"arXiv\", eprint = {1204.2829}, primaryClass = \"astro-ph.CO\", keywords = {galaxies: high-redshift, surveys}, year = 2012, month = jun, volume = 200, eid = {13}, pages = {13}, doi = {10.1088/0067-0049/200/2/13}, adsurl = {http://adsabs.harvard.edu/abs/2012ApJS..200...13B}, adsnote = {Provided by the SAO/NASA Astrophysics Data System} }  @ARTICLE{2014ApJS..214...24S, author = {{Skelton}, R.~E. and {Whitaker}, K.~E. and {Momcheva}, I.~G. and  {Brammer}, G.~B. and {van Dokkum}, P.~G. and {Labb{\\'e}}, I. and  {Franx}, M. and {van der Wel}, A. and {Bezanson}, R. and {Da Cunha}, E. and  {Fumagalli}, M. and {F{\\\"o}rster Schreiber}, N. and {Kriek}, M. and  {Leja}, J. and {Lundgren}, B.~F. and {Magee}, D. and {Marchesini}, D. and  {Maseda}, M.~V. and {Nelson}, E.~J. and {Oesch}, P. and {Pacifici}, C. and  {Patel}, S.~G. and {Price}, S. and {Rix}, H.-W. and {Tal}, T. and  {Wake}, D.~A. and {Wuyts}, S.}, title = \"{3D-HST WFC3-selected Photometric Catalogs in the Five CANDELS/3D-HST Fields: Photometry, Photometric Redshifts, and Stellar Masses}\", journal = {\\apjs}, archivePrefix = \"arXiv\", eprint = {1403.3689}, keywords = {catalogs, galaxies: evolution, galaxies: general, methods: data analysis, techniques: photometric}, year = 2014, month = oct, volume = 214, eid = {24}, pages = {24}, doi = {10.1088/0067-0049/214/2/24}, adsurl = {http://adsabs.harvard.edu/abs/2014ApJS..214...24S}, adsnote = {Provided by the SAO/NASA Astrophysics Data System} }\n",
                 "category": "data",
@@ -207,11 +218,29 @@
                 "text": "Extrasolar Planets Encyclopedia (Jean Schneider, CNRS/LUTH - Paris Observatory)\n",
                 "url": "http://exoplanets.eu/"
             },
+            "galex": {
+                "category": "data",
+                "facilities": "\\facility{WISE}",
+                "name": "GALEX",
+                "text": "Based on observations made with the NASA Galaxy Evolution Explorer. GALEX is operated for NASA by the California Institute of Technology under NASA contract NAS5-98034.\n"
+            },
+            "neowise": {
+                "category": "data",
+                "facilities": "\\facility{WISE}",
+                "name": "NEOWISE",
+                "text": "This publication also makes use of data products from NEOWISE, which is a project of the Jet Propulsion Laboratory/California Institute of Technology, funded by the Planetary Science Division of the National Aeronautics and Space Administration."
+            },
             "phlexoplanets": {
                 "category": "data",
                 "name": "The Habitable Exoplanets Catalog",
                 "text": "PHL's Exoplanet Catalog of the Planetary Habitability Laboratory @ UPR Arecibo\n",
                 "url": "http://phl.upr.edu/hec"
+            },
+            "rosat": {
+                "category": "data",
+                "facilities": "\\facility{ROSAT}",
+                "name": "ROSAT",
+                "text": "The ROSAT project was supported by the Ministerium f{\\\"u}r Bildung, Wissenschaft, Forschung und Technologie (BMBF/DARA) and by the Max-Planck-Gesellschaft."
             },
             "sdss": {
                 "category": "data",

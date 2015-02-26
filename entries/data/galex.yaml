@@ -1,8 +1,10 @@
 name: GALEX
 category: data
 tags:
-text: Based on observations made with the NASA Galaxy Evolution Explorer.
-GALEX is operated for NASA by the California Institute of Technology under NASA contract NAS5-98034.
+text: >
+  Based on observations made with the NASA Galaxy Evolution Explorer. GALEX
+  is operated for NASA by the California Institute of Technology under NASA
+  contract NAS5-98034.
 url: 
 facilities: \facility{WISE}
 dependencies:
