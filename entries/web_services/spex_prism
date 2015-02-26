@@ -1,0 +1,8 @@
+name: SpeX Prism Library
+category: web_services
+tags:
+text: This research has benefitted from the SpeX Prism Spectral Libraries, maintained by Adam Burgasser at http://pono.ucsd.edu/~adam/browndwarfs/spexprism
+url: http://pono.ucsd.edu/~adam/browndwarfs/spexprism
+facilities: 
+dependencies:
+bibtex: 
