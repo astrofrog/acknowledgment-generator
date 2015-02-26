@@ -1,0 +1,8 @@
+name: 2MASS
+category: data
+tags:
+text: This publication makes use of data products from the Two Micron All Sky Survey, which is a joint project of the University of Massachusetts and the Infrared Processing and Analysis Center/California Institute of Technology, funded by the National Aeronautics and Space Administration and the National Science Foundation.
+url: 
+facilities: 
+dependencies:
+bibtex: 
