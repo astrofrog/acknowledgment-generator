@@ -1,0 +1,8 @@
+name: ROSAT
+category: data
+tags:
+text: The ROSAT project was supported by the Ministerium f{\"u}r Bildung, Wissenschaft, Forschung und Technologie (BMBF/DARA) and by the Max-Planck-Gesellschaft.
+url: 
+facilities: \facility{ROSAT}
+dependencies:
+bibtex: 
