@@ -1,0 +1,7 @@
+name: WebPlotDigitizer
+category: web_services
+tags: 
+text: This paper made use of WebPlotDigitizer (http://arohatgi.info/WebPlotDigitizer/) by Ankit Rohatgi
+url: http://arohatgi.info/WebPlotDigitizer/
+dependencies: 
+bibtex: 
