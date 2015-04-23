@@ -1,0 +1,8 @@
+name: DCT
+category: facilities
+tags: 
+text: These results made use of Lowell Observatory’s Discovery Channel Telescope. Lowell is a private, non-profit institution dedicated to astrophysical research and public appreciation of astronomy and operates the DCT in partnership with Boston University, Northern Arizona University, the University of Maryland, and the University of Toledo. Partial support of this work has been provided by Discovery Communications.
+url: 
+dependencies: 
+bibtex: 
+facilities: \facility{DCT}
