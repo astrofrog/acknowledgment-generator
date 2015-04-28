@@ -1,7 +1,7 @@
 name: Chandra
 category: facilities
-tags: http://cxc.harvard.edu
+tags: 
 text: This research has made use of data obtained from the Chandra Data Archive and the Chandra Source Catalog, and software provided by the Chandra X-ray Center (CXC) in the application packages CIAO, ChIPS, and Sherpa.
-url: 
+url: http://cxc.harvard.edu
 dependencies: 
 bibtex: 
