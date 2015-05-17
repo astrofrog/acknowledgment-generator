@@ -1,8 +1,8 @@
 name: Mayavi2
 category: codes
 tags: python
-text: This research has made use of Mayavi 3D scientific data visualization and plotting in Python (Ramachandran & Varoquaux 2011).
-latex: This research has made use of Mayavi 3D scientific data visualization and plotting in Python \citep{ramachandran_mayavi_2011}.
+text: This research has made use of Mayavi 3D scientific data visualization and plotting in Python (Ramachandran & Varoquaux 2011)
+latex: This research has made use of Mayavi 3D scientific data visualization and plotting in Python \citep{ramachandran_mayavi_2011}
 url: http://code.enthought.com/projects/mayavi/ 
 dependencies:
 bibtex: >

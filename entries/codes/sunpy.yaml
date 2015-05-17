@@ -1,8 +1,14 @@
 name: SunPy
 category: codes
 tags: python
-text: This research has made use of SunPy, an open-source and free community-developed solar data analysis package written in Python (Mumford et. al 2013).
-latex: This research has made use of SunPy, an open-source and free community-developed solar data analysis package written in Python \citep{mumford-proc-scipy-2013}.
+text: >
+    This research has made use of SunPy, an open-source and free
+    community-developed solar data analysis package written in Python
+    (Mumford et. al 2013)
+latex: >
+    This research has made use of SunPy, an open-source and free
+    community-developed solar data analysis package written in Python
+    \citep{mumford-proc-scipy-2013}
 url: http://www.sunpy.org
 dependencies: astropy
 bibtex: >

@@ -1,8 +1,9 @@
 name: pyspeckit
 category: codes
 tags: 
-text: This research made use of pyspeckit, an open-source spectral analysis and
-      plotting package for Python hosted at pyspeckit.bitbucket.org.
+text: >
+    This research made use of pyspeckit, an open-source spectral analysis and
+    plotting package for Python hosted at http://pyspeckit.bitbucket.org
 url: https://github.com/pyspeckit/pyspeckit
 dependencies: 
 bibtex: >

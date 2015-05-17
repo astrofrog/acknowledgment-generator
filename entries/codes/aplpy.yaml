@@ -1,7 +1,7 @@
 name: APLpy
 category: codes
 tags: 
-text: This research made use of APLpy, an open-source plotting package for Python hosted at http://aplpy.github.com.
+text: This research made use of APLpy, an open-source plotting package for Python hosted at http://aplpy.github.com
 url: 
 dependencies: 
 bibtex: 

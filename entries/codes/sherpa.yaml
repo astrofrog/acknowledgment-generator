@@ -1,7 +1,7 @@
 name: Sherpa
 category: codes
 tags: fitting, modelling
-text: This research made use of Sherpa \citep{2001SPIE.4477...76F}.
+text: This research made use of Sherpa \citep{2001SPIE.4477...76F}
 url: http://cxc.harvard.edu/sherpa4.4/
 dependencies:
 bibtex: >

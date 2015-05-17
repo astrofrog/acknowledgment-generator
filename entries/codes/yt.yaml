@@ -1,8 +1,12 @@
 name: yt-project
 category: codes
 tags: python
-text: This research made use of the yt-project, a toolkit for analyzing and visualizing quantitative data (Turk 2011).
-latex: This research made use of the yt-project, a toolkit for analyzing and visualizing quantitative data \citep{Turk:2011}.
+text: >
+    This research made use of the yt-project, a toolkit for analyzing and
+    visualizing quantitative data (Turk 2011)
+latex: >
+    This research made use of the yt-project, a toolkit for analyzing and
+    visualizing quantitative data \citep{Turk:2011}
 url: http://yt-project.org/
 dependencies:
 bibtex: >

@@ -1,8 +1,12 @@
 name: TIRSPECpipeline
 category: codes
 tags: python
-text: TIRSPEC NIR Imager and Spectrometer data were reduced using TIRSPEC pipeline (Ninan et. al 2014).
-latex: TIRSPEC NIR Imager and Spectrometer data were reduced using TIRSPEC pipeline \citep{ninan_tirspec:_2014}.
+text: >
+    TIRSPEC NIR Imager and Spectrometer data were reduced using TIRSPEC
+    pipeline (Ninan et. al 2014)
+latex: >
+    TIRSPEC NIR Imager and Spectrometer data were reduced using TIRSPEC
+    pipeline \citep{ninan_tirspec:_2014}
 url: https://indiajoe.github.io/TIRSPEC/
 dependencies: astropy, scipy, numpy, SExtractor, PyRAF, IRAF
 bibtex: >

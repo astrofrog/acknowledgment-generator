@@ -1,8 +1,8 @@
 name: PyRAF
 category: codes
 tags: python
-text: PyRAF is a product of the Space Telescope Science Institute, which is operated by AURA for NASA.
-latex: PyRAF is a product of the Space Telescope Science Institute, which is operated by AURA for NASA.
+text: PyRAF is a product of the Space Telescope Science Institute, which is operated by AURA for NASA
+latex: PyRAF is a product of the Space Telescope Science Institute, which is operated by AURA for NASA
 url: http://www.stsci.edu/institute/software_hardware/pyraf/
 dependencies:
 bibtex:

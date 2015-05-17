@@ -1,8 +1,8 @@
 name: IRAF
 category: codes
 tags: iraf
-text: IRAF is distributed by the National Optical Astronomy Observatory, which is operated by the Association of Universities for Research in Astronomy (AURA) under cooperative agreement with the National Science Foundation.
-latex: IRAF is distributed by the National Optical Astronomy Observatory, which is operated by the Association of Universities for Research in Astronomy (AURA) under cooperative agreement with the National Science Foundation \citep{1993ASPC...52..173T}.
+text: IRAF is distributed by the National Optical Astronomy Observatory, which is operated by the Association of Universities for Research in Astronomy (AURA) under cooperative agreement with the National Science Foundation
+latex: IRAF is distributed by the National Optical Astronomy Observatory, which is operated by the Association of Universities for Research in Astronomy (AURA) under cooperative agreement with the National Science Foundation \citep{1993ASPC...52..173T}
 url: http://iraf.noao.edu/
 dependencies:
 bibtex: >

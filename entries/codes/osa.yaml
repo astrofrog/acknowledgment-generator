@@ -3,7 +3,7 @@ category: codes
 tags: gamma-ray, integral
 text: >
     This research made use of the Off-line Scientific Analysis (OSA) software
-    package \citep{2006SPIE.6270E..1VF}.
+    package \citep{2006SPIE.6270E..1VF}
 url: http://www.isdc.unige.ch/integral/analysis
 dependencies:
 bibtex: >

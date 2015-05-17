@@ -1,8 +1,8 @@
 name: SciPy
 category: codes
 tags: python
-text: This research made use of SciPy (Jones et al. 2001).
-latex: This research made use of SciPy \citep{jones_scipy_2001}.
+text: This research made use of SciPy (Jones et al. 2001)
+latex: This research made use of SciPy \citep{jones_scipy_2001}
 url: http://www.scipy.org/
 dependencies:
 bibtex: >
