@@ -6,11 +6,11 @@ text: >
     pipeline (Ninan et. al 2014)
 latex: >
     TIRSPEC NIR Imager and Spectrometer data were reduced using TIRSPEC
-    pipeline \citep{ninan_tirspec:_2014}
+    pipeline \citep{ninan_tirspec_2014}
 url: https://indiajoe.github.io/TIRSPEC/
 dependencies: astropy, scipy, numpy, SExtractor, PyRAF, IRAF
 bibtex: >
-  @article{ninan_tirspec:_2014,
+  @article{ninan_tirspec_2014,
   title = {{TIRSPEC}: {TIFR} Near Infrared Spectrometer and Imager},
   issn = {2251-1717, 2251-1725},
   shorttitle = {{TIRSPEC}},
