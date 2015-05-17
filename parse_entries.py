@@ -29,6 +29,9 @@ for category in CATEGORIES:
         for key in content:
             if content[key] is not None:
                 category_database['content'][short][key] = content[key]
+            else:
+                if key == 'text':
+                    raise ValueError("text field should not be empty: {0}".format(entry))
 
     database.append(category_database)
 

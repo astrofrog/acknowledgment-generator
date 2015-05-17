@@ -1,7 +1,7 @@
 name: OSA
 category: codes
 tags: gamma-ray, integral
-text: 
+text: This research made use of the Off-line Scientific Analysis (OSA) software package.
 url: http://www.isdc.unige.ch/integral/analysis
 dependencies:
 bibtex: >

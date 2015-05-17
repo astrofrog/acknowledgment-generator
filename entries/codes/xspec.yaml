@@ -1,7 +1,7 @@
 name: XSPEC
 category: codes
 tags: spectroscopy
-text: 
+text: This research made use of XSPEC.
 url: https://heasarc.gsfc.nasa.gov/xanadu/xspec/
 dependencies:
 bibtex: >

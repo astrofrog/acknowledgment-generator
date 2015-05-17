@@ -1,7 +1,7 @@
 name: Sherpa
 category: codes
 tags: fitting, modelling
-text: 
+text: This research made use of Sherpa.
 url: http://cxc.harvard.edu/sherpa4.4/
 dependencies:
 bibtex: >

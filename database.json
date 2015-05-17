@@ -142,6 +142,7 @@
                 "category": "codes",
                 "name": "OSA",
                 "tags": "gamma-ray, integral",
+                "text": "This research made use of the Off-line Scientific Analysis (OSA) software package.",
                 "url": "http://www.isdc.unige.ch/integral/analysis"
             },
             "pyraf": {
@@ -173,6 +174,7 @@
                 "category": "codes",
                 "name": "Sherpa",
                 "tags": "fitting, modelling",
+                "text": "This research made use of Sherpa.",
                 "url": "http://cxc.harvard.edu/sherpa4.4/"
             },
             "sunpy": {
@@ -209,6 +211,7 @@
                 "category": "codes",
                 "name": "XSPEC",
                 "tags": "spectroscopy",
+                "text": "This research made use of XSPEC.",
                 "url": "https://heasarc.gsfc.nasa.gov/xanadu/xspec/"
             },
             "yt": {
