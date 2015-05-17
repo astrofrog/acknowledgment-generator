@@ -98,7 +98,7 @@
                 "category": "codes",
                 "name": "CIAO",
                 "tags": "x-ray, chandra",
-                "text": "This research made use of the CIAO X-ray Analysis Software",
+                "text": "This research made use of the CIAO X-ray Analysis Software \\citep{2006SPIE.6270E..1VF}.\n",
                 "url": "http://cxc.harvard.edu/ciao/"
             },
             "ipython": {
@@ -142,7 +142,7 @@
                 "category": "codes",
                 "name": "OSA",
                 "tags": "gamma-ray, integral",
-                "text": "This research made use of the Off-line Scientific Analysis (OSA) software package.",
+                "text": "This research made use of the Off-line Scientific Analysis (OSA) software package \\citep{2006SPIE.6270E..1VF}.\n",
                 "url": "http://www.isdc.unige.ch/integral/analysis"
             },
             "pyraf": {
@@ -174,7 +174,7 @@
                 "category": "codes",
                 "name": "Sherpa",
                 "tags": "fitting, modelling",
-                "text": "This research made use of Sherpa.",
+                "text": "This research made use of Sherpa \\citep{2001SPIE.4477...76F}.",
                 "url": "http://cxc.harvard.edu/sherpa4.4/"
             },
             "sunpy": {
@@ -211,7 +211,7 @@
                 "category": "codes",
                 "name": "XSPEC",
                 "tags": "spectroscopy",
-                "text": "This research made use of XSPEC.",
+                "text": "This research made use of XSPEC \\citep{1996ASPC..101...17A}.",
                 "url": "https://heasarc.gsfc.nasa.gov/xanadu/xspec/"
             },
             "yt": {

@@ -1,7 +1,9 @@
 name: CIAO
 category: codes
 tags: x-ray, chandra
-text: This research made use of the CIAO X-ray Analysis Software
+text: >
+    This research made use of the CIAO X-ray Analysis Software
+    \citep{2006SPIE.6270E..1VF}.
 url: http://cxc.harvard.edu/ciao/
 dependencies:
 bibtex: >

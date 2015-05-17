@@ -1,7 +1,7 @@
 name: XSPEC
 category: codes
 tags: spectroscopy
-text: This research made use of XSPEC.
+text: This research made use of XSPEC \citep{1996ASPC..101...17A}.
 url: https://heasarc.gsfc.nasa.gov/xanadu/xspec/
 dependencies:
 bibtex: >
