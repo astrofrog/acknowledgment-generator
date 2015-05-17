@@ -1,7 +1,7 @@
 name: CIAO
 category: codes
 tags: x-ray, chandra
-text: 
+text: This research made use of the CIAO X-ray Analysis Software
 url: http://cxc.harvard.edu/ciao/
 dependencies:
 bibtex: >
