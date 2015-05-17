@@ -5,24 +5,24 @@ text:
 url: http://cxc.harvard.edu/ciao/
 dependencies:
 bibtex: >
-@INPROCEEDINGS{2006SPIE.6270E..1VF,
-   author = {{Fruscione}, A. and {McDowell}, J.~C. and {Allen}, G.~E. and 
-	{Brickhouse}, N.~S. and {Burke}, D.~J. and {Davis}, J.~E. and 
-	{Durham}, N. and {Elvis}, M. and {Galle}, E.~C. and {Harris}, D.~E. and 
-	{Huenemoerder}, D.~P. and {Houck}, J.~C. and {Ishibashi}, B. and 
-	{Karovska}, M. and {Nicastro}, F. and {Noble}, M.~S. and {Nowak}, M.~A. and 
-	{Primini}, F.~A. and {Siemiginowska}, A. and {Smith}, R.~K. and 
-	{Wise}, M.},
-    title = "{CIAO: Chandra's data analysis system}",
-booktitle = {Society of Photo-Optical Instrumentation Engineers (SPIE) Conference Series},
-     year = 2006,
-   series = {Society of Photo-Optical Instrumentation Engineers (SPIE) Conference Series},
-   volume = 6270,
-    month = jun,
-      eid = {62701V},
-    pages = {1},
-      doi = {10.1117/12.671760},
-   adsurl = {http://adsabs.harvard.edu/abs/2006SPIE.6270E..1VF},
-  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
-}
+    @INPROCEEDINGS{2006SPIE.6270E..1VF,
+       author = {{Fruscione}, A. and {McDowell}, J.~C. and {Allen}, G.~E. and 
+        {Brickhouse}, N.~S. and {Burke}, D.~J. and {Davis}, J.~E. and 
+        {Durham}, N. and {Elvis}, M. and {Galle}, E.~C. and {Harris}, D.~E. and 
+        {Huenemoerder}, D.~P. and {Houck}, J.~C. and {Ishibashi}, B. and 
+        {Karovska}, M. and {Nicastro}, F. and {Noble}, M.~S. and {Nowak}, M.~A. and 
+        {Primini}, F.~A. and {Siemiginowska}, A. and {Smith}, R.~K. and 
+        {Wise}, M.},
+        title = "{CIAO: Chandra's data analysis system}",
+    booktitle = {Society of Photo-Optical Instrumentation Engineers (SPIE) Conference Series},
+         year = 2006,
+       series = {Society of Photo-Optical Instrumentation Engineers (SPIE) Conference Series},
+       volume = 6270,
+        month = jun,
+          eid = {62701V},
+        pages = {1},
+          doi = {10.1117/12.671760},
+       adsurl = {http://adsabs.harvard.edu/abs/2006SPIE.6270E..1VF},
+      adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+    }
  

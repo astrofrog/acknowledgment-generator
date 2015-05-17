@@ -19,6 +19,12 @@
                 "text": "This research has made use of the AstroBetter blog and wiki.",
                 "url": "http://www.astrobetter.com"
             },
+            "hearsac": {
+                "category": "web_services",
+                "name": "HEARSAC",
+                "text": "This research has made use of data and/or software provided by the High Energy Astrophysics Science Archive Research Center (HEASARC), which is a service of the Astrophysics Science Division at NASA/GSFC and the High Energy Astrophysics Division of the Smithsonian Astrophysical Observatory.",
+                "url": "http://heasarc.gsfc.nasa.gov/docs/archive.html"
+            },
             "irsa": {
                 "category": "web_services",
                 "name": "IRSA",
@@ -60,6 +66,12 @@
                 "name": "VizieR",
                 "text": "This research has made use of the VizieR catalogue access tool, CDS, Strasbourg, France.",
                 "url": "http://vizier.u-strasbg.fr/viz-bin/VizieR"
+            },
+            "webplot": {
+                "category": "web_services",
+                "name": "WebPlotDigitizer",
+                "text": "This paper made use of WebPlotDigitizer (http://arohatgi.info/WebPlotDigitizer/) by Ankit Rohatgi",
+                "url": "http://arohatgi.info/WebPlotDigitizer/"
             }
         },
         "short": "web_services",
@@ -80,6 +92,13 @@
                 "tags": "python",
                 "text": "This research made use of Astropy, a community-developed core Python package for Astronomy (Astropy Collaboration, 2013).",
                 "url": "http://www.astropy.org"
+            },
+            "ciao": {
+                "bibtex": "@INPROCEEDINGS{2006SPIE.6270E..1VF,\n   author = {{Fruscione}, A. and {McDowell}, J.~C. and {Allen}, G.~E. and \n    {Brickhouse}, N.~S. and {Burke}, D.~J. and {Davis}, J.~E. and \n    {Durham}, N. and {Elvis}, M. and {Galle}, E.~C. and {Harris}, D.~E. and \n    {Huenemoerder}, D.~P. and {Houck}, J.~C. and {Ishibashi}, B. and \n    {Karovska}, M. and {Nicastro}, F. and {Noble}, M.~S. and {Nowak}, M.~A. and \n    {Primini}, F.~A. and {Siemiginowska}, A. and {Smith}, R.~K. and \n    {Wise}, M.},\n    title = \"{CIAO: Chandra's data analysis system}\",\nbooktitle = {Society of Photo-Optical Instrumentation Engineers (SPIE) Conference Series},\n     year = 2006,\n   series = {Society of Photo-Optical Instrumentation Engineers (SPIE) Conference Series},\n   volume = 6270,\n    month = jun,\n      eid = {62701V},\n    pages = {1},\n      doi = {10.1117/12.671760},\n   adsurl = {http://adsabs.harvard.edu/abs/2006SPIE.6270E..1VF},\n  adsnote = {Provided by the SAO/NASA Astrophysics Data System}\n}\n",
+                "category": "codes",
+                "name": "CIAO",
+                "tags": "x-ray, chandra",
+                "url": "http://cxc.harvard.edu/ciao/"
             },
             "ipython": {
                 "bibtex": "@Article{PER-GRA:2007, Author    = {P\\'erez, Fernando and Granger, Brian E.}, Title     = {{IP}ython: a System for Interactive Scientific Computing}, Journal   = {Computing in Science and Engineering}, Volume    = {9}, Number    = {3}, Pages     = {21--29}, month     = may, year      = 2007, url       = \"http://ipython.org\", ISSN      = \"1521-9615\", doi       = {10.1109/MCSE.2007.53}, publisher = {IEEE Computer Society}, }\n",
@@ -117,6 +136,13 @@
                 "text": "This research has made use of Mayavi 3D scientific data visualization and plotting in Python (Ramachandran & Varoquaux 2011).",
                 "url": "http://code.enthought.com/projects/mayavi/"
             },
+            "osa": {
+                "bibtex": "@INPROCEEDINGS{2006SPIE.6270E..1VF,\n   author = {{Fruscione}, A. and {McDowell}, J.~C. and {Allen}, G.~E. and \n    {Brickhouse}, N.~S. and {Burke}, D.~J. and {Davis}, J.~E. and \n    {Durham}, N. and {Elvis}, M. and {Galle}, E.~C. and {Harris}, D.~E. and \n    {Huenemoerder}, D.~P. and {Houck}, J.~C. and {Ishibashi}, B. and \n    {Karovska}, M. and {Nicastro}, F. and {Noble}, M.~S. and {Nowak}, M.~A. and \n    {Primini}, F.~A. and {Siemiginowska}, A. and {Smith}, R.~K. and \n    {Wise}, M.},\n    title = \"{CIAO: Chandra's data analysis system}\",\nbooktitle = {Society of Photo-Optical Instrumentation Engineers (SPIE) Conference Series},\n     year = 2006,\n   series = {Society of Photo-Optical Instrumentation Engineers (SPIE) Conference Series},\n   volume = 6270,\n    month = jun,\n      eid = {62701V},\n    pages = {1},\n      doi = {10.1117/12.671760},\n   adsurl = {http://adsabs.harvard.edu/abs/2006SPIE.6270E..1VF},\n  adsnote = {Provided by the SAO/NASA Astrophysics Data System}\n}\n",
+                "category": "codes",
+                "name": "OSA",
+                "tags": "gamma-ray, integral",
+                "url": "http://www.isdc.unige.ch/integral/analysis"
+            },
             "pyraf": {
                 "category": "codes",
                 "latex": "PyRAF is a product of the Space Telescope Science Institute, which is operated by AURA for NASA.",
@@ -133,13 +159,20 @@
                 "url": "https://github.com/pyspeckit/pyspeckit"
             },
             "scipy": {
-                "bibtex": "@misc{jones_scipy:_2001,\n    title = {{SciPy}: Open source scientific tools for Python},\n    url = {http://www.scipy.org/},\n    collaborator = {Jones, E. and Oliphant, T. and Peterson, P. and Others},\n    year = {2001}\n}\n",
+                "bibtex": "@misc{jones_scipy_2001,\n    title = {{SciPy}: Open source scientific tools for Python},\n    url = {http://www.scipy.org/},\n    collaborator = {Jones, E. and Oliphant, T. and Peterson, P. and Others},\n    year = {2001}\n}\n",
                 "category": "codes",
                 "latex": "This research made use of SciPy \\citep{jones_scipy_2001}.",
                 "name": "SciPy",
                 "tags": "python",
                 "text": "This research made use of SciPy (Jones et al. 2001).",
                 "url": "http://www.scipy.org/"
+            },
+            "sherpa": {
+                "bibtex": "@INPROCEEDINGS{2001SPIE.4477...76F,\n   author = {{Freeman}, P. and {Doe}, S. and {Siemiginowska}, A.},\n    title = \"{Sherpa: a mission-independent data analysis application}\",\nbooktitle = {Astronomical Data Analysis},\n     year = 2001,\n   series = {Society of Photo-Optical Instrumentation Engineers (SPIE) Conference Series},\n   volume = 4477,\n   eprint = {astro-ph/0108426},\n   editor = {{Starck}, J.-L. and {Murtagh}, F.~D.},\n    month = nov,\n    pages = {76-87},\n      doi = {10.1117/12.447161},\n   adsurl = {http://adsabs.harvard.edu/abs/2001SPIE.4477...76F},\n  adsnote = {Provided by the SAO/NASA Astrophysics Data System}\n}",
+                "category": "codes",
+                "name": "Sherpa",
+                "tags": "fitting, modelling",
+                "url": "http://cxc.harvard.edu/sherpa4.4/"
             },
             "sunpy": {
                 "bibtex": "@InProceedings{ mumford-proc-scipy-2013,\n    author    = { Stuart Mumford and David P\\'erez-Su\\'arez and Steven Christe and Florian Mayer and Russell J. Hewett },\n    title     = { SunPy: Python for Solar Physicists },\n    booktitle = { Proceedings of the 12th Python in Science Conference },\n    pages     = { 74 - 77 },\n    year      = { 2013 },\n    editor    = { St\\'efan van der Walt and Jarrod Millman and Katy Huff }\n}\n",
@@ -169,6 +202,22 @@
                 "tags": "java, catalogs, tables",
                 "text": "This research made use of TOPCAT, an interactive graphical viewer and editor for tabular data (Taylor, 2005).\n",
                 "url": "http://www.star.bris.ac.uk/~mbt/topcat/"
+            },
+            "xspec": {
+                "bibtex": "@INPROCEEDINGS{1996ASPC..101...17A,\n   author = {{Arnaud}, K.~A.},\n    title = \"{XSPEC: The First Ten Years}\",\nbooktitle = {Astronomical Data Analysis Software and Systems V},\n     year = 1996,\n   series = {Astronomical Society of the Pacific Conference Series},\n   volume = 101,\n   editor = {{Jacoby}, G.~H. and {Barnes}, J.},\n    pages = {17},\n   adsurl = {http://adsabs.harvard.edu/abs/1996ASPC..101...17A},\n  adsnote = {Provided by the SAO/NASA Astrophysics Data System}\n}\n",
+                "category": "codes",
+                "name": "XSPEC",
+                "tags": "spectroscopy",
+                "url": "https://heasarc.gsfc.nasa.gov/xanadu/xspec/"
+            },
+            "yt": {
+                "bibtex": "@ARTICLE{Turk:2011,\n Author = {{Turk}, M.~J. and {Smith}, B.~D. and {Oishi}, J.~S. and {Skory}, S. and {Skillman}, S.~W. and {Abel}, T. and {Norman}, M.~L.},\n  Title = \"{yt: A Multi-code Analysis Toolkit for Astrophysical Simulation Data}\",\nJournal = {\\apjs}, ArchivePrefix = \"arXiv\",\n eprint = {1011.3514},\nprimaryClass = \"astro-ph.IM\", keywords = {cosmology: theory, methods: data analysis, methods: numerical },\n   year = 2011,\n  month = jan,\n volume = 192,\n  pages = {9-+},\n    doi = {10.1088/0067-0049/192/1/9},\n adsurl = {http://adsabs.harvard.edu/abs/2011ApJS..192....9T},\nadsnote = {Provided by the SAO/NASA Astrophysics Data System} }",
+                "category": "codes",
+                "latex": "This research made use of the yt-project, a toolkit for analyzing and visualizing quantitative data \\citep{Turk:2011}.",
+                "name": "yt-project",
+                "tags": "python",
+                "text": "This research made use of the yt-project, a toolkit for analyzing and visualizing quantitative data (Turk 2011).",
+                "url": "http://yt-project.org/"
             }
         },
         "short": "codes",
@@ -203,6 +252,13 @@
                 "name": "CFHTLS",
                 "text": "Based on observations obtained with MegaPrime/MegaCam, a joint project of CFHT and CEA/IRFU, at the Canada-France-Hawaii Telescope (CFHT) which is operated by the National Research Council (NRC) of Canada, the Institut National des Science de l'Univers of the Centre National de la Recherche Scientifique (CNRS) of France, and the University of Hawaii. This work is based in part on data products produced at Terapix available at the Canadian Astronomy Data Centre as part of the Canada-France-Hawaii Telescope Legacy Survey, a collaborative project of NRC and CNRS.",
                 "url": "http://www.cfht.hawaii.edu/Science/CFHLS/"
+            },
+            "chandra": {
+                "category": "data",
+                "name": "Chandra",
+                "tags": "x-ray",
+                "text": "This research has made use of data obtained from the Chandra Data Archive and the Chandra Source Catalog, and software provided by the Chandra X-ray Center (CXC) in the application packages CIAO, ChIPS, and Sherpa.",
+                "url": "http://cxc.harvard.edu"
             },
             "deep2": {
                 "category": "data",
@@ -258,6 +314,25 @@
                 "name": "SDSS-III",
                 "text": "Funding for SDSS-III has been provided by the Alfred P. Sloan Foundation, the Participating Institutions, the National Science Foundation, and the U.S. Department of Energy Office of Science. The SDSS-III web site is http://www.sdss3.org/. SDSS-III is managed by the Astrophysical Research Consortium for the Participating Institutions of the SDSS-III Collaboration including the University of Arizona, the Brazilian Participation Group, Brookhaven National Laboratory, University of Cambridge, Carnegie Mellon University, University of Florida, the French Participation Group, the German Participation Group, Harvard University, the Instituto de Astrofisica de Canarias, the Michigan State/Notre Dame/JINA Participation Group, Johns Hopkins University, Lawrence Berkeley National Laboratory, Max Planck Institute for Astrophysics, Max Planck Institute for Extraterrestrial Physics, New Mexico State University, New York University, Ohio State University, Pennsylvania State University, University of Portsmouth, Princeton University, the Spanish Participation Group, University of Tokyo, University of Utah, Vanderbilt University, University of Virginia, University of Washington, and Yale University.\n"
             },
+            "suzaku": {
+                "category": "data",
+                "name": "Suzaku",
+                "text": "This research has made use of data obtained from the Suzaku satellite, a collaborative mission between the space agencies of Japan (JAXA) and the USA (NASA)."
+            },
+            "swift": {
+                "category": "data",
+                "name": "Swift",
+                "text": "We acknowledge the use of public data from the Swift data archive.",
+                "url": "http://swift.gsfc.nasa.gov"
+            },
+            "swift-uk": {
+                "bibtex": "@ARTICLE{2007A&A...469..379E,\n   author = {{Evans}, P.~A. and {Beardmore}, A.~P. and {Page}, K.~L. and \n  {Tyler}, L.~G. and {Osborne}, J.~P. and {Goad}, M.~R. and {O'Brien}, P.~T. and \n  {Vetere}, L. and {Racusin}, J. and {Morris}, D. and {Burrows}, D.~N. and \n  {Capalbi}, M. and {Perri}, M. and {Gehrels}, N. and {Romano}, P.\n  },\n    title = \"{An online repository of Swift/XRT light curves of {$\\gamma$}-ray bursts}\",\n  journal = {\\aap},\narchivePrefix = \"arXiv\",\n   eprint = {0704.0128},\n keywords = {gamma rays: bursts, gamma rays: observations, methods: data analysis, catalogs},\n     year = 2007,\n    month = jul,\n   volume = 469,\n    pages = {379-385},\n      doi = {10.1051/0004-6361:20077530},\n   adsurl = {http://adsabs.harvard.edu/abs/2007A%26A...469..379E},\n  adsnote = {Provided by the SAO/NASA Astrophysics Data System}\n}\n@ARTICLE{2009MNRAS.397.1177E,\n   author = {{Evans}, P.~A. and {Beardmore}, A.~P. and {Page}, K.~L. and \n  {Osborne}, J.~P. and {O'Brien}, P.~T. and {Willingale}, R. and \n  {Starling}, R.~L.~C. and {Burrows}, D.~N. and {Godet}, O. and \n  {Vetere}, L. and {Racusin}, J. and {Goad}, M.~R. and {Wiersema}, K. and \n  {Angelini}, L. and {Capalbi}, M. and {Chincarini}, G. and {Gehrels}, N. and \n  {Kennea}, J.~A. and {Margutti}, R. and {Morris}, D.~C. and {Mountford}, C.~J. and \n  {Pagani}, C. and {Perri}, M. and {Romano}, P. and {Tanvir}, N.\n  },\n    title = \"{Methods and results of an automatic analysis of a complete sample of Swift-XRT observations of GRBs}\",\n  journal = {\\mnras},\narchivePrefix = \"arXiv\",\n   eprint = {0812.3662},\n keywords = {methods: data analysis , catalogues , gamma-rays: bursts},\n     year = 2009,\n    month = aug,\n   volume = 397,\n    pages = {1177-1201},\n      doi = {10.1111/j.1365-2966.2009.14913.x},\n   adsurl = {http://adsabs.harvard.edu/abs/2009MNRAS.397.1177E},\n  adsnote = {Provided by the SAO/NASA Astrophysics Data System}\n}",
+                "category": "data",
+                "facilities": "\\facility{UK}",
+                "name": "Swift-UK",
+                "text": "This work made use of data supplied by the UK Swift Science Data Centre at the University of Leicester.",
+                "url": "http://www.swift.ac.uk"
+            },
             "wirds-wircam": {
                 "category": "data",
                 "name": "WIRDS-WIRCAM",
@@ -274,6 +349,12 @@
                 "name": "ALMA",
                 "text": "This paper makes use of the following ALMA data: ADS/JAO.ALMA#<span class='replace'>2011.0.01234.S</span>. ALMA is a partnership of ESO (representing its member states), NSF (USA) and NINS (Japan), together with NRC (Canada) and NSC and ASIAA (Taiwan), in cooperation with the Republic of Chile. The Joint ALMA Observatory is operated by ESO, AUI/NRAO and NAOJ."
             },
+            "dct": {
+                "category": "facilities",
+                "facilities": "\\facility{DCT}",
+                "name": "DCT",
+                "text": "These results made use of Lowell Observatory\u2019s Discovery Channel Telescope. Lowell is a private, non-profit institution dedicated to astrophysical research and public appreciation of astronomy and operates the DCT in partnership with Boston University, Northern Arizona University, the University of Maryland, and the University of Toledo. Partial support of this work has been provided by Discovery Communications."
+            },
             "emerlin": {
                 "category": "facilities",
                 "name": "e-MERLIN",
@@ -288,6 +369,17 @@
                 "category": "facilities",
                 "name": "Hinode",
                 "text": "Hinode is a Japanese mission developed and launched by ISAS/JAXA, with NAOJ as domestic partner and NASA and UKSA as international partners. It is operated by these agencies in co-operation with ESA and NSC (Norway).\n"
+            },
+            "ing": {
+                "category": "facilities",
+                "name": "WHT",
+                "text": "Based on observations made with the William Herchel Telescope (WHT) operated on the island of La Palma by the Isaac Newton Group in the Spanish Observatorio del Roque de los Muchachos of the Instituto de Astrof\u00edsica de Canarias."
+            },
+            "integral": {
+                "category": "facilities",
+                "name": "INTEGRAL",
+                "text": "Based on observations with INTEGRAL, an ESA project with instruments and science data centre funded by ESA member states (especially the PI countries: Denmark, France, Germany, Italy, Switzerland, Spain) and with the participation of Russia and the USA.\n",
+                "url": "http://www.cosmos.esa.int/web/integral"
             },
             "irtf": {
                 "category": "facilities",
@@ -351,7 +443,8 @@
             "xmm": {
                 "category": "facilities",
                 "name": "XMM",
-                "text": "Based on observations obtained with XMM-Newton, an ESA science mission with instruments and contributions directly funded by ESA Member States and NASA.\n"
+                "text": "Based on observations obtained with XMM-Newton, an ESA science mission with instruments and contributions directly funded by ESA Member States and NASA.\n",
+                "url": "http://xmm.esac.esa.int"
             }
         },
         "short": "facilities",
