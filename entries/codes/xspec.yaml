@@ -1,0 +1,20 @@
+name: XSPEC
+category: codes
+tags: spectroscopy
+text: 
+url: https://heasarc.gsfc.nasa.gov/xanadu/xspec/
+dependencies:
+bibtex: >
+@INPROCEEDINGS{1996ASPC..101...17A,
+   author = {{Arnaud}, K.~A.},
+    title = "{XSPEC: The First Ten Years}",
+booktitle = {Astronomical Data Analysis Software and Systems V},
+     year = 1996,
+   series = {Astronomical Society of the Pacific Conference Series},
+   volume = 101,
+   editor = {{Jacoby}, G.~H. and {Barnes}, J.},
+    pages = {17},
+   adsurl = {http://adsabs.harvard.edu/abs/1996ASPC..101...17A},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+ 

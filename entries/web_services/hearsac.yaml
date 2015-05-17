@@ -1,0 +1,7 @@
+name: HEARSAC
+category: web_services
+tags: 
+text: This research has made use of data and/or software provided by the High Energy Astrophysics Science Archive Research Center (HEASARC), which is a service of the Astrophysics Science Division at NASA/GSFC and the High Energy Astrophysics Division of the Smithsonian Astrophysical Observatory.
+url: http://heasarc.gsfc.nasa.gov/docs/archive.html
+dependencies: 
+bibtex: 

@@ -1,0 +1,22 @@
+name: Sherpa
+category: codes
+tags: fitting, modelling
+text: 
+url: http://cxc.harvard.edu/sherpa4.4/
+dependencies:
+bibtex: >
+@INPROCEEDINGS{2001SPIE.4477...76F,
+   author = {{Freeman}, P. and {Doe}, S. and {Siemiginowska}, A.},
+    title = "{Sherpa: a mission-independent data analysis application}",
+booktitle = {Astronomical Data Analysis},
+     year = 2001,
+   series = {Society of Photo-Optical Instrumentation Engineers (SPIE) Conference Series},
+   volume = 4477,
+   eprint = {astro-ph/0108426},
+   editor = {{Starck}, J.-L. and {Murtagh}, F.~D.},
+    month = nov,
+    pages = {76-87},
+      doi = {10.1117/12.447161},
+   adsurl = {http://adsabs.harvard.edu/abs/2001SPIE.4477...76F},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}

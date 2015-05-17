@@ -1,0 +1,49 @@
+name: Swift-UK
+category: data
+tags: 
+text: This work made use of data supplied by the UK Swift Science Data Centre at the University of Leicester.
+url: http://www.swift.ac.uk
+facilities: \facility{UK}
+dependencies:
+bibtex: @ARTICLE{2007A&A...469..379E,
+   author = {{Evans}, P.~A. and {Beardmore}, A.~P. and {Page}, K.~L. and 
+	{Tyler}, L.~G. and {Osborne}, J.~P. and {Goad}, M.~R. and {O'Brien}, P.~T. and 
+	{Vetere}, L. and {Racusin}, J. and {Morris}, D. and {Burrows}, D.~N. and 
+	{Capalbi}, M. and {Perri}, M. and {Gehrels}, N. and {Romano}, P.
+	},
+    title = "{An online repository of Swift/XRT light curves of {$\gamma$}-ray bursts}",
+  journal = {\aap},
+archivePrefix = "arXiv",
+   eprint = {0704.0128},
+ keywords = {gamma rays: bursts, gamma rays: observations, methods: data analysis, catalogs},
+     year = 2007,
+    month = jul,
+   volume = 469,
+    pages = {379-385},
+      doi = {10.1051/0004-6361:20077530},
+   adsurl = {http://adsabs.harvard.edu/abs/2007A%26A...469..379E},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2009MNRAS.397.1177E,
+   author = {{Evans}, P.~A. and {Beardmore}, A.~P. and {Page}, K.~L. and 
+	{Osborne}, J.~P. and {O'Brien}, P.~T. and {Willingale}, R. and 
+	{Starling}, R.~L.~C. and {Burrows}, D.~N. and {Godet}, O. and 
+	{Vetere}, L. and {Racusin}, J. and {Goad}, M.~R. and {Wiersema}, K. and 
+	{Angelini}, L. and {Capalbi}, M. and {Chincarini}, G. and {Gehrels}, N. and 
+	{Kennea}, J.~A. and {Margutti}, R. and {Morris}, D.~C. and {Mountford}, C.~J. and 
+	{Pagani}, C. and {Perri}, M. and {Romano}, P. and {Tanvir}, N.
+	},
+    title = "{Methods and results of an automatic analysis of a complete sample of Swift-XRT observations of GRBs}",
+  journal = {\mnras},
+archivePrefix = "arXiv",
+   eprint = {0812.3662},
+ keywords = {methods: data analysis , catalogues , gamma-rays: bursts},
+     year = 2009,
+    month = aug,
+   volume = 397,
+    pages = {1177-1201},
+      doi = {10.1111/j.1365-2966.2009.14913.x},
+   adsurl = {http://adsabs.harvard.edu/abs/2009MNRAS.397.1177E},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
