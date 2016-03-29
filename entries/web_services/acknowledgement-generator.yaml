@@ -1,0 +1,7 @@
+name: Astronomy Acknowledgement Generator
+category: web_services
+tags: 
+text: The acknowledgements were compiled using the Astronomy Acknowledgement Generator.
+url: http://astrofrog.github.io/acknowledgment-generator/
+dependencies: 
+bibtex: 
