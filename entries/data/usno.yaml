@@ -1,0 +1,18 @@
+
+name: USNO
+category: data
+tags:
+text: This research has made use of the USNO Image and Catalogue Archive operated by the United States Naval Observatory, Flagstaff Station (\url{http://www.nofs.navy.mil/data/fchpix/}) from \citet{Monet1998}.}
+url: 
+facilities: 
+dependencies:
+bibtex: >
+  	@BOOK{Monet1998,
+	   author = {{Monet}, D.},
+	    title = "{USNO-A2.0}",
+	 keywords = {Stars, Astrometry},
+	booktitle = {USNO-A2.0, by Monet, David.~ [Flagstaff, AZ] : U.S.~Naval Observatory, c1998.~.~United States Naval Observatory.},
+	     year = 1998,
+	   adsurl = {http://adsabs.harvard.edu/abs/1998usno.book.....M},
+	  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+	}
