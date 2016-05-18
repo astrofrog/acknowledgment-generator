@@ -1,0 +1,103 @@
+name: UKIDSS
+category: data
+tags:
+text: This work is  based  in  part  on  data  obtained  as  part  of  the
+UKIRT Infrared Deep Sky Survey (UKIDSS). The UKIDSS project is defined in \citet{Lawrence2007}. UKIDSS uses the UKIRT Wide Field Camera \citep[WFCAM][]{Casali2007}. The photometric system is described in \citet{Hewett2006}, and the calibration is described in \citet{Hodgkin2009}. The pipeline processing and science archive are described in \citet{Hambly2008}}
+url: 
+facilities: 
+dependencies:
+bibtex: >
+  	@ARTICLE{Lawrence2007,
+	   author = {{Lawrence}, A. and {Warren}, S.~J. and {Almaini}, O. and {Edge}, A.~C. and 
+	  {Hambly}, N.~C. and {Jameson}, R.~F. and {Lucas}, P. and {Casali}, M. and 
+	  {Adamson}, A. and {Dye}, S. and {Emerson}, J.~P. and {Foucaud}, S. and 
+	  {Hewett}, P. and {Hirst}, P. and {Hodgkin}, S.~T. and {Irwin}, M.~J. and 
+	  {Lodieu}, N. and {McMahon}, R.~G. and {Simpson}, C. and {Smail}, I. and 
+	  {Mortlock}, D. and {Folger}, M.},
+	    title = "{The UKIRT Infrared Deep Sky Survey (UKIDSS)}",
+	  journal = {\mnras},
+	   eprint = {astro-ph/0604426},
+	 keywords = {surveys, infrared: general},
+	     year = 2007,
+	    month = aug,
+	   volume = 379,
+	    pages = {1599-1617},
+	      doi = {10.1111/j.1365-2966.2007.12040.x},
+	   adsurl = {http://adsabs.harvard.edu/abs/2007MNRAS.379.1599L},
+	  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+	}
+
+	@ARTICLE{Casali2007,
+	   author = {{Casali}, M. and {Adamson}, A. and {Alves de Oliveira}, C. and 
+	  {Almaini}, O. and {Burch}, K. and {Chuter}, T. and {Elliot}, J. and 
+	  {Folger}, M. and {Foucaud}, S. and {Hambly}, N. and {Hastie}, M. and 
+	  {Henry}, D. and {Hirst}, P. and {Irwin}, M. and {Ives}, D. and 
+	  {Lawrence}, A. and {Laidlaw}, K. and {Lee}, D. and {Lewis}, J. and 
+	  {Lunney}, D. and {McLay}, S. and {Montgomery}, D. and {Pickup}, A. and 
+	  {Read}, M. and {Rees}, N. and {Robson}, I. and {Sekiguchi}, K. and 
+	  {Vick}, A. and {Warren}, S. and {Woodward}, B.},
+	    title = "{The UKIRT wide-field camera}",
+	  journal = {\aap},
+	 keywords = {instrumentation: miscellaneous, infrared: general},
+	     year = 2007,
+	    month = may,
+	   volume = 467,
+	    pages = {777-784},
+	      doi = {10.1051/0004-6361:20066514},
+	   adsurl = {http://adsabs.harvard.edu/abs/2007A%26A...467..777C},
+	  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+	}
+
+	@ARTICLE{Hewett2006,
+	   author = {{Hewett}, P.~C. and {Warren}, S.~J. and {Leggett}, S.~K. and 
+	  {Hodgkin}, S.~T.},
+	    title = "{The UKIRT Infrared Deep Sky Survey ZY JHK photometric system: passbands and synthetic colours}",
+	  journal = {\mnras},
+	   eprint = {astro-ph/0601592},
+	 keywords = {surveys, infrared: general},
+	     year = 2006,
+	    month = apr,
+	   volume = 367,
+	    pages = {454-468},
+	      doi = {10.1111/j.1365-2966.2005.09969.x},
+	   adsurl = {http://adsabs.harvard.edu/abs/2006MNRAS.367..454H},
+	  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+	}
+
+	@ARTICLE{Hodgkin2009,
+	   author = {{Hodgkin}, S.~T. and {Irwin}, M.~J. and {Hewett}, P.~C. and 
+	  {Warren}, S.~J.},
+	    title = "{The UKIRT wide field camera ZYJHK photometric system: calibration from 2MASS}",
+	  journal = {\mnras},
+	archivePrefix = "arXiv",
+	   eprint = {0812.3081},
+	 keywords = {surveys , infrared: general},
+	     year = 2009,
+	    month = apr,
+	   volume = 394,
+	    pages = {675-692},
+	      doi = {10.1111/j.1365-2966.2008.14387.x},
+	   adsurl = {http://adsabs.harvard.edu/abs/2009MNRAS.394..675H},
+	  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+	}
+
+	@ARTICLE{Hambly2008,
+	   author = {{Hambly}, N.~C. and {Collins}, R.~S. and {Cross}, N.~J.~G. and 
+	  {Mann}, R.~G. and {Read}, M.~A. and {Sutorius}, E.~T.~W. and 
+	  {Bond}, I. and {Bryant}, J. and {Emerson}, J.~P. and {Lawrence}, A. and 
+	  {Rimoldini}, L. and {Stewart}, J.~M. and {Williams}, P.~M. and 
+	  {Adamson}, A. and {Hirst}, P. and {Dye}, S. and {Warren}, S.~J.
+	  },
+	    title = "{The WFCAM Science Archive}",
+	  journal = {\mnras},
+	archivePrefix = "arXiv",
+	   eprint = {0711.3593},
+	 keywords = {astronomical data bases: miscellaneous , surveys , stars: general , galaxies: general , cosmology: observations , infrared: general},
+	     year = 2008,
+	    month = feb,
+	   volume = 384,
+	    pages = {637-662},
+	      doi = {10.1111/j.1365-2966.2007.12700.x},
+	   adsurl = {http://adsabs.harvard.edu/abs/2008MNRAS.384..637H},
+	  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+	}
