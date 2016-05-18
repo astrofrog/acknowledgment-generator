@@ -1,0 +1,37 @@
+name: LAMOST
+category: facilities
+tags: 
+text: "This work makes use of the Guoshoujing Telescope (the Large Sky Area Multi-Object Fiber Spectroscopic Telescope LAMOST, \citealt{Cui2012}) and is a National Major Scientific Project built by the Chinese Academy of Sciences. Funding for the project has been provided by the National Development and Reform Commission. LAMOST is operated and managed by the National Astronomical Observatories, Chinese Academy of Sciences."
+url: http://www.lamost.org/public/?locale=en
+dependencies: 
+bibtex: >
+  	@ARTICLE{Cui2012,
+	   author = {{Cui}, X.-Q. and {Zhao}, Y.-H. and {Chu}, Y.-Q. and {Li}, G.-P. and 
+	  {Li}, Q. and {Zhang}, L.-P. and {Su}, H.-J. and {Yao}, Z.-Q. and 
+	  {Wang}, Y.-N. and {Xing}, X.-Z. and {Li}, X.-N. and {Zhu}, Y.-T. and 
+	  {Wang}, G. and {Gu}, B.-Z. and {Luo}, A.-L. and {Xu}, X.-Q. and 
+	  {Zhang}, Z.-C. and {Liu}, G.-R. and {Zhang}, H.-T. and {Yang}, D.-H. and 
+	  {Cao}, S.-Y. and {Chen}, H.-Y. and {Chen}, J.-J. and {Chen}, K.-X. and 
+	  {Chen}, Y. and {Chu}, J.-R. and {Feng}, L. and {Gong}, X.-F. and 
+	  {Hou}, Y.-H. and {Hu}, H.-Z. and {Hu}, N.-S. and {Hu}, Z.-W. and 
+	  {Jia}, L. and {Jiang}, F.-H. and {Jiang}, X. and {Jiang}, Z.-B. and 
+	  {Jin}, G. and {Li}, A.-H. and {Li}, Y. and {Li}, Y.-P. and {Liu}, G.-Q. and 
+	  {Liu}, Z.-G. and {Lu}, W.-Z. and {Mao}, Y.-D. and {Men}, L. and 
+	  {Qi}, Y.-J. and {Qi}, Z.-X. and {Shi}, H.-M. and {Tang}, Z.-H. and 
+	  {Tao}, Q.-S. and {Wang}, D.-Q. and {Wang}, D. and {Wang}, G.-M. and 
+	  {Wang}, H. and {Wang}, J.-N. and {Wang}, J. and {Wang}, J.-L. and 
+	  {Wang}, J.-P. and {Wang}, L. and {Wang}, S.-Q. and {Wang}, Y. and 
+	  {Wang}, Y.-F. and {Xu}, L.-Z. and {Xu}, Y. and {Yang}, S.-H. and 
+	  {Yu}, Y. and {Yuan}, H. and {Yuan}, X.-Y. and {Zhai}, C. and 
+	  {Zhang}, J. and {Zhang}, Y.-X. and {Zhang}, Y. and {Zhao}, M. and 
+	  {Zhou}, F. and {Zhou}, G.-H. and {Zhu}, J. and {Zou}, S.-C.},
+	    title = "{The Large Sky Area Multi-Object Fiber Spectroscopic Telescope (LAMOST)}",
+	  journal = {Research in Astronomy and Astrophysics},
+	     year = 2012,
+	    month = sep,
+	   volume = 12,
+	    pages = {1197-1242},
+	      doi = {10.1088/1674-4527/12/9/003},
+	   adsurl = {http://ukads.nottingham.ac.uk/abs/2012RAA....12.1197C},
+	  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+	}
