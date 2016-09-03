@@ -1,0 +1,34 @@
+name: WISE
+category: data
+tags:
+text: This publication makes use of data products from the Wide-field Infrared Survey Explorer\citep{2010AJ....140.1868W}, which is a joint project of the University of California, Los Angeles, and the Jet Propulsion Laboratory/California Institute of Technology, funded by the National Aeronautics and Space Administration.
+url: 
+facilities: \facility{WISE}
+dependencies:
+bibtex: >
+  	@ARTICLE{2010AJ....140.1868W,
+	  author = {{Wright}, E.~L. and {Eisenhardt}, P.~R.~M. and {Mainzer}, A.~K. and 
+	  {Ressler}, M.~E. and {Cutri}, R.~M. and {Jarrett}, T. and {Kirkpatrick}, J.~D.    and {Padgett}, D. and {McMillan}, R.~S. and {Skrutskie}, M. and 
+	  {Stanford}, S.~A. and {Cohen}, M. and {Walker}, R.~G. and {Mather}, J.~C. and 
+	  {Leisawitz}, D. and {Gautier}, III, T.~N. and {McLean}, I. and 
+	  {Benford}, D. and {Lonsdale}, C.~J. and {Blain}, A. and {Mendez}, B. and 
+	  {Irace}, W.~R. and {Duval}, V. and {Liu}, F. and {Royer}, D. and 
+	  {Heinrichsen}, I. and {Howard}, J. and {Shannon}, M. and {Kendall}, M. and 
+	  {Walsh}, A.~L. and {Larsen}, M. and {Cardon}, J.~G. and {Schick}, S. and 
+	  {Schwalm}, M. and {Abid}, M. and {Fabinsky}, B. and {Naes}, L. and 
+	  {Tsai}, C.-W.},
+	  title = "{The Wide-field Infrared Survey Explorer (WISE): Mission Description and Initial On-orbit Performance}",
+	  journal = {\aj},
+	  archivePrefix = "arXiv",
+	  eprint = {1008.0031},
+	  primaryClass = "astro-ph.IM",
+	  keywords = {infrared: general, space vehicles, surveys},
+	  year = 2010,
+	  month = dec,
+	  volume = 140,
+	  eid = {1868},
+	  pages = {1868-1881},
+	  doi = {10.1088/0004-6256/140/6/1868},
+	  adsurl = {http://adsabs.harvard.edu/abs/2010AJ....140.1868W},
+	  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+	}
