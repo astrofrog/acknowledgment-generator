@@ -1,0 +1,41 @@
+name: RAVE
+category: data
+tags:
+text: >
+  Funding for RAVE has been provided by: the Australian Astronomical Observatory; the Leibniz-Institut fuer Astrophysik Potsdam (AIP); the Australian National University; the Australian Research Council; the French National Research Agency; the German Research Foundation (SPP 1177 and SFB 881); the European Research Council (ERC-StG 240271 Galactica); the Istituto Nazionale di Astrofisica at Padova; The Johns Hopkins University; the National Science Foundation of the USA (AST-0908326); the W. M. Keck foundation; the Macquarie University; the Netherlands Research School for Astronomy; the Natural Sciences and Engineering Research Council of Canada; the Slovenian Research Agency; the Swiss National Science Foundation; the Science & Technology Facilities Council of the UK; Opticon; Strasbourg Observatory; and the Universities of Groningen, Heidelberg and Sydney. The RAVE web site is at https://www.rave-survey.org.
+latex: >
+  Funding for RAVE has been provided by: the Australian Astronomical Observatory; the Leibniz-Institut fuer Astrophysik Potsdam (AIP); the Australian National University; the Australian Research Council; the French National Research Agency; the German Research Foundation (SPP 1177 and SFB 881); the European Research Council (ERC-StG 240271 Galactica); the Istituto Nazionale di Astrofisica at Padova; The Johns Hopkins University; the National Science Foundation of the USA (AST-0908326); the W. M. Keck foundation; the Macquarie University; the Netherlands Research School for Astronomy; the Natural Sciences and Engineering Research Council of Canada; the Slovenian Research Agency; the Swiss National Science Foundation; the Science & Technology Facilities Council of the UK; Opticon; Strasbourg Observatory; and the Universities of Groningen, Heidelberg and Sydney. The RAVE web site is at \url{https://www.rave-survey.org}.
+url: http://swift.gsfc.nasa.gov
+dependencies:
+bibtex: >
+  @ARTICLE{2013AJ....146..134K,
+   author = {{Kordopatis}, G. and {Gilmore}, G. and {Steinmetz}, M. and {Boeche}, C. and
+  {Seabroke}, G.~M. and {Siebert}, A. and {Zwitter}, T. and {Binney}, J. and
+  {de Laverny}, P. and {Recio-Blanco}, A. and {Williams}, M.~E.~K. and
+    {Piffl}, T. and {Enke}, H. and {Roeser}, S. and {Bijaoui}, A. and
+    {Wyse}, R.~F.~G. and {Freeman}, K. and {Munari}, U. and {Carrillo}, I. and
+    {Anguiano}, B. and {Burton}, D. and {Campbell}, R. and {Cass}, C.~J.~P. and
+    {Fiegert}, K. and {Hartley}, M. and {Parker}, Q.~A. and {Reid}, W. and
+    {Ritter}, A. and {Russell}, K.~S. and {Stupar}, M. and {Watson}, F.~G. and
+    {Bienaym{\'e}}, O. and {Bland-Hawthorn}, J. and {Gerhard}, O. and
+    {Gibson}, B.~K. and {Grebel}, E.~K. and {Helmi}, A. and {Navarro}, J.~F. and
+    {Conrad}, C. and {Famaey}, B. and {Faure}, C. and {Just}, A. and
+    {Kos}, J. and {Matijevi{\v c}}, G. and {McMillan}, P.~J. and
+    {Minchev}, I. and {Scholz}, R. and {Sharma}, S. and {Siviero}, A. and
+    {de Boer}, E.~W. and {{\v Z}erjal}, M.},
+    title = "{The Radial Velocity Experiment (RAVE): Fourth Data Release}",
+  journal = {\aj},
+  archivePrefix = "arXiv",
+   eprint = {1309.4284},
+  keywords = {catalogs, stars: abundances, stars: fundamental parameters, surveys, techniques: spectroscopic },
+     year = 2013,
+    month = nov,
+   volume = 146,
+      eid = {134},
+    pages = {134},
+      doi = {10.1088/0004-6256/146/5/134},
+   adsurl = {http://adsabs.harvard.edu/abs/2013AJ....146..134K},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+  }
+
+

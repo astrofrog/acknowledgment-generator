@@ -7,6 +7,12 @@
                 "text": "We acknowledge with thanks the variable star observations from the AAVSO International Database contributed by observers worldwide and used in this research.",
                 "url": "http://www.aavso.org/data-usage-guidelines"
             },
+            "acknowledgement-generator": {
+                "category": "web_services",
+                "name": "Astronomy Acknowledgement Generator",
+                "text": "The acknowledgements were compiled using the Astronomy Acknowledgement Generator.",
+                "url": "http://astrofrog.github.io/acknowledgment-generator/"
+            },
             "ads": {
                 "category": "web_services",
                 "name": "ADS",
@@ -188,10 +194,10 @@
                 "url": "http://www.sunpy.org"
             },
             "tirspecpipeline": {
-                "bibtex": "@article{ninan_tirspec:_2014, title = {{TIRSPEC}: {TIFR} Near Infrared Spectrometer and Imager}, issn = {2251-1717, 2251-1725}, shorttitle = {{TIRSPEC}}, url = {http://www.worldscientific.com/doi/abs/10.1142/S2251171714500068}, doi = {10.1142/S2251171714500068}, language = {en}, urldate = {2014-11-20}, journal = {Journal of Astronomical Instrumentation}, author = {Ninan, J. P. and Ojha, D. K. and Ghosh, S. K. and D'Costa, S. L. A. and Naik, M. B. and Poojary, S. S. and Sandimani, P. R. and Meshram, G. S. and Jadhav, R. B. and Bhagat, S. B. and Gharat, S. M. and Bakalkar, C. B. and Prabhu, T. P. and Anupama, G. C. and Toomey, D. W.}, month = nov, year = {2014}, note = {00000}, pages = {1450006}, }\n",
+                "bibtex": "@article{ninan_tirspec_2014, title = {{TIRSPEC}: {TIFR} Near Infrared Spectrometer and Imager}, issn = {2251-1717, 2251-1725}, shorttitle = {{TIRSPEC}}, url = {http://www.worldscientific.com/doi/abs/10.1142/S2251171714500068}, doi = {10.1142/S2251171714500068}, language = {en}, urldate = {2014-11-20}, journal = {Journal of Astronomical Instrumentation}, author = {Ninan, J. P. and Ojha, D. K. and Ghosh, S. K. and D'Costa, S. L. A. and Naik, M. B. and Poojary, S. S. and Sandimani, P. R. and Meshram, G. S. and Jadhav, R. B. and Bhagat, S. B. and Gharat, S. M. and Bakalkar, C. B. and Prabhu, T. P. and Anupama, G. C. and Toomey, D. W.}, month = nov, year = {2014}, note = {00000}, pages = {1450006}, }\n",
                 "category": "codes",
                 "dependencies": "astropy, scipy, numpy, SExtractor, PyRAF, IRAF",
-                "latex": "TIRSPEC NIR Imager and Spectrometer data were reduced using TIRSPEC pipeline \\citep{ninan_tirspec:_2014}\n",
+                "latex": "TIRSPEC NIR Imager and Spectrometer data were reduced using TIRSPEC pipeline \\citep{ninan_tirspec_2014}\n",
                 "name": "TIRSPECpipeline",
                 "tags": "python",
                 "text": "TIRSPEC NIR Imager and Spectrometer data were reduced using TIRSPEC pipeline (Ninan et. al 2014)\n",
@@ -245,6 +251,12 @@
                 "name": "AEGIS Survey",
                 "text": "This study makes use of data from AEGIS, a multiwavelength sky survey conducted with the Chandra, GALEX, Hubble, Keck, CFHT, MMT, Subaru, Palomar, Spitzer, VLA, and other telescopes and supported in part by the NSF, NASA, and the STFC."
             },
+            "allwise": {
+                "category": "data",
+                "facilities": "\\facility{WISE}",
+                "name": "AllWISE",
+                "text": "This publication makes use of data products from the Wide-field Infrared Survey Explorer, which is a joint project of the University of California, Los Angeles, and the Jet Propulsion Laboratory/California Institute of Technology, and NEOWISE, which is a project of the Jet Propulsion Laboratory/California Institute of Technology. WISE and NEOWISE are funded by the National Aeronautics and Space Administration"
+            },
             "cbat": {
                 "category": "data",
                 "name": "CBAT List of Supernovae",
@@ -284,6 +296,12 @@
                 "name": "GALEX",
                 "text": "Based on observations made with the NASA Galaxy Evolution Explorer. GALEX is operated for NASA by the California Institute of Technology under NASA contract NAS5-98034.\n"
             },
+            "lamost": {
+                "category": "data",
+                "name": "LAMOST DR1",
+                "text": "Guoshoujing Telescope (the Large Sky Area Multi-Object Fiber Spectroscopic Telescope LAMOST) is a National Major Scientific Project built by the Chinese Academy of Sciences. Funding for the project has been provided by the National Development and Reform Commission. LAMOST is operated and managed by the National Astronomical Observatories, Chinese Academy of Sciences.",
+                "url": "http://dr1.lamost.org/"
+            },
             "neowise": {
                 "category": "data",
                 "facilities": "\\facility{WISE}",
@@ -301,6 +319,14 @@
                 "facilities": "\\facility{PS1}",
                 "name": "Pan-STARRS1",
                 "text": "The Pan-STARRS1 Surveys (PS1) have been made possible through contributions of the Institute for Astronomy, the University of Hawaii, the Pan-STARRS Project Office, the Max-Planck Society and its participating institutes, the Max Planck Institute for Astronomy, Heidelberg and the Max Planck Institute for Extraterrestrial Physics, Garching, The Johns Hopkins University, Durham University, the University of Edinburgh, Queen's University Belfast, the Harvard-Smithsonian Center for Astrophysics, the Las Cumbres Observatory Global Telescope Network Incorporated, the National Central University of Taiwan, the Space Telescope Science Institute, the National Aeronautics and Space Administration under Grant No. NNX08AR22G issued through the Planetary Science Division of the NASA Science Mission Directorate, the National Science Foundation under Grant No. AST-1238877, the University of Maryland, and Eotvos Lorand University (ELTE)."
+            },
+            "rave": {
+                "bibtex": "@ARTICLE{2013AJ....146..134K,\n author = {{Kordopatis}, G. and {Gilmore}, G. and {Steinmetz}, M. and {Boeche}, C. and\n{Seabroke}, G.~M. and {Siebert}, A. and {Zwitter}, T. and {Binney}, J. and {de Laverny}, P. and {Recio-Blanco}, A. and {Williams}, M.~E.~K. and\n  {Piffl}, T. and {Enke}, H. and {Roeser}, S. and {Bijaoui}, A. and\n  {Wyse}, R.~F.~G. and {Freeman}, K. and {Munari}, U. and {Carrillo}, I. and\n  {Anguiano}, B. and {Burton}, D. and {Campbell}, R. and {Cass}, C.~J.~P. and\n  {Fiegert}, K. and {Hartley}, M. and {Parker}, Q.~A. and {Reid}, W. and\n  {Ritter}, A. and {Russell}, K.~S. and {Stupar}, M. and {Watson}, F.~G. and\n  {Bienaym{\\'e}}, O. and {Bland-Hawthorn}, J. and {Gerhard}, O. and\n  {Gibson}, B.~K. and {Grebel}, E.~K. and {Helmi}, A. and {Navarro}, J.~F. and\n  {Conrad}, C. and {Famaey}, B. and {Faure}, C. and {Just}, A. and\n  {Kos}, J. and {Matijevi{\\v c}}, G. and {McMillan}, P.~J. and\n  {Minchev}, I. and {Scholz}, R. and {Sharma}, S. and {Siviero}, A. and\n  {de Boer}, E.~W. and {{\\v Z}erjal}, M.},\n  title = \"{The Radial Velocity Experiment (RAVE): Fourth Data Release}\",\njournal = {\\aj}, archivePrefix = \"arXiv\",\n eprint = {1309.4284},\nkeywords = {catalogs, stars: abundances, stars: fundamental parameters, surveys, techniques: spectroscopic },\n   year = 2013,\n  month = nov,\n volume = 146,\n    eid = {134},\n  pages = {134},\n    doi = {10.1088/0004-6256/146/5/134},\n adsurl = {http://adsabs.harvard.edu/abs/2013AJ....146..134K},\nadsnote = {Provided by the SAO/NASA Astrophysics Data System} }\n",
+                "category": "data",
+                "latex": "Funding for RAVE has been provided by: the Australian Astronomical Observatory; the Leibniz-Institut fuer Astrophysik Potsdam (AIP); the Australian National University; the Australian Research Council; the French National Research Agency; the German Research Foundation (SPP 1177 and SFB 881); the European Research Council (ERC-StG 240271 Galactica); the Istituto Nazionale di Astrofisica at Padova; The Johns Hopkins University; the National Science Foundation of the USA (AST-0908326); the W. M. Keck foundation; the Macquarie University; the Netherlands Research School for Astronomy; the Natural Sciences and Engineering Research Council of Canada; the Slovenian Research Agency; the Swiss National Science Foundation; the Science & Technology Facilities Council of the UK; Opticon; Strasbourg Observatory; and the Universities of Groningen, Heidelberg and Sydney. The RAVE web site is at \\url{https://www.rave-survey.org}.\n",
+                "name": "RAVE",
+                "text": "Funding for RAVE has been provided by: the Australian Astronomical Observatory; the Leibniz-Institut fuer Astrophysik Potsdam (AIP); the Australian National University; the Australian Research Council; the French National Research Agency; the German Research Foundation (SPP 1177 and SFB 881); the European Research Council (ERC-StG 240271 Galactica); the Istituto Nazionale di Astrofisica at Padova; The Johns Hopkins University; the National Science Foundation of the USA (AST-0908326); the W. M. Keck foundation; the Macquarie University; the Netherlands Research School for Astronomy; the Natural Sciences and Engineering Research Council of Canada; the Slovenian Research Agency; the Swiss National Science Foundation; the Science & Technology Facilities Council of the UK; Opticon; Strasbourg Observatory; and the Universities of Groningen, Heidelberg and Sydney. The RAVE web site is at https://www.rave-survey.org.\n",
+                "url": "http://swift.gsfc.nasa.gov"
             },
             "rosat": {
                 "category": "data",
