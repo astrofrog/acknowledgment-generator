@@ -7,10 +7,15 @@ text: >
 url: https://github.com/pyspeckit/pyspeckit
 dependencies: 
 bibtex: >
-  @article{Ginsburg2011c,
-  Author = {{Ginsburg}, A. and {Mirocha}, J.},
-  Journal = {Astrophysics Source Code Library},
-  Month = sep,
-  Pages = {9001},
-  Title = {{PySpecKit: Python Spectroscopic Toolkit}},
-  Year = 2011}
+  @MISC{2011ascl.soft09001G,
+      author = {{Ginsburg}, A. and {Mirocha}, J.},
+      title = "{PySpecKit: Python Spectroscopic Toolkit}",
+      keywords = {Software},
+      howpublished = {Astrophysics Source Code Library},
+      year = 2011,
+      month = sep,
+      archivePrefix = "ascl",
+      eprint = {1109.001},
+      adsurl = {http://adsabs.harvard.edu/abs/2011ascl.soft09001G},
+     adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+  }
