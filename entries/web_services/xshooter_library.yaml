@@ -6,22 +6,22 @@ text: This work made use of the X-shooter Spectral Library \citet{Chen2014} at \
 url: http://xsl.u-strasbg.fr/
 dependencies: 
 bibtex: >
-  	@ARTICLE{Chen2014,
-	   author = {{Chen}, Y.-P. and {Trager}, S.~C. and {Peletier}, R.~F. and 
-	  {Lan{\c c}on}, A. and {Vazdekis}, A. and {Prugniel}, P. and 
-	  {Silva}, D.~R. and {Gonneau}, A.},
-	    title = "{The X-shooter Spectral Library (XSL). I. DR1: Near-ultraviolet through optical spectra from the first year of the survey}",
-	  journal = {\aap},
-	archivePrefix = "arXiv",
-	   eprint = {1403.7009},
-	 primaryClass = "astro-ph.SR",
-	 keywords = {stars: abundances, stars: fundamental parameters, stars: AGB and post-AGB, stars: atmospheres, galaxies: stellar content},
-	     year = 2014,
-	    month = may,
-	   volume = 565,
-	      eid = {A117},
-	    pages = {A117},
-	      doi = {10.1051/0004-6361/201322505},
-	   adsurl = {http://adsabs.harvard.edu/abs/2014A%26A...565A.117C},
-	  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
-	}
+    @ARTICLE{Chen2014,
+     author = {{Chen}, Y.-P. and {Trager}, S.~C. and {Peletier}, R.~F. and 
+    {Lan{\c c}on}, A. and {Vazdekis}, A. and {Prugniel}, P. and 
+    {Silva}, D.~R. and {Gonneau}, A.},
+      title = "{The X-shooter Spectral Library (XSL). I. DR1: Near-ultraviolet through optical spectra from the first year of the survey}",
+    journal = {\aap},
+    archivePrefix = "arXiv",
+     eprint = {1403.7009},
+    primaryClass = "astro-ph.SR",
+    keywords = {stars: abundances, stars: fundamental parameters, stars: AGB and post-AGB, stars: atmospheres, galaxies: stellar content},
+       year = 2014,
+      month = may,
+     volume = 565,
+        eid = {A117},
+      pages = {A117},
+        doi = {10.1051/0004-6361/201322505},
+     adsurl = {http://adsabs.harvard.edu/abs/2014A%26A...565A.117C},
+    adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+    }

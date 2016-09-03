@@ -6,19 +6,19 @@ url:
 facilities: 
 dependencies:
 bibtex: >
-  	@ARTICLE{Roeser2010,
-	   author = {{Roeser}, S. and {Demleitner}, M. and {Schilbach}, E.},
-	    title = "{The PPMXL Catalog of Positions and Proper Motions on the ICRS. Combining USNO-B1.0 and the Two Micron All Sky Survey (2MASS)}",
-	  journal = {\aj},
-	archivePrefix = "arXiv",
-	   eprint = {1003.5852},
-	 primaryClass = "astro-ph.GA",
-	 keywords = {astrometry, catalogs, Galaxy: kinematics and dynamics, proper motions},
-	     year = 2010,
-	    month = jun,
-	   volume = 139,
-	    pages = {2440-2447},
-	      doi = {10.1088/0004-6256/139/6/2440},
-	   adsurl = {http://adsabs.harvard.edu/abs/2010AJ....139.2440R},
-	  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
-	}
+    @ARTICLE{Roeser2010,
+     author = {{Roeser}, S. and {Demleitner}, M. and {Schilbach}, E.},
+      title = "{The PPMXL Catalog of Positions and Proper Motions on the ICRS. Combining USNO-B1.0 and the Two Micron All Sky Survey (2MASS)}",
+    journal = {\aj},
+    archivePrefix = "arXiv",
+     eprint = {1003.5852},
+    primaryClass = "astro-ph.GA",
+    keywords = {astrometry, catalogs, Galaxy: kinematics and dynamics, proper motions},
+       year = 2010,
+      month = jun,
+     volume = 139,
+      pages = {2440-2447},
+        doi = {10.1088/0004-6256/139/6/2440},
+     adsurl = {http://adsabs.harvard.edu/abs/2010AJ....139.2440R},
+    adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+    }

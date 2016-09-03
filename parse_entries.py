@@ -1,3 +1,5 @@
+from __future__ import print_function
+
 import os
 import glob
 import json
@@ -22,6 +24,7 @@ for category in CATEGORIES:
     category_database['content'] = {}
 
     for entry in glob.glob(os.path.join('entries', category, '*.yaml')):
+        print("Parsing {0}...".format(entry))
         with open(entry) as infile:
             content = yaml.load(infile)
         short = os.path.splitext(os.path.basename(entry))[0]
