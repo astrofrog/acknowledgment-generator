@@ -74,4 +74,4 @@ The following people have contributed to the concept/code:
 - Niall Deacon
 - Stuart Lowe
 
-A full list of contributors, which includes individuals that have contributed entries, can be found [here](https://github.com/astrofrog/acknowledgment-generator/graphs/contributors)
+A full list of contributors, which includes individuals that have contributed entries, can be found [here](https://github.com/astrofrog/acknowledgment-generator/graphs/contributors).
