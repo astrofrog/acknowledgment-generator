@@ -1,5 +1,9 @@
 language: python
 
+only:
+  - /./       # Matches all the branches
+  - gh-pages  # Explicitly allow gh-pages
+
 python:
   - 2.7
   - 3.4
