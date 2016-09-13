@@ -4,19 +4,21 @@ tags: python
 text: >
     This research has made use of SunPy, an open-source and free
     community-developed solar data analysis package written in Python
-    (Mumford et. al 2013)
+    (The SunPy Community, 2015)
 latex: >
     This research has made use of SunPy, an open-source and free
     community-developed solar data analysis package written in Python
-    \citep{mumford-proc-scipy-2013}
+    \citep{sunpy-05-csd}
 url: http://www.sunpy.org
 dependencies: astropy
 bibtex: >
-    @InProceedings{ mumford-proc-scipy-2013,
-        author    = { Stuart Mumford and David P\'erez-Su\'arez and Steven Christe and Florian Mayer and Russell J. Hewett },
-        title     = { SunPy: Python for Solar Physicists },
-        booktitle = { Proceedings of the 12th Python in Science Conference },
-        pages     = { 74 - 77 },
-        year      = { 2013 },
-        editor    = { St\'efan van der Walt and Jarrod Millman and Katy Huff }
-    }
+  @article{sunpy-05-csd,
+    author={The SunPy Community and Stuart J Mumford and Steven Christe and David Pérez-Suárez and Jack Ireland and Albert Y Shih and Andrew R Inglis and Simon Liedtke and Russell J Hewett and Florian Mayer and Keith Hughitt and Nabil Freij and Tomas Meszaros and Samuel M Bennett and Michael Malocha and John Evans and Ankit Agrawal and Andrew J Leonard and Thomas P Robitaille and Benjamin Mampaey and Jose Iván Campos-Rozo and Michael S Kirk},
+    title={SunPy—Python for solar physics},
+    journal={Computational Science & Discovery},
+    volume={8},
+    number={1},
+    pages={014009},
+    url={http://stacks.iop.org/1749-4699/8/i=1/a=014009},
+    year={2015},
+  }
