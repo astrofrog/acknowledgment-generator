@@ -1,6 +1,7 @@
 language: python
 
-only:
+branches:
+  only:
   - /./       # Matches all the branches
   - gh-pages  # Explicitly allow gh-pages
 
