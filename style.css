@@ -1,133 +1,186 @@
 body {
-	font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 h1 {
-	text-align: center;
+    text-align: center;
+}
+
+h3 > a {
+    font-size: 20pt;
 }
 
 ul {
-	list-style-type: none;
+    list-style-type: none;
 }
 
 #wrapper {
-	width: 1100px;
-	padding: 10px;
-	margin-left:  auto;
-	margin-right:  auto;
+    width: 1100px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #content {
-	width: 950px;
-	margin-top: 10px;
-	padding-bottom: 10px;
-	margin-left:  auto;
-	margin-right:  auto;
+    width: 950px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #content div {
-	padding: 10px;
-/*	border: 1px absolutesolid #bbb;*/
-	float: left;
+    padding: 10px;
+    /*	border: 1px absolutesolid #bbb;*/
+    float: left;
 }
 
 #content-left {
-	width: 350px;
-	padding: 0;
+    width: 350px;
+    padding: 0;
 }
 
 #content-right {
-	margin-left: 10px;
-	width: 500px;
+    margin-left: 10px;
+    width: 500px;
 }
 
 #main_ack {
-	margin-right: auto;
-	margin-left: auto;
-	border-width: 1px;
-	border-color: #000;
-	text-align: justify;
+    margin-right: auto;
+    margin-left: auto;
+    border-width: 1px;
+    border-color: #000;
+    text-align: justify;
 }
 
 #main_check, #main_options {
-	width: 330px;
+    width: 330px;
+}
+
+#search-input {
+    -webkit-appearance: none;
+    -webkit-background-clip: border-box;
+    -webkit-background-origin: padding-box;
+    -webkit-background-size: auto;
+    -webkit-rtl-ordering: logical;
+    -webkit-user-select: text;
+    -webkit-writing-mode: horizontal-tb;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: rgba(0, 0, 0, 0);
+    background-origin: padding-box;
+    background-size: auto;
+    border-bottom-color: rgb(128, 128, 128);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-image-outset: 0px;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image-width: 1;
+    border-left-color: rgb(152, 152, 159);
+    border-left-style: solid;
+    border-left-width: 0px;
+    border-right-color: rgb(152, 152, 159);
+    border-right-style: solid;
+    border-right-width: 0px;
+    border-top-color: rgb(152, 152, 159);
+    border-top-style: solid;
+    border-top-width: 0px;
+    box-sizing: border-box;
+    color: rgb(72, 176, 227);
+    font-size: 28px;
+    line-height: 42px;
+    padding: 1px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: start;
+    width: 100%;
+    word-spacing: 0px;
+    writing-mode: lr-tb;
 }
 
 .options {
-	width: 310px;
-	text-align: left;
+    width: 310px;
+    text-align: left;
 }
 
 ul {
-	margin: 0;
-	padding-left: 1em;
+    margin: 0;
+    padding-left: 1em;
 }
 
 li {
-		margin: 0;
+    margin: 0;
 
 }
 
 #ack_main {
-	width: 480px;
+    width: 480px;
 }
 
 #ack_bibtex {
-			width: 480px;
+    width: 480px;
 
 }
 
 #pre {
-	font: 12px "Courier New", Courier, mono;
+    font: 12px "Courier New", Courier, mono;
 }
 
 #ack_facilities {
-	width: 480px;
-	
+    width: 480px;
+
 }
 
 #apply {
-	color: #dfebff;
-	font-size: 14px;
+    color: #dfebff;
+    font-size: 14px;
 }
 
 .triangle {
-	width: 15px;
-	height: 15px;
-	margin-right: 3px;
+    width: 15px;
+    height: 15px;
+    margin-right: 3px;
 }
 
 .expandable {
-	cursor: pointer;
+    cursor: pointer;
 }
 
 .replace {
-	background-color: #dfebff;
-	padding: 2px;
+    background-color: #dfebff;
+    padding: 2px;
 }
 
 #filter, #typeahead {
-	width: 180px;
-	font-size: 1em;
+    width: 180px;
+    font-size: 1em;
 }
+
 #typeahead {
-	background-color: #dfebff;
+    background-color: #dfebff;
 }
+
 #typeahead ul {
-	margin: 0px;
-	padding: 1px;
-	max-height: 10em;
-	overflow-y: auto;
+    margin: 0px;
+    padding: 1px;
+    max-height: 10em;
+    overflow-y: auto;
 }
+
 #typeahead li {
-	background-color: #efefef;
+    background-color: #efefef;
 }
+
 #typeahead li a {
-	display: block;
-	padding: 0.5em;
-	text-decoration: none;
-	color: black;
+    display: block;
+    padding: 0.5em;
+    text-decoration: none;
+    color: black;
 }
-#typeahead li a:focus,#typeahead li a:hover,#typeahead li a.selected {
-	background-color: white;
+
+#typeahead li a:focus, #typeahead li a:hover, #typeahead li a.selected {
+    background-color: white;
 }
