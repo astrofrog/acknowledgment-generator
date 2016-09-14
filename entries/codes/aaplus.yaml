@@ -1,0 +1,7 @@
+name: AA+
+category: codes
+tags: C++, algorithms
+text: This work made use of AA+, a class framework for Computational Astronomy.
+latex: 
+url: http://www.naughter.com/aa.html
+dependencies:
