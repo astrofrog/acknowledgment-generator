@@ -1,0 +1,8 @@
+name: SwiftAA
+category: codes
+tags: iOS, macOS, algorithms, Swift
+text: This work made use of SwiftAA, a complete collection of astronomical algorithms for Swift and Objective-C.
+latex: 
+url: http://www.onekilopars.ec/swiftaa
+dependencies:
+	- aaplus
