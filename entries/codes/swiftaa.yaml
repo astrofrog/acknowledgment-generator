@@ -5,4 +5,4 @@ text: This work made use of SwiftAA, a complete collection of astronomical algor
 latex: 
 url: http://www.onekilopars.ec/swiftaa
 dependencies:
-	- aaplus
+  - aaplus
