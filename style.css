@@ -7,7 +7,7 @@ h1 {
 }
 
 h3 > a {
-    font-size: 20pt;
+    font-size: 16pt;
 }
 
 ul {
@@ -89,8 +89,8 @@ ul {
     border-top-width: 0px;
     box-sizing: border-box;
     color: rgb(72, 176, 227);
-    font-size: 28px;
-    line-height: 42px;
+    font-size: 21px;
+    line-height: 34px;
     padding: 1px;
     margin-left: 10px;
     margin-bottom: 20px;
