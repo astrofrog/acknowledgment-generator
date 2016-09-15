@@ -21,20 +21,22 @@ for category in CATEGORIES:
     category_database = {}
     category_database['short'] = category
     category_database['title'] = TITLE[category]
-    category_database['content'] = {}
+    category_database['entries'] = []
 
     for entry in glob.glob(os.path.join('entries', category, '*.yaml')):
         print("Parsing {0}...".format(entry))
         with open(entry) as infile:
             content = yaml.load(infile)
+
         short = os.path.splitext(os.path.basename(entry))[0]
-        category_database['content'][short] = {}
+        entryObj = {}
         for key in content:
             if content[key] is not None:
-                category_database['content'][short][key] = content[key]
+                entryObj[key] = content[key]
             else:
                 if key == 'text':
                     raise ValueError("text field should not be empty: {0}".format(entry))
+        category_database['entries'].append(entryObj)
 
     database.append(category_database)
 
