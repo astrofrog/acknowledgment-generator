@@ -94,7 +94,7 @@ ul {
     padding: 1px;
     margin-left: 10px;
     margin-bottom: 20px;
-    margin-top: 20px;
+    margin-top: 2px;
     text-align: start;
     width: 100%;
     word-spacing: 0px;
@@ -183,4 +183,12 @@ li {
 
 #typeahead li a:focus, #typeahead li a:hover, #typeahead li a.selected {
     background-color: white;
+}
+
+.tab-pane {
+    padding-top: 10px;
+}
+
+.entry {
+    font-size: 14pt;
 }
