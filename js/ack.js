@@ -73,12 +73,15 @@
 //
 
 
-$("#option_bibtex").click(function() {
-    $("#bibtex-section").toggle();
+$('#option_bibtex').click(function() {
+    $('#bibtex-section').toggle();
 });
 
-$("#option_facilities").click(function() {
-    $("#facilities-section").toggle();
+$('#option_facilities').click(function() {
+    $('#facilities-section').toggle();
 });
 
+$('#data-table').find('input[type=checkbox]').click(function() {
+    console.log('checkbox clicked!');
+});
 
