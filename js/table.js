@@ -2,7 +2,7 @@
 var checkboxes = [];
 var data = {};
 
-function accordionHeader(title, i, filteredEntriesCount, filterString) {
+function accordionHeader(category, i, filteredEntriesCount, filterString) {
     var hasFilterString = (filterString !== undefined && filterString.length > 0);
     var opened = (hasFilterString && filteredEntriesCount > 0) || filteredEntriesCount == 0;
 
@@ -11,13 +11,13 @@ function accordionHeader(title, i, filteredEntriesCount, filterString) {
         '   <div class="panel-heading">' +
         '       <h3 class="panel-title">' +
         '           <a data-toggle="collapse" data-parent="#accordion" href="#accordion'+i+'">' +
-                        title +
+                        category.title +
         '           </a>' +
         '       </h3>' +
         '   </div>' +
         '   <div id="accordion'+i+'" class="panel-collapse collapse ' + ((opened) ? 'in': '') + '">' +
         '       <div class="panel-body">' +
-        '           <div class="table-responsive"><table class="table">';
+        '           <div class="table-responsive"><table class="table" name="' + category.short + '">';
 }
 
 function accordionFooter() {
@@ -49,7 +49,7 @@ function emptyTableRow() {
     return tableRowStart() + '<i>(no entry)</i>' + tableRowEnd();
 }
 
-function build_table(filterString) {
+function buildEntryTable(filterString) {
 
     clearTableBody();
     checkboxes = [];
@@ -57,7 +57,7 @@ function build_table(filterString) {
     $.each(data, function(i, category) {
 
         var filteredEntries = filterCategoryEntries(category.entries, filterString);
-        var accordion = accordionHeader(category.title, i, filteredEntries.length, filterString);
+        var accordion = accordionHeader(category, i, filteredEntries.length, filterString);
 
         if (filteredEntries.length == 0) {
             accordion += emptyTableRow();
@@ -66,12 +66,12 @@ function build_table(filterString) {
             $.each(filteredEntries, function(j, entry) {
 
                 accordion += '<tr><td>';
-                accordion += '<input type="checkbox" name="checkbox_' + category.short + '" id="' + category.short + '_' + entry+ '" value="' + entry + '"> ';
+                accordion += '<input type="checkbox" name="check" class="entry-checkbox" value="' + entry.name + '"> ';
 
                 if(typeof(entry.url) != 'undefined') {
-                    accordion += ' <a href="' + entry.url + '">' + entry.name + '\n</a>\n';
+                    accordion += '&nbsp;<a href="' + entry.url + '" class="entry">' + entry.name + '\n</a>\n';
                 } else {
-                    accordion += ' ' + entry.name + '\n';
+                    accordion += '&nbsp;' + entry.name + '\n';
                 }
 
                 accordion += '</td></tr>';
@@ -90,14 +90,29 @@ function build_table(filterString) {
     });
 }
 
+function buildAckText() {
+    var selectedCheckboxes = $(':checkbox[name=check]:checked');
+
+    if (selectedCheckboxes.length == 0) {
+
+    }
+    else {
+        $.each(selectedCheckboxes, function(i, box) {
+            console.log(box.value + $(box).closest('table').attr('name'));
+        });
+    }
+}
+
 $(document).ready(function() {
     $.getJSON('database.json', function(jsonData) {
         data = jsonData;
-        build_table($('#search-input').val());
+        buildEntryTable($('#search-input').val());
+        $('.entry-checkbox').click(function () {
+            buildAckText();
+        });
     });
 
     $('#search-input').on('input', function(){
         build_table($('#search-input').val());
     });
-
 });
