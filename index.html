@@ -58,7 +58,7 @@
     <!-- Example row of columns -->
 
     <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-5">
 
             <!-- Left-hand side of page-->
             <input autocomplete="off"
@@ -72,45 +72,33 @@
                     <tbody></tbody>
                 </table>
             </div>
-
-            <div id='main_options'>
-                <h3>Also show:</h3>
-                <ul>
-                    <li><input type="checkbox" id="option_bibtex" checked/> BibTeX
-                    <li><input type="checkbox" id="option_facilities"/> AAS facility keywords
-                </ul>
-            </div>
-
         </div>
 
         <!-- Right-hand side of page-->
-        <div class="col-md-6">
-            <div>
-                <h2>Suggested acknowledgment</h2>
-            </div>
-            <div id="bibtex-section">
-                <h2>BibTeX</h2>
-            </div>
-            <div id="facilities-section" style="display: none;">
-                <h2>Facilities</h2>
+        <div class="col-md-7">
+            <ul class="nav nav-pills nav-justified" role="tablist" id="tabs">
+                <li role="presentation" class="active"><a href="#ack" role="tab" data-toggle="tab">Acknowledgment</a></li>
+                <li role="presentation"><a href="#bib" role="tab" data-toggle="tab">BibTeX</a></li>
+                <li role="presentation"><a href="#fac" role="tab" data-toggle="tab">Facilities</a></li>
+            </ul>
+
+            <div class="tab-content">
+                <div role="tabpanel" class="tab-pane active in" id="ack">
+                    <i>(empty)</i>
+                </div>
+
+                <div role="tabpanel" class="tab-pane" id="bib">
+                    <i>(empty)</i>
+                </div>
+
+                <div role="tabpanel" class="tab-pane" id="fac">
+                    <i>(empty)</i>
+                </div>
             </div>
 
-            <div id='ack_main'>
-            </div>
-            <div id='ack_bibtex'>
-            </div>
-            <div id='ack_facilities'>
-            </div>
         </div>
     </div>
-
-    <hr>
-
-    <footer>
-        <p>Thanks to...</p>
-    </footer>
 </div> <!-- /container -->
-
 
 
 <script>
