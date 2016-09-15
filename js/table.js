@@ -2,7 +2,7 @@
 var checkboxes = [];
 var data = {};
 
-function accordionHeader(title, i) {
+function accordionHeader(title, i, opened) {
     return '<div class="panel">' +
         '<div class="panel-heading">' +
         '   <h3 class="panel-title">' +
@@ -11,7 +11,7 @@ function accordionHeader(title, i) {
         '       </a>' +
         '   </h3>' +
         '</div>' +
-        '<div id="accordion'+i+'" class="panel-collapse collapse">' +
+        '<div id="accordion'+i+'" class="panel-collapse collapse ' + ((opened) ? 'in': '') + '">' +
         '   <div class="panel-body">';
 }
 
@@ -28,18 +28,18 @@ function build_table(filterString) {
     checkboxes = [];
     $.each(data, function(i, category) {
 
-        var accordion = accordionHeader(category.title, i);
-        accordion += '<div class="table-responsive"><table class="table">';
+        var hasFilterString = (filterString !== undefined && filterString.length > 0);
 
         var filteredEntries = category.entries.filter(function(entry) {
-            if (filterString === undefined || filterString.length == 0) {
+            if (hasFilterString == false) {
                 return true;
             }
-            console.log(entry.name.toLowerCase()+' '+filterString.toLowerCase());
             return entry.name.toLowerCase().indexOf(filterString.toLowerCase()) != -1;
         });
 
-        console.log(category.short+' '+filteredEntries.length);
+        var opened = (hasFilterString && filteredEntries.length > 0) || filteredEntries.length == 0;
+        var accordion = accordionHeader(category.title, i, opened);
+        accordion += '<div class="table-responsive"><table class="table">';
 
         $.each(filteredEntries, function(j, entry) {
 
@@ -52,7 +52,7 @@ function build_table(filterString) {
                 accordion += ' ' + entry.name + '\n';
             }
 
-            accordion += "</td></tr>";
+            accordion += '</td></tr>';
 
             checkboxes.push({
                 'id': category.short + '_' + entry,
@@ -60,6 +60,10 @@ function build_table(filterString) {
                 'name': entry.name
             });
         });
+
+        if (filteredEntries.length == 0) {
+            accordion += '<tr><td><i>(no entry)</i></td></tr>';
+        }
 
         accordion += "</table></div>";
         accordion += accordionFooter();
