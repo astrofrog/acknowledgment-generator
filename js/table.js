@@ -21,18 +21,25 @@ function accordionFooter() {
 
 function build_table(filterString) {
 
+    var new_tbody = document.createElement('tbody');
+    var old_tbody = $('#data-table').find('tbody');
+    old_tbody.replaceWith(new_tbody);
+
     checkboxes = [];
     $.each(data, function(i, category) {
 
         var accordion = accordionHeader(category.title, i);
         accordion += '<div class="table-responsive"><table class="table">';
 
-        var filteredEntries = category.content.filter(function(val) {
-            if (filterString === 'undefined') {
+        var filteredEntries = category.entries.filter(function(entry) {
+            if (filterString === undefined || filterString.length == 0) {
                 return true;
             }
-            return val.toLowerCase().indexOf(filterString.toLowerCase()) != -1;
+            console.log(entry.name.toLowerCase()+' '+filterString.toLowerCase());
+            return entry.name.toLowerCase().indexOf(filterString.toLowerCase()) != -1;
         });
+
+        console.log(category.short+' '+filteredEntries.length);
 
         $.each(filteredEntries, function(j, entry) {
 
@@ -64,11 +71,11 @@ function build_table(filterString) {
 $(document).ready(function() {
     $.getJSON('database.json', function(jsonData) {
         data = jsonData;
-        build_table($('#search-input').value);
+        build_table($('#search-input').val());
     });
 
     $('#search-input').on('input', function(){
-        build_table($('#search-input').value);
+        build_table($('#search-input').val());
     });
 
 });
