@@ -1,6 +1,6 @@
 
-var checkboxes = [];
 var data = {};
+var flatDataObject = {};
 
 function accordionHeader(category, i, filteredEntriesCount, filterString) {
     var hasFilterString = (filterString !== undefined && filterString.length > 0);
@@ -49,10 +49,18 @@ function emptyTableRow() {
     return tableRowStart() + '<i>(no entry)</i>' + tableRowEnd();
 }
 
+function buildDataObject() {
+    flatDataObject = {};
+    $.each(data, function(i, category) {
+        $.each(category.entries, function(j, entry) {
+            flatDataObject[entry.name] = {'text': entry.text, 'url': entry.url};
+        });
+    });
+}
+
 function buildEntryTable(filterString) {
 
     clearTableBody();
-    checkboxes = [];
 
     $.each(data, function(i, category) {
 
@@ -75,12 +83,6 @@ function buildEntryTable(filterString) {
                 }
 
                 accordion += '</td></tr>';
-
-                checkboxes.push({
-                    'id': category.short + '_' + entry,
-                    'value': entry,
-                    'name': entry.name
-                });
             });
         }
 
@@ -97,22 +99,30 @@ function buildAckText() {
 
     }
     else {
+        $(".tab-content > #ack").html("");
         $.each(selectedCheckboxes, function(i, box) {
-            console.log(box.value + $(box).closest('table').attr('name'));
+            var name = $(box).val();
+            $(".tab-content > #ack").append(flatDataObject[name].text+"&nbsp;");
         });
     }
+}
+
+function bindSearchInputAndCheckboxes() {
+    $('.entry-checkbox').click(function () {
+        buildAckText();
+    });
+
+    $('#search-input').on('input', function(){
+        buildEntryTable($('#search-input').val());
+    });
 }
 
 $(document).ready(function() {
     $.getJSON('database.json', function(jsonData) {
         data = jsonData;
+        buildDataObject();
         buildEntryTable($('#search-input').val());
-        $('.entry-checkbox').click(function () {
-            buildAckText();
-        });
+        bindSearchInputAndCheckboxes();
     });
 
-    $('#search-input').on('input', function(){
-        build_table($('#search-input').val());
-    });
 });

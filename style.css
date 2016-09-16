@@ -187,6 +187,15 @@ li {
 
 .tab-pane {
     padding-top: 10px;
+    font-size: 16pt;
+}
+
+.tab-pane > i {
+    color: rgb(128, 128, 128);
+}
+
+.nav > li > a {
+    font-size: 14pt;
 }
 
 .entry {
