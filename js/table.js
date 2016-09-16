@@ -1,7 +1,9 @@
 
+// These 2 objects are somewhet redundant, but for now, that works.
 var data = {};
 var flatDataObject = {};
 
+// Returns the start of the HTML code used for the category accordions.
 function accordionHeader(category, i, filteredEntriesCount, filterString) {
     var hasFilterString = (filterString !== undefined && filterString.length > 0);
     var opened = (hasFilterString && filteredEntriesCount > 0) || filteredEntriesCount == 0;
@@ -20,14 +22,17 @@ function accordionHeader(category, i, filteredEntriesCount, filterString) {
         '           <div class="table-responsive"><table class="table" name="' + category.short + '">';
 }
 
+// Returns the end of the HTML code used for the category accordions.
 function accordionFooter() {
     return '</table></div></div></div></div>';
 }
 
+// Replace the table content with an empty content
 function clearTableBody() {
     $('#data-table').find('tbody').replaceWith(document.createElement('tbody'));
 }
 
+// Filter the provided entries according to the filter string
 function filterCategoryEntries(entries, filterString) {
     return entries.filter(function(entry) {
         if (filterString === undefined || filterString.length == 0) {
@@ -37,6 +42,7 @@ function filterCategoryEntries(entries, filterString) {
     });
 }
 
+// Separated in mini-function the day we need to specify for more attributes
 function tableRowStart() {
     return '<tr><td>';
 }
@@ -49,6 +55,22 @@ function emptyTableRow() {
     return tableRowStart() + '<i>(no entry)</i>' + tableRowEnd();
 }
 
+function entryTableRow(entry) {
+    var entryText = tableRowStart();
+
+    entryText += '<input type="checkbox" name="check" class="entry-checkbox" value="' + entry.name + '"> ';
+
+    if(typeof(entry.url) != 'undefined') {
+        entryText += '&nbsp;<a href="' + entry.url + '" class="entry">' + entry.name + '\n</a>\n';
+    } else {
+        entryText += '&nbsp;' + entry.name + '\n';
+    }
+
+    entryText += tableRowEnd();
+    return entryText;
+}
+
+// Put all the data flat: no categories. Not needed at least for the acknowledgement text.
 function buildDataObject() {
     flatDataObject = {};
     $.each(data, function(i, category) {
@@ -58,6 +80,7 @@ function buildDataObject() {
     });
 }
 
+// Build the entries table
 function buildEntryTable(filterString) {
 
     clearTableBody();
@@ -72,17 +95,7 @@ function buildEntryTable(filterString) {
         }
         else {
             $.each(filteredEntries, function(j, entry) {
-
-                accordion += '<tr><td>';
-                accordion += '<input type="checkbox" name="check" class="entry-checkbox" value="' + entry.name + '"> ';
-
-                if(typeof(entry.url) != 'undefined') {
-                    accordion += '&nbsp;<a href="' + entry.url + '" class="entry">' + entry.name + '\n</a>\n';
-                } else {
-                    accordion += '&nbsp;' + entry.name + '\n';
-                }
-
-                accordion += '</td></tr>';
+                accordion += entryTableRow(entry);
             });
         }
 
