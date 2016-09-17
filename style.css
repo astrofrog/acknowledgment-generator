@@ -84,6 +84,7 @@ li {
 
 .entry {
     font-size: 14pt;
+    cursor: pointer;
 }
 
 #search-input {
