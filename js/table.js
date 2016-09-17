@@ -70,6 +70,10 @@ function entryTableRow(entry) {
         entryText += '&nbsp;' + entry.name + '\n';
     }
 
+    if (entry.dependencies !== undefined) {
+        entryText += '<span class="subcontent-prefix">Depends on: </span><span class="subcontent">' + entry.dependencies +'</span>';
+    }
+
     entryText += tableRowEnd();
     return entryText;
 }
@@ -79,7 +83,7 @@ function buildDataObject() {
     flatDataObject = {};
     $.each(data, function(i, category) {
         $.each(category.entries, function(j, entry) {
-            flatDataObject[entry.name.toLocaleLowerCase()] = entry;
+            flatDataObject[entry.name.toLowerCase()] = entry;
         });
     });
 }
@@ -135,11 +139,19 @@ function buildAckBibFacText() {
             appendAckBibFacText(entry);
 
             if (entry.dependencies !== undefined) {
-                var dependencyList = entry.dependencies.split(',');
+                var dependencyList = ($.type(entry.dependencies) == "string") ? entry.dependencies.split(',') : entry.dependencies;
+                var cleanDependencyList = [];
                 $.each(dependencyList, function(i, dependencyName) {
+                    cleanDependencyList.push($.trim(dependencyName));
+                });
+
+                $.each(cleanDependencyList, function(i, dependencyName) {
                     var dependency = flatDataObject[dependencyName.toLowerCase()];
                     if (dependency !== undefined) {
                         appendAckBibFacText(dependency);
+                    }
+                    else {
+                        console.log('[WARNING]: no acknowledgment entry for name "'+ dependencyName + '"')
                     }
                 });
             }
