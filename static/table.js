@@ -10,11 +10,9 @@ function accordionHeader(category, i, filteredEntriesCount, filterString) {
 
     return '' +
         '<div class="panel">' +
-        '   <div class="panel-heading">' +
+        '   <div class="panel-heading collapsed" data-toggle="collapse" data-target="#accordion'+i+'">' +
         '       <h3 class="panel-title">' +
-        '           <a data-toggle="collapse" data-parent="#accordion" href="#accordion'+i+'">' +
-                        category.title +
-        '           </a>' +
+                    '<i class="fa" aria-hidden="true"></i>&nbsp;' + category.title +
         '       </h3>' +
         '   </div>' +
         '   <div id="accordion'+i+'" class="panel-collapse collapse ' + ((opened) ? 'in': '') + '">' +

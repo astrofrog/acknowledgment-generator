@@ -27,10 +27,6 @@ h1 {
     text-align: center;
 }
 
-h3 > a {
-    font-size: 16pt;
-}
-
 ul {
     list-style-type: none;
 }
@@ -88,6 +84,25 @@ li {
 
 #typeahead li a:focus, #typeahead li a:hover, #typeahead li a.selected {
     background-color: white;
+}
+
+.accordion-toggle:hover {
+    text-decoration: none;
+}
+
+.panel-title {
+    font-size: 16pt;
+}
+
+.panel-heading {
+    cursor: pointer;
+}
+
+.panel-heading .fa:after {
+    content: "\f078";
+}
+.panel-heading.collapsed .fa:after {
+    content: "\f054";
 }
 
 .tab-pane {
