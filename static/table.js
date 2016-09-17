@@ -166,12 +166,14 @@ function buildAckBibFacText() {
 
 function bindCheckboxes() {
     // Trigger the build of acknowledgements text upon checkbox click
-    $('.entry-checkbox').click(function () {
+    $('.entry-checkbox').click(function (event) {
+        event.stopPropagation(); // To avoid triggering the action bound to the table row below.
         buildAckBibFacText();
     });
 
     // Also trigger that build when clicking the table row (and making the checkbox state right)
-    $('#data-table').find('tr').click(function () {
+    $('#data-table').find('tr').click(function (event) {
+        event.preventDefault();
         $(this).find('.entry-checkbox').prop('checked', function (i, value) {
             return !value;
         });
