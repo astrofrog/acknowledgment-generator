@@ -1,5 +1,26 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
 body {
     font-family: 'Source Sans Pro', sans-serif;
+    /* Margin bottom by footer height */
+    margin-bottom: 40px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 40px;
+    background-color: #f5f5f5;
+}
+
+.footer > .container {
+    font-size: 10pt;
+    padding-top: 10px;
 }
 
 h1 {
