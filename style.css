@@ -87,6 +87,16 @@ li {
     cursor: pointer;
 }
 
+.subcontent-prefix {
+    font-size: 11pt;
+    color: #b0b0b0;
+}
+
+.subcontent {
+    font-size: 12pt;
+    color: #606060;
+}
+
 #search-input {
     -webkit-appearance: none;
     -webkit-background-clip: border-box;
