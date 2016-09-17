@@ -50,7 +50,7 @@ If you are not familiar with git, you should be able to add the files via the
 GitHub interface. Simply navigate to the right directory, then click on the
 following + symbol:
 
-![add_file.png](add_file.png)
+![add_file.png](static/add_file.png)
 
 This will then automatically open a pull request. You can also just send me any
 file by email (thomas.robitaille@gmail.com).
