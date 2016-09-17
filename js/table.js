@@ -112,6 +112,12 @@ function buildEntryTable(filterString) {
     });
 }
 
+function replaceTextContent(otherContent) {
+    $(".tab-content > #ack").html(otherContent);
+    $(".tab-content > #bib").html(otherContent);
+    $(".tab-content > #fac").html(otherContent);
+}
+
 function appendAckBibFacText(entry) {
     var ack_text = (entry.latex !== undefined) ? entry.latex : entry.text;
     $(".tab-content > #ack").append(ack_text+"&nbsp;");
@@ -127,12 +133,11 @@ function buildAckBibFacText() {
     var selectedCheckboxes = $(':checkbox[name=check]:checked');
 
     if (selectedCheckboxes.length == 0) {
-        $(".tab-content > #ack").html(emptyText());
-        $(".tab-content > #bib").html(emptyText());
-        $(".tab-content > #fac").html(emptyText());
+        replaceTextContent(emptyText());
     }
     else {
-        $(".tab-content > #ack").html("");
+        replaceTextContent("");
+
         $.each(selectedCheckboxes, function(i, box) {
             var name = $(box).val();
             entry = flatDataObject[name.toLowerCase()];
@@ -159,7 +164,7 @@ function buildAckBibFacText() {
     }
 }
 
-function bindSearchInputAndCheckboxes() {
+function bindCheckboxes() {
     // Trigger the build of acknowledgements text upon checkbox click
     $('.entry-checkbox').click(function () {
         buildAckBibFacText();
@@ -172,11 +177,13 @@ function bindSearchInputAndCheckboxes() {
         });
         buildAckBibFacText();
     });
+}
 
+function bindSearchInput() {
     $('#search-input').on('input', function(){
         buildEntryTable($('#search-input').val());
+        bindCheckboxes();
     });
-
 }
 
 $(document).ready(function() {
@@ -184,7 +191,8 @@ $(document).ready(function() {
         data = jsonData;
         buildDataObject();
         buildEntryTable($('#search-input').val());
-        bindSearchInputAndCheckboxes();
+        bindSearchInput();
+        bindCheckboxes();
     });
 
 });
