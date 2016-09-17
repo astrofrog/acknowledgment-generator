@@ -19,7 +19,7 @@ function accordionHeader(category, i, filteredEntriesCount, filterString) {
         '   </div>' +
         '   <div id="accordion'+i+'" class="panel-collapse collapse ' + ((opened) ? 'in': '') + '">' +
         '       <div class="panel-body">' +
-        '           <div class="table-responsive"><table class="table" name="' + category.short + '">';
+        '           <div class="table-responsive"><table class="table table-hover" name="' + category.short + '">';
 }
 
 // Returns the end of the HTML code used for the category accordions.
@@ -44,7 +44,7 @@ function filterCategoryEntries(entries, filterString) {
 
 // Separated in mini-function the day we need to specify for more attributes
 function tableRowStart() {
-    return '<tr><td>';
+    return '<tr><td class="entry">';
 }
 
 function tableRowEnd() {
@@ -55,13 +55,17 @@ function emptyTableRow() {
     return tableRowStart() + '<i>(no entry)</i>' + tableRowEnd();
 }
 
+function emptyText() {
+    return '<i>(empty)</i>'
+}
+
 function entryTableRow(entry) {
     var entryText = tableRowStart();
 
     entryText += '<input type="checkbox" name="check" class="entry-checkbox" value="' + entry.name + '"> ';
 
     if(typeof(entry.url) != 'undefined') {
-        entryText += '&nbsp;<a href="' + entry.url + '" class="entry">' + entry.name + '\n</a>\n';
+        entryText += '&nbsp;<a href="' + entry.url + '">' + entry.name + '\n</a>\n';
     } else {
         entryText += '&nbsp;' + entry.name + '\n';
     }
@@ -100,7 +104,6 @@ function buildEntryTable(filterString) {
         }
 
         accordion += accordionFooter();
-
         $('#data-table > tbody:last-child').append(accordion);
     });
 }
@@ -109,7 +112,7 @@ function buildAckText() {
     var selectedCheckboxes = $(':checkbox[name=check]:checked');
 
     if (selectedCheckboxes.length == 0) {
-
+        $(".tab-content > #ack").html(emptyText());
     }
     else {
         $(".tab-content > #ack").html("");
@@ -121,13 +124,23 @@ function buildAckText() {
 }
 
 function bindSearchInputAndCheckboxes() {
+    // Trigger the build of acknowledgements text upon checkbox click
     $('.entry-checkbox').click(function () {
+        buildAckText();
+    });
+
+    // Also trigger that build when clicking the table row (and making the checkbox state right)
+    $('#data-table').find('tr').click(function () {
+        $(this).find('.entry-checkbox').prop('checked', function (i, value) {
+            return !value;
+        });
         buildAckText();
     });
 
     $('#search-input').on('input', function(){
         buildEntryTable($('#search-input').val());
     });
+
 }
 
 $(document).ready(function() {
