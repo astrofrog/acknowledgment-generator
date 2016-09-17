@@ -70,8 +70,10 @@ Contributors
 
 The following people have contributed to the concept/code:
 
-- Thomas Robitaille
-- Niall Deacon
-- Stuart Lowe
+- [Thomas Robitaille](https://github.com/astrofrog)
+- [Cédric Foellmi](https://github.com/onekiloparsec)
+- [Antonio Martin-Carrillo](https://github.com/kalgash82)
+- [Niall Deacon](https://github.com/nialldeacon)
+- [Stuart Lowe](https://github.com/slowe)
 
 A full list of contributors, which includes individuals that have contributed entries, can be found [here](https://github.com/astrofrog/acknowledgment-generator/graphs/contributors).
