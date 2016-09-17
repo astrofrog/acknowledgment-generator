@@ -79,7 +79,7 @@ function buildDataObject() {
     flatDataObject = {};
     $.each(data, function(i, category) {
         $.each(category.entries, function(j, entry) {
-            flatDataObject[entry.name] = {'text': entry.text, 'url': entry.url};
+            flatDataObject[entry.name.toLocaleLowerCase()] = entry;
         });
     });
 }
@@ -108,17 +108,41 @@ function buildEntryTable(filterString) {
     });
 }
 
-function buildAckText() {
+function appendAckBibFacText(entry) {
+    var ack_text = (entry.latex !== undefined) ? entry.latex : entry.text;
+    $(".tab-content > #ack").append(ack_text+"&nbsp;");
+
+    var bib_text = (entry.bibtex !== undefined) ? entry.bibtex : '';
+    $(".tab-content > #bib").append(bib_text+"&nbsp;");
+
+    var fac_text = (entry.facilities !== undefined) ? entry.facilities : '';
+    $(".tab-content > #fac").append(fac_text+"&nbsp;");
+}
+
+function buildAckBibFacText() {
     var selectedCheckboxes = $(':checkbox[name=check]:checked');
 
     if (selectedCheckboxes.length == 0) {
         $(".tab-content > #ack").html(emptyText());
+        $(".tab-content > #bib").html(emptyText());
+        $(".tab-content > #fac").html(emptyText());
     }
     else {
         $(".tab-content > #ack").html("");
         $.each(selectedCheckboxes, function(i, box) {
             var name = $(box).val();
-            $(".tab-content > #ack").append(flatDataObject[name].text+"&nbsp;");
+            entry = flatDataObject[name.toLowerCase()];
+            appendAckBibFacText(entry);
+
+            if (entry.dependencies !== undefined) {
+                var dependencyList = entry.dependencies.split(',');
+                $.each(dependencyList, function(i, dependencyName) {
+                    var dependency = flatDataObject[dependencyName.toLowerCase()];
+                    if (dependency !== undefined) {
+                        appendAckBibFacText(dependency);
+                    }
+                });
+            }
         });
     }
 }
@@ -126,7 +150,7 @@ function buildAckText() {
 function bindSearchInputAndCheckboxes() {
     // Trigger the build of acknowledgements text upon checkbox click
     $('.entry-checkbox').click(function () {
-        buildAckText();
+        buildAckBibFacText();
     });
 
     // Also trigger that build when clicking the table row (and making the checkbox state right)
@@ -134,7 +158,7 @@ function bindSearchInputAndCheckboxes() {
         $(this).find('.entry-checkbox').prop('checked', function (i, value) {
             return !value;
         });
-        buildAckText();
+        buildAckBibFacText();
     });
 
     $('#search-input').on('input', function(){
