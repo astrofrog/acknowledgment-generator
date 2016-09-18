@@ -29,15 +29,8 @@ h1 {
 
 ul {
     list-style-type: none;
-}
-
-ul {
     margin: 0;
     padding-left: 1em;
-}
-
-li {
-    margin: 0;
 }
 
 #pre {
@@ -172,7 +165,7 @@ li {
     margin-bottom: 20px;
     margin-top: 2px;
     text-align: start;
-    width: 100%;
+    width: 98%;
     word-spacing: 0px;
     writing-mode: lr-tb;
 }
