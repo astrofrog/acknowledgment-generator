@@ -1,7 +1,7 @@
 name: iObserve
 category: codes
 tags: app, macOS, airmass, star tracks, finding charts, units, converters
-text: This work made use iObserve, a macOS app for easily prepare and perform astronomical observations.
+text: This work made use iObserve, a macOS app for easily prepare and perform astronomical observations (http://onekilopars.ec/iobserve)
 latex: 
-url: http://onekilopars.ec/apps/#iobserve
+url: http://onekilopars.ec/iobserve
 dependencies:

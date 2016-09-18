@@ -1,7 +1,7 @@
 name: arcsecond.io
 category: web_services
 tags: data
-text: This work has made use of the data & info aggregator arcsecond.io.
+text: This work has made use of the data & info aggregator arcsecond.io (http://www.arcsecond.io)
 url: http://www.arcsecond.io
 dependencies: 
 bibtex: 

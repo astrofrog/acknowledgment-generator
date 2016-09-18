@@ -23,7 +23,7 @@
                 "category": "web_services",
                 "name": "arcsecond.io",
                 "tags": "data",
-                "text": "This work has made use of the data & info aggregator arcsecond.io.",
+                "text": "This work has made use of the data & info aggregator arcsecond.io (http://www.arcsecond.io)",
                 "url": "http://www.arcsecond.io"
             },
             {
@@ -103,7 +103,7 @@
                 "category": "codes",
                 "name": "AA+",
                 "tags": "C++, algorithms",
-                "text": "This work made use of AA+, a class framework for Computational Astronomy.",
+                "text": "This work made use of AA+, a class framework for Computational Astronomy (http://www.naughter.com/aa.html)",
                 "url": "http://www.naughter.com/aa.html"
             },
             {
@@ -132,8 +132,8 @@
                 "category": "codes",
                 "name": "iObserve",
                 "tags": "app, macOS, airmass, star tracks, finding charts, units, converters",
-                "text": "This work made use iObserve, a macOS app for easily prepare and perform astronomical observations.",
-                "url": "http://onekilopars.ec/apps/#iobserve"
+                "text": "This work made use iObserve, a macOS app for easily prepare and perform astronomical observations (http://onekilopars.ec/iobserve)",
+                "url": "http://onekilopars.ec/iobserve"
             },
             {
                 "bibtex": "@Article{PER-GRA:2007, Author    = {P\\'erez, Fernando and Granger, Brian E.}, Title     = {{IP}ython: a System for Interactive Scientific Computing}, Journal   = {Computing in Science and Engineering}, Volume    = {9}, Number    = {3}, Pages     = {21--29}, month     = may, year      = 2007, url       = \"http://ipython.org\", ISSN      = \"1521-9615\", doi       = {10.1109/MCSE.2007.53}, publisher = {IEEE Computer Society}, }\n",
@@ -228,7 +228,7 @@
                 ],
                 "name": "SwiftAA",
                 "tags": "iOS, macOS, algorithms, Swift",
-                "text": "This work made use of SwiftAA, a complete collection of astronomical algorithms for Swift and Objective-C.",
+                "text": "This work made use of SwiftAA, a complete collection of astronomical algorithms for Swift and Objective-C (http://www.onekilopars.ec/swiftaa).",
                 "url": "http://www.onekilopars.ec/swiftaa"
             },
             {
