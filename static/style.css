@@ -1,0 +1,171 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    /* Margin bottom by footer height */
+    margin-bottom: 40px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 40px;
+    background-color: #f5f5f5;
+}
+
+.footer > .container {
+    font-size: 10pt;
+    padding-top: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 1em;
+}
+
+#pre {
+    font: 12px "Courier New", Courier, mono;
+}
+
+.triangle {
+    width: 15px;
+    height: 15px;
+    margin-right: 3px;
+}
+
+.replace {
+    background-color: #dfebff;
+    padding: 2px;
+}
+
+#filter, #typeahead {
+    width: 180px;
+    font-size: 1em;
+}
+
+#typeahead {
+    background-color: #dfebff;
+}
+
+#typeahead ul {
+    margin: 0px;
+    padding: 1px;
+    max-height: 10em;
+    overflow-y: auto;
+}
+
+#typeahead li {
+    background-color: #efefef;
+}
+
+#typeahead li a {
+    display: block;
+    padding: 0.5em;
+    text-decoration: none;
+    color: black;
+}
+
+#typeahead li a:focus, #typeahead li a:hover, #typeahead li a.selected {
+    background-color: white;
+}
+
+.accordion-toggle:hover {
+    text-decoration: none;
+}
+
+.panel-title {
+    font-size: 16pt;
+}
+
+.panel-heading {
+    cursor: pointer;
+}
+
+.panel-heading .fa:after {
+    content: "\f078";
+}
+.panel-heading.collapsed .fa:after {
+    content: "\f054";
+}
+
+.tab-pane {
+    padding-top: 10px;
+    font-size: 16pt;
+}
+
+.tab-pane > i {
+    color: rgb(128, 128, 128);
+}
+
+.nav > li > a {
+    font-size: 14pt;
+}
+
+.entry {
+    font-size: 14pt;
+    cursor: pointer;
+}
+
+.subcontent-prefix {
+    font-size: 11pt;
+    color: #b0b0b0;
+}
+
+.subcontent {
+    font-size: 12pt;
+    color: #606060;
+}
+
+#search-input {
+    -webkit-appearance: none;
+    -webkit-background-clip: border-box;
+    -webkit-background-origin: padding-box;
+    -webkit-background-size: auto;
+    -webkit-rtl-ordering: logical;
+    -webkit-user-select: text;
+    -webkit-writing-mode: horizontal-tb;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: rgba(0, 0, 0, 0);
+    background-origin: padding-box;
+    background-size: auto;
+    border-bottom-color: rgb(128, 128, 128);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-image-outset: 0px;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image-width: 1;
+    border-left-color: rgb(152, 152, 159);
+    border-left-style: solid;
+    border-left-width: 0px;
+    border-right-color: rgb(152, 152, 159);
+    border-right-style: solid;
+    border-right-width: 0px;
+    border-top-color: rgb(152, 152, 159);
+    border-top-style: solid;
+    border-top-width: 0px;
+    box-sizing: border-box;
+    color: rgb(72, 176, 227);
+    font-size: 21px;
+    line-height: 34px;
+    padding: 1px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    margin-top: 2px;
+    text-align: start;
+    width: 98%;
+    word-spacing: 0px;
+    writing-mode: lr-tb;
+}

@@ -50,7 +50,7 @@ If you are not familiar with git, you should be able to add the files via the
 GitHub interface. Simply navigate to the right directory, then click on the
 following + symbol:
 
-![add_file.png](add_file.png)
+![add_file.png](static/add_file.png)
 
 This will then automatically open a pull request. You can also just send me any
 file by email (thomas.robitaille@gmail.com).
@@ -70,8 +70,10 @@ Contributors
 
 The following people have contributed to the concept/code:
 
-- Thomas Robitaille
-- Niall Deacon
-- Stuart Lowe
+- [Thomas Robitaille](https://github.com/astrofrog)
+- [Cédric Foellmi](https://github.com/onekiloparsec)
+- [Antonio Martin-Carrillo](https://github.com/kalgash82)
+- [Niall Deacon](https://github.com/nialldeacon)
+- [Stuart Lowe](https://github.com/slowe)
 
 A full list of contributors, which includes individuals that have contributed entries, can be found [here](https://github.com/astrofrog/acknowledgment-generator/graphs/contributors).
