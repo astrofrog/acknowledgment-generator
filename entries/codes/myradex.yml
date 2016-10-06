@@ -1,0 +1,10 @@
+name: myRadex
+category: codes
+tags: 
+text: This research made use of myRadex, an alternative implementation of RADEX (http://home.strw.leidenuniv.nl/~moldata/radex.html)
+url: https://github.com/fjdu/myRadex
+notes:
+dependencies:
+
+
+

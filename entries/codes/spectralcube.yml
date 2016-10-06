@@ -1,0 +1,8 @@
+name: spectralcube
+category: codes
+tags: 
+text: This research made use of spectralcube, a library for astronomical spectral data cubes.
+url: http://radio-astro-tools.github.io/
+dependencies: 
+bibtex: 
+
