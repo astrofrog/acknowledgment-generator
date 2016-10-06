@@ -1,0 +1,7 @@
+name: wcsaxes
+category: codes
+tags: 
+text: This research made use of wcsaxes, an open-source plotting library for Python hosted at https://wcsaxes.readthedocs.io/en/latest/
+url: http://wcsaxes.readthedocs.io
+dependencies: 
+bibtex: 

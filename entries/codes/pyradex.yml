@@ -1,0 +1,7 @@
+name: pyradex
+category: codes
+tags: 
+text: This research made use of pyradex, a python wrapper of RADEX (http://home.strw.leidenuniv.nl/~moldata/radex.html)
+url: https://github.com/keflavich/pyradex
+notes:
+dependencies:
