@@ -130,6 +130,12 @@
             },
             {
                 "category": "codes",
+                "name": "ds9",
+                "text": "This research made use of ds9, a tool for data visualization supported by the Chandra X-ray Science Center (CXC) and the High Energy Astrophysics Science Archive Center (HEASARC) with support from the JWST Mission office at the Space Telescope Science Institute for 3D visualization.",
+                "url": "http://ds9.si.edu/site/Home.html"
+            },
+            {
+                "category": "codes",
                 "name": "iObserve",
                 "tags": "app, macOS, airmass, star tracks, finding charts, units, converters",
                 "text": "This work made use iObserve, a macOS app for easily prepare and perform astronomical observations (http://onekilopars.ec/iobserve)",
@@ -172,12 +178,30 @@
                 "url": "http://code.enthought.com/projects/mayavi/"
             },
             {
+                "category": "codes",
+                "name": "myRadex",
+                "text": "This research made use of myRadex, an alternative implementation of RADEX (http://home.strw.leidenuniv.nl/~moldata/radex.html)",
+                "url": "https://github.com/fjdu/myRadex"
+            },
+            {
                 "bibtex": "@INPROCEEDINGS{2006SPIE.6270E..1VF,\n   author = {{Fruscione}, A. and {McDowell}, J.~C. and {Allen}, G.~E. and \n    {Brickhouse}, N.~S. and {Burke}, D.~J. and {Davis}, J.~E. and \n    {Durham}, N. and {Elvis}, M. and {Galle}, E.~C. and {Harris}, D.~E. and \n    {Huenemoerder}, D.~P. and {Houck}, J.~C. and {Ishibashi}, B. and \n    {Karovska}, M. and {Nicastro}, F. and {Noble}, M.~S. and {Nowak}, M.~A. and \n    {Primini}, F.~A. and {Siemiginowska}, A. and {Smith}, R.~K. and \n    {Wise}, M.},\n    title = \"{CIAO: Chandra's data analysis system}\",\nbooktitle = {Society of Photo-Optical Instrumentation Engineers (SPIE) Conference Series},\n     year = 2006,\n   series = {Society of Photo-Optical Instrumentation Engineers (SPIE) Conference Series},\n   volume = 6270,\n    month = jun,\n      eid = {62701V},\n    pages = {1},\n      doi = {10.1117/12.671760},\n   adsurl = {http://adsabs.harvard.edu/abs/2006SPIE.6270E..1VF},\n  adsnote = {Provided by the SAO/NASA Astrophysics Data System}\n}\n",
                 "category": "codes",
                 "name": "OSA",
                 "tags": "gamma-ray, integral",
                 "text": "This research made use of the Off-line Scientific Analysis (OSA) software package \\citep{2006SPIE.6270E..1VF}\n",
                 "url": "http://www.isdc.unige.ch/integral/analysis"
+            },
+            {
+                "category": "codes",
+                "name": "pvextractor",
+                "text": "This research made use of pvextractor, a tool to extract position-velocity diagrams along arbitrary directions from data cubes.",
+                "url": "http://radio-astro-tools.github.io/"
+            },
+            {
+                "category": "codes",
+                "name": "pyradex",
+                "text": "This research made use of pyradex, a python wrapper of RADEX (http://home.strw.leidenuniv.nl/~moldata/radex.html)",
+                "url": "https://github.com/keflavich/pyradex"
             },
             {
                 "category": "codes",
@@ -212,13 +236,19 @@
                 "url": "http://cxc.harvard.edu/sherpa4.4/"
             },
             {
-                "bibtex": "@InProceedings{ mumford-proc-scipy-2013,\n    author    = { Stuart Mumford and David P\\'erez-Su\\'arez and Steven Christe and Florian Mayer and Russell J. Hewett },\n    title     = { SunPy: Python for Solar Physicists },\n    booktitle = { Proceedings of the 12th Python in Science Conference },\n    pages     = { 74 - 77 },\n    year      = { 2013 },\n    editor    = { St\\'efan van der Walt and Jarrod Millman and Katy Huff }\n}\n",
+                "category": "codes",
+                "name": "spectralcube",
+                "text": "This research made use of spectralcube, a library for astronomical spectral data cubes.",
+                "url": "http://radio-astro-tools.github.io/"
+            },
+            {
+                "bibtex": "@article{sunpy-05-csd,\n  author={The SunPy Community and Stuart J Mumford and Steven Christe and David P\u00e9rez-Su\u00e1rez and Jack Ireland and Albert Y Shih and Andrew R Inglis and Simon Liedtke and Russell J Hewett and Florian Mayer and Keith Hughitt and Nabil Freij and Tomas Meszaros and Samuel M Bennett and Michael Malocha and John Evans and Ankit Agrawal and Andrew J Leonard and Thomas P Robitaille and Benjamin Mampaey and Jose Iv\u00e1n Campos-Rozo and Michael S Kirk},\n  title={SunPy\u2014Python for solar physics},\n  journal={Computational Science & Discovery},\n  volume={8},\n  number={1},\n  pages={014009},\n  url={http://stacks.iop.org/1749-4699/8/i=1/a=014009},\n  year={2015},\n}\n",
                 "category": "codes",
                 "dependencies": "astropy",
-                "latex": "This research has made use of SunPy, an open-source and free community-developed solar data analysis package written in Python \\citep{mumford-proc-scipy-2013}\n",
+                "latex": "This research has made use of SunPy, an open-source and free community-developed solar data analysis package written in Python \\citep{sunpy-05-csd}\n",
                 "name": "SunPy",
                 "tags": "python",
-                "text": "This research has made use of SunPy, an open-source and free community-developed solar data analysis package written in Python (Mumford et. al 2013)\n",
+                "text": "This research has made use of SunPy, an open-source and free community-developed solar data analysis package written in Python (The SunPy Community, 2015)\n",
                 "url": "http://www.sunpy.org"
             },
             {
@@ -249,6 +279,12 @@
                 "tags": "java, catalogs, tables",
                 "text": "This research made use of TOPCAT, an interactive graphical viewer and editor for tabular data (Taylor, 2005)\n",
                 "url": "http://www.star.bris.ac.uk/~mbt/topcat/"
+            },
+            {
+                "category": "codes",
+                "name": "wcsaxes",
+                "text": "This research made use of wcsaxes, an open-source plotting library for Python hosted at https://wcsaxes.readthedocs.io/en/latest/",
+                "url": "http://wcsaxes.readthedocs.io"
             },
             {
                 "bibtex": "@INPROCEEDINGS{1996ASPC..101...17A,\n   author = {{Arnaud}, K.~A.},\n    title = \"{XSPEC: The First Ten Years}\",\nbooktitle = {Astronomical Data Analysis Software and Systems V},\n     year = 1996,\n   series = {Astronomical Society of the Pacific Conference Series},\n   volume = 101,\n   editor = {{Jacoby}, G.~H. and {Barnes}, J.},\n    pages = {17},\n   adsurl = {http://adsabs.harvard.edu/abs/1996ASPC..101...17A},\n  adsnote = {Provided by the SAO/NASA Astrophysics Data System}\n}\n",
