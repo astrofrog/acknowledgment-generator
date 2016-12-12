@@ -8,7 +8,7 @@ dependencies:
 bibtex: >
     @ARTICLE{2016A&A...585A..41W,
     author = {{Winkel}, B. and {Kerp}, J. and {Fl{\"o}er}, L. and {Kalberla}, P.~M.~W. and 
-	{Ben Bekhti}, N. and {Keller}, R. and {Lenz}, D.},
+    {Ben Bekhti}, N. and {Keller}, R. and {Lenz}, D.},
     title = "{The Effelsberg-Bonn H i Survey: Milky Way gas. First data release}",
     journal = {\aap},
     archivePrefix = "arXiv",
@@ -26,7 +26,7 @@ bibtex: >
     }
     @ARTICLE{2011AN....332..637K,
     author = {{Kerp}, J. and {Winkel}, B. and {Ben Bekhti}, N. and {Fl{\"o}er}, L. and 
-	{Kalberla}, P.~M.~W.},
+    {Kalberla}, P.~M.~W.},
     title = "{The Effelsberg Bonn H I Survey (EBHIS)}",
     journal = {Astronomische Nachrichten},
     archivePrefix = "arXiv",
