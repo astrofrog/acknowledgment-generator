@@ -590,6 +590,16 @@
             },
             {
                 "category": "facilities",
+                "name": "Effelsberg",
+                "text": "Based on observations with the 100-m telescope of the MPIfR (Max-Planck-Institut f\u00fcr Radioastronomie) at Effelsberg."
+            },
+            {
+                "category": "facilities",
+                "name": "Parkes",
+                "text": "The Parkes Radio Telescope is part of the Australia Telescope which is funded by the Commonwealth of Australia for operation as a National Facility managed by CSIRO."
+            },
+            {
+                "category": "facilities",
                 "name": "NRAO",
                 "text": "The National Radio Astronomy Observatory is a facility of the National Science Foundation operated under cooperative agreement by Associated Universities, Inc."
             },
