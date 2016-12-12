@@ -23,5 +23,5 @@ script:
       git checkout gh-pages;
       git add database.json;
       git commit -m "Updated database.json";
-      git push -f -q https://astrobot:$GITHUB_API_KEY@github.com/astrofrog/acknowledgment-generator gh-pages >& /dev/null;
+      git push -q https://astrobot:$GITHUB_API_KEY@github.com/astrofrog/acknowledgment-generator gh-pages >& /dev/null;
     fi
