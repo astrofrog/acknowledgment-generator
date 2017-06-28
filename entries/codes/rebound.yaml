@@ -1,0 +1,20 @@
+name: REBOUND
+category: codes
+tags: python
+text: This research made use of the REBOUND integrator package (Rein and Liu 2012)
+latex: This research made use of the REBOUND integrator package \citep{reinliu2012rebound}
+url: https://github.com/hannorein/rebound
+dependencies:
+bibtex: >
+    @article{reinliu2012rebound,
+	author = {{Rein}, H. and {Liu}, S.-F.},
+	title = "{REBOUND: an open-source multi-purpose N-body code for collisional dynamics}",
+	journal = {Astronomy and Astrophysics},
+	eprint = {1110.4876},
+	year = 2012,
+	month = jan,
+	volume = 537,
+	eid = {A128},
+	pages = {A128},
+	doi = {10.1051/0004-6361/201118085}
+    }
