@@ -1,0 +1,37 @@
+name: HI4PI
+category: data
+tags:
+text: >
+    EBHIS is based on observations with the 100-m telescope of the MPIfR
+    (Max-Planck-Institut für Radioastronomie) at Effelsberg. The Parkes Radio
+    Telescope is part of the Australia Telescope which is funded by the
+    Commonwealth of Australia for operation as a National Facility managed by
+    CSIRO.
+url: http://cdsarc.u-strasbg.fr/viz-bin/qcat?J/A+A/594/A116
+facilities: \facility{Effelsberg,Parkes}
+dependencies:
+bibtex: >
+    @ARTICLE{2016A&A...594A.116H,
+    author = {{HI4PI Collaboration} and {Ben Bekhti}, N. and {Fl{\"o}er},
+    L. and {Keller}, R. and {Kerp}, J. and {Lenz}, D. and {Winkel}, B. and
+    {Bailin}, J. and {Calabretta}, M.~R. and {Dedes}, L. and {Ford}, H.~A.
+    and {Gibson}, B.~K. and {Haud}, U. and {Janowiecki}, S. and {Kalberla},
+    P.~M.~W. and {Lockman}, F.~J. and {McClure-Griffiths}, N.~M. and
+    {Murphy}, T. and {Nakanishi}, H. and {Pisano}, D.~J. and
+    {Staveley-Smith}, L.
+    },
+    title = "{HI4PI: A full-sky H I survey based on EBHIS and GASS}",
+    journal = {\aap},
+    archivePrefix = "arXiv",
+    eprint = {1610.06175},
+    keywords = {surveys, ISM: atoms, techniques: spectroscopic},
+    year = 2016,
+    month = oct,
+    volume = 594,
+    eid = {A116},
+    pages = {A116},
+    doi = {10.1051/0004-6361/201629178},
+    adsurl = {http://cdsads.u-strasbg.fr/abs/2016A%26A...594A.116H},
+    adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+    }
+
