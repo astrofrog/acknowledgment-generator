@@ -1,0 +1,44 @@
+name: EBHIS
+category: data
+tags:
+text: >
+    Based on observations with the 100-m telescope of the MPIfR
+    (Max-Planck-Institut für Radioastronomie) at Effelsberg.
+url: http://cdsarc.u-strasbg.fr/viz-bin/qcat?J/A+A/585/A41
+facilities: \facility{Effelsberg}
+dependencies:
+bibtex: >
+    @ARTICLE{2016A&A...585A..41W,
+    author = {{Winkel}, B. and {Kerp}, J. and {Fl{\"o}er}, L. and {Kalberla}, P.~M.~W. and
+    {Ben Bekhti}, N. and {Keller}, R. and {Lenz}, D.},
+    title = "{The Effelsberg-Bonn H i Survey: Milky Way gas. First data release}",
+    journal = {\aap},
+    archivePrefix = "arXiv",
+    eprint = {1512.05348},
+    primaryClass = "astro-ph.IM",
+    keywords = {surveys, ISM: atoms, techniques: spectroscopic},
+    year = 2016,
+    month = jan,
+    volume = 585,
+    eid = {A41},
+    pages = {A41},
+    doi = {10.1051/0004-6361/201527007},
+    adsurl = {http://cdsads.u-strasbg.fr/abs/2016A%26A...585A..41W},
+    adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+    }
+    @ARTICLE{2011AN....332..637K,
+    author = {{Kerp}, J. and {Winkel}, B. and {Ben Bekhti}, N. and {Fl{\"o}er}, L. and
+    {Kalberla}, P.~M.~W.},
+    title = "{The Effelsberg Bonn H I Survey (EBHIS)}",
+    journal = {Astronomische Nachrichten},
+    archivePrefix = "arXiv",
+    eprint = {1104.1185},
+    keywords = {ISM: structure, radio lines: galaxies, radio lines: ISM, surveys},
+    year = 2011,
+    month = jul,
+    volume = 332,
+    pages = {637},
+    doi = {10.1002/asna.201011548},
+    adsurl = {http://adsabs.harvard.edu/abs/2011AN....332..637K},
+    adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+    }
