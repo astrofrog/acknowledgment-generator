@@ -19,7 +19,7 @@ install:
 
 script:
   - python parse_entries.py
-  - if [[ $TRAVIS_PYTHON_VERSION == 3.5 && $TRAVIS_BRANCH == "gh-pages" ]]; then
+  - if [[ $TRAVIS_PYTHON_VERSION == 3.5 && $TRAVIS_PULL_REQUEST != false && $TRAVIS_BRANCH == "gh-pages" ]]; then
       git checkout gh-pages;
       git add database.json;
       git commit -m "Updated database.json";
