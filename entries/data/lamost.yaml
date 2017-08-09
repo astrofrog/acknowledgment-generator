@@ -1,7 +1,7 @@
-name: LAMOST DR1
+name: LAMOST DR3
 category: data
 tags:
 text: Guoshoujing Telescope (the Large Sky Area Multi-Object Fiber Spectroscopic Telescope LAMOST) is a National Major Scientific Project built by the Chinese Academy of Sciences. Funding for the project has been provided by the National Development and Reform Commission. LAMOST is operated and managed by the National Astronomical Observatories, Chinese Academy of Sciences.
-url: http://dr1.lamost.org/
+url: http://dr3.lamost.org/
 dependencies:
 bibtex:
