@@ -1,0 +1,11 @@
+name: VLA
+category: facilities
+tags: radio
+text: >
+  The National Radio Astronomy Observatory is a facility of the National
+  Science Foundation operated under cooperative agreement by Associated
+  Universities, Inc.
+url:
+dependencies:
+bibtex:
+facilities: \facility{Karl G. Jansky Very Large Array}
