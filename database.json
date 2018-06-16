@@ -232,6 +232,7 @@
                 "url": "https://heasarc.gsfc.nasa.gov/xanadu/xspec/"
             },
             {
+                "bibtex": "@INPROCEEDINGS{2003ASPC..295..489J, author = {{Joye}, W.~A. and {Mandel}, E.}, title = \"{New Features of SAOImage DS9}\", booktitle = {Astronomical Data Analysis Software and Systems XII}, year = 2003, series = {Astronomical Society of the Pacific Conference Series}, volume = 295, editor = {{Payne}, H.~E. and {Jedrzejewski}, R.~I. and {Hook}, R.~N.}, pages = {489}, adsurl = {http://adsabs.harvard.edu/abs/2003ASPC..295..489J}, adsnote = {Provided by the SAO/NASA Astrophysics Data System} }\n",
                 "category": "codes",
                 "name": "ds9",
                 "text": "This research made use of ds9, a tool for data visualization supported by the Chandra X-ray Science Center (CXC) and the High Energy Astrophysics Science Archive Center (HEASARC) with support from the JWST Mission office at the Space Telescope Science Institute for 3D visualization.",
