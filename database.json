@@ -383,9 +383,15 @@
             },
             {
                 "category": "data",
-                "name": "LAMOST DR1",
+                "name": "LAMOST DR3",
                 "text": "Guoshoujing Telescope (the Large Sky Area Multi-Object Fiber Spectroscopic Telescope LAMOST) is a National Major Scientific Project built by the Chinese Academy of Sciences. Funding for the project has been provided by the National Development and Reform Commission. LAMOST is operated and managed by the National Astronomical Observatories, Chinese Academy of Sciences.",
-                "url": "http://dr1.lamost.org/"
+                "url": "http://dr3.lamost.org/"
+            },
+            {
+                "category": "data",
+                "name": "Gaia-ESO",
+                "text": "Based on data products from observations made with ESO Telescopes at the La Silla Paranal Observatory under programme ID 188.B-3002. These data products have been processed by the Cam-bridge Astronomy Survey Unit (CASU) at the Institute of Astronomy, University of Cambridge, and by the FLAMES/UVES reduction team at INAF/Osservatorio Astrofisico di Arcetri. These data have been obtained from the Gaia-ESO Survey Data Archive, prepared and hosted by the Wide Field Astronomy Unit, Institute for Astronomy, University of Edinburgh, which is funded by the UK Science and Technology Facilities Council.",
+                "url": "http://ges.roe.ac.uk/"
             },
             {
                 "category": "data",
