@@ -6,7 +6,7 @@ latex: This research made use of Astropy, a community-developed core Python pack
 url: http://www.astropy.org
 dependencies:
 bibtex: >
-    @ARTICLE{2018AJ....156..123A,
+  @ARTICLE{2018AJ....156..123A,
      author = {{Astropy Collaboration} and {Price-Whelan}, A.~M. and {Sip{\H o}cz}, B.~M. and
         {G{\"u}nther}, H.~M. and {Lim}, P.~L. and {Crawford}, S.~M. and
         {Conseil}, S. and {Shupe}, D.~L. and {Craig}, M.~W. and {Dencheva}, N. and
