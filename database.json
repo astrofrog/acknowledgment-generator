@@ -307,6 +307,14 @@
                 "url": "http://cxc.harvard.edu/ciao/"
             },
             {
+                "bibtex": "@ARTICLE{2019AJ....157...98G,\n   author = {{Ginsburg}, A. and {Sip{\\H o}cz}, B.~M. and {Brasseur}, C.~E. and\n    {Cowperthwaite}, P.~S. and {Craig}, M.~W. and {Deil}, C. and\n    {Guillochon}, J. and {Guzman}, G. and {Liedtke}, S. and {Lian Lim}, P. and\n    {Lockhart}, K.~E. and {Mommert}, M. and {Morris}, B.~M. and\n    {Norman}, H. and {Parikh}, M. and {Persson}, M.~V. and {Robitaille}, T.~P. and\n    {Segovia}, J.-C. and {Singer}, L.~P. and {Tollerud}, E.~J. and\n    {de Val-Borro}, M. and {Valtchanov}, I. and {Woillez}, J. and\n    {Astroquery Collaboration} and {a subset of the astropy Collaboration}\n    },\n    title = \"{astroquery: An Astronomical Web-querying Package in Python}\",\n  journal = {\\aj},\narchivePrefix = \"arXiv\",\n   eprint = {1901.04520},\n primaryClass = \"astro-ph.IM\",\n keywords = {astronomical databases: miscellaneous, virtual observatory tools},\n     year = 2019,\n    month = mar,\n   volume = 157,\n      eid = {98},\n    pages = {98},\n      doi = {10.3847/1538-3881/aafc33},\n   adsurl = {http://adsabs.harvard.edu/abs/2019AJ....157...98G},\n  adsnote = {Provided by the SAO/NASA Astrophysics Data System}\n}\n",
+                "category": "codes",
+                "dependencies": "astropy",
+                "latex": "This research made use of Astroquery \\citep{2019AJ....157...98G}",
+                "name": "Astroquery",
+                "tags": "python"
+            },
+            {
                 "category": "codes",
                 "latex": "PyRAF is a product of the Space Telescope Science Institute, which is operated by AURA for NASA",
                 "name": "PyRAF",
