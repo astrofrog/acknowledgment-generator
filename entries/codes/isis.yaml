@@ -1,0 +1,21 @@
+name: ISIS
+category: codes
+tags: x-ray
+text: >
+    This research made use of ISIS to perform spectral fitting
+    \citep{2000ASPC..216..591H}
+url: https://space.mit.edu/ASC/ISIS/
+dependencies:
+bibtex: >
+    @INPROCEEDINGS{2000ASPC..216..591H,
+        author = {{Houck}, J.~C. and {Denicola}, L.~A.},
+          title = "{ISIS: An Interactive Spectral Interpretation System for High Resolution X-Ray Spectroscopy}",
+      booktitle = {Astronomical Data Analysis Software and Systems IX},
+           year = 2000,
+         series = {Astronomical Society of the Pacific Conference Series},
+         volume = 216,
+         editor = {{Manset}, N. and {Veillet}, C. and {Crabtree}, D.},
+          pages = {591},
+         adsurl = {http://adsabs.harvard.edu/abs/2000ASPC..216..591H},
+        adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+    }
