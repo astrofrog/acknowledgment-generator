@@ -6,9 +6,8 @@ branches:
   - gh-pages  # Explicitly allow gh-pages
 
 python:
-  - 2.7
-  - 3.4
   - 3.5
+  - 3.7
 
 before_install:
   - git config user.name "Astrobot"
