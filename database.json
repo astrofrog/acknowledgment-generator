@@ -312,7 +312,8 @@
                 "dependencies": "astropy",
                 "latex": "This research made use of Astroquery \\citep{2019AJ....157...98G}",
                 "name": "Astroquery",
-                "tags": "python"
+                "tags": "python",
+                "url": "https://astroquery.readthedocs.io"
             },
             {
                 "category": "codes",
