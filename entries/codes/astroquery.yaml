@@ -3,6 +3,7 @@ category: codes
 tags: python
 latex: This research made use of Astroquery \citep{2019AJ....157...98G}
 dependencies: astropy
+url: https://astroquery.readthedocs.io
 bibtex: >
     @ARTICLE{2019AJ....157...98G,
        author = {{Ginsburg}, A. and {Sip{\H o}cz}, B.~M. and {Brasseur}, C.~E. and
