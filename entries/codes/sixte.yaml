@@ -1,0 +1,18 @@
+name: SIXTE
+category: codes
+tags: simulations
+text: This research has made use of the SIXTE software package (Dauser et al., 2019) provided by ECAP/Remeis observatory (https://github.com/thdauser/sixte). 
+latex: This research has made use of the SIXTE software package \citep{Dauser:2019} provided by ECAP/Remeis observatory (https://github.com/thdauser/sixte).
+url: https://github.com/thdauser/sixte
+dependencies:
+bibtex: >
+    @article{Dauser:2019,
+    author = {{Dauser, Thomas} and {Falkner, Sebastian} and {Lorenz, Maximilian} and {Kirsch, Christian} and {Peille, Philippe} and {Cucchetti, Edoardo} and {Schmid, Christian} and {Brand, Thorsten} and {Oertel, Mirjam} and {Smith, Randall} and {Wilms, J\"orn}},
+    title = {SIXTE: a generic X-ray instrument simulation toolkit},
+    DOI= "10.1051/0004-6361/201935978",
+    url= "https://doi.org/10.1051/0004-6361/201935978",
+    journal = {A\&A},
+    year = 2019,
+    volume = 630,
+    pages = "A66",
+    }
