@@ -8,11 +8,11 @@ dependencies:
 bibtex: >
     @article{Dauser:2019,
     author = {{Dauser, Thomas} and {Falkner, Sebastian} and {Lorenz, Maximilian} and {Kirsch, Christian} and {Peille, Philippe} and {Cucchetti, Edoardo} and {Schmid, Christian} and {Brand, Thorsten} and {Oertel, Mirjam} and {Smith, Randall} and {Wilms, J\"orn}},
- 	  title = {SIXTE: a generic X-ray instrument simulation toolkit},
-  	DOI= "10.1051/0004-6361/201935978",
-  	url= "https://doi.org/10.1051/0004-6361/201935978",
-  	journal = {A\&A},
-  	year = 2019,
-  	volume = 630,
-  	pages = "A66",
+    title = {SIXTE: a generic X-ray instrument simulation toolkit},
+    DOI= "10.1051/0004-6361/201935978",
+    url= "https://doi.org/10.1051/0004-6361/201935978",
+    journal = {A\&A},
+    year = 2019,
+    volume = 630,
+    pages = "A66",
     }
