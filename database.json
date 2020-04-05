@@ -348,13 +348,13 @@
                 "url": "http://cxc.harvard.edu/sherpa4.4/"
             },
             {
-                "bibtex": "@InProceedings{ mckinney,\n  author    = { Wes McKinney },\n  title     = { Data Structures for Statistical Computing in Python },\n  booktitle = { Proceedings of the 9th Python in Science Conference },\n  pages     = { 51 - 56 },\n  year      = { 2010 },\n  editor    = { St\\'efan van der Walt and Jarrod Millman }\n}\n",
+                "bibtex": "@InProceedings{   McKinney_2010,\n  title         = {Data Structures for Statistical Computing in Python},\n  author        = {Wes McKinney},\n  booktitle     = {Proceedings of the 9th Python in Science Conference},\n  volume        = {445},\n  pages         = {51--56},\n  year          = {2010},\n  organization  = {Austin, TX}\n} @Article{         McKinney_2011,\n  title         = {pandas: a foundational Python library for data analysis\n                  and statistics},\n  author        = {Wes McKinney},\n  year          = {2011},\n  journal       = {Python for High Performance and Scientific Computing},\n  volume        = {14}\n}\n",
                 "category": "codes",
-                "latex": "This research made use of Scikit-learn \\citep{mckinney}",
+                "latex": "This research made use of pandas \\citep{McKinney_2010, McKinney_2011}",
                 "name": "Pandas",
                 "tags": "python",
-                "text": "This research made use of Scikit-learn (McKinney 2010)",
-                "url": "http://pandas.pydata.org/"
+                "text": "This research made use of pandas (McKinney 2010, 2011)",
+                "url": "https://pandas.pydata.org"
             },
             {
                 "category": "codes",
