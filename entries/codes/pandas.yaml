@@ -1,16 +1,25 @@
 name: Pandas
 category: codes
 tags: python
-text: This research made use of Scikit-learn (McKinney 2010)
-latex: This research made use of Scikit-learn \citep{mckinney}
-url: http://pandas.pydata.org/
+text: This research made use of pandas (McKinney 2010, 2011)
+latex: This research made use of pandas \citep{McKinney_2010, McKinney_2011}
+url: https://pandas.pydata.org
 dependencies:
 bibtex: >
-    @InProceedings{ mckinney,
-      author    = { Wes McKinney },
-      title     = { Data Structures for Statistical Computing in Python },
-      booktitle = { Proceedings of the 9th Python in Science Conference },
-      pages     = { 51 - 56 },
-      year      = { 2010 },
-      editor    = { St\'efan van der Walt and Jarrod Millman }
+    @InProceedings{   McKinney_2010,
+      title         = {Data Structures for Statistical Computing in Python},
+      author        = {Wes McKinney},
+      booktitle     = {Proceedings of the 9th Python in Science Conference},
+      volume        = {445},
+      pages         = {51--56},
+      year          = {2010},
+      organization  = {Austin, TX}
+    }
+    @Article{         McKinney_2011,
+      title         = {pandas: a foundational Python library for data analysis
+                      and statistics},
+      author        = {Wes McKinney},
+      year          = {2011},
+      journal       = {Python for High Performance and Scientific Computing},
+      volume        = {14}
     }
