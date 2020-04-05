@@ -116,13 +116,13 @@
                 "url": "http://www.matplotlib.org"
             },
             {
-                "bibtex": "@misc{jones_scipy_2001,\n    title = {{SciPy}: Open source scientific tools for Python},\n    url = {http://www.scipy.org/},\n    collaborator = {Jones, E. and Oliphant, T. and Peterson, P. and Others},\n    year = {2001}\n}\n",
+                "bibtex": "@Article{         Virtanen_2020,\n  title         = {{SciPy 1.0: Fundamental Algorithms for Scientific\n                  Computing in Python}},\n  author        = {{Virtanen}, Pauli and {Gommers}, Ralf and {Oliphant},\n                  Travis E. and {Haberland}, Matt and {Reddy}, Tyler and\n                  {Cournapeau}, David and {Burovski}, Evgeni and {Peterson},\n                  Pearu and {Weckesser}, Warren and {Bright}, Jonathan and\n                  {van der Walt}, St{\\'e}fan J. and {Brett}, Matthew and\n                  {Wilson}, Joshua and {Jarrod Millman}, K. and {Mayorov},\n                  Nikolay and {Nelson}, Andrew R.~J. and {Jones}, Eric and\n                  {Kern}, Robert and {Larson}, Eric and {Carey}, CJ and\n                  {Polat}, {\\.I}lhan and {Feng}, Yu and {Moore}, Eric W. and\n                  {Vand erPlas}, Jake and {Laxalde}, Denis and {Perktold},\n                  Josef and {Cimrman}, Robert and {Henriksen}, Ian and\n                  {Quintero}, E.~A. and {Harris}, Charles R and {Archibald},\n                  Anne M. and {Ribeiro}, Ant{\\^o}nio H. and {Pedregosa},\n                  Fabian and {van Mulbregt}, Paul and {Contributors}, SciPy\n                  1.0},\n  year          = {2020},\n  journal       = {Nature Methods},\n  volume        = {17},\n  pages         = {261--272},\n  doi           = {https://doi.org/10.1038/s41592-019-0686-2},\n  adsurl        = {https://rdcu.be/b08Wh}\n}\n",
                 "category": "codes",
-                "latex": "This research made use of SciPy \\citep{jones_scipy_2001}",
+                "latex": "This research made use of SciPy \\citep{Virtanen_2020}",
                 "name": "SciPy",
                 "tags": "python",
-                "text": "This research made use of SciPy (Jones et al. 2001)",
-                "url": "http://www.scipy.org/"
+                "text": "This research made use of SciPy (Virtanen et al. 2020)",
+                "url": "https://www.scipy.org"
             },
             {
                 "bibtex": "@article{Dauser:2019, author = {{Dauser, Thomas} and {Falkner, Sebastian} and {Lorenz, Maximilian} and {Kirsch, Christian} and {Peille, Philippe} and {Cucchetti, Edoardo} and {Schmid, Christian} and {Brand, Thorsten} and {Oertel, Mirjam} and {Smith, Randall} and {Wilms, J\\\"orn}}, title = {SIXTE: a generic X-ray instrument simulation toolkit}, DOI= \"10.1051/0004-6361/201935978\", url= \"https://doi.org/10.1051/0004-6361/201935978\", journal = {A\\&A}, year = 2019, volume = 630, pages = \"A66\", }\n",
