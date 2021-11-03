@@ -26,8 +26,8 @@ jobs:
       run: |
         git config user.name "Astrobot"
         git config user.email "tom@chi-squared.org"
-        git add database.json;
-        git commit -m "Updated database.json";
+        git add database.json
+        git commit -m "Updated database.json" || true
     - name: Push JSON database changes
       if: (github.repository == 'astrofrog/acknowledgment-generator' && github.event_name == 'push' && github.ref == 'refs/heads/gh-pages')
       uses: ad-m/github-push-action@master
