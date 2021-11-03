@@ -26,7 +26,7 @@ for category in CATEGORIES:
     for entry in glob.glob(os.path.join('entries', category, '*.yaml')):
         print("Parsing {0}...".format(entry))
         with open(entry) as infile:
-            content = yaml.load(infile)
+            content = yaml.safe_load(infile)
 
         short = os.path.splitext(os.path.basename(entry))[0]
         entryObj = {}
