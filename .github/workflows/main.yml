@@ -25,11 +25,13 @@ jobs:
       run: pip install pyyaml
     - name: Parse entries into JSON database
       run: python parse_entries.py
-    # - name: Push latest JSON database changes
-    #   run: |
-    #     git checkout gh-pages;
-    #     git add database.json;
-    #     git commit -m "Updated database.json";
-    #     git push -q https://astrobot:$GITHUB_API_KEY@github.com/astrofrog/acknowledgment-generator gh-pages >& /dev/null;
-
+    - name: Push latest JSON database changes
+      if: (github.repository == 'astrofrog/acknowledgment-generator' && github.event_name == 'push')
+      run: |
+        git checkout gh-pages;
+        git add database.json;
+        git commit -m "Updated database.json";
+        git push -q https://astrobot:$GITHUB_API_KEY@github.com/astrofrog/acknowledgment-generator gh-pages >& /dev/null;
+      env:
+        GITHUB_API_KEY: ${{ secrets.GITHUB_API_KEY }}
 
