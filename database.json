@@ -3,22 +3,9 @@
         "entries": [
             {
                 "category": "web_services",
-                "name": "arcsecond.io",
-                "tags": "data",
-                "text": "This work has made use of the data & info aggregator arcsecond.io (http://www.arcsecond.io)",
-                "url": "http://www.arcsecond.io"
-            },
-            {
-                "category": "web_services",
-                "name": "SIMBAD",
-                "text": "This research has made use of the SIMBAD database, operated at CDS, Strasbourg, France.",
-                "url": "http://simbad.u-strasbg.fr/"
-            },
-            {
-                "category": "web_services",
-                "name": "HEARSAC",
-                "text": "This research has made use of data and/or software provided by the High Energy Astrophysics Science Archive Research Center (HEASARC), which is a service of the Astrophysics Science Division at NASA/GSFC and the High Energy Astrophysics Division of the Smithsonian Astrophysical Observatory.",
-                "url": "http://heasarc.gsfc.nasa.gov/docs/archive.html"
+                "name": "Minor Planet & Comet Ephemeris Service",
+                "text": "This research has made use of the Minor Planet & Comet Ephemeris Service (IAU Minor Planet Center)",
+                "url": "http://www.minorplanetcenter.net/iau/MPEph/MPEph.html"
             },
             {
                 "category": "web_services",
@@ -34,21 +21,22 @@
             },
             {
                 "category": "web_services",
-                "name": "WebPlotDigitizer",
-                "text": "This paper made use of WebPlotDigitizer (http://arohatgi.info/WebPlotDigitizer/) by Ankit Rohatgi",
-                "url": "http://arohatgi.info/WebPlotDigitizer/"
+                "name": "HEARSAC",
+                "text": "This research has made use of data and/or software provided by the High Energy Astrophysics Science Archive Research Center (HEASARC), which is a service of the Astrophysics Science Division at NASA/GSFC and the High Energy Astrophysics Division of the Smithsonian Astrophysical Observatory.",
+                "url": "http://heasarc.gsfc.nasa.gov/docs/archive.html"
             },
             {
                 "category": "web_services",
-                "name": "Minor Planet & Comet Ephemeris Service",
-                "text": "This research has made use of the Minor Planet & Comet Ephemeris Service (IAU Minor Planet Center)",
-                "url": "http://www.minorplanetcenter.net/iau/MPEph/MPEph.html"
+                "name": "arcsecond.io",
+                "tags": "data",
+                "text": "This work has made use of the data & info aggregator arcsecond.io (http://www.arcsecond.io)",
+                "url": "http://www.arcsecond.io"
             },
             {
                 "category": "web_services",
-                "name": "AstroBetter",
-                "text": "This research has made use of the AstroBetter blog and wiki.",
-                "url": "http://www.astrobetter.com"
+                "name": "IRSA",
+                "text": "This research has made use of the NASA/IPAC Infrared Science Archive, which is operated by the Jet Propulsion Laboratory, California Institute of Technology, under contract with the National Aeronautics and Space Administration.",
+                "url": "http://irsa.ipac.caltech.edu/frontpage/"
             },
             {
                 "bibtex": "@ARTICLE{Chen2014,\n author = {{Chen}, Y.-P. and {Trager}, S.~C. and {Peletier}, R.~F. and \n{Lan{\\c c}on}, A. and {Vazdekis}, A. and {Prugniel}, P. and  {Silva}, D.~R. and {Gonneau}, A.},\n  title = \"{The X-shooter Spectral Library (XSL). I. DR1: Near-ultraviolet through optical spectra from the first year of the survey}\",\njournal = {\\aap}, archivePrefix = \"arXiv\",\n eprint = {1403.7009},\nprimaryClass = \"astro-ph.SR\", keywords = {stars: abundances, stars: fundamental parameters, stars: AGB and post-AGB, stars: atmospheres, galaxies: stellar content},\n   year = 2014,\n  month = may,\n volume = 565,\n    eid = {A117},\n  pages = {A117},\n    doi = {10.1051/0004-6361/201322505},\n adsurl = {http://adsabs.harvard.edu/abs/2014A%26A...565A.117C},\nadsnote = {Provided by the SAO/NASA Astrophysics Data System} }\n",
@@ -59,27 +47,15 @@
             },
             {
                 "category": "web_services",
+                "name": "WebPlotDigitizer",
+                "text": "This paper made use of WebPlotDigitizer (http://arohatgi.info/WebPlotDigitizer/) by Ankit Rohatgi",
+                "url": "http://arohatgi.info/WebPlotDigitizer/"
+            },
+            {
+                "category": "web_services",
                 "name": "MAST",
                 "text": "Some/all of the data presented in this paper were obtained from the Mikulski Archive for Space Telescopes (MAST). STScI is operated by the Association of Universities for Research in Astronomy, Inc., under NASA contract NAS5-26555. Support for MAST for non-HST data is provided by the NASA Office of Space Science via grant NNX13AC07G and by other grants and contracts.",
                 "url": "https://archive.stsci.edu"
-            },
-            {
-                "category": "web_services",
-                "name": "SpeX Prism Library",
-                "text": "This research has benefitted from the SpeX Prism Spectral Libraries, maintained by Adam Burgasser at http://pono.ucsd.edu/~adam/browndwarfs/spexprism",
-                "url": "http://pono.ucsd.edu/~adam/browndwarfs/spexprism"
-            },
-            {
-                "category": "web_services",
-                "name": "VizieR",
-                "text": "This research has made use of the VizieR catalogue access tool, CDS, Strasbourg, France.",
-                "url": "http://vizier.u-strasbg.fr/viz-bin/VizieR"
-            },
-            {
-                "category": "web_services",
-                "name": "IRSA",
-                "text": "This research has made use of the NASA/IPAC Infrared Science Archive, which is operated by the Jet Propulsion Laboratory, California Institute of Technology, under contract with the National Aeronautics and Space Administration.",
-                "url": "http://irsa.ipac.caltech.edu/frontpage/"
             },
             {
                 "category": "web_services",
@@ -92,6 +68,30 @@
                 "name": "Astronomy Acknowledgement Generator",
                 "text": "The acknowledgements were compiled using the Astronomy Acknowledgement Generator.",
                 "url": "http://astrofrog.github.io/acknowledgment-generator/"
+            },
+            {
+                "category": "web_services",
+                "name": "AstroBetter",
+                "text": "This research has made use of the AstroBetter blog and wiki.",
+                "url": "http://www.astrobetter.com"
+            },
+            {
+                "category": "web_services",
+                "name": "SIMBAD",
+                "text": "This research has made use of the SIMBAD database, operated at CDS, Strasbourg, France.",
+                "url": "http://simbad.u-strasbg.fr/"
+            },
+            {
+                "category": "web_services",
+                "name": "SpeX Prism Library",
+                "text": "This research has benefitted from the SpeX Prism Spectral Libraries, maintained by Adam Burgasser at http://pono.ucsd.edu/~adam/browndwarfs/spexprism",
+                "url": "http://pono.ucsd.edu/~adam/browndwarfs/spexprism"
+            },
+            {
+                "category": "web_services",
+                "name": "VizieR",
+                "text": "This research has made use of the VizieR catalogue access tool, CDS, Strasbourg, France.",
+                "url": "http://vizier.u-strasbg.fr/viz-bin/VizieR"
             }
         ],
         "short": "web_services",
@@ -107,6 +107,40 @@
                 "url": "http://www.naughter.com/aa.html"
             },
             {
+                "bibtex": "@INPROCEEDINGS{2006SPIE.6270E..1VF,\n   author = {{Fruscione}, A. and {McDowell}, J.~C. and {Allen}, G.~E. and \n    {Brickhouse}, N.~S. and {Burke}, D.~J. and {Davis}, J.~E. and \n    {Durham}, N. and {Elvis}, M. and {Galle}, E.~C. and {Harris}, D.~E. and \n    {Huenemoerder}, D.~P. and {Houck}, J.~C. and {Ishibashi}, B. and \n    {Karovska}, M. and {Nicastro}, F. and {Noble}, M.~S. and {Nowak}, M.~A. and \n    {Primini}, F.~A. and {Siemiginowska}, A. and {Smith}, R.~K. and \n    {Wise}, M.},\n    title = \"{CIAO: Chandra's data analysis system}\",\nbooktitle = {Society of Photo-Optical Instrumentation Engineers (SPIE) Conference Series},\n     year = 2006,\n   series = {Society of Photo-Optical Instrumentation Engineers (SPIE) Conference Series},\n   volume = 6270,\n    month = jun,\n      eid = {62701V},\n    pages = {1},\n      doi = {10.1117/12.671760},\n   adsurl = {http://adsabs.harvard.edu/abs/2006SPIE.6270E..1VF},\n  adsnote = {Provided by the SAO/NASA Astrophysics Data System}\n}\n",
+                "category": "codes",
+                "name": "CIAO",
+                "tags": "x-ray, chandra",
+                "text": "This research made use of the CIAO X-ray Analysis Software \\citep{2006SPIE.6270E..1VF}\n",
+                "url": "http://cxc.harvard.edu/ciao/"
+            },
+            {
+                "bibtex": "@article{reinliu2012rebound, author = {{Rein}, H. and {Liu}, S.-F.}, title = \"{REBOUND: an open-source multi-purpose N-body code for collisional dynamics}\", journal = {Astronomy and Astrophysics}, eprint = {1110.4876}, year = 2012, month = jan, volume = 537, eid = {A128}, pages = {A128}, doi = {10.1051/0004-6361/201118085} }\n",
+                "category": "codes",
+                "latex": "This research made use of the REBOUND integrator package \\citep{reinliu2012rebound}",
+                "name": "REBOUND",
+                "tags": "python",
+                "text": "This research made use of the REBOUND integrator package (Rein and Liu 2012)",
+                "url": "https://github.com/hannorein/rebound"
+            },
+            {
+                "bibtex": "@INPROCEEDINGS{2000ASPC..216..591H,\n    author = {{Houck}, J.~C. and {Denicola}, L.~A.},\n      title = \"{ISIS: An Interactive Spectral Interpretation System for High Resolution X-Ray Spectroscopy}\",\n  booktitle = {Astronomical Data Analysis Software and Systems IX},\n       year = 2000,\n     series = {Astronomical Society of the Pacific Conference Series},\n     volume = 216,\n     editor = {{Manset}, N. and {Veillet}, C. and {Crabtree}, D.},\n      pages = {591},\n     adsurl = {http://adsabs.harvard.edu/abs/2000ASPC..216..591H},\n    adsnote = {Provided by the SAO/NASA Astrophysics Data System}\n}\n",
+                "category": "codes",
+                "name": "ISIS",
+                "tags": "x-ray",
+                "text": "This research made use of ISIS to perform spectral fitting \\citep{2000ASPC..216..591H}\n",
+                "url": "https://space.mit.edu/ASC/ISIS/"
+            },
+            {
+                "bibtex": "@Article{PER-GRA:2007, Author    = {P\\'erez, Fernando and Granger, Brian E.}, Title     = {{IP}ython: a System for Interactive Scientific Computing}, Journal   = {Computing in Science and Engineering}, Volume    = {9}, Number    = {3}, Pages     = {21--29}, month     = may, year      = 2007, url       = \"http://ipython.org\", ISSN      = \"1521-9615\", doi       = {10.1109/MCSE.2007.53}, publisher = {IEEE Computer Society}, }\n",
+                "category": "codes",
+                "latex": "This work made use of the IPython package \\citep{PER-GRA:2007}",
+                "name": "IPython",
+                "tags": "ipython",
+                "text": "This work made use of the IPython package",
+                "url": "http://ipython.org"
+            },
+            {
                 "bibtex": "@Article{Hunter:2007, Author    = {Hunter, J. D.}, Title     = {Matplotlib: A 2D graphics environment}, Journal   = {Computing In Science \\& Engineering}, Volume    = {9}, Number    = {3}, Pages     = {90--95}, abstract  = {Matplotlib is a 2D graphics package used for Python for application development, interactive scripting, and publication-quality image generation across user interfaces and operating systems.}, publisher = {IEEE COMPUTER SOC}, year      = 2007 } \n",
                 "category": "codes",
                 "latex": "This research made use of matplotlib, a Python library for publication quality graphics \\citep{Hunter:2007}",
@@ -114,15 +148,6 @@
                 "tags": "python",
                 "text": "This research made use of matplotlib, a Python library for publication quality graphics (Hunter 2007)",
                 "url": "http://www.matplotlib.org"
-            },
-            {
-                "bibtex": "@Article{         Virtanen_2020,\n  title         = {{SciPy 1.0: Fundamental Algorithms for Scientific\n                  Computing in Python}},\n  author        = {{Virtanen}, Pauli and {Gommers}, Ralf and {Oliphant},\n                  Travis E. and {Haberland}, Matt and {Reddy}, Tyler and\n                  {Cournapeau}, David and {Burovski}, Evgeni and {Peterson},\n                  Pearu and {Weckesser}, Warren and {Bright}, Jonathan and\n                  {van der Walt}, St{\\'e}fan J. and {Brett}, Matthew and\n                  {Wilson}, Joshua and {Jarrod Millman}, K. and {Mayorov},\n                  Nikolay and {Nelson}, Andrew R.~J. and {Jones}, Eric and\n                  {Kern}, Robert and {Larson}, Eric and {Carey}, CJ and\n                  {Polat}, {\\.I}lhan and {Feng}, Yu and {Moore}, Eric W. and\n                  {Vand erPlas}, Jake and {Laxalde}, Denis and {Perktold},\n                  Josef and {Cimrman}, Robert and {Henriksen}, Ian and\n                  {Quintero}, E.~A. and {Harris}, Charles R and {Archibald},\n                  Anne M. and {Ribeiro}, Ant{\\^o}nio H. and {Pedregosa},\n                  Fabian and {van Mulbregt}, Paul and {Contributors}, SciPy\n                  1.0},\n  year          = {2020},\n  journal       = {Nature Methods},\n  volume        = {17},\n  pages         = {261--272},\n  doi           = {https://doi.org/10.1038/s41592-019-0686-2},\n  adsurl        = {https://rdcu.be/b08Wh}\n}\n",
-                "category": "codes",
-                "latex": "This research made use of SciPy \\citep{Virtanen_2020}",
-                "name": "SciPy",
-                "tags": "python",
-                "text": "This research made use of SciPy (Virtanen et al. 2020)",
-                "url": "https://www.scipy.org"
             },
             {
                 "bibtex": "@article{Dauser:2019, author = {{Dauser, Thomas} and {Falkner, Sebastian} and {Lorenz, Maximilian} and {Kirsch, Christian} and {Peille, Philippe} and {Cucchetti, Edoardo} and {Schmid, Christian} and {Brand, Thorsten} and {Oertel, Mirjam} and {Smith, Randall} and {Wilms, J\\\"orn}}, title = {SIXTE: a generic X-ray instrument simulation toolkit}, DOI= \"10.1051/0004-6361/201935978\", url= \"https://doi.org/10.1051/0004-6361/201935978\", journal = {A\\&A}, year = 2019, volume = 630, pages = \"A66\", }\n",
@@ -135,101 +160,9 @@
             },
             {
                 "category": "codes",
-                "name": "spectralcube",
-                "text": "This research made use of spectralcube, a library for astronomical spectral data cubes.",
-                "url": "http://radio-astro-tools.github.io/"
-            },
-            {
-                "bibtex": "@article{reinliu2012rebound, author = {{Rein}, H. and {Liu}, S.-F.}, title = \"{REBOUND: an open-source multi-purpose N-body code for collisional dynamics}\", journal = {Astronomy and Astrophysics}, eprint = {1110.4876}, year = 2012, month = jan, volume = 537, eid = {A128}, pages = {A128}, doi = {10.1051/0004-6361/201118085} }\n",
-                "category": "codes",
-                "latex": "This research made use of the REBOUND integrator package \\citep{reinliu2012rebound}",
-                "name": "REBOUND",
-                "tags": "python",
-                "text": "This research made use of the REBOUND integrator package (Rein and Liu 2012)",
-                "url": "https://github.com/hannorein/rebound"
-            },
-            {
-                "category": "codes",
-                "name": "APLpy",
-                "text": "This research made use of APLpy, an open-source plotting package for Python hosted at http://aplpy.github.com"
-            },
-            {
-                "bibtex": "@ARTICLE{Turk:2011,\n Author = {{Turk}, M.~J. and {Smith}, B.~D. and {Oishi}, J.~S. and {Skory}, S. and {Skillman}, S.~W. and {Abel}, T. and {Norman}, M.~L.},\n  Title = \"{yt: A Multi-code Analysis Toolkit for Astrophysical Simulation Data}\",\nJournal = {\\apjs}, ArchivePrefix = \"arXiv\",\n eprint = {1011.3514},\nprimaryClass = \"astro-ph.IM\", keywords = {cosmology: theory, methods: data analysis, methods: numerical },\n   year = 2011,\n  month = jan,\n volume = 192,\n  pages = {9-+},\n    doi = {10.1088/0067-0049/192/1/9},\n adsurl = {http://adsabs.harvard.edu/abs/2011ApJS..192....9T},\nadsnote = {Provided by the SAO/NASA Astrophysics Data System} }",
-                "category": "codes",
-                "latex": "This research made use of the yt-project, a toolkit for analyzing and visualizing quantitative data \\citep{Turk:2011}\n",
-                "name": "yt-project",
-                "tags": "python",
-                "text": "This research made use of the yt-project, a toolkit for analyzing and visualizing quantitative data (Turk 2011)\n",
-                "url": "http://yt-project.org/"
-            },
-            {
-                "bibtex": "@INPROCEEDINGS{1996ASPC..101...17A,\n   author = {{Arnaud}, K.~A.},\n    title = \"{XSPEC: The First Ten Years}\",\nbooktitle = {Astronomical Data Analysis Software and Systems V},\n     year = 1996,\n   series = {Astronomical Society of the Pacific Conference Series},\n   volume = 101,\n   editor = {{Jacoby}, G.~H. and {Barnes}, J.},\n    pages = {17},\n   adsurl = {http://adsabs.harvard.edu/abs/1996ASPC..101...17A},\n  adsnote = {Provided by the SAO/NASA Astrophysics Data System}\n}\n",
-                "category": "codes",
-                "name": "XSPEC",
-                "tags": "spectroscopy",
-                "text": "This research made use of XSPEC \\citep{1996ASPC..101...17A}",
-                "url": "https://heasarc.gsfc.nasa.gov/xanadu/xspec/"
-            },
-            {
-                "bibtex": "@INPROCEEDINGS{2006SPIE.6270E..1VF,\n   author = {{Fruscione}, A. and {McDowell}, J.~C. and {Allen}, G.~E. and \n    {Brickhouse}, N.~S. and {Burke}, D.~J. and {Davis}, J.~E. and \n    {Durham}, N. and {Elvis}, M. and {Galle}, E.~C. and {Harris}, D.~E. and \n    {Huenemoerder}, D.~P. and {Houck}, J.~C. and {Ishibashi}, B. and \n    {Karovska}, M. and {Nicastro}, F. and {Noble}, M.~S. and {Nowak}, M.~A. and \n    {Primini}, F.~A. and {Siemiginowska}, A. and {Smith}, R.~K. and \n    {Wise}, M.},\n    title = \"{CIAO: Chandra's data analysis system}\",\nbooktitle = {Society of Photo-Optical Instrumentation Engineers (SPIE) Conference Series},\n     year = 2006,\n   series = {Society of Photo-Optical Instrumentation Engineers (SPIE) Conference Series},\n   volume = 6270,\n    month = jun,\n      eid = {62701V},\n    pages = {1},\n      doi = {10.1117/12.671760},\n   adsurl = {http://adsabs.harvard.edu/abs/2006SPIE.6270E..1VF},\n  adsnote = {Provided by the SAO/NASA Astrophysics Data System}\n}\n",
-                "category": "codes",
-                "name": "OSA",
-                "tags": "gamma-ray, integral",
-                "text": "This research made use of the Off-line Scientific Analysis (OSA) software package \\citep{2006SPIE.6270E..1VF}\n",
-                "url": "http://www.isdc.unige.ch/integral/analysis"
-            },
-            {
-                "bibtex": "@article{sunpy-05-csd,\n  author={The SunPy Community and Stuart J Mumford and Steven Christe and David P\u00e9rez-Su\u00e1rez and Jack Ireland and Albert Y Shih and Andrew R Inglis and Simon Liedtke and Russell J Hewett and Florian Mayer and Keith Hughitt and Nabil Freij and Tomas Meszaros and Samuel M Bennett and Michael Malocha and John Evans and Ankit Agrawal and Andrew J Leonard and Thomas P Robitaille and Benjamin Mampaey and Jose Iv\u00e1n Campos-Rozo and Michael S Kirk},\n  title={SunPy\u2014Python for solar physics},\n  journal={Computational Science & Discovery},\n  volume={8},\n  number={1},\n  pages={014009},\n  url={http://stacks.iop.org/1749-4699/8/i=1/a=014009},\n  year={2015},\n}\n",
-                "category": "codes",
-                "dependencies": "astropy",
-                "latex": "This research has made use of SunPy, an open-source and free community-developed solar data analysis package written in Python \\citep{sunpy-05-csd}\n",
-                "name": "SunPy",
-                "tags": "python",
-                "text": "This research has made use of SunPy, an open-source and free community-developed solar data analysis package written in Python (The SunPy Community, 2015)\n",
-                "url": "http://www.sunpy.org"
-            },
-            {
-                "bibtex": "@INPROCEEDINGS{1993ASPC...52..173T, author = {{Tody}, D.}, title = \"{IRAF in the Nineties}\", booktitle = {Astronomical Data Analysis Software and Systems II}, year = 1993, series = {Astronomical Society of the Pacific Conference Series}, volume = 52, editor = {{Hanisch}, R.~J. and {Brissenden}, R.~J.~V. and {Barnes}, J.}, month = jan, pages = {173}, adsurl = {http://adsabs.harvard.edu/abs/1993ASPC...52..173T}, adsnote = {Provided by the SAO/NASA Astrophysics Data System} }\n",
-                "category": "codes",
-                "latex": "IRAF is distributed by the National Optical Astronomy Observatory, which is operated by the Association of Universities for Research in Astronomy (AURA) under cooperative agreement with the National Science Foundation \\citep{1993ASPC...52..173T}",
-                "name": "IRAF",
-                "tags": "iraf",
-                "text": "IRAF is distributed by the National Optical Astronomy Observatory, which is operated by the Association of Universities for Research in Astronomy (AURA) under cooperative agreement with the National Science Foundation",
-                "url": "http://iraf.noao.edu/"
-            },
-            {
-                "bibtex": "@Article{PER-GRA:2007, Author    = {P\\'erez, Fernando and Granger, Brian E.}, Title     = {{IP}ython: a System for Interactive Scientific Computing}, Journal   = {Computing in Science and Engineering}, Volume    = {9}, Number    = {3}, Pages     = {21--29}, month     = may, year      = 2007, url       = \"http://ipython.org\", ISSN      = \"1521-9615\", doi       = {10.1109/MCSE.2007.53}, publisher = {IEEE Computer Society}, }\n",
-                "category": "codes",
-                "latex": "This work made use of the IPython package \\citep{PER-GRA:2007}",
-                "name": "IPython",
-                "tags": "ipython",
-                "text": "This work made use of the IPython package",
-                "url": "http://ipython.org"
-            },
-            {
-                "category": "codes",
-                "name": "wcsaxes",
-                "text": "This research made use of wcsaxes, an open-source plotting library for Python hosted at https://wcsaxes.readthedocs.io/en/latest/",
-                "url": "http://wcsaxes.readthedocs.io"
-            },
-            {
-                "category": "codes",
-                "name": "iObserve",
-                "tags": "app, macOS, airmass, star tracks, finding charts, units, converters",
-                "text": "This work made use iObserve, a macOS app for easily prepare and perform astronomical observations (http://onekilopars.ec/iobserve)",
-                "url": "http://onekilopars.ec/iobserve"
-            },
-            {
-                "category": "codes",
-                "name": "myRadex",
-                "text": "This research made use of myRadex, an alternative implementation of RADEX (http://home.strw.leidenuniv.nl/~moldata/radex.html)",
-                "url": "https://github.com/fjdu/myRadex"
-            },
-            {
-                "category": "codes",
-                "name": "pvextractor",
-                "text": "This research made use of pvextractor, a tool to extract position-velocity diagrams along arbitrary directions from data cubes.",
-                "url": "http://radio-astro-tools.github.io/"
+                "name": "pyradex",
+                "text": "This research made use of pyradex, a python wrapper of RADEX (http://home.strw.leidenuniv.nl/~moldata/radex.html)",
+                "url": "https://github.com/keflavich/pyradex"
             },
             {
                 "bibtex": "@article{scikit-learn,\n title={Scikit-learn: Machine Learning in {P}ython},\n author={Pedregosa, F. and Varoquaux, G. and Gramfort, A. and Michel, V.\n         and Thirion, B. and Grisel, O. and Blondel, M. and Prettenhofer, P.\n         and Weiss, R. and Dubourg, V. and Vanderplas, J. and Passos, A. and\n         Cournapeau, D. and Brucher, M. and Perrot, M. and Duchesnay, E.},\n journal={Journal of Machine Learning Research},\n volume={12},\n pages={2825--2830},\n year={2011}\n}\n",
@@ -241,45 +174,21 @@
                 "url": "http://www.scikit-leatn.org/"
             },
             {
-                "bibtex": "@ARTICLE{2018AJ....156..123A,\n   author = {{Astropy Collaboration} and {Price-Whelan}, A.~M. and {Sip{\\H o}cz}, B.~M. and\n      {G{\\\"u}nther}, H.~M. and {Lim}, P.~L. and {Crawford}, S.~M. and\n      {Conseil}, S. and {Shupe}, D.~L. and {Craig}, M.~W. and {Dencheva}, N. and\n      {Ginsburg}, A. and {VanderPlas}, J.~T. and {Bradley}, L.~D. and\n      {P{\\'e}rez-Su{\\'a}rez}, D. and {de Val-Borro}, M. and {Aldcroft}, T.~L. and\n      {Cruz}, K.~L. and {Robitaille}, T.~P. and {Tollerud}, E.~J. and\n      {Ardelean}, C. and {Babej}, T. and {Bach}, Y.~P. and {Bachetti}, M. and\n      {Bakanov}, A.~V. and {Bamford}, S.~P. and {Barentsen}, G. and\n      {Barmby}, P. and {Baumbach}, A. and {Berry}, K.~L. and {Biscani}, F. and\n      {Boquien}, M. and {Bostroem}, K.~A. and {Bouma}, L.~G. and {Brammer}, G.~B. and\n      {Bray}, E.~M. and {Breytenbach}, H. and {Buddelmeijer}, H. and\n      {Burke}, D.~J. and {Calderone}, G. and {Cano Rodr{\\'{\\i}}guez}, J.~L. and\n      {Cara}, M. and {Cardoso}, J.~V.~M. and {Cheedella}, S. and {Copin}, Y. and\n      {Corrales}, L. and {Crichton}, D. and {D'Avella}, D. and {Deil}, C. and\n      {Depagne}, {\\'E}. and {Dietrich}, J.~P. and {Donath}, A. and\n      {Droettboom}, M. and {Earl}, N. and {Erben}, T. and {Fabbro}, S. and\n      {Ferreira}, L.~A. and {Finethy}, T. and {Fox}, R.~T. and {Garrison}, L.~H. and\n      {Gibbons}, S.~L.~J. and {Goldstein}, D.~A. and {Gommers}, R. and\n      {Greco}, J.~P. and {Greenfield}, P. and {Groener}, A.~M. and\n      {Grollier}, F. and {Hagen}, A. and {Hirst}, P. and {Homeier}, D. and\n      {Horton}, A.~J. and {Hosseinzadeh}, G. and {Hu}, L. and {Hunkeler}, J.~S. and\n      {Ivezi{\\'c}}, {\\v Z}. and {Jain}, A. and {Jenness}, T. and {Kanarek}, G. and\n      {Kendrew}, S. and {Kern}, N.~S. and {Kerzendorf}, W.~E. and\n      {Khvalko}, A. and {King}, J. and {Kirkby}, D. and {Kulkarni}, A.~M. and\n      {Kumar}, A. and {Lee}, A. and {Lenz}, D. and {Littlefair}, S.~P. and\n      {Ma}, Z. and {Macleod}, D.~M. and {Mastropietro}, M. and {McCully}, C. and\n      {Montagnac}, S. and {Morris}, B.~M. and {Mueller}, M. and {Mumford}, S.~J. and\n      {Muna}, D. and {Murphy}, N.~A. and {Nelson}, S. and {Nguyen}, G.~H. and\n      {Ninan}, J.~P. and {N{\\\"o}the}, M. and {Ogaz}, S. and {Oh}, S. and\n      {Parejko}, J.~K. and {Parley}, N. and {Pascual}, S. and {Patil}, R. and\n      {Patil}, A.~A. and {Plunkett}, A.~L. and {Prochaska}, J.~X. and\n      {Rastogi}, T. and {Reddy Janga}, V. and {Sabater}, J. and {Sakurikar}, P. and\n      {Seifert}, M. and {Sherbert}, L.~E. and {Sherwood-Taylor}, H. and\n      {Shih}, A.~Y. and {Sick}, J. and {Silbiger}, M.~T. and {Singanamalla}, S. and\n      {Singer}, L.~P. and {Sladen}, P.~H. and {Sooley}, K.~A. and\n      {Sornarajah}, S. and {Streicher}, O. and {Teuben}, P. and {Thomas}, S.~W. and\n      {Tremblay}, G.~R. and {Turner}, J.~E.~H. and {Terr{\\'o}n}, V. and\n      {van Kerkwijk}, M.~H. and {de la Vega}, A. and {Watkins}, L.~L. and\n      {Weaver}, B.~A. and {Whitmore}, J.~B. and {Woillez}, J. and\n      {Zabalza}, V. and {Astropy Contributors}},\n      title = \"{The Astropy Project: Building an Open-science Project and Status of the v2.0 Core Package}\",\n    journal = {\\aj},\n  archivePrefix = \"arXiv\",\n     eprint = {1801.02634},\n   primaryClass = \"astro-ph.IM\",\n   keywords = {methods: data analysis, methods: miscellaneous, methods: statistical, reference systems},\n       year = 2018,\n      month = sep,\n     volume = 156,\n        eid = {123},\n      pages = {123},\n        doi = {10.3847/1538-3881/aabc4f},\n     adsurl = {http://adsabs.harvard.edu/abs/2018AJ....156..123A},\n    adsnote = {Provided by the SAO/NASA Astrophysics Data System}\n  }\n@ARTICLE{2013A&A...558A..33A,\n   author = {{Astropy Collaboration} and {Robitaille}, T.~P. and {Tollerud}, E.~J. and\n  {Greenfield}, P. and {Droettboom}, M. and {Bray}, E. and {Aldcroft}, T. and\n  {Davis}, M. and {Ginsburg}, A. and {Price-Whelan}, A.~M. and\n  {Kerzendorf}, W.~E. and {Conley}, A. and {Crighton}, N. and\n  {Barbary}, K. and {Muna}, D. and {Ferguson}, H. and {Grollier}, F. and\n  {Parikh}, M.~M. and {Nair}, P.~H. and {Unther}, H.~M. and {Deil}, C. and\n  {Woillez}, J. and {Conseil}, S. and {Kramer}, R. and {Turner}, J.~E.~H. and\n  {Singer}, L. and {Fox}, R. and {Weaver}, B.~A. and {Zabalza}, V. and\n  {Edwards}, Z.~I. and {Azalee Bostroem}, K. and {Burke}, D.~J. and\n  {Casey}, A.~R. and {Crawford}, S.~M. and {Dencheva}, N. and\n  {Ely}, J. and {Jenness}, T. and {Labrie}, K. and {Lim}, P.~L. and\n  {Pierfederici}, F. and {Pontzen}, A. and {Ptak}, A. and {Refsdal}, B. and\n  {Servillat}, M. and {Streicher}, O.},\n    title = \"{Astropy: A community Python package for astronomy}\",\n  journal = {\\aap},\narchivePrefix = \"arXiv\",\n   eprint = {1307.6212},\n primaryClass = \"astro-ph.IM\",\n keywords = {methods: data analysis, methods: miscellaneous, virtual observatory tools},\n     year = 2013,\n    month = oct,\n   volume = 558,\n      eid = {A33},\n    pages = {A33},\n      doi = {10.1051/0004-6361/201322068},\n   adsurl = {http://adsabs.harvard.edu/abs/2013A%26A...558A..33A},\n  adsnote = {Provided by the SAO/NASA Astrophysics Data System}\n}\n",
                 "category": "codes",
-                "latex": "This research made use of Astropy, a community-developed core Python package for Astronomy \\citep{2018AJ....156..123A, 2013A&A...558A..33A}",
-                "name": "Astropy",
+                "latex": "PyRAF is a product of the Space Telescope Science Institute, which is operated by AURA for NASA",
+                "name": "PyRAF",
                 "tags": "python",
-                "text": "This research made use of Astropy, a community-developed core Python package for Astronomy (Astropy Collaboration, 2018, 2013)",
-                "url": "http://www.astropy.org"
+                "text": "PyRAF is a product of the Space Telescope Science Institute, which is operated by AURA for NASA",
+                "url": "http://www.stsci.edu/institute/software_hardware/pyraf/"
             },
             {
-                "bibtex": "@article{ramachandran_mayavi_2011,\n    title = {Mayavi: 3D Visualization of Scientific Data},\n    volume = {13},\n    issn = {1521-9615},\n    shorttitle = {Mayavi},\n    url = {http://scitation.aip.org/content/aip/journal/cise/13/2/10.1109/MCSE.2011.35},\n    doi = {10.1109/MCSE.2011.35},\n    number = {2},\n    urldate = {2014-04-01},\n    journal = {Computing in Science \\& Engineering},\n    author = {Ramachandran, Prabhu and Varoquaux, Gael},\n    month = mar,\n    year = {2011},\n    pages = {40--51}\n}\n",
+                "bibtex": "@ARTICLE{2019AJ....157...98G,\n   author = {{Ginsburg}, A. and {Sip{\\H o}cz}, B.~M. and {Brasseur}, C.~E. and\n    {Cowperthwaite}, P.~S. and {Craig}, M.~W. and {Deil}, C. and\n    {Guillochon}, J. and {Guzman}, G. and {Liedtke}, S. and {Lian Lim}, P. and\n    {Lockhart}, K.~E. and {Mommert}, M. and {Morris}, B.~M. and\n    {Norman}, H. and {Parikh}, M. and {Persson}, M.~V. and {Robitaille}, T.~P. and\n    {Segovia}, J.-C. and {Singer}, L.~P. and {Tollerud}, E.~J. and\n    {de Val-Borro}, M. and {Valtchanov}, I. and {Woillez}, J. and\n    {Astroquery Collaboration} and {a subset of the astropy Collaboration}\n    },\n    title = \"{astroquery: An Astronomical Web-querying Package in Python}\",\n  journal = {\\aj},\narchivePrefix = \"arXiv\",\n   eprint = {1901.04520},\n primaryClass = \"astro-ph.IM\",\n keywords = {astronomical databases: miscellaneous, virtual observatory tools},\n     year = 2019,\n    month = mar,\n   volume = 157,\n      eid = {98},\n    pages = {98},\n      doi = {10.3847/1538-3881/aafc33},\n   adsurl = {http://adsabs.harvard.edu/abs/2019AJ....157...98G},\n  adsnote = {Provided by the SAO/NASA Astrophysics Data System}\n}\n",
                 "category": "codes",
-                "latex": "This research has made use of Mayavi 3D scientific data visualization and plotting in Python \\citep{ramachandran_mayavi_2011}",
-                "name": "Mayavi2",
+                "dependencies": "astropy",
+                "latex": "This research made use of Astroquery \\citep{2019AJ....157...98G}",
+                "name": "Astroquery",
                 "tags": "python",
-                "text": "This research has made use of Mayavi 3D scientific data visualization and plotting in Python (Ramachandran & Varoquaux 2011)",
-                "url": "http://code.enthought.com/projects/mayavi/"
-            },
-            {
-                "bibtex": "@Article{         harris2020array,\n title         = {Array programming with {NumPy}},\n author        = {Charles R. Harris and K. Jarrod Millman and St{'{e}}fan J.\n                 van der Walt and Ralf Gommers and Pauli Virtanen and David\n                 Cournapeau and Eric Wieser and Julian Taylor and Sebastian\n                 Berg and Nathaniel J. Smith and Robert Kern and Matti Picus\n                 and Stephan Hoyer and Marten H. van Kerkwijk and Matthew\n                 Brett and Allan Haldane and Jaime Fern{'{a}}ndez del\n                 R{'{\\i}}o and Mark Wiebe and Pearu Peterson and Pierre\n                 G{'{e}}rard-Marchant and Kevin Sheppard and Tyler Reddy and\n                 Warren Weckesser and Hameer Abbasi and Christoph Gohlke and\n                 Travis E. Oliphant},\n year          = {2020},\n month         = sep,\n journal       = {Nature},\n volume        = {585},\n number        = {7825},\n pages         = {357--362},\n doi           = {10.1038/s41586-020-2649-2},\n publisher     = {Springer Science and Business Media {LLC}},\n url           = {https://doi.org/10.1038/s41586-020-2649-2}\n}\n",
-                "category": "codes",
-                "latex": "This research made use of NumPy \\citep{harris2020array}",
-                "name": "NumPy",
-                "tags": "python",
-                "text": "This research made use of NumPy (Harris et al. 2020)",
-                "url": "http://www.NumPy.org/"
-            },
-            {
-                "bibtex": "@INPROCEEDINGS{2000ASPC..216..591H,\n    author = {{Houck}, J.~C. and {Denicola}, L.~A.},\n      title = \"{ISIS: An Interactive Spectral Interpretation System for High Resolution X-Ray Spectroscopy}\",\n  booktitle = {Astronomical Data Analysis Software and Systems IX},\n       year = 2000,\n     series = {Astronomical Society of the Pacific Conference Series},\n     volume = 216,\n     editor = {{Manset}, N. and {Veillet}, C. and {Crabtree}, D.},\n      pages = {591},\n     adsurl = {http://adsabs.harvard.edu/abs/2000ASPC..216..591H},\n    adsnote = {Provided by the SAO/NASA Astrophysics Data System}\n}\n",
-                "category": "codes",
-                "name": "ISIS",
-                "tags": "x-ray",
-                "text": "This research made use of ISIS to perform spectral fitting \\citep{2000ASPC..216..591H}\n",
-                "url": "https://space.mit.edu/ASC/ISIS/"
-            },
-            {
-                "category": "codes",
-                "name": "pyradex",
-                "text": "This research made use of pyradex, a python wrapper of RADEX (http://home.strw.leidenuniv.nl/~moldata/radex.html)",
-                "url": "https://github.com/keflavich/pyradex"
+                "url": "https://astroquery.readthedocs.io"
             },
             {
                 "bibtex": "@article{ninan_tirspec_2014, title = {{TIRSPEC}: {TIFR} Near Infrared Spectrometer and Imager}, issn = {2251-1717, 2251-1725}, shorttitle = {{TIRSPEC}}, url = {http://www.worldscientific.com/doi/abs/10.1142/S2251171714500068}, doi = {10.1142/S2251171714500068}, language = {en}, urldate = {2014-11-20}, journal = {Journal of Astronomical Instrumentation}, author = {Ninan, J. P. and Ojha, D. K. and Ghosh, S. K. and D'Costa, S. L. A. and Naik, M. B. and Poojary, S. S. and Sandimani, P. R. and Meshram, G. S. and Jadhav, R. B. and Bhagat, S. B. and Gharat, S. M. and Bakalkar, C. B. and Prabhu, T. P. and Anupama, G. C. and Toomey, D. W.}, month = nov, year = {2014}, note = {00000}, pages = {1450006}, }\n",
@@ -292,11 +201,9 @@
                 "url": "https://indiajoe.github.io/TIRSPEC/"
             },
             {
-                "bibtex": "@MISC{2011ascl.soft09001G,\n    author = {{Ginsburg}, A. and {Mirocha}, J.},\n    title = \"{PySpecKit: Python Spectroscopic Toolkit}\",\n    keywords = {Software},\n    howpublished = {Astrophysics Source Code Library},\n    year = 2011,\n    month = sep,\n    archivePrefix = \"ascl\",\n    eprint = {1109.001},\n    adsurl = {http://adsabs.harvard.edu/abs/2011ascl.soft09001G},\n   adsnote = {Provided by the SAO/NASA Astrophysics Data System}\n}\n",
                 "category": "codes",
-                "name": "pyspeckit",
-                "text": "This research made use of pyspeckit, an open-source spectral analysis and plotting package for Python hosted at http://pyspeckit.bitbucket.org\n",
-                "url": "https://github.com/pyspeckit/pyspeckit"
+                "name": "APLpy",
+                "text": "This research made use of APLpy, an open-source plotting package for Python hosted at http://aplpy.github.com"
             },
             {
                 "bibtex": "@INPROCEEDINGS{2005ASPC..347...29T,\n   author = {{Taylor}, M.~B.},\n   title = \"{TOPCAT {\\amp} STIL: Starlink Table/VOTable Processing Software}\",\n   booktitle = {Astronomical Data Analysis Software and Systems XIV},\n   year = 2005,\n   series = {Astronomical Society of the Pacific Conference Series},\n   volume = 347,\n   editor = {{Shopbell}, P. and {Britton}, M. and {Ebert}, R.},\n   month = dec,\n   pages = {29},\n   adsurl = {http://adsabs.harvard.edu/abs/2005ASPC..347...29T},\n   adsnote = {Provided by the SAO/NASA Astrophysics Data System}}\n",
@@ -308,44 +215,67 @@
                 "url": "http://www.star.bris.ac.uk/~mbt/topcat/"
             },
             {
-                "bibtex": "@INPROCEEDINGS{2006SPIE.6270E..1VF,\n   author = {{Fruscione}, A. and {McDowell}, J.~C. and {Allen}, G.~E. and \n    {Brickhouse}, N.~S. and {Burke}, D.~J. and {Davis}, J.~E. and \n    {Durham}, N. and {Elvis}, M. and {Galle}, E.~C. and {Harris}, D.~E. and \n    {Huenemoerder}, D.~P. and {Houck}, J.~C. and {Ishibashi}, B. and \n    {Karovska}, M. and {Nicastro}, F. and {Noble}, M.~S. and {Nowak}, M.~A. and \n    {Primini}, F.~A. and {Siemiginowska}, A. and {Smith}, R.~K. and \n    {Wise}, M.},\n    title = \"{CIAO: Chandra's data analysis system}\",\nbooktitle = {Society of Photo-Optical Instrumentation Engineers (SPIE) Conference Series},\n     year = 2006,\n   series = {Society of Photo-Optical Instrumentation Engineers (SPIE) Conference Series},\n   volume = 6270,\n    month = jun,\n      eid = {62701V},\n    pages = {1},\n      doi = {10.1117/12.671760},\n   adsurl = {http://adsabs.harvard.edu/abs/2006SPIE.6270E..1VF},\n  adsnote = {Provided by the SAO/NASA Astrophysics Data System}\n}\n",
+                "bibtex": "@INPROCEEDINGS{1993ASPC...52..173T, author = {{Tody}, D.}, title = \"{IRAF in the Nineties}\", booktitle = {Astronomical Data Analysis Software and Systems II}, year = 1993, series = {Astronomical Society of the Pacific Conference Series}, volume = 52, editor = {{Hanisch}, R.~J. and {Brissenden}, R.~J.~V. and {Barnes}, J.}, month = jan, pages = {173}, adsurl = {http://adsabs.harvard.edu/abs/1993ASPC...52..173T}, adsnote = {Provided by the SAO/NASA Astrophysics Data System} }\n",
                 "category": "codes",
-                "name": "CIAO",
-                "tags": "x-ray, chandra",
-                "text": "This research made use of the CIAO X-ray Analysis Software \\citep{2006SPIE.6270E..1VF}\n",
-                "url": "http://cxc.harvard.edu/ciao/"
+                "latex": "IRAF is distributed by the National Optical Astronomy Observatory, which is operated by the Association of Universities for Research in Astronomy (AURA) under cooperative agreement with the National Science Foundation \\citep{1993ASPC...52..173T}",
+                "name": "IRAF",
+                "tags": "iraf",
+                "text": "IRAF is distributed by the National Optical Astronomy Observatory, which is operated by the Association of Universities for Research in Astronomy (AURA) under cooperative agreement with the National Science Foundation",
+                "url": "http://iraf.noao.edu/"
             },
             {
-                "bibtex": "@ARTICLE{2019AJ....157...98G,\n   author = {{Ginsburg}, A. and {Sip{\\H o}cz}, B.~M. and {Brasseur}, C.~E. and\n    {Cowperthwaite}, P.~S. and {Craig}, M.~W. and {Deil}, C. and\n    {Guillochon}, J. and {Guzman}, G. and {Liedtke}, S. and {Lian Lim}, P. and\n    {Lockhart}, K.~E. and {Mommert}, M. and {Morris}, B.~M. and\n    {Norman}, H. and {Parikh}, M. and {Persson}, M.~V. and {Robitaille}, T.~P. and\n    {Segovia}, J.-C. and {Singer}, L.~P. and {Tollerud}, E.~J. and\n    {de Val-Borro}, M. and {Valtchanov}, I. and {Woillez}, J. and\n    {Astroquery Collaboration} and {a subset of the astropy Collaboration}\n    },\n    title = \"{astroquery: An Astronomical Web-querying Package in Python}\",\n  journal = {\\aj},\narchivePrefix = \"arXiv\",\n   eprint = {1901.04520},\n primaryClass = \"astro-ph.IM\",\n keywords = {astronomical databases: miscellaneous, virtual observatory tools},\n     year = 2019,\n    month = mar,\n   volume = 157,\n      eid = {98},\n    pages = {98},\n      doi = {10.3847/1538-3881/aafc33},\n   adsurl = {http://adsabs.harvard.edu/abs/2019AJ....157...98G},\n  adsnote = {Provided by the SAO/NASA Astrophysics Data System}\n}\n",
+                "bibtex": "@Article{         Virtanen_2020,\n  title         = {{SciPy 1.0: Fundamental Algorithms for Scientific\n                  Computing in Python}},\n  author        = {{Virtanen}, Pauli and {Gommers}, Ralf and {Oliphant},\n                  Travis E. and {Haberland}, Matt and {Reddy}, Tyler and\n                  {Cournapeau}, David and {Burovski}, Evgeni and {Peterson},\n                  Pearu and {Weckesser}, Warren and {Bright}, Jonathan and\n                  {van der Walt}, St{\\'e}fan J. and {Brett}, Matthew and\n                  {Wilson}, Joshua and {Jarrod Millman}, K. and {Mayorov},\n                  Nikolay and {Nelson}, Andrew R.~J. and {Jones}, Eric and\n                  {Kern}, Robert and {Larson}, Eric and {Carey}, CJ and\n                  {Polat}, {\\.I}lhan and {Feng}, Yu and {Moore}, Eric W. and\n                  {Vand erPlas}, Jake and {Laxalde}, Denis and {Perktold},\n                  Josef and {Cimrman}, Robert and {Henriksen}, Ian and\n                  {Quintero}, E.~A. and {Harris}, Charles R and {Archibald},\n                  Anne M. and {Ribeiro}, Ant{\\^o}nio H. and {Pedregosa},\n                  Fabian and {van Mulbregt}, Paul and {Contributors}, SciPy\n                  1.0},\n  year          = {2020},\n  journal       = {Nature Methods},\n  volume        = {17},\n  pages         = {261--272},\n  doi           = {https://doi.org/10.1038/s41592-019-0686-2},\n  adsurl        = {https://rdcu.be/b08Wh}\n}\n",
                 "category": "codes",
-                "dependencies": "astropy",
-                "latex": "This research made use of Astroquery \\citep{2019AJ....157...98G}",
-                "name": "Astroquery",
+                "latex": "This research made use of SciPy \\citep{Virtanen_2020}",
+                "name": "SciPy",
                 "tags": "python",
-                "url": "https://astroquery.readthedocs.io"
+                "text": "This research made use of SciPy (Virtanen et al. 2020)",
+                "url": "https://www.scipy.org"
             },
             {
+                "bibtex": "@INPROCEEDINGS{1996ASPC..101...17A,\n   author = {{Arnaud}, K.~A.},\n    title = \"{XSPEC: The First Ten Years}\",\nbooktitle = {Astronomical Data Analysis Software and Systems V},\n     year = 1996,\n   series = {Astronomical Society of the Pacific Conference Series},\n   volume = 101,\n   editor = {{Jacoby}, G.~H. and {Barnes}, J.},\n    pages = {17},\n   adsurl = {http://adsabs.harvard.edu/abs/1996ASPC..101...17A},\n  adsnote = {Provided by the SAO/NASA Astrophysics Data System}\n}\n",
                 "category": "codes",
-                "latex": "PyRAF is a product of the Space Telescope Science Institute, which is operated by AURA for NASA",
-                "name": "PyRAF",
+                "name": "XSPEC",
+                "tags": "spectroscopy",
+                "text": "This research made use of XSPEC \\citep{1996ASPC..101...17A}",
+                "url": "https://heasarc.gsfc.nasa.gov/xanadu/xspec/"
+            },
+            {
+                "bibtex": "@ARTICLE{2018AJ....156..123A,\n   author = {{Astropy Collaboration} and {Price-Whelan}, A.~M. and {Sip{\\H o}cz}, B.~M. and\n      {G{\\\"u}nther}, H.~M. and {Lim}, P.~L. and {Crawford}, S.~M. and\n      {Conseil}, S. and {Shupe}, D.~L. and {Craig}, M.~W. and {Dencheva}, N. and\n      {Ginsburg}, A. and {VanderPlas}, J.~T. and {Bradley}, L.~D. and\n      {P{\\'e}rez-Su{\\'a}rez}, D. and {de Val-Borro}, M. and {Aldcroft}, T.~L. and\n      {Cruz}, K.~L. and {Robitaille}, T.~P. and {Tollerud}, E.~J. and\n      {Ardelean}, C. and {Babej}, T. and {Bach}, Y.~P. and {Bachetti}, M. and\n      {Bakanov}, A.~V. and {Bamford}, S.~P. and {Barentsen}, G. and\n      {Barmby}, P. and {Baumbach}, A. and {Berry}, K.~L. and {Biscani}, F. and\n      {Boquien}, M. and {Bostroem}, K.~A. and {Bouma}, L.~G. and {Brammer}, G.~B. and\n      {Bray}, E.~M. and {Breytenbach}, H. and {Buddelmeijer}, H. and\n      {Burke}, D.~J. and {Calderone}, G. and {Cano Rodr{\\'{\\i}}guez}, J.~L. and\n      {Cara}, M. and {Cardoso}, J.~V.~M. and {Cheedella}, S. and {Copin}, Y. and\n      {Corrales}, L. and {Crichton}, D. and {D'Avella}, D. and {Deil}, C. and\n      {Depagne}, {\\'E}. and {Dietrich}, J.~P. and {Donath}, A. and\n      {Droettboom}, M. and {Earl}, N. and {Erben}, T. and {Fabbro}, S. and\n      {Ferreira}, L.~A. and {Finethy}, T. and {Fox}, R.~T. and {Garrison}, L.~H. and\n      {Gibbons}, S.~L.~J. and {Goldstein}, D.~A. and {Gommers}, R. and\n      {Greco}, J.~P. and {Greenfield}, P. and {Groener}, A.~M. and\n      {Grollier}, F. and {Hagen}, A. and {Hirst}, P. and {Homeier}, D. and\n      {Horton}, A.~J. and {Hosseinzadeh}, G. and {Hu}, L. and {Hunkeler}, J.~S. and\n      {Ivezi{\\'c}}, {\\v Z}. and {Jain}, A. and {Jenness}, T. and {Kanarek}, G. and\n      {Kendrew}, S. and {Kern}, N.~S. and {Kerzendorf}, W.~E. and\n      {Khvalko}, A. and {King}, J. and {Kirkby}, D. and {Kulkarni}, A.~M. and\n      {Kumar}, A. and {Lee}, A. and {Lenz}, D. and {Littlefair}, S.~P. and\n      {Ma}, Z. and {Macleod}, D.~M. and {Mastropietro}, M. and {McCully}, C. and\n      {Montagnac}, S. and {Morris}, B.~M. and {Mueller}, M. and {Mumford}, S.~J. and\n      {Muna}, D. and {Murphy}, N.~A. and {Nelson}, S. and {Nguyen}, G.~H. and\n      {Ninan}, J.~P. and {N{\\\"o}the}, M. and {Ogaz}, S. and {Oh}, S. and\n      {Parejko}, J.~K. and {Parley}, N. and {Pascual}, S. and {Patil}, R. and\n      {Patil}, A.~A. and {Plunkett}, A.~L. and {Prochaska}, J.~X. and\n      {Rastogi}, T. and {Reddy Janga}, V. and {Sabater}, J. and {Sakurikar}, P. and\n      {Seifert}, M. and {Sherbert}, L.~E. and {Sherwood-Taylor}, H. and\n      {Shih}, A.~Y. and {Sick}, J. and {Silbiger}, M.~T. and {Singanamalla}, S. and\n      {Singer}, L.~P. and {Sladen}, P.~H. and {Sooley}, K.~A. and\n      {Sornarajah}, S. and {Streicher}, O. and {Teuben}, P. and {Thomas}, S.~W. and\n      {Tremblay}, G.~R. and {Turner}, J.~E.~H. and {Terr{\\'o}n}, V. and\n      {van Kerkwijk}, M.~H. and {de la Vega}, A. and {Watkins}, L.~L. and\n      {Weaver}, B.~A. and {Whitmore}, J.~B. and {Woillez}, J. and\n      {Zabalza}, V. and {Astropy Contributors}},\n      title = \"{The Astropy Project: Building an Open-science Project and Status of the v2.0 Core Package}\",\n    journal = {\\aj},\n  archivePrefix = \"arXiv\",\n     eprint = {1801.02634},\n   primaryClass = \"astro-ph.IM\",\n   keywords = {methods: data analysis, methods: miscellaneous, methods: statistical, reference systems},\n       year = 2018,\n      month = sep,\n     volume = 156,\n        eid = {123},\n      pages = {123},\n        doi = {10.3847/1538-3881/aabc4f},\n     adsurl = {http://adsabs.harvard.edu/abs/2018AJ....156..123A},\n    adsnote = {Provided by the SAO/NASA Astrophysics Data System}\n  }\n@ARTICLE{2013A&A...558A..33A,\n   author = {{Astropy Collaboration} and {Robitaille}, T.~P. and {Tollerud}, E.~J. and\n  {Greenfield}, P. and {Droettboom}, M. and {Bray}, E. and {Aldcroft}, T. and\n  {Davis}, M. and {Ginsburg}, A. and {Price-Whelan}, A.~M. and\n  {Kerzendorf}, W.~E. and {Conley}, A. and {Crighton}, N. and\n  {Barbary}, K. and {Muna}, D. and {Ferguson}, H. and {Grollier}, F. and\n  {Parikh}, M.~M. and {Nair}, P.~H. and {Unther}, H.~M. and {Deil}, C. and\n  {Woillez}, J. and {Conseil}, S. and {Kramer}, R. and {Turner}, J.~E.~H. and\n  {Singer}, L. and {Fox}, R. and {Weaver}, B.~A. and {Zabalza}, V. and\n  {Edwards}, Z.~I. and {Azalee Bostroem}, K. and {Burke}, D.~J. and\n  {Casey}, A.~R. and {Crawford}, S.~M. and {Dencheva}, N. and\n  {Ely}, J. and {Jenness}, T. and {Labrie}, K. and {Lim}, P.~L. and\n  {Pierfederici}, F. and {Pontzen}, A. and {Ptak}, A. and {Refsdal}, B. and\n  {Servillat}, M. and {Streicher}, O.},\n    title = \"{Astropy: A community Python package for astronomy}\",\n  journal = {\\aap},\narchivePrefix = \"arXiv\",\n   eprint = {1307.6212},\n primaryClass = \"astro-ph.IM\",\n keywords = {methods: data analysis, methods: miscellaneous, virtual observatory tools},\n     year = 2013,\n    month = oct,\n   volume = 558,\n      eid = {A33},\n    pages = {A33},\n      doi = {10.1051/0004-6361/201322068},\n   adsurl = {http://adsabs.harvard.edu/abs/2013A%26A...558A..33A},\n  adsnote = {Provided by the SAO/NASA Astrophysics Data System}\n}\n",
+                "category": "codes",
+                "latex": "This research made use of Astropy, a community-developed core Python package for Astronomy \\citep{2018AJ....156..123A, 2013A&A...558A..33A}",
+                "name": "Astropy",
                 "tags": "python",
-                "text": "PyRAF is a product of the Space Telescope Science Institute, which is operated by AURA for NASA",
-                "url": "http://www.stsci.edu/institute/software_hardware/pyraf/"
+                "text": "This research made use of Astropy, a community-developed core Python package for Astronomy (Astropy Collaboration, 2018, 2013)",
+                "url": "http://www.astropy.org"
             },
             {
-                "bibtex": "@INPROCEEDINGS{2003ASPC..295..489J, author = {{Joye}, W.~A. and {Mandel}, E.}, title = \"{New Features of SAOImage DS9}\", booktitle = {Astronomical Data Analysis Software and Systems XII}, year = 2003, series = {Astronomical Society of the Pacific Conference Series}, volume = 295, editor = {{Payne}, H.~E. and {Jedrzejewski}, R.~I. and {Hook}, R.~N.}, pages = {489}, adsurl = {http://adsabs.harvard.edu/abs/2003ASPC..295..489J}, adsnote = {Provided by the SAO/NASA Astrophysics Data System} }\n",
+                "bibtex": "@ARTICLE{Turk:2011,\n Author = {{Turk}, M.~J. and {Smith}, B.~D. and {Oishi}, J.~S. and {Skory}, S. and {Skillman}, S.~W. and {Abel}, T. and {Norman}, M.~L.},\n  Title = \"{yt: A Multi-code Analysis Toolkit for Astrophysical Simulation Data}\",\nJournal = {\\apjs}, ArchivePrefix = \"arXiv\",\n eprint = {1011.3514},\nprimaryClass = \"astro-ph.IM\", keywords = {cosmology: theory, methods: data analysis, methods: numerical },\n   year = 2011,\n  month = jan,\n volume = 192,\n  pages = {9-+},\n    doi = {10.1088/0067-0049/192/1/9},\n adsurl = {http://adsabs.harvard.edu/abs/2011ApJS..192....9T},\nadsnote = {Provided by the SAO/NASA Astrophysics Data System} }",
                 "category": "codes",
-                "name": "ds9",
-                "text": "This research made use of ds9, a tool for data visualization supported by the Chandra X-ray Science Center (CXC) and the High Energy Astrophysics Science Archive Center (HEASARC) with support from the JWST Mission office at the Space Telescope Science Institute for 3D visualization.",
-                "url": "http://ds9.si.edu/site/Home.html"
+                "latex": "This research made use of the yt-project, a toolkit for analyzing and visualizing quantitative data \\citep{Turk:2011}\n",
+                "name": "yt-project",
+                "tags": "python",
+                "text": "This research made use of the yt-project, a toolkit for analyzing and visualizing quantitative data (Turk 2011)\n",
+                "url": "http://yt-project.org/"
             },
             {
-                "bibtex": "@INPROCEEDINGS{2001SPIE.4477...76F,\n   author = {{Freeman}, P. and {Doe}, S. and {Siemiginowska}, A.},\n    title = \"{Sherpa: a mission-independent data analysis application}\",\nbooktitle = {Astronomical Data Analysis},\n     year = 2001,\n   series = {Society of Photo-Optical Instrumentation Engineers (SPIE) Conference Series},\n   volume = 4477,\n   eprint = {astro-ph/0108426},\n   editor = {{Starck}, J.-L. and {Murtagh}, F.~D.},\n    month = nov,\n    pages = {76-87},\n      doi = {10.1117/12.447161},\n   adsurl = {http://adsabs.harvard.edu/abs/2001SPIE.4477...76F},\n  adsnote = {Provided by the SAO/NASA Astrophysics Data System}\n}",
+                "bibtex": "@article{ramachandran_mayavi_2011,\n    title = {Mayavi: 3D Visualization of Scientific Data},\n    volume = {13},\n    issn = {1521-9615},\n    shorttitle = {Mayavi},\n    url = {http://scitation.aip.org/content/aip/journal/cise/13/2/10.1109/MCSE.2011.35},\n    doi = {10.1109/MCSE.2011.35},\n    number = {2},\n    urldate = {2014-04-01},\n    journal = {Computing in Science \\& Engineering},\n    author = {Ramachandran, Prabhu and Varoquaux, Gael},\n    month = mar,\n    year = {2011},\n    pages = {40--51}\n}\n",
                 "category": "codes",
-                "name": "Sherpa",
-                "tags": "fitting, modelling",
-                "text": "This research made use of Sherpa \\citep{2001SPIE.4477...76F}",
-                "url": "http://cxc.harvard.edu/sherpa4.4/"
+                "latex": "This research has made use of Mayavi 3D scientific data visualization and plotting in Python \\citep{ramachandran_mayavi_2011}",
+                "name": "Mayavi2",
+                "tags": "python",
+                "text": "This research has made use of Mayavi 3D scientific data visualization and plotting in Python (Ramachandran & Varoquaux 2011)",
+                "url": "http://code.enthought.com/projects/mayavi/"
+            },
+            {
+                "category": "codes",
+                "dependencies": [
+                    "aaplus"
+                ],
+                "name": "SwiftAA",
+                "tags": "iOS, macOS, algorithms, Swift",
+                "text": "This work made use of SwiftAA, a complete collection of astronomical algorithms for Swift and Objective-C (http://www.onekilopars.ec/swiftaa).",
+                "url": "http://www.onekilopars.ec/swiftaa"
             },
             {
                 "bibtex": "@InProceedings{   McKinney_2010,\n  title         = {Data Structures for Statistical Computing in Python},\n  author        = {Wes McKinney},\n  booktitle     = {Proceedings of the 9th Python in Science Conference},\n  volume        = {445},\n  pages         = {51--56},\n  year          = {2010},\n  organization  = {Austin, TX}\n} @Article{         McKinney_2011,\n  title         = {pandas: a foundational Python library for data analysis\n                  and statistics},\n  author        = {Wes McKinney},\n  year          = {2011},\n  journal       = {Python for High Performance and Scientific Computing},\n  volume        = {14}\n}\n",
@@ -358,13 +288,83 @@
             },
             {
                 "category": "codes",
-                "dependencies": [
-                    "aaplus"
-                ],
-                "name": "SwiftAA",
-                "tags": "iOS, macOS, algorithms, Swift",
-                "text": "This work made use of SwiftAA, a complete collection of astronomical algorithms for Swift and Objective-C (http://www.onekilopars.ec/swiftaa).",
-                "url": "http://www.onekilopars.ec/swiftaa"
+                "name": "myRadex",
+                "text": "This research made use of myRadex, an alternative implementation of RADEX (http://home.strw.leidenuniv.nl/~moldata/radex.html)",
+                "url": "https://github.com/fjdu/myRadex"
+            },
+            {
+                "bibtex": "@INPROCEEDINGS{2006SPIE.6270E..1VF,\n   author = {{Fruscione}, A. and {McDowell}, J.~C. and {Allen}, G.~E. and \n    {Brickhouse}, N.~S. and {Burke}, D.~J. and {Davis}, J.~E. and \n    {Durham}, N. and {Elvis}, M. and {Galle}, E.~C. and {Harris}, D.~E. and \n    {Huenemoerder}, D.~P. and {Houck}, J.~C. and {Ishibashi}, B. and \n    {Karovska}, M. and {Nicastro}, F. and {Noble}, M.~S. and {Nowak}, M.~A. and \n    {Primini}, F.~A. and {Siemiginowska}, A. and {Smith}, R.~K. and \n    {Wise}, M.},\n    title = \"{CIAO: Chandra's data analysis system}\",\nbooktitle = {Society of Photo-Optical Instrumentation Engineers (SPIE) Conference Series},\n     year = 2006,\n   series = {Society of Photo-Optical Instrumentation Engineers (SPIE) Conference Series},\n   volume = 6270,\n    month = jun,\n      eid = {62701V},\n    pages = {1},\n      doi = {10.1117/12.671760},\n   adsurl = {http://adsabs.harvard.edu/abs/2006SPIE.6270E..1VF},\n  adsnote = {Provided by the SAO/NASA Astrophysics Data System}\n}\n",
+                "category": "codes",
+                "name": "OSA",
+                "tags": "gamma-ray, integral",
+                "text": "This research made use of the Off-line Scientific Analysis (OSA) software package \\citep{2006SPIE.6270E..1VF}\n",
+                "url": "http://www.isdc.unige.ch/integral/analysis"
+            },
+            {
+                "category": "codes",
+                "name": "pvextractor",
+                "text": "This research made use of pvextractor, a tool to extract position-velocity diagrams along arbitrary directions from data cubes.",
+                "url": "http://radio-astro-tools.github.io/"
+            },
+            {
+                "bibtex": "@INPROCEEDINGS{2001SPIE.4477...76F,\n   author = {{Freeman}, P. and {Doe}, S. and {Siemiginowska}, A.},\n    title = \"{Sherpa: a mission-independent data analysis application}\",\nbooktitle = {Astronomical Data Analysis},\n     year = 2001,\n   series = {Society of Photo-Optical Instrumentation Engineers (SPIE) Conference Series},\n   volume = 4477,\n   eprint = {astro-ph/0108426},\n   editor = {{Starck}, J.-L. and {Murtagh}, F.~D.},\n    month = nov,\n    pages = {76-87},\n      doi = {10.1117/12.447161},\n   adsurl = {http://adsabs.harvard.edu/abs/2001SPIE.4477...76F},\n  adsnote = {Provided by the SAO/NASA Astrophysics Data System}\n}",
+                "category": "codes",
+                "name": "Sherpa",
+                "tags": "fitting, modelling",
+                "text": "This research made use of Sherpa \\citep{2001SPIE.4477...76F}",
+                "url": "http://cxc.harvard.edu/sherpa4.4/"
+            },
+            {
+                "category": "codes",
+                "name": "iObserve",
+                "tags": "app, macOS, airmass, star tracks, finding charts, units, converters",
+                "text": "This work made use iObserve, a macOS app for easily prepare and perform astronomical observations (http://onekilopars.ec/iobserve)",
+                "url": "http://onekilopars.ec/iobserve"
+            },
+            {
+                "bibtex": "@article{sunpy-05-csd,\n  author={The SunPy Community and Stuart J Mumford and Steven Christe and David P\u00e9rez-Su\u00e1rez and Jack Ireland and Albert Y Shih and Andrew R Inglis and Simon Liedtke and Russell J Hewett and Florian Mayer and Keith Hughitt and Nabil Freij and Tomas Meszaros and Samuel M Bennett and Michael Malocha and John Evans and Ankit Agrawal and Andrew J Leonard and Thomas P Robitaille and Benjamin Mampaey and Jose Iv\u00e1n Campos-Rozo and Michael S Kirk},\n  title={SunPy\u2014Python for solar physics},\n  journal={Computational Science & Discovery},\n  volume={8},\n  number={1},\n  pages={014009},\n  url={http://stacks.iop.org/1749-4699/8/i=1/a=014009},\n  year={2015},\n}\n",
+                "category": "codes",
+                "dependencies": "astropy",
+                "latex": "This research has made use of SunPy, an open-source and free community-developed solar data analysis package written in Python \\citep{sunpy-05-csd}\n",
+                "name": "SunPy",
+                "tags": "python",
+                "text": "This research has made use of SunPy, an open-source and free community-developed solar data analysis package written in Python (The SunPy Community, 2015)\n",
+                "url": "http://www.sunpy.org"
+            },
+            {
+                "category": "codes",
+                "name": "spectralcube",
+                "text": "This research made use of spectralcube, a library for astronomical spectral data cubes.",
+                "url": "http://radio-astro-tools.github.io/"
+            },
+            {
+                "category": "codes",
+                "name": "wcsaxes",
+                "text": "This research made use of wcsaxes, an open-source plotting library for Python hosted at https://wcsaxes.readthedocs.io/en/latest/",
+                "url": "http://wcsaxes.readthedocs.io"
+            },
+            {
+                "bibtex": "@INPROCEEDINGS{2003ASPC..295..489J, author = {{Joye}, W.~A. and {Mandel}, E.}, title = \"{New Features of SAOImage DS9}\", booktitle = {Astronomical Data Analysis Software and Systems XII}, year = 2003, series = {Astronomical Society of the Pacific Conference Series}, volume = 295, editor = {{Payne}, H.~E. and {Jedrzejewski}, R.~I. and {Hook}, R.~N.}, pages = {489}, adsurl = {http://adsabs.harvard.edu/abs/2003ASPC..295..489J}, adsnote = {Provided by the SAO/NASA Astrophysics Data System} }\n",
+                "category": "codes",
+                "name": "ds9",
+                "text": "This research made use of ds9, a tool for data visualization supported by the Chandra X-ray Science Center (CXC) and the High Energy Astrophysics Science Archive Center (HEASARC) with support from the JWST Mission office at the Space Telescope Science Institute for 3D visualization.",
+                "url": "http://ds9.si.edu/site/Home.html"
+            },
+            {
+                "bibtex": "@Article{         harris2020array,\n title         = {Array programming with {NumPy}},\n author        = {Charles R. Harris and K. Jarrod Millman and St{'{e}}fan J.\n                 van der Walt and Ralf Gommers and Pauli Virtanen and David\n                 Cournapeau and Eric Wieser and Julian Taylor and Sebastian\n                 Berg and Nathaniel J. Smith and Robert Kern and Matti Picus\n                 and Stephan Hoyer and Marten H. van Kerkwijk and Matthew\n                 Brett and Allan Haldane and Jaime Fern{'{a}}ndez del\n                 R{'{\\i}}o and Mark Wiebe and Pearu Peterson and Pierre\n                 G{'{e}}rard-Marchant and Kevin Sheppard and Tyler Reddy and\n                 Warren Weckesser and Hameer Abbasi and Christoph Gohlke and\n                 Travis E. Oliphant},\n year          = {2020},\n month         = sep,\n journal       = {Nature},\n volume        = {585},\n number        = {7825},\n pages         = {357--362},\n doi           = {10.1038/s41586-020-2649-2},\n publisher     = {Springer Science and Business Media {LLC}},\n url           = {https://doi.org/10.1038/s41586-020-2649-2}\n}\n",
+                "category": "codes",
+                "latex": "This research made use of NumPy \\citep{harris2020array}",
+                "name": "NumPy",
+                "tags": "python",
+                "text": "This research made use of NumPy (Harris et al. 2020)",
+                "url": "http://www.NumPy.org/"
+            },
+            {
+                "bibtex": "@MISC{2011ascl.soft09001G,\n    author = {{Ginsburg}, A. and {Mirocha}, J.},\n    title = \"{PySpecKit: Python Spectroscopic Toolkit}\",\n    keywords = {Software},\n    howpublished = {Astrophysics Source Code Library},\n    year = 2011,\n    month = sep,\n    archivePrefix = \"ascl\",\n    eprint = {1109.001},\n    adsurl = {http://adsabs.harvard.edu/abs/2011ascl.soft09001G},\n   adsnote = {Provided by the SAO/NASA Astrophysics Data System}\n}\n",
+                "category": "codes",
+                "name": "pyspeckit",
+                "text": "This research made use of pyspeckit, an open-source spectral analysis and plotting package for Python hosted at http://pyspeckit.bitbucket.org\n",
+                "url": "https://github.com/pyspeckit/pyspeckit"
             }
         ],
         "short": "codes",
@@ -372,162 +372,6 @@
     },
     {
         "entries": [
-            {
-                "category": "data",
-                "facilities": "\\facility{ROSAT}",
-                "name": "ROSAT",
-                "text": "The ROSAT project was supported by the Ministerium f{\\\"u}r Bildung, Wissenschaft, Forschung und Technologie (BMBF/DARA) and by the Max-Planck-Gesellschaft."
-            },
-            {
-                "category": "data",
-                "name": "Gaia-ESO",
-                "text": "Based on data products from observations made with ESO Telescopes at the La Silla Paranal Observatory under programme ID 188.B-3002. These data products have been processed by the Cam-bridge Astronomy Survey Unit (CASU) at the Institute of Astronomy, University of Cambridge, and by the FLAMES/UVES reduction team at INAF/Osservatorio Astrofisico di Arcetri. These data have been obtained from the Gaia-ESO Survey Data Archive, prepared and hosted by the Wide Field Astronomy Unit, Institute for Astronomy, University of Edinburgh, which is funded by the UK Science and Technology Facilities Council.",
-                "url": "http://ges.roe.ac.uk/"
-            },
-            {
-                "category": "data",
-                "facilities": "\\facility{WISE}",
-                "name": "GALEX",
-                "text": "Based on observations made with the NASA Galaxy Evolution Explorer. GALEX is operated for NASA by the California Institute of Technology under NASA contract NAS5-98034.\n"
-            },
-            {
-                "bibtex": "@ARTICLE{2018A&A...616A...1G,\n     author = {{Gaia Collaboration} and {Brown}, A.~G.~A. and {Vallenari}, A. and\n       {Prusti}, T. and {de Bruijne}, J.~H.~J. and {Babusiaux}, C. and\n       {Bailer-Jones}, C.~A.~L. and {Biermann}, M. and {Evans}, D.~W. and\n       {Eyer}, L. and {Jansen}, F. and {Jordi}, C. and {Klioner}, S.~A. and\n       {Lammers}, U. and {Lindegren}, L. and {Luri}, X. and {Mignard}, F. and\n       {Panem}, C. and {Pourbaix}, D. and {Randich}, S. and {Sartoretti}, P. and\n       {Siddiqui}, H.~I. and {Soubiran}, C. and {van Leeuwen}, F. and\n       {Walton}, N.~A. and {Arenou}, F. and {Bastian}, U. and {Cropper}, M. and\n       {Drimmel}, R. and {Katz}, D. and {Lattanzi}, M.~G. and {Bakker}, J. and\n       {Cacciari}, C. and {Casta{\\~n}eda}, J. and {Chaoul}, L. and\n       {Cheek}, N. and {De Angeli}, F. and {Fabricius}, C. and {Guerra}, R. and\n       {Holl}, B. and {Masana}, E. and {Messineo}, R. and {Mowlavi}, N. and\n       {Nienartowicz}, K. and {Panuzzo}, P. and {Portell}, J. and\n       {Riello}, M. and {Seabroke}, G.~M. and {Tanga}, P. and\n       {Th{\\'e}venin}, F. and {Gracia-Abril}, G. and {Comoretto}, G. and\n       {Garcia-Reinaldos}, M. and {Teyssier}, D. and {Altmann}, M. and\n       {Andrae}, R. and {Audard}, M. and {Bellas-Velidis}, I. and\n       {Benson}, K. and {Berthier}, J. and {Blomme}, R. and {Burgess}, P. and\n       {Busso}, G. and {Carry}, B. and {Cellino}, A. and {Clementini}, G. and\n       {Clotet}, M. and {Creevey}, O. and {Davidson}, M. and {De Ridder}, J. and\n       {Delchambre}, L. and {Dell'Oro}, A. and {Ducourant}, C. and\n       {Fern{\\'a}ndez-Hern{\\'a}ndez}, J. and {Fouesneau}, M. and\n       {Fr{\\'e}mat}, Y. and {Galluccio}, L. and {Garc{\\'\\i}a-Torres}, M. and\n       {Gonz{\\'a}lez-N{\\'u}{\\~n}ez}, J. and {Gonz{\\'a}lez-Vidal}, J.~J. and\n       {Gosset}, E. and {Guy}, L.~P. and {Halbwachs}, J. -L. and\n       {Hambly}, N.~C. and {Harrison}, D.~L. and {Hern{\\'a}ndez}, J. and\n       {Hestroffer}, D. and {Hodgkin}, S.~T. and {Hutton}, A. and\n       {Jasniewicz}, G. and {Jean-Antoine-Piccolo}, A. and {Jordan}, S. and\n       {Korn}, A.~J. and {Krone-Martins}, A. and {Lanzafame}, A.~C. and\n       {Lebzelter}, T. and {L{\\\"o}ffler}, W. and {Manteiga}, M. and\n       {Marrese}, P.~M. and {Mart{\\'\\i}n-Fleitas}, J.~M. and {Moitinho}, A. and\n       {Mora}, A. and {Muinonen}, K. and {Osinde}, J. and {Pancino}, E. and\n       {Pauwels}, T. and {Petit}, J. -M. and {Recio-Blanco}, A. and\n       {Richards}, P.~J. and {Rimoldini}, L. and {Robin}, A.~C. and\n       {Sarro}, L.~M. and {Siopis}, C. and {Smith}, M. and {Sozzetti}, A. and\n       {S{\\\"u}veges}, M. and {Torra}, J. and {van Reeven}, W. and {Abbas}, U. and\n       {Abreu Aramburu}, A. and {Accart}, S. and {Aerts}, C. and\n       {Altavilla}, G. and {{\\'A}lvarez}, M.~A. and {Alvarez}, R. and\n       {Alves}, J. and {Anderson}, R.~I. and {Andrei}, A.~H. and\n       {Anglada Varela}, E. and {Antiche}, E. and {Antoja}, T. and\n       {Arcay}, B. and {Astraatmadja}, T.~L. and {Bach}, N. and\n       {Baker}, S.~G. and {Balaguer-N{\\'u}{\\~n}ez}, L. and {Balm}, P. and\n       {Barache}, C. and {Barata}, C. and {Barbato}, D. and {Barblan}, F. and\n       {Barklem}, P.~S. and {Barrado}, D. and {Barros}, M. and\n       {Barstow}, M.~A. and {Bartholom{\\'e} Mu{\\~n}oz}, S. and\n       {Bassilana}, J. -L. and {Becciani}, U. and {Bellazzini}, M. and\n       {Berihuete}, A. and {Bertone}, S. and {Bianchi}, L. and\n       {Bienaym{\\'e}}, O. and {Blanco-Cuaresma}, S. and {Boch}, T. and\n       {Boeche}, C. and {Bombrun}, A. and {Borrachero}, R. and {Bossini}, D. and\n       {Bouquillon}, S. and {Bourda}, G. and {Bragaglia}, A. and\n       {Bramante}, L. and {Breddels}, M.~A. and {Bressan}, A. and\n       {Brouillet}, N. and {Br{\\\"u}semeister}, T. and {Brugaletta}, E. and\n       {Bucciarelli}, B. and {Burlacu}, A. and {Busonero}, D. and\n       {Butkevich}, A.~G. and {Buzzi}, R. and {Caffau}, E. and\n       {Cancelliere}, R. and {Cannizzaro}, G. and {Cantat-Gaudin}, T. and\n       {Carballo}, R. and {Carlucci}, T. and {Carrasco}, J.~M. and\n       {Casamiquela}, L. and {Castellani}, M. and {Castro-Ginard}, A. and\n       {Charlot}, P. and {Chemin}, L. and {Chiavassa}, A. and {Cocozza}, G. and\n       {Costigan}, G. and {Cowell}, S. and {Crifo}, F. and {Crosta}, M. and\n       {Crowley}, C. and {Cuypers}, J. and {Dafonte}, C. and {Damerdji}, Y. and\n       {Dapergolas}, A. and {David}, P. and {David}, M. and {de Laverny}, P. and\n       {De Luise}, F. and {De March}, R. and {de Martino}, D. and\n       {de Souza}, R. and {de Torres}, A. and {Debosscher}, J. and\n       {del Pozo}, E. and {Delbo}, M. and {Delgado}, A. and {Delgado}, H.~E. and\n       {Di Matteo}, P. and {Diakite}, S. and {Diener}, C. and {Distefano}, E. and\n       {Dolding}, C. and {Drazinos}, P. and {Dur{\\'a}n}, J. and\n       {Edvardsson}, B. and {Enke}, H. and {Eriksson}, K. and {Esquej}, P. and\n       {Eynard Bontemps}, G. and {Fabre}, C. and {Fabrizio}, M. and\n       {Faigler}, S. and {Falc{\\~a}o}, A.~J. and {Farr{\\`a}s Casas}, M. and\n       {Federici}, L. and {Fedorets}, G. and {Fernique}, P. and\n       {Figueras}, F. and {Filippi}, F. and {Findeisen}, K. and {Fonti}, A. and\n       {Fraile}, E. and {Fraser}, M. and {Fr{\\'e}zouls}, B. and {Gai}, M. and\n       {Galleti}, S. and {Garabato}, D. and {Garc{\\'\\i}a-Sedano}, F. and\n       {Garofalo}, A. and {Garralda}, N. and {Gavel}, A. and {Gavras}, P. and\n       {Gerssen}, J. and {Geyer}, R. and {Giacobbe}, P. and {Gilmore}, G. and\n       {Girona}, S. and {Giuffrida}, G. and {Glass}, F. and {Gomes}, M. and\n       {Granvik}, M. and {Gueguen}, A. and {Guerrier}, A. and {Guiraud}, J. and\n       {Guti{\\'e}rrez-S{\\'a}nchez}, R. and {Haigron}, R. and\n       {Hatzidimitriou}, D. and {Hauser}, M. and {Haywood}, M. and\n       {Heiter}, U. and {Helmi}, A. and {Heu}, J. and {Hilger}, T. and\n       {Hobbs}, D. and {Hofmann}, W. and {Holland}, G. and {Huckle}, H.~E. and\n       {Hypki}, A. and {Icardi}, V. and {Jan{\\ss}en}, K. and\n       {Jevardat de Fombelle}, G. and {Jonker}, P.~G. and\n       {Juh{\\'a}sz}, {\\'A}. L. and {Julbe}, F. and {Karampelas}, A. and\n       {Kewley}, A. and {Klar}, J. and {Kochoska}, A. and {Kohley}, R. and\n       {Kolenberg}, K. and {Kontizas}, M. and {Kontizas}, E. and\n       {Koposov}, S.~E. and {Kordopatis}, G. and {Kostrzewa-Rutkowska}, Z. and\n       {Koubsky}, P. and {Lambert}, S. and {Lanza}, A.~F. and {Lasne}, Y. and\n       {Lavigne}, J. -B. and {Le Fustec}, Y. and {Le Poncin-Lafitte}, C. and\n       {Lebreton}, Y. and {Leccia}, S. and {Leclerc}, N. and\n       {Lecoeur-Taibi}, I. and {Lenhardt}, H. and {Leroux}, F. and {Liao}, S. and\n       {Licata}, E. and {Lindstr{\\o}m}, H.~E.~P. and {Lister}, T.~A. and\n       {Livanou}, E. and {Lobel}, A. and {L{\\'o}pez}, M. and {Managau}, S. and\n       {Mann}, R.~G. and {Mantelet}, G. and {Marchal}, O. and\n       {Marchant}, J.~M. and {Marconi}, M. and {Marinoni}, S. and\n       {Marschalk{\\'o}}, G. and {Marshall}, D.~J. and {Martino}, M. and\n       {Marton}, G. and {Mary}, N. and {Massari}, D. and\n       {Matijevi{\\v{c}}}, G. and {Mazeh}, T. and {McMillan}, P.~J. and\n       {Messina}, S. and {Michalik}, D. and {Millar}, N.~R. and {Molina}, D. and\n       {Molinaro}, R. and {Moln{\\'a}r}, L. and {Montegriffo}, P. and\n       {Mor}, R. and {Morbidelli}, R. and {Morel}, T. and {Morris}, D. and\n       {Mulone}, A.~F. and {Muraveva}, T. and {Musella}, I. and\n       {Nelemans}, G. and {Nicastro}, L. and {Noval}, L. and {O'Mullane}, W. and\n       {Ord{\\'e}novic}, C. and {Ord{\\'o}{\\~n}ez-Blanco}, D. and {Osborne}, P. and\n       {Pagani}, C. and {Pagano}, I. and {Pailler}, F. and {Palacin}, H. and\n       {Palaversa}, L. and {Panahi}, A. and {Pawlak}, M. and\n       {Piersimoni}, A.~M. and {Pineau}, F. -X. and {Plachy}, E. and\n       {Plum}, G. and {Poggio}, E. and {Poujoulet}, E. and {Pr{\\v{s}}a}, A. and\n       {Pulone}, L. and {Racero}, E. and {Ragaini}, S. and {Rambaux}, N. and\n       {Ramos-Lerate}, M. and {Regibo}, S. and {Reyl{\\'e}}, C. and\n       {Riclet}, F. and {Ripepi}, V. and {Riva}, A. and {Rivard}, A. and\n       {Rixon}, G. and {Roegiers}, T. and {Roelens}, M. and\n       {Romero-G{\\'o}mez}, M. and {Rowell}, N. and {Royer}, F. and\n       {Ruiz-Dern}, L. and {Sadowski}, G. and {Sagrist{\\`a} Sell{\\'e}s}, T. and\n       {Sahlmann}, J. and {Salgado}, J. and {Salguero}, E. and {Sanna}, N. and\n       {Santana-Ros}, T. and {Sarasso}, M. and {Savietto}, H. and\n       {Schultheis}, M. and {Sciacca}, E. and {Segol}, M. and\n       {Segovia}, J.~C. and {S{\\'e}gransan}, D. and {Shih}, I. -C. and\n       {Siltala}, L. and {Silva}, A.~F. and {Smart}, R.~L. and {Smith}, K.~W. and\n       {Solano}, E. and {Solitro}, F. and {Sordo}, R. and {Soria Nieto}, S. and\n       {Souchay}, J. and {Spagna}, A. and {Spoto}, F. and {Stampa}, U. and\n       {Steele}, I.~A. and {Steidelm{\\\"u}ller}, H. and {Stephenson}, C.~A. and\n       {Stoev}, H. and {Suess}, F.~F. and {Surdej}, J. and {Szabados}, L. and\n       {Szegedi-Elek}, E. and {Tapiador}, D. and {Taris}, F. and {Tauran}, G. and\n       {Taylor}, M.~B. and {Teixeira}, R. and {Terrett}, D. and {Teyssand\n      ier}, P. and {Thuillot}, W. and {Titarenko}, A. and {Torra Clotet}, F. and\n       {Turon}, C. and {Ulla}, A. and {Utrilla}, E. and {Uzzi}, S. and\n       {Vaillant}, M. and {Valentini}, G. and {Valette}, V. and\n       {van Elteren}, A. and {Van Hemelryck}, E. and {van Leeuwen}, M. and\n       {Vaschetto}, M. and {Vecchiato}, A. and {Veljanoski}, J. and\n       {Viala}, Y. and {Vicente}, D. and {Vogt}, S. and {von Essen}, C. and\n       {Voss}, H. and {Votruba}, V. and {Voutsinas}, S. and {Walmsley}, G. and\n       {Weiler}, M. and {Wertz}, O. and {Wevers}, T. and {Wyrzykowski}, {\\L}. and\n       {Yoldas}, A. and {{\\v{Z}}erjal}, M. and {Ziaeepour}, H. and\n       {Zorec}, J. and {Zschocke}, S. and {Zucker}, S. and {Zurbach}, C. and\n       {Zwitter}, T.},\n      title = \"{Gaia Data Release 2. Summary of the contents and survey properties}\",\n    journal = {\\aap},\n   keywords = {catalogs, astrometry, techniques: radial velocities, stars: fundamental parameters, stars: variables: general, minor planets, asteroids: general, Astrophysics - Astrophysics of Galaxies, Astrophysics - Instrumentation and Methods for Astrophysics},\n       year = 2018,\n      month = aug,\n     volume = {616},\n        eid = {A1},\n      pages = {A1},\n        doi = {10.1051/0004-6361/201833051},\narchivePrefix = {arXiv},\n     eprint = {1804.09365},\nprimaryClass = {astro-ph.GA},\n     adsurl = {https://ui.adsabs.harvard.edu/abs/2018A&A...616A...1G},\n    adsnote = {Provided by the SAO/NASA Astrophysics Data System}\n} @ARTICLE{2016A&A...595A...1G,\n     author = {{Gaia Collaboration} and {Prusti}, T. and {de Bruijne}, J.~H.~J. and\n       {Brown}, A.~G.~A. and {Vallenari}, A. and {Babusiaux}, C. and\n       {Bailer-Jones}, C.~A.~L. and {Bastian}, U. and {Biermann}, M. and\n       {Evans}, D.~W. and {Eyer}, L. and {Jansen}, F. and {Jordi}, C. and\n       {Klioner}, S.~A. and {Lammers}, U. and {Lindegren}, L. and {Luri}, X. and\n       {Mignard}, F. and {Milligan}, D.~J. and {Panem}, C. and\n       {Poinsignon}, V. and {Pourbaix}, D. and {Randich}, S. and {Sarri}, G. and\n       {Sartoretti}, P. and {Siddiqui}, H.~I. and {Soubiran}, C. and\n       {Valette}, V. and {van Leeuwen}, F. and {Walton}, N.~A. and\n       {Aerts}, C. and {Arenou}, F. and {Cropper}, M. and {Drimmel}, R. and\n       {H{\\o}g}, E. and {Katz}, D. and {Lattanzi}, M.~G. and {O'Mullane}, W. and\n       {Grebel}, E.~K. and {Holland}, A.~D. and {Huc}, C. and {Passot}, X. and\n       {Bramante}, L. and {Cacciari}, C. and {Casta{\\~n}eda}, J. and\n       {Chaoul}, L. and {Cheek}, N. and {De Angeli}, F. and {Fabricius}, C. and\n       {Guerra}, R. and {Hern{\\'a}ndez}, J. and {Jean-Antoine-Piccolo}, A. and\n       {Masana}, E. and {Messineo}, R. and {Mowlavi}, N. and\n       {Nienartowicz}, K. and {Ord{\\'o}{\\~n}ez-Blanco}, D. and {Panuzzo}, P. and\n       {Portell}, J. and {Richards}, P.~J. and {Riello}, M. and\n       {Seabroke}, G.~M. and {Tanga}, P. and {Th{\\'e}venin}, F. and\n       {Torra}, J. and {Els}, S.~G. and {Gracia-Abril}, G. and\n       {Comoretto}, G. and {Garcia-Reinaldos}, M. and {Lock}, T. and\n       {Mercier}, E. and {Altmann}, M. and {Andrae}, R. and\n       {Astraatmadja}, T.~L. and {Bellas-Velidis}, I. and {Benson}, K. and\n       {Berthier}, J. and {Blomme}, R. and {Busso}, G. and {Carry}, B. and\n       {Cellino}, A. and {Clementini}, G. and {Cowell}, S. and {Creevey}, O. and\n       {Cuypers}, J. and {Davidson}, M. and {De Ridder}, J. and\n       {de Torres}, A. and {Delchambre}, L. and {Dell'Oro}, A. and\n       {Ducourant}, C. and {Fr{\\'e}mat}, Y. and {Garc{\\'\\i}a-Torres}, M. and\n       {Gosset}, E. and {Halbwachs}, J. -L. and {Hambly}, N.~C. and\n       {Harrison}, D.~L. and {Hauser}, M. and {Hestroffer}, D. and\n       {Hodgkin}, S.~T. and {Huckle}, H.~E. and {Hutton}, A. and\n       {Jasniewicz}, G. and {Jordan}, S. and {Kontizas}, M. and {Korn}, A.~J. and\n       {Lanzafame}, A.~C. and {Manteiga}, M. and {Moitinho}, A. and\n       {Muinonen}, K. and {Osinde}, J. and {Pancino}, E. and {Pauwels}, T. and\n       {Petit}, J. -M. and {Recio-Blanco}, A. and {Robin}, A.~C. and\n       {Sarro}, L.~M. and {Siopis}, C. and {Smith}, M. and {Smith}, K.~W. and\n       {Sozzetti}, A. and {Thuillot}, W. and {van Reeven}, W. and {Viala}, Y. and\n       {Abbas}, U. and {Abreu Aramburu}, A. and {Accart}, S. and\n       {Aguado}, J.~J. and {Allan}, P.~M. and {Allasia}, W. and\n       {Altavilla}, G. and {{\\'A}lvarez}, M.~A. and {Alves}, J. and\n       {Anderson}, R.~I. and {Andrei}, A.~H. and {Anglada Varela}, E. and\n       {Antiche}, E. and {Antoja}, T. and {Ant{\\'o}n}, S. and {Arcay}, B. and\n       {Atzei}, A. and {Ayache}, L. and {Bach}, N. and {Baker}, S.~G. and\n       {Balaguer-N{\\'u}{\\~n}ez}, L. and {Barache}, C. and {Barata}, C. and\n       {Barbier}, A. and {Barblan}, F. and {Baroni}, M. and\n       {Barrado y Navascu{\\'e}s}, D. and {Barros}, M. and {Barstow}, M.~A. and\n       {Becciani}, U. and {Bellazzini}, M. and {Bellei}, G. and\n       {Bello Garc{\\'\\i}a}, A. and {Belokurov}, V. and {Bendjoya}, P. and\n       {Berihuete}, A. and {Bianchi}, L. and {Bienaym{\\'e}}, O. and\n       {Billebaud}, F. and {Blagorodnova}, N. and {Blanco-Cuaresma}, S. and\n       {Boch}, T. and {Bombrun}, A. and {Borrachero}, R. and {Bouquillon}, S. and\n       {Bourda}, G. and {Bouy}, H. and {Bragaglia}, A. and {Breddels}, M.~A. and\n       {Brouillet}, N. and {Br{\\\"u}semeister}, T. and {Bucciarelli}, B. and\n       {Budnik}, F. and {Burgess}, P. and {Burgon}, R. and {Burlacu}, A. and\n       {Busonero}, D. and {Buzzi}, R. and {Caffau}, E. and {Cambras}, J. and\n       {Campbell}, H. and {Cancelliere}, R. and {Cantat-Gaudin}, T. and\n       {Carlucci}, T. and {Carrasco}, J.~M. and {Castellani}, M. and\n       {Charlot}, P. and {Charnas}, J. and {Charvet}, P. and {Chassat}, F. and\n       {Chiavassa}, A. and {Clotet}, M. and {Cocozza}, G. and\n       {Collins}, R.~S. and {Collins}, P. and {Costigan}, G. and {Crifo}, F. and\n       {Cross}, N.~J.~G. and {Crosta}, M. and {Crowley}, C. and {Dafonte}, C. and\n       {Damerdji}, Y. and {Dapergolas}, A. and {David}, P. and {David}, M. and\n       {De Cat}, P. and {de Felice}, F. and {de Laverny}, P. and\n       {De Luise}, F. and {De March}, R. and {de Martino}, D. and\n       {de Souza}, R. and {Debosscher}, J. and {del Pozo}, E. and {Delbo}, M. and\n       {Delgado}, A. and {Delgado}, H.~E. and {di Marco}, F. and\n       {Di Matteo}, P. and {Diakite}, S. and {Distefano}, E. and\n       {Dolding}, C. and {Dos Anjos}, S. and {Drazinos}, P. and\n       {Dur{\\'a}n}, J. and {Dzigan}, Y. and {Ecale}, E. and {Edvardsson}, B. and\n       {Enke}, H. and {Erdmann}, M. and {Escolar}, D. and {Espina}, M. and\n       {Evans}, N.~W. and {Eynard Bontemps}, G. and {Fabre}, C. and\n       {Fabrizio}, M. and {Faigler}, S. and {Falc{\\~a}o}, A.~J. and\n       {Farr{\\`a}s Casas}, M. and {Faye}, F. and {Federici}, L. and\n       {Fedorets}, G. and {Fern{\\'a}ndez-Hern{\\'a}ndez}, J. and\n       {Fernique}, P. and {Fienga}, A. and {Figueras}, F. and {Filippi}, F. and\n       {Findeisen}, K. and {Fonti}, A. and {Fouesneau}, M. and {Fraile}, E. and\n       {Fraser}, M. and {Fuchs}, J. and {Furnell}, R. and {Gai}, M. and\n       {Galleti}, S. and {Galluccio}, L. and {Garabato}, D. and\n       {Garc{\\'\\i}a-Sedano}, F. and {Gar{\\'e}}, P. and {Garofalo}, A. and\n       {Garralda}, N. and {Gavras}, P. and {Gerssen}, J. and {Geyer}, R. and\n       {Gilmore}, G. and {Girona}, S. and {Giuffrida}, G. and {Gomes}, M. and\n       {Gonz{\\'a}lez-Marcos}, A. and {Gonz{\\'a}lez-N{\\'u}{\\~n}ez}, J. and\n       {Gonz{\\'a}lez-Vidal}, J.~J. and {Granvik}, M. and {Guerrier}, A. and\n       {Guillout}, P. and {Guiraud}, J. and {G{\\'u}rpide}, A. and\n       {Guti{\\'e}rrez-S{\\'a}nchez}, R. and {Guy}, L.~P. and {Haigron}, R. and\n       {Hatzidimitriou}, D. and {Haywood}, M. and {Heiter}, U. and\n       {Helmi}, A. and {Hobbs}, D. and {Hofmann}, W. and {Holl}, B. and {Holland\n      }, G. and {Hunt}, J.~A.~S. and {Hypki}, A. and {Icardi}, V. and\n       {Irwin}, M. and {Jevardat de Fombelle}, G. and {Jofr{\\'e}}, P. and\n       {Jonker}, P.~G. and {Jorissen}, A. and {Julbe}, F. and\n       {Karampelas}, A. and {Kochoska}, A. and {Kohley}, R. and\n       {Kolenberg}, K. and {Kontizas}, E. and {Koposov}, S.~E. and\n       {Kordopatis}, G. and {Koubsky}, P. and {Kowalczyk}, A. and\n       {Krone-Martins}, A. and {Kudryashova}, M. and {Kull}, I. and\n       {Bachchan}, R.~K. and {Lacoste-Seris}, F. and {Lanza}, A.~F. and\n       {Lavigne}, J. -B. and {Le Poncin-Lafitte}, C. and {Lebreton}, Y. and\n       {Lebzelter}, T. and {Leccia}, S. and {Leclerc}, N. and\n       {Lecoeur-Taibi}, I. and {Lemaitre}, V. and {Lenhardt}, H. and\n       {Leroux}, F. and {Liao}, S. and {Licata}, E. and\n       {Lindstr{\\o}m}, H.~E.~P. and {Lister}, T.~A. and {Livanou}, E. and\n       {Lobel}, A. and {L{\\\"o}ffler}, W. and {L{\\'o}pez}, M. and\n       {Lopez-Lozano}, A. and {Lorenz}, D. and {Loureiro}, T. and\n       {MacDonald}, I. and {Magalh{\\~a}es Fernandes}, T. and {Managau}, S. and\n       {Mann}, R.~G. and {Mantelet}, G. and {Marchal}, O. and\n       {Marchant}, J.~M. and {Marconi}, M. and {Marie}, J. and {Marinoni}, S. and\n       {Marrese}, P.~M. and {Marschalk{\\'o}}, G. and {Marshall}, D.~J. and\n       {Mart{\\'\\i}n-Fleitas}, J.~M. and {Martino}, M. and {Mary}, N. and\n       {Matijevi{\\v{c}}}, G. and {Mazeh}, T. and {McMillan}, P.~J. and\n       {Messina}, S. and {Mestre}, A. and {Michalik}, D. and {Millar}, N.~R. and\n       {Miranda}, B.~M.~H. and {Molina}, D. and {Molinaro}, R. and\n       {Molinaro}, M. and {Moln{\\'a}r}, L. and {Moniez}, M. and\n       {Montegriffo}, P. and {Monteiro}, D. and {Mor}, R. and {Mora}, A. and\n       {Morbidelli}, R. and {Morel}, T. and {Morgenthaler}, S. and\n       {Morley}, T. and {Morris}, D. and {Mulone}, A.~F. and {Muraveva}, T. and\n       {Musella}, I. and {Narbonne}, J. and {Nelemans}, G. and {Nicastro}, L. and\n       {Noval}, L. and {Ord{\\'e}novic}, C. and {Ordieres-Mer{\\'e}}, J. and\n       {Osborne}, P. and {Pagani}, C. and {Pagano}, I. and {Pailler}, F. and\n       {Palacin}, H. and {Palaversa}, L. and {Parsons}, P. and {Paulsen}, T. and\n       {Pecoraro}, M. and {Pedrosa}, R. and {Pentik{\\\"a}inen}, H. and\n       {Pereira}, J. and {Pichon}, B. and {Piersimoni}, A.~M. and\n       {Pineau}, F. -X. and {Plachy}, E. and {Plum}, G. and {Poujoulet}, E. and\n       {Pr{\\v{s}}a}, A. and {Pulone}, L. and {Ragaini}, S. and {Rago}, S. and\n       {Rambaux}, N. and {Ramos-Lerate}, M. and {Ranalli}, P. and {Rauw}, G. and\n       {Read}, A. and {Regibo}, S. and {Renk}, F. and {Reyl{\\'e}}, C. and\n       {Ribeiro}, R.~A. and {Rimoldini}, L. and {Ripepi}, V. and {Riva}, A. and\n       {Rixon}, G. and {Roelens}, M. and {Romero-G{\\'o}mez}, M. and\n       {Rowell}, N. and {Royer}, F. and {Rudolph}, A. and {Ruiz-Dern}, L. and\n       {Sadowski}, G. and {Sagrist{\\`a} Sell{\\'e}s}, T. and {Sahlmann}, J. and\n       {Salgado}, J. and {Salguero}, E. and {Sarasso}, M. and {Savietto}, H. and\n       {Schnorhk}, A. and {Schultheis}, M. and {Sciacca}, E. and {Segol}, M. and\n       {Segovia}, J.~C. and {Segransan}, D. and {Serpell}, E. and\n       {Shih}, I. -C. and {Smareglia}, R. and {Smart}, R.~L. and {Smith}, C. and\n       {Solano}, E. and {Solitro}, F. and {Sordo}, R. and {Soria Nieto}, S. and\n       {Souchay}, J. and {Spagna}, A. and {Spoto}, F. and {Stampa}, U. and\n       {Steele}, I.~A. and {Steidelm{\\\"u}ller}, H. and {Stephenson}, C.~A. and\n       {Stoev}, H. and {Suess}, F.~F. and {S{\\\"u}veges}, M. and {Surdej}, J. and\n       {Szabados}, L. and {Szegedi-Elek}, E. and {Tapiador}, D. and\n       {Taris}, F. and {Tauran}, G. and {Taylor}, M.~B. and {Teixeira}, R. and\n       {Terrett}, D. and {Tingley}, B. and {Trager}, S.~C. and {Turon}, C. and\n       {Ulla}, A. and {Utrilla}, E. and {Valentini}, G. and {van Elteren}, A. and\n       {Van Hemelryck}, E. and {van Leeuwen}, M. and {Varadi}, M. and\n       {Vecchiato}, A. and {Veljanoski}, J. and {Via}, T. and {Vicente}, D. and\n       {Vogt}, S. and {Voss}, H. and {Votruba}, V. and {Voutsinas}, S. and\n       {Walmsley}, G. and {Weiler}, M. and {Weingrill}, K. and {Werner}, D. and\n       {Wevers}, T. and {Whitehead}, G. and {Wyrzykowski}, {\\L}. and\n       {Yoldas}, A. and {{\\v{Z}}erjal}, M. and {Zucker}, S. and {Zurbach}, C. and\n       {Zwitter}, T. and {Alecu}, A. and {Allen}, M. and {Allende Prieto}, C. and\n       {Amorim}, A. and {Anglada-Escud{\\'e}}, G. and {Arsenijevic}, V. and\n       {Azaz}, S. and {Balm}, P. and {Beck}, M. and {Bernstein}, H. -H. and\n       {Bigot}, L. and {Bijaoui}, A. and {Blasco}, C. and {Bonfigli}, M. and\n       {Bono}, G. and {Boudreault}, S. and {Bressan}, A. and {Brown}, S. and\n       {Brunet}, P. -M. and {Bunclark}, P. and {Buonanno}, R. and\n       {Butkevich}, A.~G. and {Carret}, C. and {Carrion}, C. and {Chemin}, L. and\n       {Ch{\\'e}reau}, F. and {Corcione}, L. and {Darmigny}, E. and\n       {de Boer}, K.~S. and {de Teodoro}, P. and {de Zeeuw}, P.~T. and\n       {Delle Luche}, C. and {Domingues}, C.~D. and {Dubath}, P. and\n       {Fodor}, F. and {Fr{\\'e}zouls}, B. and {Fries}, A. and {Fustes}, D. and\n       {Fyfe}, D. and {Gallardo}, E. and {Gallegos}, J. and {Gardiol}, D. and\n       {Gebran}, M. and {Gomboc}, A. and {G{\\'o}mez}, A. and {Grux}, E. and\n       {Gueguen}, A. and {Heyrovsky}, A. and {Hoar}, J. and {Iannicola}, G. and\n       {Isasi Parache}, Y. and {Janotto}, A. -M. and {Joliet}, E. and\n       {Jonckheere}, A. and {Keil}, R. and {Kim}, D. -W. and {Klagyivik}, P. and\n       {Klar}, J. and {Knude}, J. and {Kochukhov}, O. and {Kolka}, I. and\n       {Kos}, J. and {Kutka}, A. and {Lainey}, V. and {LeBouquin}, D. and\n       {Liu}, C. and {Loreggia}, D. and {Makarov}, V.~V. and\n       {Marseille}, M.~G. and {Martayan}, C. and {Martinez-Rubi}, O. and\n       {Massart}, B. and {Meynadier}, F. and {Mignot}, S. and {Munari}, U. and\n       {Nguyen}, A. -T. and {Nordlander}, T. and {Ocvirk}, P. and\n       {O'Flaherty}, K.~S. and {Olias Sanz}, A. and {Ortiz}, P. and\n       {Osorio}, J. and {Oszkiewicz}, D. and {Ouzounis}, A. and {Palmer}, M. and\n       {Park}, P. and {Pasquato}, E. and {Peltzer}, C. and {Peralta}, J. and\n       {P{\\'e}turaud}, F. and {Pieniluoma}, T. and {Pigozzi}, E. and\n       {Poels}, J. and {Prat}, G. and {Prod'homme}, T. and {Raison}, F. and\n       {Rebordao}, J.~M. and {Risquez}, D. and {Rocca-Volmerange}, B. and\n       {Rosen}, S. and {Ruiz-Fuertes}, M.~I. and {Russo}, F. and {Sembay}, S. and\n       {Serraller Vizcaino}, I. and {Short}, A. and {Siebert}, A. and\n       {Silva}, H. and {Sinachopoulos}, D. and {Slezak}, E. and {Soffel}, M. and\n       {Sosnowska}, D. and {Strai{\\v{z}}ys}, V. and {ter Linden}, M. and\n       {Terrell}, D. and {Theil}, S. and {Tiede}, C. and {Troisi}, L. and\n       {Tsalmantza}, P. and {Tur}, D. and {Vaccari}, M. and {Vachier}, F. and\n       {Valles}, P. and {Van Hamme}, W. and {Veltz}, L. and {Virtanen}, J. and\n       {Wallut}, J. -M. and {Wichmann}, R. and {Wilkinson}, M.~I. and\n       {Ziaeepour}, H. and {Zschocke}, S.},\n      title = \"{The Gaia mission}\",\n    journal = {\\aap},\n   keywords = {space vehicles: instruments, Galaxy: structure, astrometry, parallaxes, proper motions, telescopes, Astrophysics - Instrumentation and Methods for Astrophysics},\n       year = 2016,\n      month = nov,\n     volume = {595},\n        eid = {A1},\n      pages = {A1},\n        doi = {10.1051/0004-6361/201629272},\narchivePrefix = {arXiv},\n     eprint = {1609.04153},\nprimaryClass = {astro-ph.IM},\n     adsurl = {https://ui.adsabs.harvard.edu/abs/2016A&A...595A...1G},\n    adsnote = {Provided by the SAO/NASA Astrophysics Data System}\n}\n",
-                "category": "data",
-                "latex": "This work has made use of data from the European Space Agency (ESA) mission {\\it Gaia} (\\url{https://www.cosmos.esa.int/gaia}), processed by the {\\it Gaia} Data Processing and Analysis Consortium (DPAC, \\url{https://www.cosmos.esa.int/web/gaia/dpac/consortium}). Funding for the DPAC has been provided by national institutions, in particular the institutions participating in the {\\it Gaia} Multilateral Agreement.\n",
-                "name": "GAIA DR2",
-                "notes": "If you have used Gaia DR2 data in your research, please cite both the Gaia mission paper and the Gaia DR2 release paper listed as bibtex entries. In addition, please cite (some of) the papers listed on https://gea.esac.esa.int/archive/documentation/GDR2/Miscellaneous/sec_credit_and_citation_instructions/ that describe the data release contents and DPAC data processing and validation in more detail, as appropriate.\n",
-                "text": "This work has made use of data from the European Space Agency (ESA) mission Gaia (https://www.cosmos.esa.int/gaia), processed by the Gaia Data Processing and Analysis Consortium (DPAC, https://www.cosmos.esa.int/web/gaia/dpac/consortium). Funding for the DPAC has been provided by national institutions, in particular the institutions participating in the Gaia Multilateral Agreement.",
-                "url": "https://gea.esac.esa.int/archive/documentation/GDR2/"
-            },
-            {
-                "category": "data",
-                "name": "SDSS-III",
-                "text": "Funding for SDSS-III has been provided by the Alfred P. Sloan Foundation, the Participating Institutions, the National Science Foundation, and the U.S. Department of Energy Office of Science. The SDSS-III web site is http://www.sdss3.org/. SDSS-III is managed by the Astrophysical Research Consortium for the Participating Institutions of the SDSS-III Collaboration including the University of Arizona, the Brazilian Participation Group, Brookhaven National Laboratory, University of Cambridge, Carnegie Mellon University, University of Florida, the French Participation Group, the German Participation Group, Harvard University, the Instituto de Astrofisica de Canarias, the Michigan State/Notre Dame/JINA Participation Group, Johns Hopkins University, Lawrence Berkeley National Laboratory, Max Planck Institute for Astrophysics, Max Planck Institute for Extraterrestrial Physics, New Mexico State University, New York University, Ohio State University, Pennsylvania State University, University of Portsmouth, Princeton University, the Spanish Participation Group, University of Tokyo, University of Utah, Vanderbilt University, University of Virginia, University of Washington, and Yale University.\n"
-            },
-            {
-                "bibtex": "@BOOK{Monet1998,\n author = {{Monet}, D.},\n  title = \"{USNO-A2.0}\",\nkeywords = {Stars, Astrometry}, booktitle = {USNO-A2.0, by Monet, David.~ [Flagstaff, AZ] : U.S.~Naval Observatory, c1998.~.~United States Naval Observatory.},\n   year = 1998,\n adsurl = {http://adsabs.harvard.edu/abs/1998usno.book.....M},\nadsnote = {Provided by the SAO/NASA Astrophysics Data System} }\n",
-                "category": "data",
-                "name": "USNO",
-                "text": "This research has made use of the USNO Image and Catalogue Archive operated by the United States Naval Observatory, Flagstaff Station (\\url{http://www.nofs.navy.mil/data/fchpix/}) from \\citet{Monet1998}.}"
-            },
-            {
-                "category": "data",
-                "name": "AEGIS Survey",
-                "text": "This study makes use of data from AEGIS, a multiwavelength sky survey conducted with the Chandra, GALEX, Hubble, Keck, CFHT, MMT, Subaru, Palomar, Spitzer, VLA, and other telescopes and supported in part by the NSF, NASA, and the STFC."
-            },
-            {
-                "category": "data",
-                "name": "CFHTLS",
-                "text": "Based on observations obtained with MegaPrime/MegaCam, a joint project of CFHT and CEA/IRFU, at the Canada-France-Hawaii Telescope (CFHT) which is operated by the National Research Council (NRC) of Canada, the Institut National des Science de l'Univers of the Centre National de la Recherche Scientifique (CNRS) of France, and the University of Hawaii. This work is based in part on data products produced at Terapix available at the Canadian Astronomy Data Centre as part of the Canada-France-Hawaii Telescope Legacy Survey, a collaborative project of NRC and CNRS.",
-                "url": "http://www.cfht.hawaii.edu/Science/CFHLS/"
-            },
-            {
-                "category": "data",
-                "name": "SDSS-IV",
-                "text": "Funding for the Sloan Digital Sky Survey IV has been provided by the Alfred P. Sloan Foundation, the U.S. Department of Energy Office of Science, and the Participating Institutions. SDSS-IV acknowledges support and resources from the Center for High-Performance Computing at the University of Utah. The SDSS web site is www.sdss.org.\nSDSS-IV is managed by the Astrophysical Research Consortium for the Participating Institutions of the SDSS Collaboration including the Brazilian Participation Group, the Carnegie Institution for Science, Carnegie Mellon University, the Chilean Participation Group, the French Participation Group, Harvard-Smithsonian Center for Astrophysics, Instituto de Astrof\\'isica de Canarias, The Johns Hopkins University, Kavli Institute for the Physics and Mathematics of the Universe (IPMU) / University of Tokyo, Lawrence Berkeley National Laboratory,  Leibniz Institut f\\\"ur Astrophysik Potsdam (AIP),   Max-Planck-Institut f\\\"ur Astronomie (MPIA Heidelberg),  Max-Planck-Institut f\\\"ur Astrophysik (MPA Garching),  Max-Planck-Institut f\\\"ur Extraterrestrische Physik (MPE), National Astronomical Observatories of China, New Mexico State University, New York University, University of Notre Dame,  Observat\\'ario Nacional / MCTI, The Ohio State University,  Pennsylvania State University, Shanghai Astronomical Observatory,  United Kingdom Participation Group, Universidad Nacional Aut\\'onoma de M\\'exico, University of Arizona,  University of Colorado Boulder, University of Oxford, University of Portsmouth, University of Utah, University of Virginia, University of Washington, University of Wisconsin,  Vanderbilt University, and Yale University.\n"
-            },
-            {
-                "category": "data",
-                "name": "Chandra",
-                "tags": "x-ray",
-                "text": "This research has made use of data obtained from the Chandra Data Archive and the Chandra Source Catalog, and software provided by the Chandra X-ray Center (CXC) in the application packages CIAO, ChIPS, and Sherpa.",
-                "url": "http://cxc.harvard.edu"
-            },
-            {
-                "bibtex": "@ARTICLE{2016A&A...585A..41W, author = {{Winkel}, B. and {Kerp}, J. and {Fl{\\\"o}er}, L. and {Kalberla}, P.~M.~W. and {Ben Bekhti}, N. and {Keller}, R. and {Lenz}, D.}, title = \"{The Effelsberg-Bonn H i Survey: Milky Way gas. First data release}\", journal = {\\aap}, archivePrefix = \"arXiv\", eprint = {1512.05348}, primaryClass = \"astro-ph.IM\", keywords = {surveys, ISM: atoms, techniques: spectroscopic}, year = 2016, month = jan, volume = 585, eid = {A41}, pages = {A41}, doi = {10.1051/0004-6361/201527007}, adsurl = {http://cdsads.u-strasbg.fr/abs/2016A%26A...585A..41W}, adsnote = {Provided by the SAO/NASA Astrophysics Data System} } @ARTICLE{2011AN....332..637K, author = {{Kerp}, J. and {Winkel}, B. and {Ben Bekhti}, N. and {Fl{\\\"o}er}, L. and {Kalberla}, P.~M.~W.}, title = \"{The Effelsberg Bonn H I Survey (EBHIS)}\", journal = {Astronomische Nachrichten}, archivePrefix = \"arXiv\", eprint = {1104.1185}, keywords = {ISM: structure, radio lines: galaxies, radio lines: ISM, surveys}, year = 2011, month = jul, volume = 332, pages = {637}, doi = {10.1002/asna.201011548}, adsurl = {http://adsabs.harvard.edu/abs/2011AN....332..637K}, adsnote = {Provided by the SAO/NASA Astrophysics Data System} }\n",
-                "category": "data",
-                "facilities": "\\facility{Effelsberg}",
-                "name": "EBHIS",
-                "text": "Based on observations with the 100-m telescope of the MPIfR (Max-Planck-Institut f\u00fcr Radioastronomie) at Effelsberg.\n",
-                "url": "http://cdsarc.u-strasbg.fr/viz-bin/qcat?J/A+A/585/A41"
-            },
-            {
-                "category": "data",
-                "name": "Extrasolar Planets Encyclopedia",
-                "text": "Extrasolar Planets Encyclopedia (Jean Schneider, CNRS/LUTH - Paris Observatory)\n",
-                "url": "http://exoplanets.eu/"
-            },
-            {
-                "category": "data",
-                "name": "CBAT List of Supernovae",
-                "text": "The Central Bureau for Astronomical Telegrams (CBAT) operates under the auspices of Commission 6 of the International Astronomical Union (IAU)\n",
-                "url": "http://www.cbat.eps.harvard.edu/lists/Supernovae.html"
-            },
-            {
-                "bibtex": "@ARTICLE{2016A&A...594A.116H, author = {{HI4PI Collaboration} and {Ben Bekhti}, N. and {Fl{\\\"o}er}, L. and {Keller}, R. and {Kerp}, J. and {Lenz}, D. and {Winkel}, B. and {Bailin}, J. and {Calabretta}, M.~R. and {Dedes}, L. and {Ford}, H.~A. and {Gibson}, B.~K. and {Haud}, U. and {Janowiecki}, S. and {Kalberla}, P.~M.~W. and {Lockman}, F.~J. and {McClure-Griffiths}, N.~M. and {Murphy}, T. and {Nakanishi}, H. and {Pisano}, D.~J. and {Staveley-Smith}, L. }, title = \"{HI4PI: A full-sky H I survey based on EBHIS and GASS}\", journal = {\\aap}, archivePrefix = \"arXiv\", eprint = {1610.06175}, keywords = {surveys, ISM: atoms, techniques: spectroscopic}, year = 2016, month = oct, volume = 594, eid = {A116}, pages = {A116}, doi = {10.1051/0004-6361/201629178}, adsurl = {http://cdsads.u-strasbg.fr/abs/2016A%26A...594A.116H}, adsnote = {Provided by the SAO/NASA Astrophysics Data System} }\n",
-                "category": "data",
-                "facilities": "\\facility{Effelsberg,Parkes}",
-                "name": "HI4PI",
-                "text": "EBHIS is based on observations with the 100-m telescope of the MPIfR (Max-Planck-Institut f\u00fcr Radioastronomie) at Effelsberg. The Parkes Radio Telescope is part of the Australia Telescope which is funded by the Commonwealth of Australia for operation as a National Facility managed by CSIRO.\n",
-                "url": "http://cdsarc.u-strasbg.fr/viz-bin/qcat?J/A+A/594/A116"
-            },
-            {
-                "category": "data",
-                "name": "Suzaku",
-                "text": "This research has made use of data obtained from the Suzaku satellite, a collaborative mission between the space agencies of Japan (JAXA) and the USA (NASA)."
-            },
-            {
-                "category": "data",
-                "facilities": "\\facility{WISE}",
-                "name": "AllWISE",
-                "text": "This publication makes use of data products from the Wide-field Infrared Survey Explorer, which is a joint project of the University of California, Los Angeles, and the Jet Propulsion Laboratory/California Institute of Technology, and NEOWISE, which is a project of the Jet Propulsion Laboratory/California Institute of Technology. WISE and NEOWISE are funded by the National Aeronautics and Space Administration"
-            },
-            {
-                "category": "data",
-                "facilities": "\\facility{WISE}",
-                "name": "NEOWISE",
-                "text": "This publication also makes use of data products from NEOWISE, which is a project of the Jet Propulsion Laboratory/California Institute of Technology, funded by the Planetary Science Division of the National Aeronautics and Space Administration."
-            },
-            {
-                "category": "data",
-                "name": "2MASS",
-                "text": "This publication makes use of data products from the Two Micron All Sky Survey, which is a joint project of the University of Massachusetts and the Infrared Processing and Analysis Center/California Institute of Technology, funded by the National Aeronautics and Space Administration and the National Science Foundation."
-            },
-            {
-                "bibtex": "@ARTICLE{2010AJ....140.1868W, author = {{Wright}, E.~L. and {Eisenhardt}, P.~R.~M. and {Mainzer}, A.~K. and  {Ressler}, M.~E. and {Cutri}, R.~M. and {Jarrett}, T. and {Kirkpatrick}, J.~D.    and {Padgett}, D. and {McMillan}, R.~S. and {Skrutskie}, M. and  {Stanford}, S.~A. and {Cohen}, M. and {Walker}, R.~G. and {Mather}, J.~C. and  {Leisawitz}, D. and {Gautier}, III, T.~N. and {McLean}, I. and  {Benford}, D. and {Lonsdale}, C.~J. and {Blain}, A. and {Mendez}, B. and  {Irace}, W.~R. and {Duval}, V. and {Liu}, F. and {Royer}, D. and  {Heinrichsen}, I. and {Howard}, J. and {Shannon}, M. and {Kendall}, M. and  {Walsh}, A.~L. and {Larsen}, M. and {Cardon}, J.~G. and {Schick}, S. and  {Schwalm}, M. and {Abid}, M. and {Fabinsky}, B. and {Naes}, L. and  {Tsai}, C.-W.}, title = \"{The Wide-field Infrared Survey Explorer (WISE): Mission Description and Initial On-orbit Performance}\", journal = {\\aj}, archivePrefix = \"arXiv\", eprint = {1008.0031}, primaryClass = \"astro-ph.IM\", keywords = {infrared: general, space vehicles, surveys}, year = 2010, month = dec, volume = 140, eid = {1868}, pages = {1868-1881}, doi = {10.1088/0004-6256/140/6/1868}, adsurl = {http://adsabs.harvard.edu/abs/2010AJ....140.1868W}, adsnote = {Provided by the SAO/NASA Astrophysics Data System} }\n",
-                "category": "data",
-                "facilities": "\\facility{WISE}",
-                "name": "WISE",
-                "text": "This publication makes use of data products from the Wide-field Infrared Survey Explorer\\citep{2010AJ....140.1868W}, which is a joint project of the University of California, Los Angeles, and the Jet Propulsion Laboratory/California Institute of Technology, funded by the National Aeronautics and Space Administration."
-            },
-            {
-                "category": "data",
-                "name": "SDSS and SDSS-II",
-                "text": "Funding for the SDSS and SDSS-II has been provided by the Alfred P. Sloan Foundation, the Participating Institutions, the National Science Foundation, the U.S. Department of Energy, the National Aeronautics and Space Administration, the Japanese Monbukagakusho, the Max Planck Society, and the Higher Education Funding Council for England. The SDSS Web Site is http://www.sdss.org/. The SDSS is managed by the Astrophysical Research Consortium for the Participating Institutions. The Participating Institutions are the American Museum of Natural History, Astrophysical Institute Potsdam, University of Basel, University of Cambridge, Case Western Reserve University, University of Chicago, Drexel University, Fermilab, the Institute for Advanced Study, the Japan Participation Group, Johns Hopkins University, the Joint Institute for Nuclear Astrophysics, the Kavli Institute for Particle Astrophysics and Cosmology, the Korean Scientist Group, the Chinese Academy of Sciences (LAMOST), Los Alamos National Laboratory, the Max-Planck-Institute for Astronomy (MPIA), the Max-Planck-Institute for Astrophysics (MPA), New Mexico State University, Ohio State University, University of Pittsburgh, University of Portsmouth, Princeton University, the United States Naval Observatory, and the University of Washington.\n"
-            },
-            {
-                "category": "data",
-                "name": "WIRDS-WIRCAM",
-                "text": "Based on observations obtained with WIRCam, a joint project of CFHT,Taiwan, Korea, Canada, France, at the Canada-France-Hawaii Telescope (CFHT) which is operated by the National Research Council (NRC) of Canada, the Institute National des Sciences de l'Univers of the Centre National de la Recherche Scientifique of France, and the University of Hawaii. This work is based in part on data products produced at TERAPIX, the WIRDS (WIRcam Deep Survey) consortium, and the Canadian Astronomy Data Centre. This research was supported by a grant from the Agence Nationale de la Recherche ANR-07-BLAN-0228"
-            },
-            {
-                "bibtex": "@ARTICLE{2013AJ....146..134K,\n author = {{Kordopatis}, G. and {Gilmore}, G. and {Steinmetz}, M. and {Boeche}, C. and\n{Seabroke}, G.~M. and {Siebert}, A. and {Zwitter}, T. and {Binney}, J. and {de Laverny}, P. and {Recio-Blanco}, A. and {Williams}, M.~E.~K. and\n  {Piffl}, T. and {Enke}, H. and {Roeser}, S. and {Bijaoui}, A. and\n  {Wyse}, R.~F.~G. and {Freeman}, K. and {Munari}, U. and {Carrillo}, I. and\n  {Anguiano}, B. and {Burton}, D. and {Campbell}, R. and {Cass}, C.~J.~P. and\n  {Fiegert}, K. and {Hartley}, M. and {Parker}, Q.~A. and {Reid}, W. and\n  {Ritter}, A. and {Russell}, K.~S. and {Stupar}, M. and {Watson}, F.~G. and\n  {Bienaym{\\'e}}, O. and {Bland-Hawthorn}, J. and {Gerhard}, O. and\n  {Gibson}, B.~K. and {Grebel}, E.~K. and {Helmi}, A. and {Navarro}, J.~F. and\n  {Conrad}, C. and {Famaey}, B. and {Faure}, C. and {Just}, A. and\n  {Kos}, J. and {Matijevi{\\v c}}, G. and {McMillan}, P.~J. and\n  {Minchev}, I. and {Scholz}, R. and {Sharma}, S. and {Siviero}, A. and\n  {de Boer}, E.~W. and {{\\v Z}erjal}, M.},\n  title = \"{The Radial Velocity Experiment (RAVE): Fourth Data Release}\",\njournal = {\\aj}, archivePrefix = \"arXiv\",\n eprint = {1309.4284},\nkeywords = {catalogs, stars: abundances, stars: fundamental parameters, surveys, techniques: spectroscopic },\n   year = 2013,\n  month = nov,\n volume = 146,\n    eid = {134},\n  pages = {134},\n    doi = {10.1088/0004-6256/146/5/134},\n adsurl = {http://adsabs.harvard.edu/abs/2013AJ....146..134K},\nadsnote = {Provided by the SAO/NASA Astrophysics Data System} }\n",
-                "category": "data",
-                "latex": "Funding for RAVE has been provided by: the Australian Astronomical Observatory; the Leibniz-Institut fuer Astrophysik Potsdam (AIP); the Australian National University; the Australian Research Council; the French National Research Agency; the German Research Foundation (SPP 1177 and SFB 881); the European Research Council (ERC-StG 240271 Galactica); the Istituto Nazionale di Astrofisica at Padova; The Johns Hopkins University; the National Science Foundation of the USA (AST-0908326); the W. M. Keck foundation; the Macquarie University; the Netherlands Research School for Astronomy; the Natural Sciences and Engineering Research Council of Canada; the Slovenian Research Agency; the Swiss National Science Foundation; the Science & Technology Facilities Council of the UK; Opticon; Strasbourg Observatory; and the Universities of Groningen, Heidelberg and Sydney. The RAVE web site is at \\url{https://www.rave-survey.org}.\n",
-                "name": "RAVE",
-                "text": "Funding for RAVE has been provided by: the Australian Astronomical Observatory; the Leibniz-Institut fuer Astrophysik Potsdam (AIP); the Australian National University; the Australian Research Council; the French National Research Agency; the German Research Foundation (SPP 1177 and SFB 881); the European Research Council (ERC-StG 240271 Galactica); the Istituto Nazionale di Astrofisica at Padova; The Johns Hopkins University; the National Science Foundation of the USA (AST-0908326); the W. M. Keck foundation; the Macquarie University; the Netherlands Research School for Astronomy; the Natural Sciences and Engineering Research Council of Canada; the Slovenian Research Agency; the Swiss National Science Foundation; the Science & Technology Facilities Council of the UK; Opticon; Strasbourg Observatory; and the Universities of Groningen, Heidelberg and Sydney. The RAVE web site is at https://www.rave-survey.org.\n",
-                "url": "http://swift.gsfc.nasa.gov"
-            },
-            {
-                "category": "data",
-                "dependencies": [
-                    "keck"
-                ],
-                "name": "DEEP2",
-                "text": "Funding for the DEEP2 Galaxy Redshift Survey has been provided by NSF grants AST-95-09298, AST-0071048, AST-0507428, and AST-0507483 as well as NASA LTSA grant NNG04GC89G.\n"
-            },
-            {
-                "category": "data",
-                "name": "The Habitable Exoplanets Catalog",
-                "text": "PHL's Exoplanet Catalog of the Planetary Habitability Laboratory @ UPR Arecibo\n",
-                "url": "http://phl.upr.edu/hec"
-            },
-            {
-                "category": "data",
-                "name": "Swift",
-                "text": "We acknowledge the use of public data from the Swift data archive.",
-                "url": "http://swift.gsfc.nasa.gov"
-            },
             {
                 "category": "data",
                 "facilities": "\\facility{PS1}",
@@ -541,6 +385,134 @@
                 "text": "This work is based on observations taken by the 3D-HST Treasury Program (GO 12177 and 12328) with the NASA/ESA HST, which is operated by the Association of Universities for Research in Astronomy, Inc., under NASA contract NAS5-26555."
             },
             {
+                "bibtex": "@ARTICLE{2018A&A...616A...1G,\n     author = {{Gaia Collaboration} and {Brown}, A.~G.~A. and {Vallenari}, A. and\n       {Prusti}, T. and {de Bruijne}, J.~H.~J. and {Babusiaux}, C. and\n       {Bailer-Jones}, C.~A.~L. and {Biermann}, M. and {Evans}, D.~W. and\n       {Eyer}, L. and {Jansen}, F. and {Jordi}, C. and {Klioner}, S.~A. and\n       {Lammers}, U. and {Lindegren}, L. and {Luri}, X. and {Mignard}, F. and\n       {Panem}, C. and {Pourbaix}, D. and {Randich}, S. and {Sartoretti}, P. and\n       {Siddiqui}, H.~I. and {Soubiran}, C. and {van Leeuwen}, F. and\n       {Walton}, N.~A. and {Arenou}, F. and {Bastian}, U. and {Cropper}, M. and\n       {Drimmel}, R. and {Katz}, D. and {Lattanzi}, M.~G. and {Bakker}, J. and\n       {Cacciari}, C. and {Casta{\\~n}eda}, J. and {Chaoul}, L. and\n       {Cheek}, N. and {De Angeli}, F. and {Fabricius}, C. and {Guerra}, R. and\n       {Holl}, B. and {Masana}, E. and {Messineo}, R. and {Mowlavi}, N. and\n       {Nienartowicz}, K. and {Panuzzo}, P. and {Portell}, J. and\n       {Riello}, M. and {Seabroke}, G.~M. and {Tanga}, P. and\n       {Th{\\'e}venin}, F. and {Gracia-Abril}, G. and {Comoretto}, G. and\n       {Garcia-Reinaldos}, M. and {Teyssier}, D. and {Altmann}, M. and\n       {Andrae}, R. and {Audard}, M. and {Bellas-Velidis}, I. and\n       {Benson}, K. and {Berthier}, J. and {Blomme}, R. and {Burgess}, P. and\n       {Busso}, G. and {Carry}, B. and {Cellino}, A. and {Clementini}, G. and\n       {Clotet}, M. and {Creevey}, O. and {Davidson}, M. and {De Ridder}, J. and\n       {Delchambre}, L. and {Dell'Oro}, A. and {Ducourant}, C. and\n       {Fern{\\'a}ndez-Hern{\\'a}ndez}, J. and {Fouesneau}, M. and\n       {Fr{\\'e}mat}, Y. and {Galluccio}, L. and {Garc{\\'\\i}a-Torres}, M. and\n       {Gonz{\\'a}lez-N{\\'u}{\\~n}ez}, J. and {Gonz{\\'a}lez-Vidal}, J.~J. and\n       {Gosset}, E. and {Guy}, L.~P. and {Halbwachs}, J. -L. and\n       {Hambly}, N.~C. and {Harrison}, D.~L. and {Hern{\\'a}ndez}, J. and\n       {Hestroffer}, D. and {Hodgkin}, S.~T. and {Hutton}, A. and\n       {Jasniewicz}, G. and {Jean-Antoine-Piccolo}, A. and {Jordan}, S. and\n       {Korn}, A.~J. and {Krone-Martins}, A. and {Lanzafame}, A.~C. and\n       {Lebzelter}, T. and {L{\\\"o}ffler}, W. and {Manteiga}, M. and\n       {Marrese}, P.~M. and {Mart{\\'\\i}n-Fleitas}, J.~M. and {Moitinho}, A. and\n       {Mora}, A. and {Muinonen}, K. and {Osinde}, J. and {Pancino}, E. and\n       {Pauwels}, T. and {Petit}, J. -M. and {Recio-Blanco}, A. and\n       {Richards}, P.~J. and {Rimoldini}, L. and {Robin}, A.~C. and\n       {Sarro}, L.~M. and {Siopis}, C. and {Smith}, M. and {Sozzetti}, A. and\n       {S{\\\"u}veges}, M. and {Torra}, J. and {van Reeven}, W. and {Abbas}, U. and\n       {Abreu Aramburu}, A. and {Accart}, S. and {Aerts}, C. and\n       {Altavilla}, G. and {{\\'A}lvarez}, M.~A. and {Alvarez}, R. and\n       {Alves}, J. and {Anderson}, R.~I. and {Andrei}, A.~H. and\n       {Anglada Varela}, E. and {Antiche}, E. and {Antoja}, T. and\n       {Arcay}, B. and {Astraatmadja}, T.~L. and {Bach}, N. and\n       {Baker}, S.~G. and {Balaguer-N{\\'u}{\\~n}ez}, L. and {Balm}, P. and\n       {Barache}, C. and {Barata}, C. and {Barbato}, D. and {Barblan}, F. and\n       {Barklem}, P.~S. and {Barrado}, D. and {Barros}, M. and\n       {Barstow}, M.~A. and {Bartholom{\\'e} Mu{\\~n}oz}, S. and\n       {Bassilana}, J. -L. and {Becciani}, U. and {Bellazzini}, M. and\n       {Berihuete}, A. and {Bertone}, S. and {Bianchi}, L. and\n       {Bienaym{\\'e}}, O. and {Blanco-Cuaresma}, S. and {Boch}, T. and\n       {Boeche}, C. and {Bombrun}, A. and {Borrachero}, R. and {Bossini}, D. and\n       {Bouquillon}, S. and {Bourda}, G. and {Bragaglia}, A. and\n       {Bramante}, L. and {Breddels}, M.~A. and {Bressan}, A. and\n       {Brouillet}, N. and {Br{\\\"u}semeister}, T. and {Brugaletta}, E. and\n       {Bucciarelli}, B. and {Burlacu}, A. and {Busonero}, D. and\n       {Butkevich}, A.~G. and {Buzzi}, R. and {Caffau}, E. and\n       {Cancelliere}, R. and {Cannizzaro}, G. and {Cantat-Gaudin}, T. and\n       {Carballo}, R. and {Carlucci}, T. and {Carrasco}, J.~M. and\n       {Casamiquela}, L. and {Castellani}, M. and {Castro-Ginard}, A. and\n       {Charlot}, P. and {Chemin}, L. and {Chiavassa}, A. and {Cocozza}, G. and\n       {Costigan}, G. and {Cowell}, S. and {Crifo}, F. and {Crosta}, M. and\n       {Crowley}, C. and {Cuypers}, J. and {Dafonte}, C. and {Damerdji}, Y. and\n       {Dapergolas}, A. and {David}, P. and {David}, M. and {de Laverny}, P. and\n       {De Luise}, F. and {De March}, R. and {de Martino}, D. and\n       {de Souza}, R. and {de Torres}, A. and {Debosscher}, J. and\n       {del Pozo}, E. and {Delbo}, M. and {Delgado}, A. and {Delgado}, H.~E. and\n       {Di Matteo}, P. and {Diakite}, S. and {Diener}, C. and {Distefano}, E. and\n       {Dolding}, C. and {Drazinos}, P. and {Dur{\\'a}n}, J. and\n       {Edvardsson}, B. and {Enke}, H. and {Eriksson}, K. and {Esquej}, P. and\n       {Eynard Bontemps}, G. and {Fabre}, C. and {Fabrizio}, M. and\n       {Faigler}, S. and {Falc{\\~a}o}, A.~J. and {Farr{\\`a}s Casas}, M. and\n       {Federici}, L. and {Fedorets}, G. and {Fernique}, P. and\n       {Figueras}, F. and {Filippi}, F. and {Findeisen}, K. and {Fonti}, A. and\n       {Fraile}, E. and {Fraser}, M. and {Fr{\\'e}zouls}, B. and {Gai}, M. and\n       {Galleti}, S. and {Garabato}, D. and {Garc{\\'\\i}a-Sedano}, F. and\n       {Garofalo}, A. and {Garralda}, N. and {Gavel}, A. and {Gavras}, P. and\n       {Gerssen}, J. and {Geyer}, R. and {Giacobbe}, P. and {Gilmore}, G. and\n       {Girona}, S. and {Giuffrida}, G. and {Glass}, F. and {Gomes}, M. and\n       {Granvik}, M. and {Gueguen}, A. and {Guerrier}, A. and {Guiraud}, J. and\n       {Guti{\\'e}rrez-S{\\'a}nchez}, R. and {Haigron}, R. and\n       {Hatzidimitriou}, D. and {Hauser}, M. and {Haywood}, M. and\n       {Heiter}, U. and {Helmi}, A. and {Heu}, J. and {Hilger}, T. and\n       {Hobbs}, D. and {Hofmann}, W. and {Holland}, G. and {Huckle}, H.~E. and\n       {Hypki}, A. and {Icardi}, V. and {Jan{\\ss}en}, K. and\n       {Jevardat de Fombelle}, G. and {Jonker}, P.~G. and\n       {Juh{\\'a}sz}, {\\'A}. L. and {Julbe}, F. and {Karampelas}, A. and\n       {Kewley}, A. and {Klar}, J. and {Kochoska}, A. and {Kohley}, R. and\n       {Kolenberg}, K. and {Kontizas}, M. and {Kontizas}, E. and\n       {Koposov}, S.~E. and {Kordopatis}, G. and {Kostrzewa-Rutkowska}, Z. and\n       {Koubsky}, P. and {Lambert}, S. and {Lanza}, A.~F. and {Lasne}, Y. and\n       {Lavigne}, J. -B. and {Le Fustec}, Y. and {Le Poncin-Lafitte}, C. and\n       {Lebreton}, Y. and {Leccia}, S. and {Leclerc}, N. and\n       {Lecoeur-Taibi}, I. and {Lenhardt}, H. and {Leroux}, F. and {Liao}, S. and\n       {Licata}, E. and {Lindstr{\\o}m}, H.~E.~P. and {Lister}, T.~A. and\n       {Livanou}, E. and {Lobel}, A. and {L{\\'o}pez}, M. and {Managau}, S. and\n       {Mann}, R.~G. and {Mantelet}, G. and {Marchal}, O. and\n       {Marchant}, J.~M. and {Marconi}, M. and {Marinoni}, S. and\n       {Marschalk{\\'o}}, G. and {Marshall}, D.~J. and {Martino}, M. and\n       {Marton}, G. and {Mary}, N. and {Massari}, D. and\n       {Matijevi{\\v{c}}}, G. and {Mazeh}, T. and {McMillan}, P.~J. and\n       {Messina}, S. and {Michalik}, D. and {Millar}, N.~R. and {Molina}, D. and\n       {Molinaro}, R. and {Moln{\\'a}r}, L. and {Montegriffo}, P. and\n       {Mor}, R. and {Morbidelli}, R. and {Morel}, T. and {Morris}, D. and\n       {Mulone}, A.~F. and {Muraveva}, T. and {Musella}, I. and\n       {Nelemans}, G. and {Nicastro}, L. and {Noval}, L. and {O'Mullane}, W. and\n       {Ord{\\'e}novic}, C. and {Ord{\\'o}{\\~n}ez-Blanco}, D. and {Osborne}, P. and\n       {Pagani}, C. and {Pagano}, I. and {Pailler}, F. and {Palacin}, H. and\n       {Palaversa}, L. and {Panahi}, A. and {Pawlak}, M. and\n       {Piersimoni}, A.~M. and {Pineau}, F. -X. and {Plachy}, E. and\n       {Plum}, G. and {Poggio}, E. and {Poujoulet}, E. and {Pr{\\v{s}}a}, A. and\n       {Pulone}, L. and {Racero}, E. and {Ragaini}, S. and {Rambaux}, N. and\n       {Ramos-Lerate}, M. and {Regibo}, S. and {Reyl{\\'e}}, C. and\n       {Riclet}, F. and {Ripepi}, V. and {Riva}, A. and {Rivard}, A. and\n       {Rixon}, G. and {Roegiers}, T. and {Roelens}, M. and\n       {Romero-G{\\'o}mez}, M. and {Rowell}, N. and {Royer}, F. and\n       {Ruiz-Dern}, L. and {Sadowski}, G. and {Sagrist{\\`a} Sell{\\'e}s}, T. and\n       {Sahlmann}, J. and {Salgado}, J. and {Salguero}, E. and {Sanna}, N. and\n       {Santana-Ros}, T. and {Sarasso}, M. and {Savietto}, H. and\n       {Schultheis}, M. and {Sciacca}, E. and {Segol}, M. and\n       {Segovia}, J.~C. and {S{\\'e}gransan}, D. and {Shih}, I. -C. and\n       {Siltala}, L. and {Silva}, A.~F. and {Smart}, R.~L. and {Smith}, K.~W. and\n       {Solano}, E. and {Solitro}, F. and {Sordo}, R. and {Soria Nieto}, S. and\n       {Souchay}, J. and {Spagna}, A. and {Spoto}, F. and {Stampa}, U. and\n       {Steele}, I.~A. and {Steidelm{\\\"u}ller}, H. and {Stephenson}, C.~A. and\n       {Stoev}, H. and {Suess}, F.~F. and {Surdej}, J. and {Szabados}, L. and\n       {Szegedi-Elek}, E. and {Tapiador}, D. and {Taris}, F. and {Tauran}, G. and\n       {Taylor}, M.~B. and {Teixeira}, R. and {Terrett}, D. and {Teyssand\n      ier}, P. and {Thuillot}, W. and {Titarenko}, A. and {Torra Clotet}, F. and\n       {Turon}, C. and {Ulla}, A. and {Utrilla}, E. and {Uzzi}, S. and\n       {Vaillant}, M. and {Valentini}, G. and {Valette}, V. and\n       {van Elteren}, A. and {Van Hemelryck}, E. and {van Leeuwen}, M. and\n       {Vaschetto}, M. and {Vecchiato}, A. and {Veljanoski}, J. and\n       {Viala}, Y. and {Vicente}, D. and {Vogt}, S. and {von Essen}, C. and\n       {Voss}, H. and {Votruba}, V. and {Voutsinas}, S. and {Walmsley}, G. and\n       {Weiler}, M. and {Wertz}, O. and {Wevers}, T. and {Wyrzykowski}, {\\L}. and\n       {Yoldas}, A. and {{\\v{Z}}erjal}, M. and {Ziaeepour}, H. and\n       {Zorec}, J. and {Zschocke}, S. and {Zucker}, S. and {Zurbach}, C. and\n       {Zwitter}, T.},\n      title = \"{Gaia Data Release 2. Summary of the contents and survey properties}\",\n    journal = {\\aap},\n   keywords = {catalogs, astrometry, techniques: radial velocities, stars: fundamental parameters, stars: variables: general, minor planets, asteroids: general, Astrophysics - Astrophysics of Galaxies, Astrophysics - Instrumentation and Methods for Astrophysics},\n       year = 2018,\n      month = aug,\n     volume = {616},\n        eid = {A1},\n      pages = {A1},\n        doi = {10.1051/0004-6361/201833051},\narchivePrefix = {arXiv},\n     eprint = {1804.09365},\nprimaryClass = {astro-ph.GA},\n     adsurl = {https://ui.adsabs.harvard.edu/abs/2018A&A...616A...1G},\n    adsnote = {Provided by the SAO/NASA Astrophysics Data System}\n} @ARTICLE{2016A&A...595A...1G,\n     author = {{Gaia Collaboration} and {Prusti}, T. and {de Bruijne}, J.~H.~J. and\n       {Brown}, A.~G.~A. and {Vallenari}, A. and {Babusiaux}, C. and\n       {Bailer-Jones}, C.~A.~L. and {Bastian}, U. and {Biermann}, M. and\n       {Evans}, D.~W. and {Eyer}, L. and {Jansen}, F. and {Jordi}, C. and\n       {Klioner}, S.~A. and {Lammers}, U. and {Lindegren}, L. and {Luri}, X. and\n       {Mignard}, F. and {Milligan}, D.~J. and {Panem}, C. and\n       {Poinsignon}, V. and {Pourbaix}, D. and {Randich}, S. and {Sarri}, G. and\n       {Sartoretti}, P. and {Siddiqui}, H.~I. and {Soubiran}, C. and\n       {Valette}, V. and {van Leeuwen}, F. and {Walton}, N.~A. and\n       {Aerts}, C. and {Arenou}, F. and {Cropper}, M. and {Drimmel}, R. and\n       {H{\\o}g}, E. and {Katz}, D. and {Lattanzi}, M.~G. and {O'Mullane}, W. and\n       {Grebel}, E.~K. and {Holland}, A.~D. and {Huc}, C. and {Passot}, X. and\n       {Bramante}, L. and {Cacciari}, C. and {Casta{\\~n}eda}, J. and\n       {Chaoul}, L. and {Cheek}, N. and {De Angeli}, F. and {Fabricius}, C. and\n       {Guerra}, R. and {Hern{\\'a}ndez}, J. and {Jean-Antoine-Piccolo}, A. and\n       {Masana}, E. and {Messineo}, R. and {Mowlavi}, N. and\n       {Nienartowicz}, K. and {Ord{\\'o}{\\~n}ez-Blanco}, D. and {Panuzzo}, P. and\n       {Portell}, J. and {Richards}, P.~J. and {Riello}, M. and\n       {Seabroke}, G.~M. and {Tanga}, P. and {Th{\\'e}venin}, F. and\n       {Torra}, J. and {Els}, S.~G. and {Gracia-Abril}, G. and\n       {Comoretto}, G. and {Garcia-Reinaldos}, M. and {Lock}, T. and\n       {Mercier}, E. and {Altmann}, M. and {Andrae}, R. and\n       {Astraatmadja}, T.~L. and {Bellas-Velidis}, I. and {Benson}, K. and\n       {Berthier}, J. and {Blomme}, R. and {Busso}, G. and {Carry}, B. and\n       {Cellino}, A. and {Clementini}, G. and {Cowell}, S. and {Creevey}, O. and\n       {Cuypers}, J. and {Davidson}, M. and {De Ridder}, J. and\n       {de Torres}, A. and {Delchambre}, L. and {Dell'Oro}, A. and\n       {Ducourant}, C. and {Fr{\\'e}mat}, Y. and {Garc{\\'\\i}a-Torres}, M. and\n       {Gosset}, E. and {Halbwachs}, J. -L. and {Hambly}, N.~C. and\n       {Harrison}, D.~L. and {Hauser}, M. and {Hestroffer}, D. and\n       {Hodgkin}, S.~T. and {Huckle}, H.~E. and {Hutton}, A. and\n       {Jasniewicz}, G. and {Jordan}, S. and {Kontizas}, M. and {Korn}, A.~J. and\n       {Lanzafame}, A.~C. and {Manteiga}, M. and {Moitinho}, A. and\n       {Muinonen}, K. and {Osinde}, J. and {Pancino}, E. and {Pauwels}, T. and\n       {Petit}, J. -M. and {Recio-Blanco}, A. and {Robin}, A.~C. and\n       {Sarro}, L.~M. and {Siopis}, C. and {Smith}, M. and {Smith}, K.~W. and\n       {Sozzetti}, A. and {Thuillot}, W. and {van Reeven}, W. and {Viala}, Y. and\n       {Abbas}, U. and {Abreu Aramburu}, A. and {Accart}, S. and\n       {Aguado}, J.~J. and {Allan}, P.~M. and {Allasia}, W. and\n       {Altavilla}, G. and {{\\'A}lvarez}, M.~A. and {Alves}, J. and\n       {Anderson}, R.~I. and {Andrei}, A.~H. and {Anglada Varela}, E. and\n       {Antiche}, E. and {Antoja}, T. and {Ant{\\'o}n}, S. and {Arcay}, B. and\n       {Atzei}, A. and {Ayache}, L. and {Bach}, N. and {Baker}, S.~G. and\n       {Balaguer-N{\\'u}{\\~n}ez}, L. and {Barache}, C. and {Barata}, C. and\n       {Barbier}, A. and {Barblan}, F. and {Baroni}, M. and\n       {Barrado y Navascu{\\'e}s}, D. and {Barros}, M. and {Barstow}, M.~A. and\n       {Becciani}, U. and {Bellazzini}, M. and {Bellei}, G. and\n       {Bello Garc{\\'\\i}a}, A. and {Belokurov}, V. and {Bendjoya}, P. and\n       {Berihuete}, A. and {Bianchi}, L. and {Bienaym{\\'e}}, O. and\n       {Billebaud}, F. and {Blagorodnova}, N. and {Blanco-Cuaresma}, S. and\n       {Boch}, T. and {Bombrun}, A. and {Borrachero}, R. and {Bouquillon}, S. and\n       {Bourda}, G. and {Bouy}, H. and {Bragaglia}, A. and {Breddels}, M.~A. and\n       {Brouillet}, N. and {Br{\\\"u}semeister}, T. and {Bucciarelli}, B. and\n       {Budnik}, F. and {Burgess}, P. and {Burgon}, R. and {Burlacu}, A. and\n       {Busonero}, D. and {Buzzi}, R. and {Caffau}, E. and {Cambras}, J. and\n       {Campbell}, H. and {Cancelliere}, R. and {Cantat-Gaudin}, T. and\n       {Carlucci}, T. and {Carrasco}, J.~M. and {Castellani}, M. and\n       {Charlot}, P. and {Charnas}, J. and {Charvet}, P. and {Chassat}, F. and\n       {Chiavassa}, A. and {Clotet}, M. and {Cocozza}, G. and\n       {Collins}, R.~S. and {Collins}, P. and {Costigan}, G. and {Crifo}, F. and\n       {Cross}, N.~J.~G. and {Crosta}, M. and {Crowley}, C. and {Dafonte}, C. and\n       {Damerdji}, Y. and {Dapergolas}, A. and {David}, P. and {David}, M. and\n       {De Cat}, P. and {de Felice}, F. and {de Laverny}, P. and\n       {De Luise}, F. and {De March}, R. and {de Martino}, D. and\n       {de Souza}, R. and {Debosscher}, J. and {del Pozo}, E. and {Delbo}, M. and\n       {Delgado}, A. and {Delgado}, H.~E. and {di Marco}, F. and\n       {Di Matteo}, P. and {Diakite}, S. and {Distefano}, E. and\n       {Dolding}, C. and {Dos Anjos}, S. and {Drazinos}, P. and\n       {Dur{\\'a}n}, J. and {Dzigan}, Y. and {Ecale}, E. and {Edvardsson}, B. and\n       {Enke}, H. and {Erdmann}, M. and {Escolar}, D. and {Espina}, M. and\n       {Evans}, N.~W. and {Eynard Bontemps}, G. and {Fabre}, C. and\n       {Fabrizio}, M. and {Faigler}, S. and {Falc{\\~a}o}, A.~J. and\n       {Farr{\\`a}s Casas}, M. and {Faye}, F. and {Federici}, L. and\n       {Fedorets}, G. and {Fern{\\'a}ndez-Hern{\\'a}ndez}, J. and\n       {Fernique}, P. and {Fienga}, A. and {Figueras}, F. and {Filippi}, F. and\n       {Findeisen}, K. and {Fonti}, A. and {Fouesneau}, M. and {Fraile}, E. and\n       {Fraser}, M. and {Fuchs}, J. and {Furnell}, R. and {Gai}, M. and\n       {Galleti}, S. and {Galluccio}, L. and {Garabato}, D. and\n       {Garc{\\'\\i}a-Sedano}, F. and {Gar{\\'e}}, P. and {Garofalo}, A. and\n       {Garralda}, N. and {Gavras}, P. and {Gerssen}, J. and {Geyer}, R. and\n       {Gilmore}, G. and {Girona}, S. and {Giuffrida}, G. and {Gomes}, M. and\n       {Gonz{\\'a}lez-Marcos}, A. and {Gonz{\\'a}lez-N{\\'u}{\\~n}ez}, J. and\n       {Gonz{\\'a}lez-Vidal}, J.~J. and {Granvik}, M. and {Guerrier}, A. and\n       {Guillout}, P. and {Guiraud}, J. and {G{\\'u}rpide}, A. and\n       {Guti{\\'e}rrez-S{\\'a}nchez}, R. and {Guy}, L.~P. and {Haigron}, R. and\n       {Hatzidimitriou}, D. and {Haywood}, M. and {Heiter}, U. and\n       {Helmi}, A. and {Hobbs}, D. and {Hofmann}, W. and {Holl}, B. and {Holland\n      }, G. and {Hunt}, J.~A.~S. and {Hypki}, A. and {Icardi}, V. and\n       {Irwin}, M. and {Jevardat de Fombelle}, G. and {Jofr{\\'e}}, P. and\n       {Jonker}, P.~G. and {Jorissen}, A. and {Julbe}, F. and\n       {Karampelas}, A. and {Kochoska}, A. and {Kohley}, R. and\n       {Kolenberg}, K. and {Kontizas}, E. and {Koposov}, S.~E. and\n       {Kordopatis}, G. and {Koubsky}, P. and {Kowalczyk}, A. and\n       {Krone-Martins}, A. and {Kudryashova}, M. and {Kull}, I. and\n       {Bachchan}, R.~K. and {Lacoste-Seris}, F. and {Lanza}, A.~F. and\n       {Lavigne}, J. -B. and {Le Poncin-Lafitte}, C. and {Lebreton}, Y. and\n       {Lebzelter}, T. and {Leccia}, S. and {Leclerc}, N. and\n       {Lecoeur-Taibi}, I. and {Lemaitre}, V. and {Lenhardt}, H. and\n       {Leroux}, F. and {Liao}, S. and {Licata}, E. and\n       {Lindstr{\\o}m}, H.~E.~P. and {Lister}, T.~A. and {Livanou}, E. and\n       {Lobel}, A. and {L{\\\"o}ffler}, W. and {L{\\'o}pez}, M. and\n       {Lopez-Lozano}, A. and {Lorenz}, D. and {Loureiro}, T. and\n       {MacDonald}, I. and {Magalh{\\~a}es Fernandes}, T. and {Managau}, S. and\n       {Mann}, R.~G. and {Mantelet}, G. and {Marchal}, O. and\n       {Marchant}, J.~M. and {Marconi}, M. and {Marie}, J. and {Marinoni}, S. and\n       {Marrese}, P.~M. and {Marschalk{\\'o}}, G. and {Marshall}, D.~J. and\n       {Mart{\\'\\i}n-Fleitas}, J.~M. and {Martino}, M. and {Mary}, N. and\n       {Matijevi{\\v{c}}}, G. and {Mazeh}, T. and {McMillan}, P.~J. and\n       {Messina}, S. and {Mestre}, A. and {Michalik}, D. and {Millar}, N.~R. and\n       {Miranda}, B.~M.~H. and {Molina}, D. and {Molinaro}, R. and\n       {Molinaro}, M. and {Moln{\\'a}r}, L. and {Moniez}, M. and\n       {Montegriffo}, P. and {Monteiro}, D. and {Mor}, R. and {Mora}, A. and\n       {Morbidelli}, R. and {Morel}, T. and {Morgenthaler}, S. and\n       {Morley}, T. and {Morris}, D. and {Mulone}, A.~F. and {Muraveva}, T. and\n       {Musella}, I. and {Narbonne}, J. and {Nelemans}, G. and {Nicastro}, L. and\n       {Noval}, L. and {Ord{\\'e}novic}, C. and {Ordieres-Mer{\\'e}}, J. and\n       {Osborne}, P. and {Pagani}, C. and {Pagano}, I. and {Pailler}, F. and\n       {Palacin}, H. and {Palaversa}, L. and {Parsons}, P. and {Paulsen}, T. and\n       {Pecoraro}, M. and {Pedrosa}, R. and {Pentik{\\\"a}inen}, H. and\n       {Pereira}, J. and {Pichon}, B. and {Piersimoni}, A.~M. and\n       {Pineau}, F. -X. and {Plachy}, E. and {Plum}, G. and {Poujoulet}, E. and\n       {Pr{\\v{s}}a}, A. and {Pulone}, L. and {Ragaini}, S. and {Rago}, S. and\n       {Rambaux}, N. and {Ramos-Lerate}, M. and {Ranalli}, P. and {Rauw}, G. and\n       {Read}, A. and {Regibo}, S. and {Renk}, F. and {Reyl{\\'e}}, C. and\n       {Ribeiro}, R.~A. and {Rimoldini}, L. and {Ripepi}, V. and {Riva}, A. and\n       {Rixon}, G. and {Roelens}, M. and {Romero-G{\\'o}mez}, M. and\n       {Rowell}, N. and {Royer}, F. and {Rudolph}, A. and {Ruiz-Dern}, L. and\n       {Sadowski}, G. and {Sagrist{\\`a} Sell{\\'e}s}, T. and {Sahlmann}, J. and\n       {Salgado}, J. and {Salguero}, E. and {Sarasso}, M. and {Savietto}, H. and\n       {Schnorhk}, A. and {Schultheis}, M. and {Sciacca}, E. and {Segol}, M. and\n       {Segovia}, J.~C. and {Segransan}, D. and {Serpell}, E. and\n       {Shih}, I. -C. and {Smareglia}, R. and {Smart}, R.~L. and {Smith}, C. and\n       {Solano}, E. and {Solitro}, F. and {Sordo}, R. and {Soria Nieto}, S. and\n       {Souchay}, J. and {Spagna}, A. and {Spoto}, F. and {Stampa}, U. and\n       {Steele}, I.~A. and {Steidelm{\\\"u}ller}, H. and {Stephenson}, C.~A. and\n       {Stoev}, H. and {Suess}, F.~F. and {S{\\\"u}veges}, M. and {Surdej}, J. and\n       {Szabados}, L. and {Szegedi-Elek}, E. and {Tapiador}, D. and\n       {Taris}, F. and {Tauran}, G. and {Taylor}, M.~B. and {Teixeira}, R. and\n       {Terrett}, D. and {Tingley}, B. and {Trager}, S.~C. and {Turon}, C. and\n       {Ulla}, A. and {Utrilla}, E. and {Valentini}, G. and {van Elteren}, A. and\n       {Van Hemelryck}, E. and {van Leeuwen}, M. and {Varadi}, M. and\n       {Vecchiato}, A. and {Veljanoski}, J. and {Via}, T. and {Vicente}, D. and\n       {Vogt}, S. and {Voss}, H. and {Votruba}, V. and {Voutsinas}, S. and\n       {Walmsley}, G. and {Weiler}, M. and {Weingrill}, K. and {Werner}, D. and\n       {Wevers}, T. and {Whitehead}, G. and {Wyrzykowski}, {\\L}. and\n       {Yoldas}, A. and {{\\v{Z}}erjal}, M. and {Zucker}, S. and {Zurbach}, C. and\n       {Zwitter}, T. and {Alecu}, A. and {Allen}, M. and {Allende Prieto}, C. and\n       {Amorim}, A. and {Anglada-Escud{\\'e}}, G. and {Arsenijevic}, V. and\n       {Azaz}, S. and {Balm}, P. and {Beck}, M. and {Bernstein}, H. -H. and\n       {Bigot}, L. and {Bijaoui}, A. and {Blasco}, C. and {Bonfigli}, M. and\n       {Bono}, G. and {Boudreault}, S. and {Bressan}, A. and {Brown}, S. and\n       {Brunet}, P. -M. and {Bunclark}, P. and {Buonanno}, R. and\n       {Butkevich}, A.~G. and {Carret}, C. and {Carrion}, C. and {Chemin}, L. and\n       {Ch{\\'e}reau}, F. and {Corcione}, L. and {Darmigny}, E. and\n       {de Boer}, K.~S. and {de Teodoro}, P. and {de Zeeuw}, P.~T. and\n       {Delle Luche}, C. and {Domingues}, C.~D. and {Dubath}, P. and\n       {Fodor}, F. and {Fr{\\'e}zouls}, B. and {Fries}, A. and {Fustes}, D. and\n       {Fyfe}, D. and {Gallardo}, E. and {Gallegos}, J. and {Gardiol}, D. and\n       {Gebran}, M. and {Gomboc}, A. and {G{\\'o}mez}, A. and {Grux}, E. and\n       {Gueguen}, A. and {Heyrovsky}, A. and {Hoar}, J. and {Iannicola}, G. and\n       {Isasi Parache}, Y. and {Janotto}, A. -M. and {Joliet}, E. and\n       {Jonckheere}, A. and {Keil}, R. and {Kim}, D. -W. and {Klagyivik}, P. and\n       {Klar}, J. and {Knude}, J. and {Kochukhov}, O. and {Kolka}, I. and\n       {Kos}, J. and {Kutka}, A. and {Lainey}, V. and {LeBouquin}, D. and\n       {Liu}, C. and {Loreggia}, D. and {Makarov}, V.~V. and\n       {Marseille}, M.~G. and {Martayan}, C. and {Martinez-Rubi}, O. and\n       {Massart}, B. and {Meynadier}, F. and {Mignot}, S. and {Munari}, U. and\n       {Nguyen}, A. -T. and {Nordlander}, T. and {Ocvirk}, P. and\n       {O'Flaherty}, K.~S. and {Olias Sanz}, A. and {Ortiz}, P. and\n       {Osorio}, J. and {Oszkiewicz}, D. and {Ouzounis}, A. and {Palmer}, M. and\n       {Park}, P. and {Pasquato}, E. and {Peltzer}, C. and {Peralta}, J. and\n       {P{\\'e}turaud}, F. and {Pieniluoma}, T. and {Pigozzi}, E. and\n       {Poels}, J. and {Prat}, G. and {Prod'homme}, T. and {Raison}, F. and\n       {Rebordao}, J.~M. and {Risquez}, D. and {Rocca-Volmerange}, B. and\n       {Rosen}, S. and {Ruiz-Fuertes}, M.~I. and {Russo}, F. and {Sembay}, S. and\n       {Serraller Vizcaino}, I. and {Short}, A. and {Siebert}, A. and\n       {Silva}, H. and {Sinachopoulos}, D. and {Slezak}, E. and {Soffel}, M. and\n       {Sosnowska}, D. and {Strai{\\v{z}}ys}, V. and {ter Linden}, M. and\n       {Terrell}, D. and {Theil}, S. and {Tiede}, C. and {Troisi}, L. and\n       {Tsalmantza}, P. and {Tur}, D. and {Vaccari}, M. and {Vachier}, F. and\n       {Valles}, P. and {Van Hamme}, W. and {Veltz}, L. and {Virtanen}, J. and\n       {Wallut}, J. -M. and {Wichmann}, R. and {Wilkinson}, M.~I. and\n       {Ziaeepour}, H. and {Zschocke}, S.},\n      title = \"{The Gaia mission}\",\n    journal = {\\aap},\n   keywords = {space vehicles: instruments, Galaxy: structure, astrometry, parallaxes, proper motions, telescopes, Astrophysics - Instrumentation and Methods for Astrophysics},\n       year = 2016,\n      month = nov,\n     volume = {595},\n        eid = {A1},\n      pages = {A1},\n        doi = {10.1051/0004-6361/201629272},\narchivePrefix = {arXiv},\n     eprint = {1609.04153},\nprimaryClass = {astro-ph.IM},\n     adsurl = {https://ui.adsabs.harvard.edu/abs/2016A&A...595A...1G},\n    adsnote = {Provided by the SAO/NASA Astrophysics Data System}\n}\n",
+                "category": "data",
+                "latex": "This work has made use of data from the European Space Agency (ESA) mission {\\it Gaia} (\\url{https://www.cosmos.esa.int/gaia}), processed by the {\\it Gaia} Data Processing and Analysis Consortium (DPAC, \\url{https://www.cosmos.esa.int/web/gaia/dpac/consortium}). Funding for the DPAC has been provided by national institutions, in particular the institutions participating in the {\\it Gaia} Multilateral Agreement.\n",
+                "name": "GAIA DR2",
+                "notes": "If you have used Gaia DR2 data in your research, please cite both the Gaia mission paper and the Gaia DR2 release paper listed as bibtex entries. In addition, please cite (some of) the papers listed on https://gea.esac.esa.int/archive/documentation/GDR2/Miscellaneous/sec_credit_and_citation_instructions/ that describe the data release contents and DPAC data processing and validation in more detail, as appropriate.\n",
+                "text": "This work has made use of data from the European Space Agency (ESA) mission Gaia (https://www.cosmos.esa.int/gaia), processed by the Gaia Data Processing and Analysis Consortium (DPAC, https://www.cosmos.esa.int/web/gaia/dpac/consortium). Funding for the DPAC has been provided by national institutions, in particular the institutions participating in the Gaia Multilateral Agreement.",
+                "url": "https://gea.esac.esa.int/archive/documentation/GDR2/"
+            },
+            {
+                "bibtex": "@ARTICLE{2013AJ....146..134K,\n author = {{Kordopatis}, G. and {Gilmore}, G. and {Steinmetz}, M. and {Boeche}, C. and\n{Seabroke}, G.~M. and {Siebert}, A. and {Zwitter}, T. and {Binney}, J. and {de Laverny}, P. and {Recio-Blanco}, A. and {Williams}, M.~E.~K. and\n  {Piffl}, T. and {Enke}, H. and {Roeser}, S. and {Bijaoui}, A. and\n  {Wyse}, R.~F.~G. and {Freeman}, K. and {Munari}, U. and {Carrillo}, I. and\n  {Anguiano}, B. and {Burton}, D. and {Campbell}, R. and {Cass}, C.~J.~P. and\n  {Fiegert}, K. and {Hartley}, M. and {Parker}, Q.~A. and {Reid}, W. and\n  {Ritter}, A. and {Russell}, K.~S. and {Stupar}, M. and {Watson}, F.~G. and\n  {Bienaym{\\'e}}, O. and {Bland-Hawthorn}, J. and {Gerhard}, O. and\n  {Gibson}, B.~K. and {Grebel}, E.~K. and {Helmi}, A. and {Navarro}, J.~F. and\n  {Conrad}, C. and {Famaey}, B. and {Faure}, C. and {Just}, A. and\n  {Kos}, J. and {Matijevi{\\v c}}, G. and {McMillan}, P.~J. and\n  {Minchev}, I. and {Scholz}, R. and {Sharma}, S. and {Siviero}, A. and\n  {de Boer}, E.~W. and {{\\v Z}erjal}, M.},\n  title = \"{The Radial Velocity Experiment (RAVE): Fourth Data Release}\",\njournal = {\\aj}, archivePrefix = \"arXiv\",\n eprint = {1309.4284},\nkeywords = {catalogs, stars: abundances, stars: fundamental parameters, surveys, techniques: spectroscopic },\n   year = 2013,\n  month = nov,\n volume = 146,\n    eid = {134},\n  pages = {134},\n    doi = {10.1088/0004-6256/146/5/134},\n adsurl = {http://adsabs.harvard.edu/abs/2013AJ....146..134K},\nadsnote = {Provided by the SAO/NASA Astrophysics Data System} }\n",
+                "category": "data",
+                "latex": "Funding for RAVE has been provided by: the Australian Astronomical Observatory; the Leibniz-Institut fuer Astrophysik Potsdam (AIP); the Australian National University; the Australian Research Council; the French National Research Agency; the German Research Foundation (SPP 1177 and SFB 881); the European Research Council (ERC-StG 240271 Galactica); the Istituto Nazionale di Astrofisica at Padova; The Johns Hopkins University; the National Science Foundation of the USA (AST-0908326); the W. M. Keck foundation; the Macquarie University; the Netherlands Research School for Astronomy; the Natural Sciences and Engineering Research Council of Canada; the Slovenian Research Agency; the Swiss National Science Foundation; the Science & Technology Facilities Council of the UK; Opticon; Strasbourg Observatory; and the Universities of Groningen, Heidelberg and Sydney. The RAVE web site is at \\url{https://www.rave-survey.org}.\n",
+                "name": "RAVE",
+                "text": "Funding for RAVE has been provided by: the Australian Astronomical Observatory; the Leibniz-Institut fuer Astrophysik Potsdam (AIP); the Australian National University; the Australian Research Council; the French National Research Agency; the German Research Foundation (SPP 1177 and SFB 881); the European Research Council (ERC-StG 240271 Galactica); the Istituto Nazionale di Astrofisica at Padova; The Johns Hopkins University; the National Science Foundation of the USA (AST-0908326); the W. M. Keck foundation; the Macquarie University; the Netherlands Research School for Astronomy; the Natural Sciences and Engineering Research Council of Canada; the Slovenian Research Agency; the Swiss National Science Foundation; the Science & Technology Facilities Council of the UK; Opticon; Strasbourg Observatory; and the Universities of Groningen, Heidelberg and Sydney. The RAVE web site is at https://www.rave-survey.org.\n",
+                "url": "http://swift.gsfc.nasa.gov"
+            },
+            {
+                "category": "data",
+                "facilities": "\\facility{WISE}",
+                "name": "AllWISE",
+                "text": "This publication makes use of data products from the Wide-field Infrared Survey Explorer, which is a joint project of the University of California, Los Angeles, and the Jet Propulsion Laboratory/California Institute of Technology, and NEOWISE, which is a project of the Jet Propulsion Laboratory/California Institute of Technology. WISE and NEOWISE are funded by the National Aeronautics and Space Administration"
+            },
+            {
+                "category": "data",
+                "name": "Swift",
+                "text": "We acknowledge the use of public data from the Swift data archive.",
+                "url": "http://swift.gsfc.nasa.gov"
+            },
+            {
+                "category": "data",
+                "name": "The Habitable Exoplanets Catalog",
+                "text": "PHL's Exoplanet Catalog of the Planetary Habitability Laboratory @ UPR Arecibo\n",
+                "url": "http://phl.upr.edu/hec"
+            },
+            {
+                "category": "data",
+                "facilities": "\\facility{WISE}",
+                "name": "NEOWISE",
+                "text": "This publication also makes use of data products from NEOWISE, which is a project of the Jet Propulsion Laboratory/California Institute of Technology, funded by the Planetary Science Division of the National Aeronautics and Space Administration."
+            },
+            {
+                "category": "data",
+                "facilities": "\\facility{ROSAT}",
+                "name": "ROSAT",
+                "text": "The ROSAT project was supported by the Ministerium f{\\\"u}r Bildung, Wissenschaft, Forschung und Technologie (BMBF/DARA) and by the Max-Planck-Gesellschaft."
+            },
+            {
+                "category": "data",
+                "name": "LAMOST DR3",
+                "text": "Guoshoujing Telescope (the Large Sky Area Multi-Object Fiber Spectroscopic Telescope LAMOST) is a National Major Scientific Project built by the Chinese Academy of Sciences. Funding for the project has been provided by the National Development and Reform Commission. LAMOST is operated and managed by the National Astronomical Observatories, Chinese Academy of Sciences.",
+                "url": "http://dr3.lamost.org/"
+            },
+            {
+                "category": "data",
+                "name": "Chandra",
+                "tags": "x-ray",
+                "text": "This research has made use of data obtained from the Chandra Data Archive and the Chandra Source Catalog, and software provided by the Chandra X-ray Center (CXC) in the application packages CIAO, ChIPS, and Sherpa.",
+                "url": "http://cxc.harvard.edu"
+            },
+            {
+                "category": "data",
+                "name": "Suzaku",
+                "text": "This research has made use of data obtained from the Suzaku satellite, a collaborative mission between the space agencies of Japan (JAXA) and the USA (NASA)."
+            },
+            {
+                "bibtex": "@ARTICLE{2016A&A...585A..41W, author = {{Winkel}, B. and {Kerp}, J. and {Fl{\\\"o}er}, L. and {Kalberla}, P.~M.~W. and {Ben Bekhti}, N. and {Keller}, R. and {Lenz}, D.}, title = \"{The Effelsberg-Bonn H i Survey: Milky Way gas. First data release}\", journal = {\\aap}, archivePrefix = \"arXiv\", eprint = {1512.05348}, primaryClass = \"astro-ph.IM\", keywords = {surveys, ISM: atoms, techniques: spectroscopic}, year = 2016, month = jan, volume = 585, eid = {A41}, pages = {A41}, doi = {10.1051/0004-6361/201527007}, adsurl = {http://cdsads.u-strasbg.fr/abs/2016A%26A...585A..41W}, adsnote = {Provided by the SAO/NASA Astrophysics Data System} } @ARTICLE{2011AN....332..637K, author = {{Kerp}, J. and {Winkel}, B. and {Ben Bekhti}, N. and {Fl{\\\"o}er}, L. and {Kalberla}, P.~M.~W.}, title = \"{The Effelsberg Bonn H I Survey (EBHIS)}\", journal = {Astronomische Nachrichten}, archivePrefix = \"arXiv\", eprint = {1104.1185}, keywords = {ISM: structure, radio lines: galaxies, radio lines: ISM, surveys}, year = 2011, month = jul, volume = 332, pages = {637}, doi = {10.1002/asna.201011548}, adsurl = {http://adsabs.harvard.edu/abs/2011AN....332..637K}, adsnote = {Provided by the SAO/NASA Astrophysics Data System} }\n",
+                "category": "data",
+                "facilities": "\\facility{Effelsberg}",
+                "name": "EBHIS",
+                "text": "Based on observations with the 100-m telescope of the MPIfR (Max-Planck-Institut f\u00fcr Radioastronomie) at Effelsberg.\n",
+                "url": "http://cdsarc.u-strasbg.fr/viz-bin/qcat?J/A+A/585/A41"
+            },
+            {
+                "category": "data",
+                "facilities": "\\facility{WISE}",
+                "name": "GALEX",
+                "text": "Based on observations made with the NASA Galaxy Evolution Explorer. GALEX is operated for NASA by the California Institute of Technology under NASA contract NAS5-98034.\n"
+            },
+            {
+                "category": "data",
+                "name": "SDSS-IV",
+                "text": "Funding for the Sloan Digital Sky Survey IV has been provided by the Alfred P. Sloan Foundation, the U.S. Department of Energy Office of Science, and the Participating Institutions. SDSS-IV acknowledges support and resources from the Center for High-Performance Computing at the University of Utah. The SDSS web site is www.sdss.org.\nSDSS-IV is managed by the Astrophysical Research Consortium for the Participating Institutions of the SDSS Collaboration including the Brazilian Participation Group, the Carnegie Institution for Science, Carnegie Mellon University, the Chilean Participation Group, the French Participation Group, Harvard-Smithsonian Center for Astrophysics, Instituto de Astrof\\'isica de Canarias, The Johns Hopkins University, Kavli Institute for the Physics and Mathematics of the Universe (IPMU) / University of Tokyo, Lawrence Berkeley National Laboratory,  Leibniz Institut f\\\"ur Astrophysik Potsdam (AIP),   Max-Planck-Institut f\\\"ur Astronomie (MPIA Heidelberg),  Max-Planck-Institut f\\\"ur Astrophysik (MPA Garching),  Max-Planck-Institut f\\\"ur Extraterrestrische Physik (MPE), National Astronomical Observatories of China, New Mexico State University, New York University, University of Notre Dame,  Observat\\'ario Nacional / MCTI, The Ohio State University,  Pennsylvania State University, Shanghai Astronomical Observatory,  United Kingdom Participation Group, Universidad Nacional Aut\\'onoma de M\\'exico, University of Arizona,  University of Colorado Boulder, University of Oxford, University of Portsmouth, University of Utah, University of Virginia, University of Washington, University of Wisconsin,  Vanderbilt University, and Yale University.\n"
+            },
+            {
+                "bibtex": "@ARTICLE{2010AJ....140.1868W, author = {{Wright}, E.~L. and {Eisenhardt}, P.~R.~M. and {Mainzer}, A.~K. and  {Ressler}, M.~E. and {Cutri}, R.~M. and {Jarrett}, T. and {Kirkpatrick}, J.~D.    and {Padgett}, D. and {McMillan}, R.~S. and {Skrutskie}, M. and  {Stanford}, S.~A. and {Cohen}, M. and {Walker}, R.~G. and {Mather}, J.~C. and  {Leisawitz}, D. and {Gautier}, III, T.~N. and {McLean}, I. and  {Benford}, D. and {Lonsdale}, C.~J. and {Blain}, A. and {Mendez}, B. and  {Irace}, W.~R. and {Duval}, V. and {Liu}, F. and {Royer}, D. and  {Heinrichsen}, I. and {Howard}, J. and {Shannon}, M. and {Kendall}, M. and  {Walsh}, A.~L. and {Larsen}, M. and {Cardon}, J.~G. and {Schick}, S. and  {Schwalm}, M. and {Abid}, M. and {Fabinsky}, B. and {Naes}, L. and  {Tsai}, C.-W.}, title = \"{The Wide-field Infrared Survey Explorer (WISE): Mission Description and Initial On-orbit Performance}\", journal = {\\aj}, archivePrefix = \"arXiv\", eprint = {1008.0031}, primaryClass = \"astro-ph.IM\", keywords = {infrared: general, space vehicles, surveys}, year = 2010, month = dec, volume = 140, eid = {1868}, pages = {1868-1881}, doi = {10.1088/0004-6256/140/6/1868}, adsurl = {http://adsabs.harvard.edu/abs/2010AJ....140.1868W}, adsnote = {Provided by the SAO/NASA Astrophysics Data System} }\n",
+                "category": "data",
+                "facilities": "\\facility{WISE}",
+                "name": "WISE",
+                "text": "This publication makes use of data products from the Wide-field Infrared Survey Explorer\\citep{2010AJ....140.1868W}, which is a joint project of the University of California, Los Angeles, and the Jet Propulsion Laboratory/California Institute of Technology, funded by the National Aeronautics and Space Administration."
+            },
+            {
+                "bibtex": "@ARTICLE{2016A&A...594A.116H, author = {{HI4PI Collaboration} and {Ben Bekhti}, N. and {Fl{\\\"o}er}, L. and {Keller}, R. and {Kerp}, J. and {Lenz}, D. and {Winkel}, B. and {Bailin}, J. and {Calabretta}, M.~R. and {Dedes}, L. and {Ford}, H.~A. and {Gibson}, B.~K. and {Haud}, U. and {Janowiecki}, S. and {Kalberla}, P.~M.~W. and {Lockman}, F.~J. and {McClure-Griffiths}, N.~M. and {Murphy}, T. and {Nakanishi}, H. and {Pisano}, D.~J. and {Staveley-Smith}, L. }, title = \"{HI4PI: A full-sky H I survey based on EBHIS and GASS}\", journal = {\\aap}, archivePrefix = \"arXiv\", eprint = {1610.06175}, keywords = {surveys, ISM: atoms, techniques: spectroscopic}, year = 2016, month = oct, volume = 594, eid = {A116}, pages = {A116}, doi = {10.1051/0004-6361/201629178}, adsurl = {http://cdsads.u-strasbg.fr/abs/2016A%26A...594A.116H}, adsnote = {Provided by the SAO/NASA Astrophysics Data System} }\n",
+                "category": "data",
+                "facilities": "\\facility{Effelsberg,Parkes}",
+                "name": "HI4PI",
+                "text": "EBHIS is based on observations with the 100-m telescope of the MPIfR (Max-Planck-Institut f\u00fcr Radioastronomie) at Effelsberg. The Parkes Radio Telescope is part of the Australia Telescope which is funded by the Commonwealth of Australia for operation as a National Facility managed by CSIRO.\n",
+                "url": "http://cdsarc.u-strasbg.fr/viz-bin/qcat?J/A+A/594/A116"
+            },
+            {
+                "category": "data",
+                "name": "AEGIS Survey",
+                "text": "This study makes use of data from AEGIS, a multiwavelength sky survey conducted with the Chandra, GALEX, Hubble, Keck, CFHT, MMT, Subaru, Palomar, Spitzer, VLA, and other telescopes and supported in part by the NSF, NASA, and the STFC."
+            },
+            {
+                "category": "data",
+                "name": "SDSS and SDSS-II",
+                "text": "Funding for the SDSS and SDSS-II has been provided by the Alfred P. Sloan Foundation, the Participating Institutions, the National Science Foundation, the U.S. Department of Energy, the National Aeronautics and Space Administration, the Japanese Monbukagakusho, the Max Planck Society, and the Higher Education Funding Council for England. The SDSS Web Site is http://www.sdss.org/. The SDSS is managed by the Astrophysical Research Consortium for the Participating Institutions. The Participating Institutions are the American Museum of Natural History, Astrophysical Institute Potsdam, University of Basel, University of Cambridge, Case Western Reserve University, University of Chicago, Drexel University, Fermilab, the Institute for Advanced Study, the Japan Participation Group, Johns Hopkins University, the Joint Institute for Nuclear Astrophysics, the Kavli Institute for Particle Astrophysics and Cosmology, the Korean Scientist Group, the Chinese Academy of Sciences (LAMOST), Los Alamos National Laboratory, the Max-Planck-Institute for Astronomy (MPIA), the Max-Planck-Institute for Astrophysics (MPA), New Mexico State University, Ohio State University, University of Pittsburgh, University of Portsmouth, Princeton University, the United States Naval Observatory, and the University of Washington.\n"
+            },
+            {
+                "category": "data",
+                "name": "WIRDS-WIRCAM",
+                "text": "Based on observations obtained with WIRCam, a joint project of CFHT,Taiwan, Korea, Canada, France, at the Canada-France-Hawaii Telescope (CFHT) which is operated by the National Research Council (NRC) of Canada, the Institute National des Sciences de l'Univers of the Centre National de la Recherche Scientifique of France, and the University of Hawaii. This work is based in part on data products produced at TERAPIX, the WIRDS (WIRcam Deep Survey) consortium, and the Canadian Astronomy Data Centre. This research was supported by a grant from the Agence Nationale de la Recherche ANR-07-BLAN-0228"
+            },
+            {
+                "category": "data",
+                "dependencies": [
+                    "keck"
+                ],
+                "name": "DEEP2",
+                "text": "Funding for the DEEP2 Galaxy Redshift Survey has been provided by NSF grants AST-95-09298, AST-0071048, AST-0507428, and AST-0507483 as well as NASA LTSA grant NNG04GC89G.\n"
+            },
+            {
+                "category": "data",
+                "name": "Gaia-ESO",
+                "text": "Based on data products from observations made with ESO Telescopes at the La Silla Paranal Observatory under programme ID 188.B-3002. These data products have been processed by the Cam-bridge Astronomy Survey Unit (CASU) at the Institute of Astronomy, University of Cambridge, and by the FLAMES/UVES reduction team at INAF/Osservatorio Astrofisico di Arcetri. These data have been obtained from the Gaia-ESO Survey Data Archive, prepared and hosted by the Wide Field Astronomy Unit, Institute for Astronomy, University of Edinburgh, which is funded by the UK Science and Technology Facilities Council.",
+                "url": "http://ges.roe.ac.uk/"
+            },
+            {
                 "bibtex": "@ARTICLE{2007A&A...469..379E,\n   author = {{Evans}, P.~A. and {Beardmore}, A.~P. and {Page}, K.~L. and \n  {Tyler}, L.~G. and {Osborne}, J.~P. and {Goad}, M.~R. and {O'Brien}, P.~T. and \n  {Vetere}, L. and {Racusin}, J. and {Morris}, D. and {Burrows}, D.~N. and \n  {Capalbi}, M. and {Perri}, M. and {Gehrels}, N. and {Romano}, P.\n  },\n    title = \"{An online repository of Swift/XRT light curves of {$\\gamma$}-ray bursts}\",\n  journal = {\\aap},\narchivePrefix = \"arXiv\",\n   eprint = {0704.0128},\n keywords = {gamma rays: bursts, gamma rays: observations, methods: data analysis, catalogs},\n     year = 2007,\n    month = jul,\n   volume = 469,\n    pages = {379-385},\n      doi = {10.1051/0004-6361:20077530},\n   adsurl = {http://adsabs.harvard.edu/abs/2007A%26A...469..379E},\n  adsnote = {Provided by the SAO/NASA Astrophysics Data System}\n}\n@ARTICLE{2009MNRAS.397.1177E,\n   author = {{Evans}, P.~A. and {Beardmore}, A.~P. and {Page}, K.~L. and \n  {Osborne}, J.~P. and {O'Brien}, P.~T. and {Willingale}, R. and \n  {Starling}, R.~L.~C. and {Burrows}, D.~N. and {Godet}, O. and \n  {Vetere}, L. and {Racusin}, J. and {Goad}, M.~R. and {Wiersema}, K. and \n  {Angelini}, L. and {Capalbi}, M. and {Chincarini}, G. and {Gehrels}, N. and \n  {Kennea}, J.~A. and {Margutti}, R. and {Morris}, D.~C. and {Mountford}, C.~J. and \n  {Pagani}, C. and {Perri}, M. and {Romano}, P. and {Tanvir}, N.\n  },\n    title = \"{Methods and results of an automatic analysis of a complete sample of Swift-XRT observations of GRBs}\",\n  journal = {\\mnras},\narchivePrefix = \"arXiv\",\n   eprint = {0812.3662},\n keywords = {methods: data analysis , catalogues , gamma-rays: bursts},\n     year = 2009,\n    month = aug,\n   volume = 397,\n    pages = {1177-1201},\n      doi = {10.1111/j.1365-2966.2009.14913.x},\n   adsurl = {http://adsabs.harvard.edu/abs/2009MNRAS.397.1177E},\n  adsnote = {Provided by the SAO/NASA Astrophysics Data System}\n}",
                 "category": "data",
                 "facilities": "\\facility{UK}",
@@ -550,15 +522,43 @@
             },
             {
                 "category": "data",
-                "name": "LAMOST DR3",
-                "text": "Guoshoujing Telescope (the Large Sky Area Multi-Object Fiber Spectroscopic Telescope LAMOST) is a National Major Scientific Project built by the Chinese Academy of Sciences. Funding for the project has been provided by the National Development and Reform Commission. LAMOST is operated and managed by the National Astronomical Observatories, Chinese Academy of Sciences.",
-                "url": "http://dr3.lamost.org/"
+                "name": "CBAT List of Supernovae",
+                "text": "The Central Bureau for Astronomical Telegrams (CBAT) operates under the auspices of Commission 6 of the International Astronomical Union (IAU)\n",
+                "url": "http://www.cbat.eps.harvard.edu/lists/Supernovae.html"
+            },
+            {
+                "category": "data",
+                "name": "2MASS",
+                "text": "This publication makes use of data products from the Two Micron All Sky Survey, which is a joint project of the University of Massachusetts and the Infrared Processing and Analysis Center/California Institute of Technology, funded by the National Aeronautics and Space Administration and the National Science Foundation."
+            },
+            {
+                "category": "data",
+                "name": "Extrasolar Planets Encyclopedia",
+                "text": "Extrasolar Planets Encyclopedia (Jean Schneider, CNRS/LUTH - Paris Observatory)\n",
+                "url": "http://exoplanets.eu/"
+            },
+            {
+                "category": "data",
+                "name": "SDSS-III",
+                "text": "Funding for SDSS-III has been provided by the Alfred P. Sloan Foundation, the Participating Institutions, the National Science Foundation, and the U.S. Department of Energy Office of Science. The SDSS-III web site is http://www.sdss3.org/. SDSS-III is managed by the Astrophysical Research Consortium for the Participating Institutions of the SDSS-III Collaboration including the University of Arizona, the Brazilian Participation Group, Brookhaven National Laboratory, University of Cambridge, Carnegie Mellon University, University of Florida, the French Participation Group, the German Participation Group, Harvard University, the Instituto de Astrofisica de Canarias, the Michigan State/Notre Dame/JINA Participation Group, Johns Hopkins University, Lawrence Berkeley National Laboratory, Max Planck Institute for Astrophysics, Max Planck Institute for Extraterrestrial Physics, New Mexico State University, New York University, Ohio State University, Pennsylvania State University, University of Portsmouth, Princeton University, the Spanish Participation Group, University of Tokyo, University of Utah, Vanderbilt University, University of Virginia, University of Washington, and Yale University.\n"
             },
             {
                 "bibtex": "@ARTICLE{Roeser2010,\n author = {{Roeser}, S. and {Demleitner}, M. and {Schilbach}, E.},\n  title = \"{The PPMXL Catalog of Positions and Proper Motions on the ICRS. Combining USNO-B1.0 and the Two Micron All Sky Survey (2MASS)}\",\njournal = {\\aj}, archivePrefix = \"arXiv\",\n eprint = {1003.5852},\nprimaryClass = \"astro-ph.GA\", keywords = {astrometry, catalogs, Galaxy: kinematics and dynamics, proper motions},\n   year = 2010,\n  month = jun,\n volume = 139,\n  pages = {2440-2447},\n    doi = {10.1088/0004-6256/139/6/2440},\n adsurl = {http://adsabs.harvard.edu/abs/2010AJ....139.2440R},\nadsnote = {Provided by the SAO/NASA Astrophysics Data System} }\n",
                 "category": "data",
                 "name": "PPMXL",
                 "text": "This work is based in part on services provided by the GAVO Data Center and the data products from the PPMXL database of \\citet{Roeser2010}."
+            },
+            {
+                "category": "data",
+                "name": "CFHTLS",
+                "text": "Based on observations obtained with MegaPrime/MegaCam, a joint project of CFHT and CEA/IRFU, at the Canada-France-Hawaii Telescope (CFHT) which is operated by the National Research Council (NRC) of Canada, the Institut National des Science de l'Univers of the Centre National de la Recherche Scientifique (CNRS) of France, and the University of Hawaii. This work is based in part on data products produced at Terapix available at the Canadian Astronomy Data Centre as part of the Canada-France-Hawaii Telescope Legacy Survey, a collaborative project of NRC and CNRS.",
+                "url": "http://www.cfht.hawaii.edu/Science/CFHLS/"
+            },
+            {
+                "bibtex": "@BOOK{Monet1998,\n author = {{Monet}, D.},\n  title = \"{USNO-A2.0}\",\nkeywords = {Stars, Astrometry}, booktitle = {USNO-A2.0, by Monet, David.~ [Flagstaff, AZ] : U.S.~Naval Observatory, c1998.~.~United States Naval Observatory.},\n   year = 1998,\n adsurl = {http://adsabs.harvard.edu/abs/1998usno.book.....M},\nadsnote = {Provided by the SAO/NASA Astrophysics Data System} }\n",
+                "category": "data",
+                "name": "USNO",
+                "text": "This research has made use of the USNO Image and Catalogue Archive operated by the United States Naval Observatory, Flagstaff Station (\\url{http://www.nofs.navy.mil/data/fchpix/}) from \\citet{Monet1998}.}"
             }
         ],
         "short": "data",
@@ -568,71 +568,15 @@
         "entries": [
             {
                 "category": "facilities",
-                "name": "NRAO",
-                "text": "The National Radio Astronomy Observatory is a facility of the National Science Foundation operated under cooperative agreement by Associated Universities, Inc."
-            },
-            {
-                "category": "facilities",
-                "name": "e-MERLIN",
-                "text": "e-MERLIN is a National Facility operated by the University of Manchester at Jodrell Bank Observatory on behalf of STFC."
+                "facilities": "\\facility{Karl G. Jansky Very Large Array}",
+                "name": "VLA",
+                "tags": "radio",
+                "text": "The National Radio Astronomy Observatory is a facility of the National Science Foundation operated under cooperative agreement by Associated Universities, Inc.\n"
             },
             {
                 "category": "facilities",
                 "name": "Effelsberg",
                 "text": "Based on observations with the 100-m telescope of the MPIfR (Max-Planck-Institut f\u00fcr Radioastronomie) at Effelsberg."
-            },
-            {
-                "category": "facilities",
-                "name": "All Mauna Kea observatories",
-                "text": "The authors wish to recognize and acknowledge the very significant cultural role and reverence that the summit of Mauna Kea has always had within the indigenous Hawaiian community.  We are most fortunate to have the opportunity to conduct observations from this mountain."
-            },
-            {
-                "category": "facilities",
-                "name": "OAN-SPM",
-                "text": "Based upon observations acquired at the Observatorio Astron\u00f3mico Nacional in the Sierra San Pedro M\u00e1rtir (OAN-SPM), Baja California, M\u00e9xico.",
-                "url": "http://www.astrossp.unam.mx"
-            },
-            {
-                "category": "facilities",
-                "name": "Arecibo",
-                "text": "The Arecibo Observatory is operated by SRI International under a cooperative agreement with the National Science Foundation (AST-1100968), and in alliance with Ana G. M\u00e9ndez-Universidad Metropolitana, and the Universities Space Research Association."
-            },
-            {
-                "category": "facilities",
-                "name": "Hinode",
-                "text": "Hinode is a Japanese mission developed and launched by ISAS/JAXA, with NAOJ as domestic partner and NASA and UKSA as international partners. It is operated by these agencies in co-operation with ESA and NSC (Norway).\n"
-            },
-            {
-                "category": "facilities",
-                "facilities": "\\facility{DCT}",
-                "name": "DCT",
-                "text": "These results made use of Lowell Observatory\u2019s Discovery Channel Telescope. Lowell is a private, non-profit institution dedicated to astrophysical research and public appreciation of astronomy and operates the DCT in partnership with Boston University, Northern Arizona University, the University of Maryland, and the University of Toledo. Partial support of this work has been provided by Discovery Communications."
-            },
-            {
-                "category": "facilities",
-                "name": "Magellan Telescopes",
-                "text": "This paper includes data gathered with the 6.5 meter Magellan Telescopes located at Las Campanas Observatory, Chile."
-            },
-            {
-                "category": "facilities",
-                "name": "SMA",
-                "text": "The Submillimeter Array is a joint project between the Smithsonian Astrophysical Observatory and the Academia Sinica Institute of Astronomy and Astrophysics and is funded by the Smithsonian Institution and the Academia Sinica."
-            },
-            {
-                "category": "facilities",
-                "name": "ALMA",
-                "text": "This paper makes use of the following ALMA data: ADS/JAO.ALMA#<span class='replace'>2011.0.01234.S</span>. ALMA is a partnership of ESO (representing its member states), NSF (USA) and NINS (Japan), together with NRC (Canada) and NSC and ASIAA (Taiwan), in cooperation with the Republic of Chile. The Joint ALMA Observatory is operated by ESO, AUI/NRAO and NAOJ."
-            },
-            {
-                "category": "facilities",
-                "name": "XMM",
-                "text": "Based on observations obtained with XMM-Newton, an ESA science mission with instruments and contributions directly funded by ESA Member States and NASA.\n",
-                "url": "http://xmm.esac.esa.int"
-            },
-            {
-                "category": "facilities",
-                "name": "EVN",
-                "text": "The European VLBI Network (EVN) is a joint facility of European, Chinese, South African, and other radio astronomy institutes funded by their national research councils."
             },
             {
                 "category": "facilities",
@@ -646,32 +590,9 @@
                 "text": "The Parkes Radio Telescope is part of the Australia Telescope which is funded by the Commonwealth of Australia for operation as a National Facility managed by CSIRO."
             },
             {
-                "bibtex": "@ARTICLE{2013PASP..125.1031B, author = {{Brown}, T.~M. and {Baliber}, N. and {Bianco}, F.~B. and {Bowman}, M. and  {Burleson}, B. and {Conway}, P. and {Crellin}, M. and {Depagne}, {\\'E}. and  {De Vera}, J. and {Dilday}, B. and {Dragomir}, D. and {Dubberley}, M. and  {Eastman}, J.~D. and {Elphick}, M. and {Falarski}, M. and {Foale}, S. and  {Ford}, M. and {Fulton}, B.~J. and {Garza}, J. and {Gomez}, E.~L. and  {Graham}, M. and {Greene}, R. and {Haldeman}, B. and {Hawkins}, E. and  {Haworth}, B. and {Haynes}, R. and {Hidas}, M. and {Hjelstrom}, A.~E. and  {Howell}, D.~A. and {Hygelund}, J. and {Lister}, T.~A. and {Lobdill}, R. and  {Martinez}, J. and {Mullins}, D.~S. and {Norbury}, M. and {Parrent}, J. and  {Paulson}, R. and {Petry}, D.~L. and {Pickles}, A. and {Posner}, V. and  {Rosing}, W.~E. and {Ross}, R. and {Sand}, D.~J. and {Saunders}, E.~S. and  {Shobbrook}, J. and {Shporer}, A. and {Street}, R.~A. and {Thomas}, D. and  {Tsapras}, Y. and {Tufts}, J.~R. and {Valenti}, S. and {Vander Horst}, K. and  {Walker}, Z. and {White}, G. and {Willis}, M.}, title = \"{Las Cumbres Observatory Global Telescope Network}\", journal = {\\pasp}, archivePrefix = \"arXiv\", eprint = {1305.2437}, primaryClass = \"astro-ph.IM\", keywords = {Astronomical Instrumentation}, year = 2013, month = sep, volume = 125, pages = {1031-1055}, doi = {10.1086/673168}, adsurl = {http://adsabs.harvard.edu/abs/2013PASP..125.1031B}, adsnote = {Provided by the SAO/NASA Astrophysics Data System} }\n",
                 "category": "facilities",
-                "name": "LCOGT",
-                "text": "This work made use of observations from the LCOGT network.",
-                "url": "http://lcogt.net/"
-            },
-            {
-                "category": "facilities",
-                "name": "Keck Observatory",
-                "text": "The data presented herein were obtained at the W.M. Keck Observatory, which is operated as a scientific partnership among the California Institute of Technology, the University of California and the National Aeronautics and Space Administration. The Observatory was made possible by the generous financial support of the W.M. Keck Foundation."
-            },
-            {
-                "category": "facilities",
-                "name": "INTEGRAL",
-                "text": "Based on observations with INTEGRAL, an ESA project with instruments and science data centre funded by ESA member states (especially the PI countries: Denmark, France, Germany, Italy, Switzerland, Spain) and with the participation of Russia and the USA.\n",
-                "url": "http://www.cosmos.esa.int/web/integral"
-            },
-            {
-                "category": "facilities",
-                "name": "WHT",
-                "text": "Based on observations made with the William Herchel Telescope (WHT) operated on the island of La Palma by the Isaac Newton Group in the Spanish Observatorio del Roque de los Muchachos of the Instituto de Astrof\u00edsica de Canarias."
-            },
-            {
-                "category": "facilities",
-                "name": "MMT",
-                "text": "Observations reported here were obtained at the MMT Observatory, a joint facility of the University of Arizona and the Smithsonian Institution."
+                "name": "ALMA",
+                "text": "This paper makes use of the following ALMA data: ADS/JAO.ALMA#<span class='replace'>2011.0.01234.S</span>. ALMA is a partnership of ESO (representing its member states), NSF (USA) and NINS (Japan), together with NRC (Canada) and NSC and ASIAA (Taiwan), in cooperation with the Republic of Chile. The Joint ALMA Observatory is operated by ESO, AUI/NRAO and NAOJ."
             },
             {
                 "category": "facilities",
@@ -680,10 +601,19 @@
             },
             {
                 "category": "facilities",
-                "facilities": "\\facility{Karl G. Jansky Very Large Array}",
-                "name": "VLA",
-                "tags": "radio",
-                "text": "The National Radio Astronomy Observatory is a facility of the National Science Foundation operated under cooperative agreement by Associated Universities, Inc.\n"
+                "name": "SALT",
+                "text": "The observations reported in this paper were obtained with the Southern African Large Telescope (SALT)."
+            },
+            {
+                "category": "facilities",
+                "facilities": "\\facility{DCT}",
+                "name": "DCT",
+                "text": "These results made use of Lowell Observatory\u2019s Discovery Channel Telescope. Lowell is a private, non-profit institution dedicated to astrophysical research and public appreciation of astronomy and operates the DCT in partnership with Boston University, Northern Arizona University, the University of Maryland, and the University of Toledo. Partial support of this work has been provided by Discovery Communications."
+            },
+            {
+                "category": "facilities",
+                "name": "WHT",
+                "text": "Based on observations made with the William Herchel Telescope (WHT) operated on the island of La Palma by the Isaac Newton Group in the Spanish Observatorio del Roque de los Muchachos of the Instituto de Astrof\u00edsica de Canarias."
             },
             {
                 "bibtex": "@ARTICLE{Cui2012,\n author = {{Cui}, X.-Q. and {Zhao}, Y.-H. and {Chu}, Y.-Q. and {Li}, G.-P. and \n{Li}, Q. and {Zhang}, L.-P. and {Su}, H.-J. and {Yao}, Z.-Q. and  {Wang}, Y.-N. and {Xing}, X.-Z. and {Li}, X.-N. and {Zhu}, Y.-T. and  {Wang}, G. and {Gu}, B.-Z. and {Luo}, A.-L. and {Xu}, X.-Q. and  {Zhang}, Z.-C. and {Liu}, G.-R. and {Zhang}, H.-T. and {Yang}, D.-H. and  {Cao}, S.-Y. and {Chen}, H.-Y. and {Chen}, J.-J. and {Chen}, K.-X. and  {Chen}, Y. and {Chu}, J.-R. and {Feng}, L. and {Gong}, X.-F. and  {Hou}, Y.-H. and {Hu}, H.-Z. and {Hu}, N.-S. and {Hu}, Z.-W. and  {Jia}, L. and {Jiang}, F.-H. and {Jiang}, X. and {Jiang}, Z.-B. and  {Jin}, G. and {Li}, A.-H. and {Li}, Y. and {Li}, Y.-P. and {Liu}, G.-Q. and  {Liu}, Z.-G. and {Lu}, W.-Z. and {Mao}, Y.-D. and {Men}, L. and  {Qi}, Y.-J. and {Qi}, Z.-X. and {Shi}, H.-M. and {Tang}, Z.-H. and  {Tao}, Q.-S. and {Wang}, D.-Q. and {Wang}, D. and {Wang}, G.-M. and  {Wang}, H. and {Wang}, J.-N. and {Wang}, J. and {Wang}, J.-L. and  {Wang}, J.-P. and {Wang}, L. and {Wang}, S.-Q. and {Wang}, Y. and  {Wang}, Y.-F. and {Xu}, L.-Z. and {Xu}, Y. and {Yang}, S.-H. and  {Yu}, Y. and {Yuan}, H. and {Yuan}, X.-Y. and {Zhai}, C. and  {Zhang}, J. and {Zhang}, Y.-X. and {Zhang}, Y. and {Zhao}, M. and  {Zhou}, F. and {Zhou}, G.-H. and {Zhu}, J. and {Zou}, S.-C.},\n  title = \"{The Large Sky Area Multi-Object Fiber Spectroscopic Telescope (LAMOST)}\",\njournal = {Research in Astronomy and Astrophysics},\n   year = 2012,\n  month = sep,\n volume = 12,\n  pages = {1197-1242},\n    doi = {10.1088/1674-4527/12/9/003},\n adsurl = {http://ukads.nottingham.ac.uk/abs/2012RAA....12.1197C},\nadsnote = {Provided by the SAO/NASA Astrophysics Data System} }\n",
@@ -694,8 +624,78 @@
             },
             {
                 "category": "facilities",
-                "name": "SALT",
-                "text": "The observations reported in this paper were obtained with the Southern African Large Telescope (SALT)."
+                "name": "INTEGRAL",
+                "text": "Based on observations with INTEGRAL, an ESA project with instruments and science data centre funded by ESA member states (especially the PI countries: Denmark, France, Germany, Italy, Switzerland, Spain) and with the participation of Russia and the USA.\n",
+                "url": "http://www.cosmos.esa.int/web/integral"
+            },
+            {
+                "category": "facilities",
+                "name": "Hinode",
+                "text": "Hinode is a Japanese mission developed and launched by ISAS/JAXA, with NAOJ as domestic partner and NASA and UKSA as international partners. It is operated by these agencies in co-operation with ESA and NSC (Norway).\n"
+            },
+            {
+                "category": "facilities",
+                "name": "Arecibo",
+                "text": "The Arecibo Observatory is operated by SRI International under a cooperative agreement with the National Science Foundation (AST-1100968), and in alliance with Ana G. M\u00e9ndez-Universidad Metropolitana, and the Universities Space Research Association."
+            },
+            {
+                "category": "facilities",
+                "name": "EVN",
+                "text": "The European VLBI Network (EVN) is a joint facility of European, Chinese, South African, and other radio astronomy institutes funded by their national research councils."
+            },
+            {
+                "category": "facilities",
+                "name": "SMA",
+                "text": "The Submillimeter Array is a joint project between the Smithsonian Astrophysical Observatory and the Academia Sinica Institute of Astronomy and Astrophysics and is funded by the Smithsonian Institution and the Academia Sinica."
+            },
+            {
+                "category": "facilities",
+                "name": "MMT",
+                "text": "Observations reported here were obtained at the MMT Observatory, a joint facility of the University of Arizona and the Smithsonian Institution."
+            },
+            {
+                "category": "facilities",
+                "name": "XMM",
+                "text": "Based on observations obtained with XMM-Newton, an ESA science mission with instruments and contributions directly funded by ESA Member States and NASA.\n",
+                "url": "http://xmm.esac.esa.int"
+            },
+            {
+                "category": "facilities",
+                "name": "Magellan Telescopes",
+                "text": "This paper includes data gathered with the 6.5 meter Magellan Telescopes located at Las Campanas Observatory, Chile."
+            },
+            {
+                "bibtex": "@ARTICLE{2013PASP..125.1031B, author = {{Brown}, T.~M. and {Baliber}, N. and {Bianco}, F.~B. and {Bowman}, M. and  {Burleson}, B. and {Conway}, P. and {Crellin}, M. and {Depagne}, {\\'E}. and  {De Vera}, J. and {Dilday}, B. and {Dragomir}, D. and {Dubberley}, M. and  {Eastman}, J.~D. and {Elphick}, M. and {Falarski}, M. and {Foale}, S. and  {Ford}, M. and {Fulton}, B.~J. and {Garza}, J. and {Gomez}, E.~L. and  {Graham}, M. and {Greene}, R. and {Haldeman}, B. and {Hawkins}, E. and  {Haworth}, B. and {Haynes}, R. and {Hidas}, M. and {Hjelstrom}, A.~E. and  {Howell}, D.~A. and {Hygelund}, J. and {Lister}, T.~A. and {Lobdill}, R. and  {Martinez}, J. and {Mullins}, D.~S. and {Norbury}, M. and {Parrent}, J. and  {Paulson}, R. and {Petry}, D.~L. and {Pickles}, A. and {Posner}, V. and  {Rosing}, W.~E. and {Ross}, R. and {Sand}, D.~J. and {Saunders}, E.~S. and  {Shobbrook}, J. and {Shporer}, A. and {Street}, R.~A. and {Thomas}, D. and  {Tsapras}, Y. and {Tufts}, J.~R. and {Valenti}, S. and {Vander Horst}, K. and  {Walker}, Z. and {White}, G. and {Willis}, M.}, title = \"{Las Cumbres Observatory Global Telescope Network}\", journal = {\\pasp}, archivePrefix = \"arXiv\", eprint = {1305.2437}, primaryClass = \"astro-ph.IM\", keywords = {Astronomical Instrumentation}, year = 2013, month = sep, volume = 125, pages = {1031-1055}, doi = {10.1086/673168}, adsurl = {http://adsabs.harvard.edu/abs/2013PASP..125.1031B}, adsnote = {Provided by the SAO/NASA Astrophysics Data System} }\n",
+                "category": "facilities",
+                "name": "LCOGT",
+                "text": "This work made use of observations from the LCOGT network.",
+                "url": "http://lcogt.net/"
+            },
+            {
+                "category": "facilities",
+                "name": "OAN-SPM",
+                "text": "Based upon observations acquired at the Observatorio Astron\u00f3mico Nacional in the Sierra San Pedro M\u00e1rtir (OAN-SPM), Baja California, M\u00e9xico.",
+                "url": "http://www.astrossp.unam.mx"
+            },
+            {
+                "category": "facilities",
+                "name": "NRAO",
+                "text": "The National Radio Astronomy Observatory is a facility of the National Science Foundation operated under cooperative agreement by Associated Universities, Inc."
+            },
+            {
+                "category": "facilities",
+                "name": "Keck Observatory",
+                "text": "The data presented herein were obtained at the W.M. Keck Observatory, which is operated as a scientific partnership among the California Institute of Technology, the University of California and the National Aeronautics and Space Administration. The Observatory was made possible by the generous financial support of the W.M. Keck Foundation."
+            },
+            {
+                "category": "facilities",
+                "name": "e-MERLIN",
+                "text": "e-MERLIN is a National Facility operated by the University of Manchester at Jodrell Bank Observatory on behalf of STFC."
+            },
+            {
+                "category": "facilities",
+                "name": "All Mauna Kea observatories",
+                "text": "The authors wish to recognize and acknowledge the very significant cultural role and reverence that the summit of Mauna Kea has always had within the indigenous Hawaiian community.  We are most fortunate to have the opportunity to conduct observations from this mountain."
             }
         ],
         "short": "facilities",
