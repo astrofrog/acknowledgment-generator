@@ -26,7 +26,7 @@ jobs:
     - name: Parse entries into JSON database
       run: python parse_entries.py
     - name: Push latest JSON database changes
-      if: (github.repository == 'astrofrog/acknowledgment-generator' && github.event_name == 'push')
+      if: (github.repository == 'astrofrog/acknowledgment-generator' && github.event_name == 'push' && github.ref == 'refs/heads/gh-pages')
       run: |
         git checkout gh-pages;
         git add database.json;
