@@ -6,7 +6,7 @@ latex: The Starlink software \citep{Currie_2014} is currently supported by the E
 url: https://starlink.eao.hawaii.edu/starlink
 dependencies: 
 bibtex: >
-@INPROCEEDINGS{Currie_2014,
+  @INPROCEEDINGS{Currie_2014,
        author = {{Currie}, M.~J. and {Berry}, D.~S. and {Jenness}, T. and {Gibb}, A.~G. and {Bell}, G.~S. and {Draper}, P.~W.},
         title = "{Starlink Software in 2013}",
     booktitle = {Astronomical Data Analysis Software and Systems XXIII},
