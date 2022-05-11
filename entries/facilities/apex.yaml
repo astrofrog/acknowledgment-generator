@@ -1,0 +1,9 @@
+name: APEX
+category: facilities
+tags: 
+text: “This publication is based on data acquired with the Atacama Pathfinder Experiment (APEX) under programme ID [TP.C-NNNN(R)]. APEX is a collaboration between the Max-Planck-Institut fur Radioastronomie, the European Southern Observatory, and the Onsala Space Observatory.” If your data is obtained during Swedish time, please add “Swedish observations on APEX are supported through Swedish Research Council grant No 2017-00648“.
+url: 
+dependencies: 
+bibtex: 
+
+
