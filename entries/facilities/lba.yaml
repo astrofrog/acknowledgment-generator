@@ -1,0 +1,7 @@
+name: LBA
+category: facilities
+tags:
+text: "The Long Baseline Array is part of the Australia Telescope National Facility (https://ror.org/05qajvd42) which is funded by the Australian Government for operation as a National Facility managed by CSIRO."
+latex: "The Long Baseline Array is part of the Australia Telescope National Facility (\url{https://ror.org/05qajvd42}) which is funded by the Australian Government for operation as a National Facility managed by CSIRO."
+notes:
+dependencies:
