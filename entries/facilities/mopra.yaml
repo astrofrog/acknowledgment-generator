@@ -1,0 +1,7 @@
+name: Mopra
+category: facilities
+tags:
+text: "The Mopra telescope is part of the Australia Telescope National Facility (https://ror.org/05qajvd42) which is funded by the Australian Government for operation as a National Facility managed by CSIRO. We acknowledge the Gamilaroi people as the traditional owners of the Observatory site."
+latex: "The Mopra telescope is part of the Australia Telescope National Facility (\url{https://ror.org/05qajvd42}) which is funded by the Australian Government for operation as a National Facility managed by CSIRO. We acknowledge the Gamilaroi people as the traditional owners of the Observatory site."
+notes:
+dependencies:
