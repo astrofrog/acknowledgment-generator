@@ -2,7 +2,7 @@ name: CASDA
 category: web_services
 tags:
 text: "This paper includes archived data obtained through the CSIRO ASKAP Science Data Archive, CASDA (http://data.csiro.au)."
-latex: "This paper includes archived data obtained through the CSIRO ASKAP Science Data Archive, CASDA (\url{http://data.csiro.au})."
+latex: "This paper includes archived data obtained through the CSIRO ASKAP Science Data Archive, CASDA (\\url{http://data.csiro.au})."
 url: http://data.csiro.au
 notes:
 dependencies:
