@@ -1,7 +1,7 @@
 name: healpy
 category: codes
 tags:
-text: Some of the results in this paper have been derived using the healpy and HEALPix packages
+text: Some of the results in this paper have been derived using the healpy and HEALPix packages.
 url: http://healpix.sf.net
 dependencies:
 bibtex: >
@@ -34,4 +34,4 @@ bibtex: >
     adsurl = {http://adsabs.harvard.edu/abs/2005ApJ...622..759G},
     adsnote = {Provided by the SAO/NASA Astrophysics Data System}
   }
-notes: At the first use of the HEALPix acronym, a footnote placed in the main body of the paper referring to the HEALPix web site, currently http://healpix.sf.net
+notes: At the first use of the HEALPix acronym, a footnote should be placed in the main body of the paper referring to the HEALPix web site, currently http://healpix.sf.net .
