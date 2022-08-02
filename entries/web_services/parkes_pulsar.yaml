@@ -1,0 +1,8 @@
+name: Parkes Pulsar Data archive
+category: web_services
+tags:
+text: "This paper includes archived data obtained through the Parkes Pulsar Data archive on the CSIRO Data Access Portal (http://data.csiro.au)."
+latex: "This paper includes archived data obtained through the Parkes Pulsar Data archive on the CSIRO Data Access Portal (\\url{http://data.csiro.au})."
+url: http://data.csiro.au
+notes:
+dependencies:

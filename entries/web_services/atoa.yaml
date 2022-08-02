@@ -1,0 +1,8 @@
+name: ATOA
+category: web_services
+tags:
+text: "This paper includes archived data obtained through the Australia Telescope Online Archive (http://atoa.atnf.csiro.au)."
+latex: "This paper includes archived data obtained through the Australia Telescope Online Archive (\\url{http://atoa.atnf.csiro.au})."
+url: http://atoa.atnf.csiro.au
+notes:
+dependencies:
