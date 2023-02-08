@@ -1,0 +1,19 @@
+name: xarray
+category: codes
+tags: python
+text: This research made use of xarray (Hoyer and Hamman 2017)
+latex: This research made use of xarray \citep{HoyerHamman_2017}
+url: https://xarray.dev
+dependencies: numpy, pandas
+bibtex: >
+    @article{   HoyerHamman_2017,
+      title     = {xarray: {N-D} labeled arrays and datasets in {Python}},
+      author    = {Hoyer, S. and J. Hamman},
+      journal   = {Journal of Open Research Software},
+      volume    = {5},
+      number    = {1},
+      year      = {2017},
+      publisher = {Ubiquity Press},
+      doi       = {10.5334/jors.148},
+      url       = {https://doi.org/10.5334/jors.148}
+    }
