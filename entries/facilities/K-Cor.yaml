@@ -1,0 +1,17 @@
+name: K-Cor
+category: facilities
+tags: 
+text: >
+    This research has made use of data obtained with the COSMO K-Cor instrument (The K-Cor Team, 2013).
+latex: >
+    This research has made use of data obtained with the COSMO K-Cor instrument \citep{K-Cor}.
+url: https://www2.hao.ucar.edu/mlso/instruments/cosmo-k-coronagraph-k-cor
+dependencies: mlso
+bibtex: >
+  @misc{K-Cor,
+    author={The K-Cor Team},
+    title={COSMO K-Coronagraph (K-Cor) White Light Polarization Brightness Images},
+    howpublished=\url{https://doi.org/10.5065/d69g5jv8},
+    year=2013,
+    url={https://doi.org/10.5065/d69g5jv8}
+  }
