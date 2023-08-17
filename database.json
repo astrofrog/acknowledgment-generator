@@ -656,6 +656,13 @@
             },
             {
                 "category": "facilities",
+                "facilities": "\\facility{HAO}",
+                "name": "MLSO",
+                "text": "The Mauna Loa Solar Observatory is operated by the High Altitude Observatory, as part of the National Center for Atmospheric Research (NCAR). NCAR is supported by the National Science Foundation.\n",
+                "url": "https://www2.hao.ucar.edu/mlso"
+            },
+            {
+                "category": "facilities",
                 "name": "WHT",
                 "text": "Based on observations made with the William Herchel Telescope (WHT) operated on the island of La Palma by the Isaac Newton Group in the Spanish Observatorio del Roque de los Muchachos of the Instituto de Astrof\u00edsica de Canarias."
             },
@@ -696,6 +703,15 @@
                 "category": "facilities",
                 "name": "APEX",
                 "text": "\u201cThis publication is based on data acquired with the Atacama Pathfinder Experiment (APEX) under programme ID [TP.C-NNNN(R)]. APEX is a collaboration between the Max-Planck-Institut fur Radioastronomie, the European Southern Observatory, and the Onsala Space Observatory.\u201d If your data is obtained during Swedish time, please add \u201cSwedish observations on APEX are supported through Swedish Research Council grant No 2017-00648\u201c."
+            },
+            {
+                "bibtex": "@ARTICLE{2016JGRA..121.7470T,\n  author = {{Tomczyk}, S. and {Landi}, E. and {Burkepile}, J.~T. and {Casini}, R. and {DeLuca}, E.~E. and {Fan}, Y. and {Gibson}, S.~E. and {Lin}, H. and {McIntosh}, S.~W. and {Solomon}, S.~C. and {Toma}, G. and {Wijn}, A.~G. and {Zhang}, J.},\n  title = \"{Scientific objectives and capabilities of the Coronal Solar Magnetism Observatory}\",\n  journal = {Journal of Geophysical Research (Space Physics)},\n  keywords = {solar corona, Earth Science},\n  year = 2016,\n  month = aug,\n  volume = {121},\n  number = {8},\n  pages = {7470-7487},\n  doi = {10.1002/2016JA022871},\n  adsurl = {https://ui.adsabs.harvard.edu/abs/2016JGRA..121.7470T},\n  adsnote = {Provided by the SAO/NASA Astrophysics Data System}\n} @misc{K-Cor,\n  author={The K-Cor Team},\n  title={COSMO K-Coronagraph (K-Cor) White Light Polarization Brightness Images},\n  howpublished=\\url{https://doi.org/10.5065/d69g5jv8},\n  year=2013,\n  url={https://doi.org/10.5065/d69g5jv8}\n}\n",
+                "category": "facilities",
+                "dependencies": "mlso",
+                "latex": "This research has made use of data obtained with the Coronal Solar Magnetism Observatory \\citep[COSMO,][]{2016JGRA..121.7470T} K-Cor instrument \\citep{K-Cor} installed at the Mauna Loa Solar Observatory.\n",
+                "name": "K-Cor",
+                "text": "This research has made use of data obtained with the Coronal Solar Magnetism Observatory (COSMO, Tomczyk et al. 2016) K-Cor instrument (The K-Cor Team, 2013) installed at the Mauna Loa Solar Observatory.\n",
+                "url": "https://www2.hao.ucar.edu/mlso/instruments/cosmo-k-coronagraph-k-cor"
             },
             {
                 "category": "facilities",
