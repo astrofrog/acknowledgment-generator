@@ -1,0 +1,9 @@
+name: MLSO
+category: facilities
+tags: 
+text: >
+  The Mauna Loa Solar Observatory is operated by the High Altitude Observatory, as part of the National Center for Atmospheric Research (NCAR). NCAR is supported by the National Science Foundation.
+url: https://www2.hao.ucar.edu/mlso
+dependencies: 
+bibtex: 
+facilities: \facility{HAO}

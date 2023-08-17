@@ -1,0 +1,31 @@
+name: K-Cor
+category: facilities
+tags: 
+text: >
+  This research has made use of data obtained with the Coronal Solar Magnetism Observatory (COSMO, Tomczyk et al. 2016) K-Cor instrument (The K-Cor Team, 2013) installed at the Mauna Loa Solar Observatory.
+latex: >
+  This research has made use of data obtained with the Coronal Solar Magnetism Observatory \citep[COSMO,][]{2016JGRA..121.7470T} K-Cor instrument \citep{K-Cor} installed at the Mauna Loa Solar Observatory.
+url: https://www2.hao.ucar.edu/mlso/instruments/cosmo-k-coronagraph-k-cor
+dependencies: mlso
+bibtex: >
+  @ARTICLE{2016JGRA..121.7470T,
+    author = {{Tomczyk}, S. and {Landi}, E. and {Burkepile}, J.~T. and {Casini}, R. and {DeLuca}, E.~E. and {Fan}, Y. and {Gibson}, S.~E. and {Lin}, H. and {McIntosh}, S.~W. and {Solomon}, S.~C. and {Toma}, G. and {Wijn}, A.~G. and {Zhang}, J.},
+    title = "{Scientific objectives and capabilities of the Coronal Solar Magnetism Observatory}",
+    journal = {Journal of Geophysical Research (Space Physics)},
+    keywords = {solar corona, Earth Science},
+    year = 2016,
+    month = aug,
+    volume = {121},
+    number = {8},
+    pages = {7470-7487},
+    doi = {10.1002/2016JA022871},
+    adsurl = {https://ui.adsabs.harvard.edu/abs/2016JGRA..121.7470T},
+    adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+  }
+  @misc{K-Cor,
+    author={The K-Cor Team},
+    title={COSMO K-Coronagraph (K-Cor) White Light Polarization Brightness Images},
+    howpublished=\url{https://doi.org/10.5065/d69g5jv8},
+    year=2013,
+    url={https://doi.org/10.5065/d69g5jv8}
+  }
