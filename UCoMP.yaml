@@ -1,0 +1,17 @@
+name: K-Cor
+category: facilities
+tags: 
+text: >
+  This research has made use of data obtained with the Upgraded Coronal Multi-Channel Polarimeter (UCoMP, The UCoMP Team, 2023) installed at the Mauna Loa Solar Observatory.
+latex: >
+  This research has made use of data obtained with the Upgraded Coronal Multi-Channel Polarimeter \citep[UCoMP,][]{UCoMP) installed at the Mauna Loa Solar Observatory.
+url: https://www2.hao.ucar.edu/mlso/instruments/upgraded-coronal-multi-channel-polarimeter
+dependencies: mlso
+bibtex: >
+  @misc{UCoMP,
+    author={The UCoMP Team},
+    title={Upgraded Coronal Multi-Channel Polarimeter data},
+    howpublished=\url{https://doi.org/10.26024/g8p7-wy42}
+    year=2023,
+    url={https://doi.org/10.26024/g8p7-wy42}
+  }
