@@ -777,6 +777,15 @@
                 "text": "Visiting Astronomer at the Infrared Telescope Facility, which is operated by the University of Hawaii under Cooperative Agreement no. NNX-08AE38A with the National Aeronautics and Space Administration, Science Mission Directorate, Planetary Astronomy Program."
             },
             {
+                "bibtex": "@misc{UCoMP,\n  author={The UCoMP Team},\n  title={Upgraded Coronal Multi-Channel Polarimeter data},\n  howpublished=\\url{https://doi.org/10.26024/g8p7-wy42}\n  year=2023,\n  url={https://doi.org/10.26024/g8p7-wy42}\n}\n",
+                "category": "facilities",
+                "dependencies": "mlso",
+                "latex": "This research has made use of data obtained with the Upgraded Coronal Multi-Channel Polarimeter \\citep[UCoMP,][]{UCoMP) installed at the Mauna Loa Solar Observatory.\n",
+                "name": "K-Cor",
+                "text": "This research has made use of data obtained with the Upgraded Coronal Multi-Channel Polarimeter (UCoMP, The UCoMP Team, 2023) installed at the Mauna Loa Solar Observatory.\n",
+                "url": "https://www2.hao.ucar.edu/mlso/instruments/upgraded-coronal-multi-channel-polarimeter"
+            },
+            {
                 "category": "facilities",
                 "facilities": "\\facility{HAO}",
                 "name": "MLSO",
