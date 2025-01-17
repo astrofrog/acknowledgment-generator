@@ -1,0 +1,8 @@
+name: adstex
+category: codes
+tags:
+text: This research has made use of adstex (https://github.com/yymao/adstex).
+latex: This research has made use of adstex (\url{https://github.com/yymao/adstex}).
+url: https://github.com/yymao/adstex
+dependencies:
+- ads
